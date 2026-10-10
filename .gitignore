@@ -1,0 +1,56 @@
+# 相依套件與執行紀錄
+node_modules/
+logs/
+*.log
+*.tmp
+*.lock
+
+# 機密：Discord token、ADMIN_API_KEY 等只放在本機 .env（範本見 .env.example）
+.env
+
+# 修改前備份與一次性腳本（改用 git 版本紀錄取代）
+scratch/
+
+# 訂閱者 Discord ID 與個人設定（個人資料，不進版本庫）
+src/subscribers.json
+src/subscriber_prefs.json
+
+# 執行期狀態：程式會自動重建，不必版本化
+src/alert_history.json
+public/data/live_intel.json
+public/data/firms_cache.json
+public/data/notam_auto_cache.json
+research/*.sqlite
+research/*.sqlite-shm
+research/*.sqlite-wal
+research/*_state.json
+research/delivery_ledger.json
+research/correction_deliveries.json
+research/satellite_arrival_ledger.json
+research/satellite_crop_stats.json
+research/warning_history.json
+research/research_runs.json
+research/research_run_status.json
+research/geocode_cache.json
+research/news_context.json
+research/notam_active.json
+research/notam_revisions.json
+research/noise_quarantine.json
+research/quarantine/
+research/source_cache/
+research/tile_cache/
+research/compare_cache/
+
+# 原始來源全文與閱讀筆記：版權屬原發布者，只在本機保存（README「不提供原始全文」）
+research/sources.json
+research/references/
+
+# 衛星影像檔：可由 npm run satellite:refresh 重新下載；產品 ID 與雜湊記在資料庫
+public/images/sentinel/
+
+# 本機工具設定
+.claude/settings.local.json
+
+# 公開情報網頁輸出（另推到 GitHub Pages 倉庫）
+public_site/
+public_repo/

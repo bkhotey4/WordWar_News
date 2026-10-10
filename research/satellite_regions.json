@@ -1,0 +1,9 @@
+{
+  "regions": [
+    {"targetKey":"ukraine_civil","title":"基輔民用市區環境","theater":"ukraine_front","bbox":[30.35,50.35,30.65,50.55]},
+    {"targetKey":"gaza_civil","title":"加薩民用市區環境","theater":"middle_east","bbox":[34.35,31.4,34.55,31.6]},
+    {"targetKey":"khartoum_civil","title":"喀土穆民用市區環境","theater":"sudan","bbox":[32.4,15.45,32.65,15.7]},
+    {"targetKey":"mandalay_civil","title":"曼德勒民用市區環境","theater":"myanmar","bbox":[96.0,21.85,96.2,22.05]},
+    {"targetKey":"hormuz_bandar_abbas","title":"阿巴斯港與荷莫茲海峽沿岸環境","theater":"iran_gulf","bbox":[56.1,27.05,56.4,27.25]}
+  ]
+}

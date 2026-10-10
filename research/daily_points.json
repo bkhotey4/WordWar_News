@@ -1,0 +1,259 @@
+{
+ "note": "每日戰況中文重點：由本機排程寫入，網站首頁顯示各戰區最新一天。格式見 scripts/site_daily_points.js。",
+ "items": [
+  {
+   "id": "isw-ukraine-20261008",
+   "date": "2026-10-08",
+   "theater": "ukraine_front",
+   "title": "烏軍斯拉維揚斯克以東反擊　俄軍調兵增援",
+   "points": [
+    "ISW 10月8日評估指出，俄國軍事部落客承認烏軍在斯拉維揚斯克、克拉馬托斯克以東推進，收復Ozerne與Malynivka，雙方陣地仍交錯。",
+    "烏方軍官稱俄軍正從次要戰線抽調無人機部隊與特種部隊，轉往斯拉維揚斯克－克拉馬托斯克方向；ISW研判俄軍短期難在多布羅皮利亞突破。",
+    "澤倫斯基稱俄軍10月8日以滑翔炸彈擊中克拉馬托斯克兩輛客運巴士，至少30死18傷。",
+    "烏軍打擊巴什科爾托斯坦Salavat與鄂木斯克兩座煉油廠，ISW稱兩廠合計年產能3100萬噸；俄方10月7至8日夜間發射142架無人機，烏方稱擊落126架。"
+   ],
+   "sources": [
+    {
+     "publisher": "ISW／CTP",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-8-2026"
+    }
+   ]
+  },
+  {
+   "id": "iran-update-iran-20261009",
+   "date": "2026-10-09",
+   "theater": "iran_gulf",
+   "title": "革命衛隊威脅攻擊走「未授權」航道船隻",
+   "points": [
+    "CTP／ISW 10月9日Iran Update指出，革命衛隊海軍揚言攻擊在區域內任何地方走「未授權」通道的船隻，分析人士研判意在逼航商遵守伊朗通行規則。",
+    "報告稱伊朗10月8日可能以多枚投射物攻擊卡達北方外海約51浬的油輪；10月9日革命衛隊宣稱攻擊越南籍油輪NV SUNSHINE。",
+    "伊朗總統裴澤斯基安10月8日在土庫曼與普丁等領袖會面，討論擴大貿易以抵銷美國制裁與對伊朗港口的海上封鎖。",
+    "伊朗10月8日以兩架無人機攻擊艾比爾附近庫德反對派營地，是美軍9月30日撤出伊拉克後首次；報告研判伊方指控美軍仍在當地，可能成為後續攻擊藉口。"
+   ],
+   "sources": [
+    {
+     "publisher": "CTP／ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-9-2026"
+    }
+   ]
+  },
+  {
+   "id": "iran-update-mideast-20261009",
+   "date": "2026-10-09",
+   "theater": "middle_east",
+   "title": "胡塞飛彈擊中利雅德機場　曼德海峽易手",
+   "points": [
+    "CTP／ISW 10月9日報告指出，胡塞彈道飛彈10月8日擊中利雅德哈立德國王國際機場，造成3名沙烏地平民死亡，並揚言只准其認可的航空公司降落。",
+    "沙烏地聯軍發言人馬里基稱聯軍戰機摧毀3具胡塞彈道飛彈發射器，沙國媒體報導空襲沙那與阿姆蘭的發射場與雷達站。",
+    "報告稱葉門政府派部隊10月9日奪下丕林島並收復距曼德海峽中心約16公里的al Aradi半島；胡塞已實質包圍塔伊茲市。",
+    "歐盟預計10月12日正式成立為期三年的黎巴嫩軍事支援任務，首批至少100名法、義、西人員年底前進駐貝魯特。"
+   ],
+   "sources": [
+    {
+     "publisher": "CTP／ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-9-2026"
+    }
+   ]
+  },
+  {
+   "id": "aei-taiwan-20261009",
+   "date": "2026-10-09",
+   "theater": "taiwan_strait",
+   "title": "台檢起訴管制晶片走私中國　PLA疑為買家",
+   "points": [
+    "AEI／ISW 10月9日China-Taiwan Update指出，台灣檢方10月6日起訴10人，涉嫌2017年起偽造最終用途文件、冒稱代表中科院，轉售管制半導體到中國。",
+    "報告引述台灣當局說法，解放軍取得這些晶片可能用於飛彈與雷達系統；美方10月1日也逮捕一名涉嫌經新加坡、馬來西亞轉運輝達晶片伺服器的加州居民。",
+    "報告研判北京可能已不打算遵守2024年仁愛礁臨時協議，企圖讓菲律賓駐守處境難以維持。",
+    "德國經濟部10月7日以國安為由，否決中遠海運收購物流業者Zippel八成股權；荷蘭情報單位警告中國對防火牆等邊緣設備的網攻將增加。"
+   ],
+   "sources": [
+    {
+     "publisher": "AEI／ISW",
+     "url": "https://www.aei.org/commentary/china-taiwan-update-october-9-2026/"
+    }
+   ]
+  },
+  {
+   "id": "korea-daily-20261010",
+   "date": "2026-10-10",
+   "theater": "korea_peninsula",
+   "title": "北韓勞動黨建黨81週年　強調效忠金正恩",
+   "points": [
+    "據SBS引述，北韓10月10日紀念勞動黨建黨81週年，《勞動新聞》頭版社論強調黨的領導帶來戰後重建與工業化，並稱國家尊嚴與國力已達最高峰。",
+    "社論把上月服役的5000噸級驅逐艦「姜健號」與平壤和盛地區住宅工程列為主要成就，顯示軍力與民生並列宣傳。",
+    "10月9日黨中央政治局常委等領導幹部前往錦繡山太陽宮致敬；SBS報導未提及金正恩出席或閱兵，值得注意後續官媒是否公布相關活動。"
+   ],
+   "sources": [
+    {
+     "publisher": "SBS News",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008791020"
+    }
+   ]
+  },
+  {
+   "id": "scs-daily-20261010",
+   "date": "2026-10-09",
+   "theater": "south_china_sea",
+   "title": "菲海警驅離中國海上民兵船與22艘小艇",
+   "points": [
+    "菲律賓海警發言人塔瑞拉稱，10月9日下午在Kota島（菲方稱屬巴拉望省卡拉延市）驅離一艘中國海上民兵母船與22艘小艇，最近一艘距岸約250公尺（GMA）。",
+    "塔瑞拉指該母船編號CMMV 9622，9月28日曾帶24艘小艇被驅離；一艘小艇拒絕離開並發生輕微碰觸，無人受傷。",
+    "10月8日仁愛礁醫療後送中，塔瑞拉稱中國海警以水砲阻擋菲船，使後送延誤近10小時；中國海警發言人甘羽則稱中方基於人道允許並提供協助（SBS引述法新社、新華社）。"
+   ],
+   "sources": [
+    {
+     "publisher": "GMA News",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/1005407/pcg-repels-chinese-militia-vessel-22-fishing-boats-from-kota-island-waters/story/"
+    },
+    {
+     "publisher": "SBS News",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008790347"
+    }
+   ]
+  },
+  {
+   "id": "europe-daily-20261009",
+   "date": "2026-10-09",
+   "theater": "europe_security",
+   "title": "俄破壞行動逼近丹麥　拉脫維亞邊境遭武裝挑釁",
+   "points": [
+    "ISW 10月8日評估引述丹麥安全情報局（PET）官員說法，俄國試圖對供應烏克蘭武器的丹麥企業進行破壞，屬重大升級；ISW另提及俄方近期對愛沙尼亞與德國國防企業的縱火與破壞。",
+    "NordiskPost報導PET評估丹麥威脅等級為高，俄方透過社群、遊戲平台與Telegram招募人手；俄國駐丹麥使館否認指控。",
+    "半島電視台報導，拉脫維亞內政部長稱蒙面武裝人員護送約20名移民從白俄羅斯闖關並威脅士兵；ISW同日對白俄羅斯則稱無重大動態。"
+   ],
+   "sources": [
+    {
+     "publisher": "ISW／CTP",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-8-2026"
+    },
+    {
+     "publisher": "NordiskPost",
+     "url": "https://www.nordiskpost.com/2026/10/09/denmark-russian-sabotage-attempts-defence-firms/"
+    },
+    {
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/9/a-ceuta-style-surge-is-possible-border-tensions-on-natos-eastern-flank"
+    }
+   ]
+  },
+  {
+   "id": "isw-ukraine-20261007",
+   "date": "2026-10-07",
+   "theater": "ukraine_front",
+   "title": "ISW：俄大規模空襲烏克蘭 研判冬季將續打能源",
+   "points": [
+    "烏克蘭空軍稱，俄軍10月6日夜至7日發動大規模空襲，含48枚巡弋飛彈與130架攻擊型無人機，ISW稱至少128名平民傷亡。",
+    "ISW研判，噴射動力無人機讓俄軍能把飛彈集中打少數目標，可能在2026至2027年冬季以同樣手法攻擊烏克蘭能源設施。",
+    "ISW指出，俄軍增調兵力至斯拉維揚斯克與克拉馬托斯克一帶，但以目前推進速度，冬前攻下該城鎮群的目標難以達成。",
+    "澤倫斯基10月7日表示，烏軍攻擊了彼爾姆邊疆區、薩馬拉州與阿斯特拉罕州的兩處石油設施與一處訓練場。",
+    "ISW轉述澤倫斯基說法：俄軍10月6日以空中與海上無人機攻擊保加利亞專屬經濟海域兩艘船，其中一艘沉沒。"
+   ],
+   "sources": [
+    {
+     "publisher": "ISW / Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-7-2026"
+    }
+   ]
+  },
+  {
+   "id": "iran-update-iran-20261008",
+   "date": "2026-10-08",
+   "theater": "iran_gulf",
+   "title": "CTP-ISW：伊朗疑再襲波灣油輪，並評估其戰爭目標",
+   "points": [
+    "CTP-ISW評估，自上次截稿以來伊朗可能對波斯灣油輪發動兩次攻擊，其中一次是向卡達北部外海約51海里的油輪發射多枚投射物。",
+    "CTP-ISW指出近10天伊朗攻擊商船增加，但先前都在荷莫茲海峽內；該單位認為伊朗可能已部分重建海上目標鎖定能力或改用新方法。",
+    "一名伊朗高階官員對區域媒體說，伊朗9月攻擊美軍時試射了帶集束彈頭的新型反艦飛彈；此為伊方說法，CTP-ISW未獨立證實。",
+    "CTP-ISW列出伊朗戰爭目標：取得國際承認其控制荷莫茲海峽、削弱美國續戰能力與意願、恢復嚇阻，並離間美以與阿拉伯國家。",
+    "沙烏地能源大臣阿卜杜勒阿齊茲親王10月6日稱，東西向輸油管修復後輸量回到每日580萬桶；CTP-ISW稱美伊談判無重大進展。"
+   ],
+   "sources": [
+    {
+     "publisher": "Critical Threats Project / ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-8-2026"
+    }
+   ]
+  },
+  {
+   "id": "iran-update-mideast-20261008",
+   "date": "2026-10-08",
+   "theater": "middle_east",
+   "title": "CTP-ISW：葉門政府軍奪山頭，胡塞續襲沙烏地",
+   "points": [
+    "沙國支持的「家園盾牌部隊」10月8日宣布全面控制Jabal Kahbub前線；葉門政府10月4日發動奪取穆卡的攻勢，獲沙國空中支援。",
+    "CTP-ISW稱胡塞自10月6日起實質包圍塔伊茲市，切斷政府軍最後陸上補給線；城內糧食、燃料與藥品短缺，雙方在市中心均無大幅推進。",
+    "胡塞向利雅德哈立德國王國際機場發射兩枚彈道飛彈，一枚攔截殘骸落入市區、一枚擊中機場起火；胡塞並宣稱10月8日再射兩枚巡弋飛彈。",
+    "胡塞呼籲外國航空避開沙國領空，並要求沙國石油工人撤離；CTP-ISW認為這顯示其施壓沙國的攻勢尚未達成目標。",
+    "黎巴嫩方面，路透10月7日引述兩名匿名人士稱伊朗9月匯給真主黨2億美元，美國國務院否認；CTP-ISW認為真主黨有動機把援助說成真的。"
+   ],
+   "sources": [
+    {
+     "publisher": "Critical Threats Project / ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-8-2026"
+    }
+   ]
+  },
+  {
+   "id": "korea-daily-20261009",
+   "date": "2026-10-09",
+   "theater": "korea_peninsula",
+   "title": "DMZ埋雷風波延燒　南韓召回駐烏克蘭大使",
+   "points": [
+    "南韓聯合參謀本部議長Jin Yong-sung 10月8日在國會國政監查中，稱9月21日DMZ地雷爆炸致3名官兵受傷，是違反停戰協定的挑釁（NK News）。",
+    "在野黨國民力量黨議員Yu Yong-weon告訴NK News，軍方已知西部戰線軍事分界線以南有6處雷區，北韓可能埋了數百顆地雷，軍方尚未公開。",
+    "南韓外交部10月8日晚宣布召回駐烏克蘭大使Park Ki-chang，指烏克蘭公開北韓戰俘移交一事違反保密協議（NK News）。",
+    "北韓官媒報導已出版首部金正恩「革命歷史」專書，NK News分析這可能代表當局將開始公開宣傳金正恩的童年故事。",
+    "根據聯合參謀本部10月5日簡報，北韓今年越過軍事分界線約50次，2025年為17次；邊界工事預計兩年內完成（韓國先驅報）。"
+   ],
+   "sources": [
+    {
+     "publisher": "NK News",
+     "url": "https://www.nknews.org/2026/10/rok-military-chief-condemns-north-korean-mine-blasts-as-a-clear-provocation/"
+    },
+    {
+     "publisher": "NK News",
+     "url": "https://www.nknews.org/2026/10/north-korea-likely-buried-hundreds-of-mines-south-of-border-rok-lawmaker-says/"
+    },
+    {
+     "publisher": "NK News",
+     "url": "https://www.nknews.org/2026/10/south-korea-recalls-ambassador-to-ukraine-over-north-korean-pow-spat/"
+    },
+    {
+     "publisher": "Korea Herald",
+     "url": "https://www.koreaherald.com/article/10893368"
+    }
+   ]
+  },
+  {
+   "id": "scs-daily-20261009",
+   "date": "2026-10-08",
+   "theater": "south_china_sea",
+   "title": "仁愛礁後送傷員遭水砲爭議 中菲各執一詞",
+   "points": [
+    "10月8日菲律賓海警船赴仁愛礁附近後送坐灘軍艦上的傷員；菲海警發言人塔里埃拉稱遭中國海警開水砲，後送延誤近10小時（聯合報）。",
+    "中國海警發言人姜略稱，中方基於人道考量允許菲方以小艇轉運並提供便利，指菲方說法顛倒黑白；外交部發言人毛寧10月9日重申立場。",
+    "菲方統計，9月中國海軍與海警船在中業島、仁愛礁、仙賓礁、黃岩島周邊共101艘，8月為56艘（菲軍方數字，曼尼拉時報轉載法新社）。",
+    "菲方另指上週末中國戰機於黃岩島附近干擾菲國塞斯納機，中國海警船尾隨並攔阻菲艇；北京則稱菲機侵犯其領空（法新社）。",
+    "小馬可仕在新加坡論壇表示，希望東協與中國12月前完成南海行為準則，並稱談判連字詞定義都有爭議（每日論壇報）。"
+   ],
+   "sources": [
+    {
+     "publisher": "新華網（中國海警局聲明）",
+     "url": "https://www.news.cn/20261009/3a2312a463ff48ca8bc53fae421d777e/c.html"
+    },
+    {
+     "publisher": "聯合報",
+     "url": "https://udn.com/news/story/7331/9804397"
+    },
+    {
+     "publisher": "Manila Times（法新社）",
+     "url": "https://www.manilatimes.net/2026/10/09/news/national/ph-flags-near-doubling-of-chinese-presence-in-disputed-waters/2442037"
+    },
+    {
+     "publisher": "Daily Tribune",
+     "url": "https://tribune.net.ph/2026/10/08/marcos-hopeful-on-sea-pact-within-year"
+    }
+   ]
+  }
+ ]
+}

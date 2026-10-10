@@ -1,0 +1,2968 @@
+{
+ "items": [
+  {
+   "id": "mil-taiwan-20261010",
+   "date": "2026-10-10",
+   "theater": "taiwan_strait",
+   "beat": "MIL",
+   "title": "國慶前夕共軍聯合戰備警巡　13架次逾越中線",
+   "points": [
+    "國防部10月10日公布，9日6時至10日6時偵獲共機21架次、共艦7艘、公務船2艘，其中13架次逾越中線進入北部、中部及西南空域（中央社）。",
+    "國防部指共機自9日8時52分起陸續出海，配合共艦實施「聯合戰備警巡」，19架次主輔戰機、無人機與直升機在台海空域活動，時間長達約10小時。",
+    "值得注意：這波警巡正好落在賴總統國慶演說前一天，時間點與北京對演說的強烈回應相互呼應，可能帶有施壓訊號。",
+    "另有2架次輔助機在北部空域、防空識別區外活動；國軍以任務機及岸置飛彈系統嚴密監控應處。"
+   ],
+   "context": "共軍近年常在台灣重要政治時點前後實施聯合戰備警巡，以機艦協同方式對台周邊海空域施壓；今年國慶前夕再度出現同類型行動。",
+   "stances": [
+    {
+     "actor": "國防部",
+     "view": "稱共機配合共艦實施聯合戰備警巡，屬對台周邊海空域的襲擾，國軍嚴密監控。"
+    },
+    {
+     "actor": "國台辦",
+     "view": "10日批評賴總統國慶講話挑動兩岸對立，重申反對台獨與外部勢力干涉。"
+    }
+   ],
+   "outlook": "值得注意：國台辦對國慶演說回應強硬，後續數日共機艦是否維持高強度活動，是觀察北京後續施壓力道的指標。",
+   "watch": "國慶後數日共機艦架次與是否宣布演習",
+   "actors": [
+    "國防部",
+    "解放軍",
+    "國台辦"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610100030.aspx"
+    },
+    {
+     "publisher": "中國時報",
+     "url": "https://www.chinatimes.com/realtimenews/20261010002403-260409"
+    }
+   ]
+  },
+  {
+   "id": "dip-taiwan-20261010",
+   "date": "2026-10-10",
+   "theater": "taiwan_strait",
+   "beat": "DIP",
+   "title": "川習會後台美往來未斷　日議員27人訪台慶雙十",
+   "points": [
+    "中央社10月9日彙整外媒報導：川習會後台美互動仍頻繁，包括蔡英文10月7日卸任後首度訪美、林佳龍赴亞利桑那揭牌、兩架F-16V上週運抵台灣。",
+    "據彭博，國會2025年1月批准、最高140億美元的對台軍售案尚未定案；白宮官員稱川普將很快做決定，總統過境美國也受關注。",
+    "日本「日本台灣友好議員連盟」會長古屋圭司率27名跨黨派參眾議員來台慶雙十，是更名後首度組團，預計拜會賴總統（中央社）。",
+    "國際危機組織分析師William Yang認為，台灣議題能見度雖降低，雙方仍維持定期且實質往來。",
+    "大西洋理事會宋文笛則提醒，近期訪問與交機多為早已排定，時間點可能是巧合，未必是刻意安撫。"
+   ],
+   "context": "川普9月在華府接待習近平後，外界擔心美國為與北京修好而降低對台支持；美方則表示對台政策不變。",
+   "stances": [
+    {
+     "actor": "白宮官員",
+     "view": "據彭博，稱川普將很快就140億美元軍售案做決定，不受北京反對影響。"
+    },
+    {
+     "actor": "古屋圭司",
+     "view": "稱將持續推動台日友好交流，維護台灣海峽和平與穩定。"
+    },
+    {
+     "actor": "Jennifer Welch",
+     "view": "前白宮國安會官員認為川普分權式決策讓各部會有空間自行推進台美議題。"
+    }
+   ],
+   "outlook": "彭博等外媒研判，140億美元軍售案與賴總統過境安排，是檢驗川習會後美國對台政策的關鍵指標。",
+   "watch": "川普對140億美元軍售案的決定",
+   "actors": [
+    "川普",
+    "林佳龍",
+    "蔡英文",
+    "古屋圭司",
+    "賴清德"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610093002.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610090185.aspx"
+    }
+   ]
+  },
+  {
+   "id": "pol-taiwan-20261010",
+   "date": "2026-10-10",
+   "theater": "taiwan_strait",
+   "beat": "POL",
+   "title": "賴總統國慶演說：國防預算1.1兆是為嚇阻戰爭",
+   "points": [
+    "賴清德10月10日發表任內第三次國慶演說，強調增加國防投資是為嚇阻戰爭而非挑釁；法新社報導2027年國防預算編列新台幣1.1兆元，占GDP逾3%（中央社）。",
+    "國台辦發言人張晗當晚回應，批評講話渲染大陸威脅、鼓吹民主對抗威權，今年改以強調一中原則屬二戰後國際秩序（聯合報、中國時報）。",
+    "立法院攻防同步升溫：賴總統9日在國慶晚會請韓國瑜與各黨團速審總預算與追加預算；國民黨團總召傅崐萁則主張普發現金從1萬元加碼到2萬元。",
+    "傅崐萁稱去年超徵5283億元，今年1至8月稅收又較去年同期多6191億元，主張今年超徵今年發（中央社）。",
+    "外媒角度不一：路透強調台灣珍視和平但不犧牲自由，彭博則聚焦川習會後呼籲民主國家團結。"
+   ],
+   "context": "國防預算與普發現金是朝野攻防主軸；立法院由在野黨占多數，總預算、追加預算能否順利過關，牽動國防與民生政策落實。",
+   "stances": [
+    {
+     "actor": "賴清德",
+     "view": "增加國防投資為嚇阻戰爭，強化自我防衛不代表放棄對話；政黨可競爭但台灣不應被分割。"
+    },
+    {
+     "actor": "國台辦",
+     "view": "稱講話是台獨本色表演，台灣前途應由全體中國人民共同決定，堅持九二共識。"
+    },
+    {
+     "actor": "傅崐萁",
+     "view": "主張普發現金加碼到2萬元，稱多數民意支持還稅於民。"
+    }
+   ],
+   "outlook": "值得注意：國防預算與普發現金金額可能在立法院總預算審查中被綁在一起談判，朝野角力恐影響審議時程。",
+   "watch": "立法院總預算與追加預算審查進度",
+   "actors": [
+    "賴清德",
+    "國台辦",
+    "張晗",
+    "傅崐萁",
+    "韓國瑜"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610103003.aspx"
+    },
+    {
+     "publisher": "聯合報",
+     "url": "https://udn.com/news/story/122496/9806654"
+    },
+    {
+     "publisher": "中國時報",
+     "url": "https://www.chinatimes.com/realtimenews/20261010002403-260409"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610090224.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610090258.aspx"
+    }
+   ]
+  },
+  {
+   "id": "pol-korea-20261010",
+   "date": "2026-10-10",
+   "theater": "korea_peninsula",
+   "beat": "POL",
+   "title": "勞動黨建黨81週年　平壤以驅逐艦與住宅宣傳政績",
+   "points": [
+    "北韓10月10日紀念勞動黨建黨81週年，《勞動新聞》頭版社論把戰後重建與工業化歸功於黨的領導，稱國家尊嚴與國力已達最高峰（SBS）。",
+    "社論點名上月服役的5000噸級驅逐艦「姜健號」與平壤和盛地區住宅工程為主要成就，可能反映金正恩政權把海軍現代化與民生建設並列為統治正當性來源。",
+    "官媒朝中社另稱黨正努力實現人民願望；SBS指出今年紀念重點在強化對金正恩與黨的效忠、鞏固內部團結。",
+    "10月9日政治局常委等幹部前往錦繡山太陽宮致敬，黨中央、國務委員會、最高人民會議常委會與內閣向金日成、金正日銅像獻花籃。"
+   ],
+   "context": "建黨紀念日是北韓年度重要政治節日；依SBS報導，今年以社論、參拜錦繡山與獻花為主軸，強調軍力與民生建設成果。",
+   "outlook": "截至SBS報導時未提到金正恩公開出席或閱兵，值得注意官媒後續是否公布金正恩活動或重要講話。",
+   "watch": "官媒是否公布金正恩出席紀念活動",
+   "actors": [
+    "金正恩",
+    "勞動黨",
+    "勞動新聞",
+    "朝中社"
+   ],
+   "sources": [
+    {
+     "publisher": "SBS News",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008791020"
+    }
+   ]
+  },
+  {
+   "id": "mil-scs-20261010",
+   "date": "2026-10-09",
+   "theater": "south_china_sea",
+   "beat": "MIL",
+   "title": "菲海警驅離中國民兵船　仁愛礁後送遭水砲延誤",
+   "points": [
+    "菲海警發言人塔瑞拉稱，10月9日15時至17時30分在Kota島外驅離中國海上民兵母船CMMV 9622與22艘小艇，最近一艘距岸僅約250公尺（GMA）。",
+    "行動由兩艘橡皮艇搭載海警與3名陸戰隊員執行，海軍提供無線電支援；一艘小艇拒離並輕微碰觸，無人傷亡。同一母船9月28日曾帶24艘小艇被驅離。",
+    "10月8日仁愛礁醫療後送，塔瑞拉稱中國海警以水砲阻擋菲船，使後送延誤近10小時，菲方改從約24公里外派橡皮艇接人（SBS引述法新社）。",
+    "中國海警發言人甘羽稱中方基於人道允許後送並提供協助，要菲方停止扭曲事實。",
+    "AEI／ISW研判北京可能已不打算遵守2024年仁愛礁臨時協議，企圖讓菲方駐守處境難以維持。"
+   ],
+   "context": "中菲2024年就仁愛礁補給達成臨時安排；9月24日中方再度干擾補給，是協議後首見，近期中國船隻在菲占島礁周邊明顯增加。",
+   "stances": [
+    {
+     "actor": "菲律賓海警",
+     "view": "稱中國民兵船在Kota島12浬領海內作業，水砲行動延誤人道後送。"
+    },
+    {
+     "actor": "中國海警",
+     "view": "稱中方基於人道允許後送並提供必要協助，指菲方誤導輿論。"
+    },
+    {
+     "actor": "AEI／ISW",
+     "view": "研判北京可能不再遵守2024年臨時協議。"
+    }
+   ],
+   "outlook": "AEI／ISW研判中方可能持續壓縮菲方在仁愛礁的補給空間；民兵船反覆回到Kota島，摩擦可能常態化。",
+   "watch": "下一次仁愛礁輪調補給是否受阻",
+   "actors": [
+    "塔瑞拉",
+    "菲律賓海警",
+    "中國海警",
+    "甘羽"
+   ],
+   "sources": [
+    {
+     "publisher": "GMA News",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/1005407/pcg-repels-chinese-militia-vessel-22-fishing-boats-from-kota-island-waters/story/"
+    },
+    {
+     "publisher": "SBS News",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008790347"
+    },
+    {
+     "publisher": "AEI／ISW",
+     "url": "https://www.aei.org/commentary/china-taiwan-update-october-9-2026/"
+    }
+   ]
+  },
+  {
+   "id": "mil-iran-20261010",
+   "date": "2026-10-10",
+   "theater": "iran_gulf",
+   "beat": "MIL",
+   "title": "革命衛隊連續攻擊油輪　荷莫茲航運風險再升",
+   "points": [
+    "CTP／ISW稱伊朗10月8日可能以多枚投射物攻擊卡達北方外海約51浬的油輪；10月9日革命衛隊宣稱攻擊越南籍油輪NV SUNSHINE，英國海事貿易組織同日通報阿聯外海有船遭擊。",
+    "革命衛隊海軍10月9日揚言攻擊在區域內任何地方走「未授權」通道的船隻；CTP研判意在迫使航商遵守伊朗的通行規則。",
+    "彭博報導英國海事貿易組織10月初已記錄9起攻擊，約等於9月總數一半；交易商估中東原油流量約戰前八成，波羅的海交易所稱波灣到中國運費創每日130萬美元新高。",
+    "The National10月10日彙整指革命衛隊再宣稱攻擊荷莫茲油輪；路透報導美方10月8日再制裁17艘運送伊朗油品的船隻。"
+   ],
+   "context": "美伊戰爭進入第八個月，美方對伊朗港口實施海上封鎖，伊朗則以攻擊商船爭奪荷莫茲海峽控制權；多數油輪貼近阿曼海岸航行並關閉訊號。",
+   "stances": [
+    {
+     "actor": "革命衛隊海軍",
+     "view": "揚言攻擊使用未授權通道的船隻。"
+    },
+    {
+     "actor": "Marisks執行長",
+     "view": "Maniatis認為伊朗以恐懼與不確定性宣示控制海峽，不必攔下每艘船。"
+    }
+   ],
+   "outlook": "CTP研判伊朗意在建立自訂通行規則；值得注意攻擊範圍已延伸到卡達與阿聯外海，保險與運費可能持續推高。",
+   "watch": "英國海事貿易組織新增攻擊通報與運費走勢",
+   "actors": [
+    "革命衛隊",
+    "英國海事貿易組織",
+    "美國財政部"
+   ],
+   "sources": [
+    {
+     "publisher": "CTP／ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-9-2026"
+    },
+    {
+     "publisher": "Energy Connects／彭博",
+     "url": "https://www.energyconnects.com/news/gas-lng/2026/october/iran-ramps-up-ship-attacks-in-hormuz-as-oil-gas-flows-rise/"
+    },
+    {
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/mena/2026/10/10/live-iran-war-houthis-strait-of-hormuz-irgc/"
+    },
+    {
+     "publisher": "Investing.com／路透",
+     "url": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns-4940126"
+    }
+   ]
+  },
+  {
+   "id": "dip-iran-20261010",
+   "date": "2026-10-10",
+   "theater": "iran_gulf",
+   "beat": "DIP",
+   "title": "普丁替伊朗向川普傳話　德黑蘭審視美方回覆",
+   "points": [
+    "克里姆林宮發言人佩斯科夫10月10日稱，普丁在9日約一個半小時通話中向川普轉達伊朗對解決衝突的立場，事前已與裴澤斯基安在土庫曼兩度會面協調（APA）。",
+    "伊朗外長阿拉格齊稱談判透過中間人持續，德黑蘭正在審視美方對伊朗「七天重開荷莫茲」方案的回覆，預計數日內答覆（CBS、路透）。",
+    "川普10月8日稱與伊朗有「建設性對話」，並承諾11月3日期中選舉前不會攻擊伊朗；油價隨即回落。",
+    "裴澤斯基安同週稍早曾稱與華府談判毫無意義，顯示伊朗內部說法不一。",
+    "美國副總統范斯先前向路透表示，任何重開海峽、結束戰爭的協議都須伊朗實質降低濃縮鈾能力，且不清楚伊朗由誰拍板。"
+   ],
+   "context": "美伊戰爭進入第八個月，雙方經卡達等中間人往返傳話；俄國近期在土庫曼峰會與伊朗、亞美尼亞、亞塞拜然領袖會面，嘗試扮演斡旋角色。",
+   "stances": [
+    {
+     "actor": "克里姆林宮",
+     "view": "稱普丁先與裴澤斯基安協調，再向川普轉達伊朗立場。"
+    },
+    {
+     "actor": "阿拉格齊",
+     "view": "稱正在審視美方回覆，預計數日內答覆。"
+    },
+    {
+     "actor": "范斯",
+     "view": "要求伊朗降低濃縮能力，不能只給保證。"
+    },
+    {
+     "actor": "川普",
+     "view": "稱與伊朗對話具建設性，期中選舉前不攻擊。"
+    }
+   ],
+   "outlook": "值得注意：俄國介入傳話可能提高其在中東與烏克蘭議題的談判籌碼；伊朗答覆內容將決定談判是否推進。",
+   "watch": "伊朗對美方回覆的正式答覆",
+   "actors": [
+    "普丁",
+    "川普",
+    "裴澤斯基安",
+    "阿拉格齊",
+    "范斯",
+    "佩斯科夫"
+   ],
+   "sources": [
+    {
+     "publisher": "APA",
+     "url": "https://en.apa.az/cis-countries/kremlin-says-putin-relayed-irans-position-on-resolving-conflict-to-trump-529280"
+    },
+    {
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
+    },
+    {
+     "publisher": "Investing.com／路透",
+     "url": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns-4940126"
+    },
+    {
+     "publisher": "Energy Connects／彭博",
+     "url": "https://www.energyconnects.com/news/gas-lng/2026/october/iran-ramps-up-ship-attacks-in-hormuz-as-oil-gas-flows-rise/"
+    }
+   ]
+  },
+  {
+   "id": "pol-iran-20261010",
+   "date": "2026-10-09",
+   "theater": "iran_gulf",
+   "beat": "POL",
+   "title": "川普宣示期中選舉前不攻伊朗　同步加碼制裁",
+   "points": [
+    "川普10月8日在Truth Social表示，11月3日期中選舉前不會攻擊伊朗，理由是伊朗經濟與軍力已削弱、封鎖持續且原油仍流經荷莫茲（CBS）。",
+    "此前《大西洋月刊》報導白宮曾要求五角大廈提出選前打擊選項；白宮官員回應三軍統帥隨時保有所有選項。",
+    "美方同日宣布制裁運送伊朗原油、成品油與石化產品的個人、網路及17艘船（路透）。",
+    "國會研究處報告估計戰爭中至少81架美軍飛機與無人機損失或受損，可能增加國會對戰爭成本的關注（CBS）。",
+    "伊朗方面，總統裴澤斯基安稱談判無意義，外長阿拉格齊則說仍在透過中間人交換訊息，德黑蘭內部定調不一致。"
+   ],
+   "context": "美伊戰爭已近八個月，期中選舉逼近，油價與美軍損耗成為美國內政議題；川普一面封鎖施壓，一面釋出談判訊號。",
+   "stances": [
+    {
+     "actor": "川普",
+     "view": "期中選舉前不攻擊伊朗，稱伊朗已被削弱、雙方有建設性對話。"
+    },
+    {
+     "actor": "白宮官員",
+     "view": "稱三軍統帥隨時保有所有選項。"
+    },
+    {
+     "actor": "裴澤斯基安",
+     "view": "稱與華府談判沒有意義。"
+    }
+   ],
+   "outlook": "值得注意：選前停打承諾可能讓美方更倚重制裁與封鎖施壓，選後軍事選項是否重啟仍是變數。",
+   "watch": "11月3日期中選舉前後美方動向",
+   "actors": [
+    "川普",
+    "白宮",
+    "美國財政部",
+    "裴澤斯基安",
+    "阿拉格齊"
+   ],
+   "sources": [
+    {
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
+    },
+    {
+     "publisher": "Investing.com／路透",
+     "url": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns-4940126"
+    }
+   ]
+  },
+  {
+   "id": "mil-mideast-20261010",
+   "date": "2026-10-10",
+   "theater": "middle_east",
+   "beat": "MIL",
+   "title": "胡塞連日飛彈打利雅德機場　沙國聯軍大規模反擊",
+   "points": [
+    "胡塞10月8日以彈道飛彈擊中利雅德哈立德國王國際機場，沙國民航總局稱3名沙國公民死亡；美聯社引述官員稱3架飛機受損，9日晚胡塞再射飛彈致航班改降。",
+    "沙國聯軍發言人馬里基稱摧毀3具胡塞飛彈發射器，The National10月10日彙整則引述其說法稱大規模行動摧毀136個目標。",
+    "CTP稱葉門政府派部隊10月9日奪下丕林島並收復距曼德海峽中心約16公里的半島；胡塞已實質包圍塔伊茲市。",
+    "胡塞發言人薩雷亞稱只有胡塞認可的航空公司可為人道目的降落利雅德，並警告石油設施人員撤離。",
+    "The National另報導以色列對黎巴嫩赫爾邁勒地區罕見空襲；黎巴嫩安全部隊9日在巴卜達查獲兩名真主黨成員攜500公斤炸藥。"
+   ],
+   "context": "葉門內戰7月再度全面爆發，沙國主導的聯軍為政府軍提供空中支援；路透報導巴基斯坦與土耳其已軍援沙國對抗胡塞。",
+   "stances": [
+    {
+     "actor": "胡塞",
+     "view": "警告航空公司避開沙國機場，只准其認可的航班降落。"
+    },
+    {
+     "actor": "沙國聯軍",
+     "view": "稱已摧毀胡塞飛彈發射器與多處目標。"
+    }
+   ],
+   "outlook": "CTP資料顯示曼德海峽控制權正在易手；值得注意胡塞若持續打擊沙國機場與油田，區域航空與能源供應風險可能擴大。",
+   "watch": "沙國油田設施是否遭胡塞攻擊",
+   "actors": [
+    "胡塞",
+    "沙國聯軍",
+    "馬里基",
+    "薩雷亞",
+    "葉門政府"
+   ],
+   "sources": [
+    {
+     "publisher": "CTP／ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-9-2026"
+    },
+    {
+     "publisher": "AP／WSLS",
+     "url": "https://www.wsls.com/news/world/2026/10/10/lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other-mideast-developments/"
+    },
+    {
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/mena/2026/10/10/live-iran-war-houthis-strait-of-hormuz-irgc/"
+    }
+   ]
+  },
+  {
+   "id": "dip-mideast-20261010",
+   "date": "2026-10-10",
+   "theater": "middle_east",
+   "beat": "DIP",
+   "title": "美解除41年黎巴嫩直航禁令　歐盟訓練任務將上路",
+   "points": [
+    "黎巴嫩總統奧恩10月10日歡迎川普解除美黎直航限制，稱這顯示美方對黎國民航安全改善的信心；禁令源自1985年環球航空847號劫機事件（美聯社）。",
+    "美聯社指川普7月奧恩訪美時已宣布此事，近兩週前下令解除；以色列時報指這發生在美方斡旋以黎就解除真主黨武裝談判之際。",
+    "CTP稱歐盟預計10月12日正式成立為期三年的黎巴嫩軍事支援任務，首批至少100名法、義、西人員12月25日前進駐貝魯特，而非黎南。",
+    "The National報導義大利計畫以新任務接替聯合國駐黎部隊，並呼籲歐洲在荷莫茲與曼德海峽安全上扮演更大角色。"
+   ],
+   "context": "真主黨在過去兩年兩場對以戰爭中嚴重受創，美國與歐洲正以外交與訓練援助強化黎巴嫩政府與軍方，配合解除真主黨武裝的進程。",
+   "stances": [
+    {
+     "actor": "奧恩",
+     "view": "歡迎美方解除飛航限制，視為對黎國改革的肯定。"
+    },
+    {
+     "actor": "義大利",
+     "view": "主張以新任務接替聯合國駐黎部隊，並要求歐洲加強紅海護航。"
+    }
+   ],
+   "outlook": "值得注意：歐盟任務與美方鬆綁同步推進，可能提高黎巴嫩政府在解除真主黨武裝談判上的籌碼。",
+   "watch": "10月12日歐盟黎巴嫩任務正式成立",
+   "actors": [
+    "奧恩",
+    "川普",
+    "歐盟",
+    "義大利",
+    "真主黨"
+   ],
+   "sources": [
+    {
+     "publisher": "AP／WSLS",
+     "url": "https://www.wsls.com/news/world/2026/10/10/lebanon-welcomes-trumps-move-to-lift-41-year-us-flight-ban-and-other-mideast-developments/"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-10-2026/"
+    },
+    {
+     "publisher": "CTP／ISW",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-9-2026"
+    },
+    {
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/mena/2026/10/10/live-iran-war-houthis-strait-of-hormuz-irgc/"
+    }
+   ]
+  },
+  {
+   "id": "pol-mideast-20261010",
+   "date": "2026-10-09",
+   "theater": "middle_east",
+   "beat": "POL",
+   "title": "前軍事秘書爆料　在野黨要求刑事調查納坦雅胡",
+   "points": [
+    "納坦雅胡前軍事秘書吉爾受訪指稱，總理辦公室幕僚長布拉維曼曾想把10月7日6時40分的通話記錄改成6時29分，並稱總理曾為保政府而不接受人質協議（以色列時報）。",
+    "艾森柯特稱已致函總檢察長，指控總理在審計長報告中不誠實；李伯曼要求以叛國罪立案，拉皮德與班奈特要求總理下台。",
+    "納坦雅胡否認，反指吉爾明知攻擊將至卻未及時叫醒總理；聯合政府部長艾爾金稱應先調查再下結論，並批訪談偏頗。",
+    "以色列時報另報導，警方據傳認為有足夠證據起訴布拉維曼竄改紀錄，但他被認為不太可能遭起訴。",
+    "以色列10月27日將舉行哈瑪斯攻擊後首次大選，此案可能成為選戰焦點。"
+   ],
+   "context": "納坦雅胡一直抗拒成立國家調查委員會追究10月7日責任；艾森柯特承諾選後成立。這波爆料距大選僅約兩週半。",
+   "stances": [
+    {
+     "actor": "納坦雅胡",
+     "view": "否認指控，稱吉爾想掩蓋自己的失職。"
+    },
+    {
+     "actor": "艾森柯特",
+     "view": "稱相關行為可能涉及刑事，應退出公共生活。"
+    },
+    {
+     "actor": "李伯曼",
+     "view": "要求以叛國與共謀罪立即刑事調查總理及其團隊。"
+    },
+    {
+     "actor": "艾爾金",
+     "view": "主張先調查再下結論，批評訪談偏頗。"
+    }
+   ],
+   "outlook": "值得注意：爆料可能影響10月27日大選選情；總檢察長是否立案，以及國家調查委員會議題，將是在野黨主打。",
+   "watch": "10月27日以色列大選與總檢察長回應",
+   "actors": [
+    "納坦雅胡",
+    "吉爾",
+    "艾森柯特",
+    "李伯曼",
+    "拉皮德",
+    "班奈特"
+   ],
+   "sources": [
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/treason-opposition-demands-criminal-probe-of-pm-after-ex-military-aides-oct-7-revelations/"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-10-2026/"
+    }
+   ]
+  },
+  {
+   "id": "mil-europe-20261010",
+   "date": "2026-10-09",
+   "theater": "europe_security",
+   "beat": "MIL",
+   "title": "北約東翼混合威脅升溫　丹麥警告俄破壞軍工",
+   "points": [
+    "丹麥安全情報局官員10月7日稱，俄國已從規劃轉向實際行動，正嘗試破壞供應烏克蘭武器的丹麥企業；ISW稱這是重大升級（NordiskPost、ISW）。",
+    "拉脫維亞內政部長稱，蒙面武裝人員護送約20名移民從白俄羅斯闖關並威脅士兵，另有人越境破壞電箱、偷走監視器；拉國官員指為白俄羅斯策動的破壞（半島電視台）。",
+    "波蘭東方研究中心數據顯示，今年9至10月邊境違規已達1萬2000次，等於去年全年。",
+    "波羅的海安全基金會分析人士認為，大規模闖關在物理上可能發生，但持續低強度施壓更能消耗預算並製造盟國摩擦。",
+    "ISW另提及俄方近期對愛沙尼亞與德國國防企業的縱火與破壞；俄國駐丹麥使館否認指控。"
+   ],
+   "context": "丹麥國防情報局9月24日已警告俄國未來數月可能加強對北約的混合戰；白俄羅斯邊境移民施壓已持續五年，自5月起對拉脫維亞明顯加劇。",
+   "stances": [
+    {
+     "actor": "丹麥安全情報局",
+     "view": "評估威脅等級高，呼籲國防與援烏企業檢討保安。"
+    },
+    {
+     "actor": "拉脫維亞內政部",
+     "view": "稱這次挑釁比過去更具攻擊性。"
+    },
+    {
+     "actor": "俄國駐丹麥使館",
+     "view": "稱指控毫無根據。"
+    },
+    {
+     "actor": "Marta Jaroszewicz",
+     "view": "華沙大學學者認為白俄羅斯意在施壓拉脫維亞新政府放寬制裁。"
+    }
+   ],
+   "outlook": "波羅的海安全基金會分析人士研判，俄方可能更多轉向攻擊電纜、電網、導航與空域，多半低於北約第五條門檻。",
+   "watch": "拉脫維亞邊境增援與北約東翼因應",
+   "actors": [
+    "丹麥安全情報局",
+    "拉脫維亞",
+    "白俄羅斯",
+    "俄國",
+    "北約"
+   ],
+   "sources": [
+    {
+     "publisher": "NordiskPost",
+     "url": "https://www.nordiskpost.com/2026/10/09/denmark-russian-sabotage-attempts-defence-firms/"
+    },
+    {
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/9/a-ceuta-style-surge-is-possible-border-tensions-on-natos-eastern-flank"
+    },
+    {
+     "publisher": "ISW／CTP",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-8-2026"
+    }
+   ]
+  },
+  {
+   "id": "dip-europe-20261010",
+   "date": "2026-10-09",
+   "theater": "europe_security",
+   "beat": "DIP",
+   "title": "蒙特內哥羅驅逐親俄戰爭部落客Rybar創辦人",
+   "points": [
+    "蒙特內哥羅警方10月9日在里桑拘留親俄戰爭部落格Rybar創辦人茲文丘克等5名俄國公民，以國家與內部安全為由驅逐出境（基輔獨立報引述當地媒體）。",
+    "警方稱一行人入境不到兩天，可能採取有害行動，並查扣無人機、相機與多支手機；總理斯帕伊奇稱國家在保護自身利益。",
+    "俄國使館要求說明理由，佩斯科夫稱外交官將保護茲文丘克權益；梅德韋傑夫則暗示可能抓西方人來交換。",
+    "Rybar在Telegram有逾150萬追蹤者，其團隊已遭英國與歐盟制裁。"
+   ],
+   "context": "蒙特內哥羅2017年加入北約，目前是歐盟入盟談判領先者；歐洲多國近期加強防範俄國情報與破壞活動。",
+   "stances": [
+    {
+     "actor": "斯帕伊奇",
+     "view": "稱蒙特內哥羅在保護自身利益。"
+    },
+    {
+     "actor": "佩斯科夫",
+     "view": "稱俄外交官將保護茲文丘克權益。"
+    },
+    {
+     "actor": "梅德韋傑夫",
+     "view": "暗示俄國可能需要抓西方人來換回自己人。"
+    }
+   ],
+   "outlook": "值得注意：梅德韋傑夫的交換暗示可能增加在俄西方人士風險；巴爾幹國家對俄態度趨硬。",
+   "watch": "俄國是否對蒙特內哥羅採取報復措施",
+   "actors": [
+    "蒙特內哥羅",
+    "茲文丘克",
+    "斯帕伊奇",
+    "佩斯科夫",
+    "梅德韋傑夫"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/founder-of-russian-war-propaganda-channel-rybar-detained-in-montenegro/"
+    }
+   ]
+  },
+  {
+   "id": "pol-europe-20261010",
+   "date": "2026-10-10",
+   "theater": "europe_security",
+   "beat": "POL",
+   "title": "歐盟長期預算新妥協案　援烏888.7億歐元不變",
+   "points": [
+    "歐盟輪值主席國愛爾蘭10月10日提出2028至2034年長期預算新妥協案，對烏克蘭專款維持888.7億歐元，與6月版相同，但低於執委會原提的1000億（基輔獨立報）。",
+    "在節儉派國家壓力下，「全球歐洲」項目從1695億砍到1490億歐元，入盟候選國經費從365億減到326億，減幅逾一成。",
+    "妥協案寫明烏克蘭的額外資金「可優先」從相關支柱撥用，因此烏克蘭受衝擊可能小於其他候選國。",
+    "預算需27國一致通過，各國希望在2027年法、波、義等國大選前、今年底完成。"
+   ],
+   "context": "歐盟七年期預算談判牽動對烏長期支持；基輔預估即使有歐盟900億歐元貸款，2027年預算仍有420億美元缺口。",
+   "stances": [
+    {
+     "actor": "愛爾蘭輪值主席",
+     "view": "稱對烏克蘭的承諾是整體目標核心。"
+    },
+    {
+     "actor": "節儉派國家",
+     "view": "推動大幅刪減支出，促成全球歐洲項目縮水。"
+    },
+    {
+     "actor": "歐盟資深官員",
+     "view": "形容烏克蘭長期資金面臨巨大不確定性。"
+    }
+   ],
+   "outlook": "值得注意：預算須全體一致同意，任一國都可能以否決權換取條件，年底前能否定案仍有變數。",
+   "watch": "歐盟高峰會對長期預算的討論",
+   "actors": [
+    "歐盟理事會",
+    "愛爾蘭",
+    "Thomas Byrne",
+    "歐盟執委會"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/"
+    }
+   ]
+  },
+  {
+   "id": "mil-ukraine-20261010",
+   "date": "2026-10-09",
+   "theater": "ukraine_front",
+   "beat": "MIL",
+   "title": "克拉馬托斯克遇襲死傷慘重　烏軍頓內茨克反擊",
+   "points": [
+    "基輔獨立報引述地方當局，過去一天俄軍攻擊至少造成41死67傷，其中頓內茨克州35死，克拉馬托斯克32死；俄方夜間發射136架無人機，烏方稱擊落114架。",
+    "ISW 10月8日評估指出，烏軍在斯拉維揚斯克、克拉馬托斯克以東反擊，收復Ozerne與Malynivka；烏方軍官稱俄軍正抽調無人機部隊與特種部隊增援該方向。",
+    "Mediazona稱8月26日烏軍飛彈打擊俄軍中央軍區與第41集團軍在頓內茨克的指揮所，炸死20名軍官（含7名上校），是開戰以來單次最多；親俄官員普希林稱使用風暴之影飛彈。",
+    "烏軍持續深入打擊：ISW稱烏軍攻擊巴什科爾托斯坦與鄂木斯克煉油廠，Yandex位於梁贊州的資料中心遭無人機攻擊起火、暫停運作。",
+    "ISW研判俄軍戰術無法在多布羅皮利亞造成突然突破，並稱俄國防部對哈爾科夫州北部包圍的說法沒有根據。"
+   ],
+   "context": "俄軍今年主攻頓內茨克州「要塞帶」城市群；烏軍9月初調整頓內茨克周邊指揮架構強化防線，雙方同時加大對彼此能源與後勤的遠程打擊。",
+   "stances": [
+    {
+     "actor": "ISW",
+     "view": "研判烏軍反擊可能影響俄軍對斯拉維揚斯克的攻勢。"
+    },
+    {
+     "actor": "俄軍事部落客",
+     "view": "稱不奪回利曼以南森林，俄軍攻向斯拉維揚斯克恐失敗或傷亡慘重。"
+    },
+    {
+     "actor": "澤倫斯基",
+     "view": "稱俄國若停止打擊烏國能源，烏方也會停止攻擊俄國煉油廠。"
+    }
+   ],
+   "outlook": "ISW研判前線陣地仍交錯，俄軍調兵可能讓斯拉維揚斯克－克拉馬托斯克方向近期成為最激烈戰場。",
+   "watch": "俄軍增援部隊抵達後的斯拉維揚斯克戰況",
+   "actors": [
+    "烏軍",
+    "俄軍",
+    "澤倫斯基",
+    "普希林",
+    "Mediazona"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-kill-at-least-41-injure-67-across-ukraine-as-glide-bombs-strike-zaporizhzhia/"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/record-20-russian-officers-killed-in-ukrainian-strikes-on-headquarters-in-donetsk-monitors-say/"
+    },
+    {
+     "publisher": "ISW／CTP",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-8-2026"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/"
+    }
+   ]
+  },
+  {
+   "id": "dip-ukraine-20261010",
+   "date": "2026-10-10",
+   "theater": "ukraine_front",
+   "beat": "DIP",
+   "title": "美烏歐邁阿密會談　聚焦冬季能源與安全保證",
+   "points": [
+    "美國特使魏科夫10月9日在邁阿密與烏克蘭、英法德三國、歐盟執委會及北約代表會談，議題包括冬季能源防護、穀物出口、安全保證與戰後重建（基輔獨立報）。",
+    "烏方代表團由總統府主任布達諾夫率領，成員包括烏梅洛夫、基斯利齊亞與阿拉卡米亞；魏科夫稱會談具建設性，但未宣布具體協議。",
+    "基輔獨立報稱俄方要以解除制裁換取停止攻擊烏國能源設施，並要把能源停火與黑海停火綁在一起。",
+    "川普同日與普丁通話後宣布讓俄國柴油供應國際市場，澤倫斯基批評這是強大夥伴的軟弱決定，並擔心烏方談判代表被當成煙幕。"
+   ],
+   "context": "美方10月初提議月底前舉行美俄烏三方技術層級會談，川普持續施壓雙方停止攻擊能源設施；俄方迄今未停止打擊烏國電網。",
+   "stances": [
+    {
+     "actor": "魏科夫",
+     "view": "稱會談具建設性，找出可進一步考慮的領域。"
+    },
+    {
+     "actor": "澤倫斯基",
+     "view": "代表團12日返國簡報；批評美方柴油決定讓俄國多賺戰爭經費。"
+    },
+    {
+     "actor": "克里姆林宮",
+     "view": "稱通話中確認願向美國與全球市場供應石油與成品油。"
+    }
+   ],
+   "outlook": "基輔獨立報報導俄方把能源停火與解除制裁掛鉤；值得注意美方讓步柴油可能削弱烏方談判籌碼。",
+   "watch": "10月12日代表團向澤倫斯基簡報與三方會談",
+   "actors": [
+    "魏科夫",
+    "布達諾夫",
+    "烏梅洛夫",
+    "澤倫斯基",
+    "普丁",
+    "川普"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/"
+    }
+   ]
+  },
+  {
+   "id": "pol-ukraine-20261010",
+   "date": "2026-10-10",
+   "theater": "ukraine_front",
+   "beat": "POL",
+   "title": "川普開放俄國柴油出口　美國會民主黨批背叛烏克蘭",
+   "points": [
+    "川普10月9日與普丁通話後宣布，俄國將向美國與全球市場供應柴油，先30萬噸、11月50萬噸、之後100萬噸；財政部海外資產控制辦公室發布臨時通用許可（基輔獨立報）。",
+    "民主黨參議員夏辛、舒默與華倫稱這是對烏克蘭、歐洲盟友與美國國安的背叛；他們指許可期六個月，削弱數週前兩黨通過的限俄能源收入立法。",
+    "澤倫斯基稱此舉讓俄國多賺戰爭經費，是軟弱決定；烏國制裁官員稱30萬噸只夠美國約15小時柴油需求。",
+    "克里姆林宮稱通話中確認願供應石油與成品油；普丁此前主張是制裁而非供給阻擋俄國柴油進入國際市場。"
+   ],
+   "context": "油價受美伊戰爭推升，川普面臨期中選舉壓力；俄國國內柴油出口禁令延長到10月31日，兩黨數週前才通過限制俄國能源收入的法案。",
+   "stances": [
+    {
+     "actor": "川普",
+     "view": "稱柴油價格將下降，感謝普丁，並稱烏克蘭是強大夥伴。"
+    },
+    {
+     "actor": "美國民主黨參議員",
+     "view": "稱決定背叛烏克蘭與盟友，破壞兩黨制裁立法。"
+    },
+    {
+     "actor": "澤倫斯基",
+     "view": "稱這是強大夥伴的軟弱決定，會增加俄國戰爭收入。"
+    },
+    {
+     "actor": "歐洲外交官",
+     "view": "認為對油價影響有限，但象徵意義重大。"
+    }
+   ],
+   "outlook": "值得注意：白宮與國會在對俄制裁上的分歧可能擴大，國會是否推動反制立法是下一步觀察點。",
+   "watch": "國會是否推動推翻柴油許可的行動",
+   "actors": [
+    "川普",
+    "普丁",
+    "澤倫斯基",
+    "夏辛",
+    "舒默",
+    "華倫"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/"
+    }
+   ]
+  },
+  {
+   "id": "mil-korea-20261009b",
+   "date": "2026-10-09",
+   "theater": "korea_peninsula",
+   "beat": "MIL",
+   "title": "北韓DMZ埋雷　南韓軍方國會報告強化監控",
+   "points": [
+    "聯合參謀本部議長Jin Yong-sung 10月8日在國會國政監查表示，9月21日DMZ地雷爆炸致3名官兵受傷，違反停戰協定，並誓言採取適當措施（NK News）。",
+    "軍方打算以AI等科技強化DMZ監控；10月5日副議長Kwon Dae-won已要求北韓道歉，並稱北韓若不自行排雷，南韓將持續清除（韓國先驅報）。",
+    "值得注意：這屬半島邊界摩擦升高，對台灣沒有直接軍事影響，但可作為觀察北韓邊界政策與聯合國軍司令部運作的案例。",
+    "聯參10月5日說，南韓與聯合國軍司令部9月26至29日聯合勘查，認定至少4顆北韓製地雷，距軍事分界線以南約10公尺，判斷是刻意埋設。",
+    "同日軍方在聯合國軍司令部協調下清除雷區，軍方人士稱這是首度實體清除軍事分界線以南的北韓雷區（韓國先驅報）。",
+    "聯參稱北韓今年每天最多動員7000人佈雷、築籬與修築戰術道路，越線約50次，2025年為17次。",
+    "在野黨議員Yu Yong-weon稱軍方已知6處雷區，估計有數百顆地雷，並說這壓縮了軍方在DMZ內的作戰空間（NK News）。"
+   ],
+   "context": "9月21日DMZ地雷爆炸後，南韓與聯合國軍司令部聯合調查，認定為北韓埋設，10月5日清除雷區，10月8日聯參在國會再度表態。",
+   "stances": [
+    {
+     "actor": "南韓聯參",
+     "view": "稱北韓埋雷違反停戰協定，要求道歉並自行排雷，否則持續清除。"
+    },
+    {
+     "actor": "聯合國軍司令部",
+     "view": "據韓國先驅報，評估地雷是刻意埋設超過12個月。"
+    },
+    {
+     "actor": "國民力量黨議員",
+     "view": "Yu Yong-weon稱有6處雷區、數百顆地雷，要求加強對策。"
+    }
+   ],
+   "outlook": "聯參情報官員研判，北韓邊界工事約完成四至六成，預計兩年內完工，雙方邊界摩擦可能持續。",
+   "watch": "北韓對清雷與道歉要求的回應",
+   "actors": [
+    "南韓聯參",
+    "北韓",
+    "聯合國軍司令部",
+    "國民力量黨"
+   ],
+   "sources": [
+    {
+     "publisher": "NK News",
+     "url": "https://www.nknews.org/2026/10/rok-military-chief-condemns-north-korean-mine-blasts-as-a-clear-provocation/"
+    },
+    {
+     "publisher": "NK News",
+     "url": "https://www.nknews.org/2026/10/north-korea-likely-buried-hundreds-of-mines-south-of-border-rok-lawmaker-says/"
+    },
+    {
+     "publisher": "Korea Herald",
+     "url": "https://www.koreaherald.com/article/10893368"
+    }
+   ]
+  },
+  {
+   "id": "dip-scs-20261009",
+   "date": "2026-10-09",
+   "theater": "south_china_sea",
+   "beat": "DIP",
+   "title": "毛寧批菲倒打一耙 北京重申堅決回應挑戰",
+   "points": [
+    "10月8日菲律賓海警船赴仁愛礁附近海域後送坐灘軍艦上一名傷員；菲方稱遭中國海警開水砲阻撓，中方稱已允許小艇轉運並提供便利，雙方各執一詞。",
+    "中國外交部發言人毛寧10月9日稱，菲方海警船8日上午未經許可進入該海域，中方處置合法合理，基於人道考量才允許轉運，並指菲方倒打一耙。",
+    "值得注意的是，北京把此事定調為人道便利，可能意在反駁水砲指控、爭取國際輿論；這類海警執法加輿論戰的模式，也可能是台灣觀察北京灰色地帶手法的參考。",
+    "菲律賓海警發言人塔里埃拉稱，中國海警船在礁北約9海浬處對菲艇BRP Cabra開水砲，逼近至約400碼，任務延誤近10小時；他說該艇未被水柱直接擊中。",
+    "中國海警發言人姜略10月8日晚發表聲明，要求菲方立即停止侵權挑釁和不實炒作，並重申對包括仁愛礁在內的南沙群島擁有主權。",
+    "菲軍方統計9月中國海軍與海警船在四處海域共101艘，8月為56艘；兩案同時浮現，可能加深外界對對峙升高的擔憂。"
+   ],
+   "context": "仁愛礁坐灘軍艦是菲方長期駐守據點，補給與後送屢生衝突；2016年仲裁判決否定中國九段線歷史性權利，北京不接受。",
+   "stances": [
+    {
+     "actor": "中國外交部",
+     "view": "毛寧稱菲艦未經許可入海域，中方基於人道允許轉運，並指菲方倒打一耙。"
+    },
+    {
+     "actor": "中國海警局",
+     "view": "發言人姜略要求菲方停止侵權挑釁與不實炒作。"
+    },
+    {
+     "actor": "菲律賓海警",
+     "view": "塔里埃拉稱中方開水砲，延誤後送近10小時。"
+    },
+    {
+     "actor": "菲律賓軍方",
+     "view": "發言人特里尼達德稱中方船艦增加，意在動搖菲方堅持任務的決心。"
+    }
+   ],
+   "outlook": "小馬可仕表示希望東協與中國12月前完成行為準則，但也說不確定能否找到解方；值得注意的是對峙短期內可能持續（本站研判）。",
+   "watch": "菲方是否外交抗議、後續補給與後送",
+   "actors": [
+    "毛寧",
+    "中國海警局",
+    "菲律賓海警",
+    "菲律賓軍方",
+    "小馬可仕"
+   ],
+   "sources": [
+    {
+     "publisher": "聯合報",
+     "url": "https://udn.com/news/story/7331/9805150"
+    },
+    {
+     "publisher": "聯合報",
+     "url": "https://udn.com/news/story/7331/9804397"
+    },
+    {
+     "publisher": "新華網（中國海警局聲明）",
+     "url": "https://www.news.cn/20261009/3a2312a463ff48ca8bc53fae421d777e/c.html"
+    },
+    {
+     "publisher": "SBS（法新社）",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008790347"
+    },
+    {
+     "publisher": "Manila Times（法新社）",
+     "url": "https://www.manilatimes.net/2026/10/09/news/national/ph-flags-near-doubling-of-chinese-presence-in-disputed-waters/2442037"
+    }
+   ]
+  },
+  {
+   "id": "dip-iran-20261009b",
+   "date": "2026-10-09",
+   "theater": "iran_gulf",
+   "beat": "DIP",
+   "title": "美再制裁17船，伊朗稱濃縮權為紅線",
+   "points": [
+    "美國財政部10月8日宣布制裁17艘船舶及其所有人，行動名為Operation Economic Outcast；據伊朗國際報導，官員稱此舉實質癱瘓伊朗剩餘的影子船隊。",
+    "一名伊朗高階官員對路透表示，德黑蘭絕不放棄濃縮權，美方承認此權利是紅線，濃縮程度等細節日後再談；他否認正與美方進行核談判（伊朗國際轉述）。",
+    "值得注意：美方加碼制裁並要求削減濃縮，伊方死守濃縮權，雙方落差可能使七日方案等斡旋難有突破，荷莫茲航運風險也難降。",
+    "國務卿盧比歐10月7日說伊朗錯失多次達成核協議的機會，且已對荷莫茲海峽失去完全控制；副總統范斯要求伊朗大幅削減濃縮能力，質疑其為何需要60%濃縮燃料。",
+    "總統裴澤斯基安10月5日稱談判毫無意義；外長阿拉格齊則說德黑蘭仍認真看待外交，但準備自衛。川普10月5日表示仍對直接會談持開放態度。",
+    "財政部長貝森特10月5日說里亞爾創新低，且伊朗上月沒有把原油裝上油輪（貝森特說法）；伊朗國際稱里亞爾10月4日跌至每美元272.3萬。"
+   ],
+   "context": "伊朗經中間人向美方提出恢復荷莫茲海峽安全的七日方案，伊官員稱正研議美方回覆；美方同時以制裁與經濟施壓，伊朗里亞爾10月4日創紀錄新低。",
+   "stances": [
+    {
+     "actor": "美國國務卿盧比歐",
+     "view": "說伊朗錯失核協議機會，已對荷莫茲海峽失去完全控制。"
+    },
+    {
+     "actor": "美國副總統范斯",
+     "view": "要求伊朗大幅削減濃縮能力，質疑其為何需要60%濃縮燃料。"
+    },
+    {
+     "actor": "伊朗高階官員",
+     "view": "對路透稱不會放棄濃縮權，承認此權利是紅線，細節可後談。"
+    },
+    {
+     "actor": "伊朗總統裴澤斯基安",
+     "view": "稱與美方談判毫無意義，指每次談判後都遭攻擊。"
+    },
+    {
+     "actor": "伊朗外長阿拉格齊",
+     "view": "稱德黑蘭仍認真看待外交，但準備好自衛。"
+    }
+   ],
+   "outlook": "伊朗國際10月6日報導稱，連偏好外交的伊朗分析人士也認為雙邊關係正退回原點；美方對七日方案的回覆內容值得觀察。",
+   "watch": "美方回覆七日方案與下一輪制裁",
+   "actors": [
+    "美國財政部",
+    "盧比歐",
+    "范斯",
+    "裴澤斯基安",
+    "阿拉格齊",
+    "貝森特",
+    "川普"
+   ],
+   "sources": [
+    {
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/202610085342"
+    },
+    {
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/202610073318"
+    },
+    {
+     "publisher": "Iran International",
+     "url": "https://www.iranintl.com/en/202610060998"
+    }
+   ]
+  },
+  {
+   "id": "mil-mideast-20261009b",
+   "date": "2026-10-09",
+   "theater": "middle_east",
+   "beat": "MIL",
+   "title": "以軍上尉南黎巴嫩陣亡 停火後第17名士兵",
+   "points": [
+    "以軍10月8日表示，第七旅603營一名21歲上尉在黎巴嫩南部作戰陣亡，另有3人輕傷。阿拉比亞英文網報導，這是6月停火以來第17名陣亡的以軍士兵。",
+    "以色列3月入侵後仍占有黎南一帶土地。據阿拉比亞報導，雙方6月28日在美國斡旋下達成框架，內容含真主黨解除武裝、以軍逐步撤出、黎巴嫩軍隊進駐，但前線仍有傷亡。",
+    "值得注意的是，停火後傷亡持續累積，可能加深以色列國內對長期駐留黎南的質疑，也可能拖慢框架落實；對台灣無直接影響，屬區域局勢變數。",
+    "以色列時報另報導，以軍10月8日稱在加薩南部擊斃一名越過「黃線」的巴勒斯坦人，指其企圖破壞軍事設施；此為以軍說法，未見獨立查證。",
+    "黎巴嫩官方數字稱，3月以來以軍空襲與地面行動已造成黎方逾4300人死亡（阿拉比亞轉述）。歐盟外交事務負責人卡拉斯同日訪貝魯特，稱將盡快啟動黎軍訓練任務。"
+   ],
+   "context": "以色列3月入侵黎巴嫩南部，6月與真主黨停火，6月28日雙方達成含解除武裝與逐步撤軍的框架，但以軍仍駐留當地並持續出現傷亡。",
+   "stances": [
+    {
+     "actor": "以軍",
+     "view": "稱上尉在黎南作戰陣亡、3人輕傷；報導未說明確切地點，也未見真主黨回應。"
+    },
+    {
+     "actor": "黎巴嫩官方",
+     "view": "數字稱3月以來以軍攻擊已造成逾4300人死亡（阿拉比亞轉述）。"
+    },
+    {
+     "actor": "歐盟卡拉斯",
+     "view": "對法新社稱，歐盟要避免黎南出現安全真空，希望延長聯合國維和任務。"
+    }
+   ],
+   "outlook": "依阿拉比亞報導，框架已簽但以軍未撤；本站研判，若傷亡續增，以色列國內壓力可能升高，撤軍時程也可能受影響。",
+   "watch": "黎南框架撤軍時程與以軍傷亡",
+   "actors": [
+    "以軍",
+    "真主黨",
+    "黎巴嫩政府",
+    "黎巴嫩軍隊",
+    "歐盟",
+    "美國"
+   ],
+   "sources": [
+    {
+     "publisher": "Al Arabiya English",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/08/israeli-army-says-one-soldier-killed-three-wounded-in-south-lebanon-"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-08-2026/"
+    }
+   ]
+  },
+  {
+   "id": "dip-ukraine-20261009b",
+   "date": "2026-10-09",
+   "theater": "ukraine_front",
+   "beat": "DIP",
+   "title": "俄據報要求制裁鬆綁 作為能源停火代價",
+   "points": [
+    "基輔獨立報10月9日獨家報導，三名知情人士稱俄方把能源停火與制裁鬆綁等要求掛鉤，並希望連結黑海停火。",
+    "克宮發言人佩斯科夫10月8日說，俄方認為局部停火沒有意義；但報導稱俄方私下釋出願意考慮的訊號。",
+    "烏克蘭代表團預定10月9日在美國與川普特使會面，將要求釐清制裁要求；基輔堅持停火須雙方對等停手，攸關冬季能源設施能否喘息。",
+    "報導稱俄特使德米崔夫9月兩度赴美，與威特科夫和庫許納會面，並提出制裁鬆綁要求。",
+    "美方與烏方官員稱，川普想在美國期中選舉前展現烏克蘭議題進展；華府轉向較窄的能源設施與黑海航運協議。",
+    "一名歐洲外交官警告，若凍結的俄羅斯資金獲釋，幾乎確定會被用於升級戰爭，並稱沒人真信俄方會遵守停火。"
+   ],
+   "context": "美方推動烏俄互停攻擊對方能源設施，並談黑海航運。俄方一面公開稱局部停火無意義，一面據報以制裁鬆綁作為談判籌碼。",
+   "stances": [
+    {
+     "actor": "克宮佩斯科夫",
+     "view": "10月8日稱局部停火沒有意義。"
+    },
+    {
+     "actor": "烏克蘭官員",
+     "view": "匿名官員稱每次談判一開始俄方就加碼要求，不接受俄方白白獲利。"
+    },
+    {
+     "actor": "歐洲外交官",
+     "view": "擔心凍結資金若獲釋將被用於升級戰事，不認為俄方真想停火。"
+    },
+    {
+     "actor": "威特科夫與庫許納",
+     "view": "據報剛從俄國返回，認為能源停火有可能達成。"
+    }
+   ],
+   "outlook": "基輔獨立報稱美方希望10月底舉行美烏俄三方會談；值得注意：俄方若不放棄制裁要求，停火可能難落實。",
+   "watch": "烏美會談結果與三方會談時程",
+   "actors": [
+    "普丁",
+    "佩斯科夫",
+    "德米崔夫",
+    "威特科夫",
+    "庫許納",
+    "澤倫斯基",
+    "川普"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/putin-puts-a-price-on-trumps-ukraine-energy-truce/"
+    }
+   ]
+  },
+  {
+   "id": "econ-iran-20261009",
+   "date": "2026-10-08",
+   "theater": "iran_gulf",
+   "beat": "ECON",
+   "title": "荷莫茲攻船升溫油價破百 美財政部再制裁17艘伊朗影子船隊油輪",
+   "points": [
+    "中央社綜合外電，美媒報導美軍可能在11月期中選舉前再空襲伊朗，布倫特原油8日收每桶104.28美元、漲約4.1%，盤中觸及9月29日以來新高；颶風伊塞亞斯逼近美國墨西哥灣沿岸也推升油價。",
+    "美國財政部8日依第13902號行政命令制裁17艘油輪與17家公司，指其將伊朗原油、液化石油氣、甲醇等運往中國、巴基斯坦、印度與中東；財長貝森特表示將持續揭露協助伊朗政權賣油的業者。",
+    "川普9日排除在期中選舉前攻擊伊朗，稱與德黑蘭有「富有成效的討論」，國際油價隨之回落（中央社）。華府一手軍事施壓、一手制裁與談判的盤算，讓油價隨每則表態大幅擺盪。",
+    "彭博報導，英國海事貿易行動辦公室（UKMTO）10月以來已記錄荷莫茲海峽9起攻擊，達9月海峽與波斯灣合計的一半；波斯灣至中國的油輪運費創紀錄，願意穿越海峽的船東減少。",
+    "風險管理公司Marisks執行長Maniatis認為，伊朗不需攔下每艘船，只要讓航運業相信任何船都可能是下一個目標；這種心理威懾可能讓運費與保費持續墊高油價。",
+    "對台灣：中油10月3日宣布5至11日汽柴油價格凍漲，2月28日至10月4日穩定措施累計吸收約253.4億元；若國際油價續漲，下週油價與政府補貼壓力可能加大。"
+   ],
+   "context": "美伊戰爭爆發後荷莫茲海峽航運大受干擾。商品交易商估中東石油流量已回到戰前約八成（彭博），但CFR引述Kpler指9月原油出口略低於戰前七成，回升多靠繞道管線而非海峽。",
+   "stances": [
+    {
+     "actor": "美國財政部",
+     "view": "以「經濟放逐行動」持續清理伊朗影子船隊，8日同時將兩艘已轉售給非受制裁業者的船從制裁名單移除。"
+    },
+    {
+     "actor": "川普",
+     "view": "排除選前攻擊伊朗，稱雙方有富有成效的討論，但先前美媒報導美軍可能再空襲。"
+    },
+    {
+     "actor": "CFR",
+     "view": "布特（Max Boot）認為出口回升被高估，伊朗不太可能屈服，軍事手段無法終戰，唯有重啟談判。"
+    }
+   ],
+   "outlook": "CFR布特研判，伊朗在6月協議破局後升級的可能性高於投降；若攻船持續，運費與保費可能讓布倫特油價維持在百元上下。",
+   "watch": "美伊談判進展、UKMTO攻船通報、中油下週油價",
+   "actors": [
+    "川普",
+    "貝森特",
+    "伊朗革命衛隊",
+    "UKMTO",
+    "台灣中油"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/afe/202610090008.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/afe/202610090172.aspx"
+    },
+    {
+     "publisher": "美國財政部",
+     "url": "https://home.treasury.gov/news/press-releases/sb0653"
+    },
+    {
+     "publisher": "Insurance Journal（彭博）",
+     "url": "https://insurancejournal.com/news/international/2026/10/07/888260.htm"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://cna.com.tw/news/ahel/202610030137.aspx"
+    },
+    {
+     "publisher": "CFR",
+     "url": "https://www.cfr.org/articles/more-oil-same-war-why-increased-exports-arent-a-sign-of-irans-collapse"
+    }
+   ]
+  },
+  {
+   "id": "econ-global-20261009",
+   "date": "2026-10-08",
+   "theater": "global",
+   "beat": "ECON",
+   "title": "歐盟貿易執委赴北京談稀土與電動車 中國稀土管制暫停11月到期成焦點",
+   "points": [
+    "歐盟貿易執委塞夫柯維奇8至9日在北京與中國商務部長王文濤會談，議題包括市場准入、中國對歐出口與稀土出口管制；歐方盼10月內帶回可交給歐盟領袖的具體承諾（富比士、半島電視台）。",
+    "中方拒絕自願限制油電混合車對歐出口，商務部揚言若歐盟限制中企將堅決反制；歐盟1至7月對中貿易逆差達2340億歐元（富比士引衛報），布魯塞爾調整貿易姿態壓力升高。",
+    "中國2025年10月擴大的稀土管制暫停至2026年11月10日，北京尚未表態對歐是否延長；7月中國以歐盟對俄制裁為由，禁止對14家歐洲實體出口軍民兩用物項（富比士）。",
+    "紐時報導，受限名單包括德國最大國防製造商；中國4月也曾以對台軍售為由限制7家歐洲實體。波蘭東方研究中心警告措施可能妨礙北約成員軍隊現代化，對台軍售廠商可能面臨供應鏈報復。",
+    "美國國務卿盧比歐8日在里斯本表示「我們認為供應來源需要多元化」，呼籲葡萄牙等歐洲國家不要在關鍵商品上依賴中國（中央社）。",
+    "歐盟領袖將在10月15至16日歐洲理事會峰會討論下一步，選項包括要求關鍵產業至少有3個跨國供應商的多元化工具（富比士）。"
+   ],
+   "context": "稀土用於無人機、晶片、汽車與武器。歐盟兩年前對中國電動車加徵7.8%至35.3%關稅，但未涵蓋油電混合車；馬克宏與梅爾茨呼籲建立可快速啟動、反制經濟脅迫的工具。",
+   "stances": [
+    {
+     "actor": "歐盟執委會",
+     "view": "范德賴恩稱歐洲對中國稀土依賴已屬危險，主張發展本土供應（中央社引紐時）。"
+    },
+    {
+     "actor": "中國商務部",
+     "view": "反對歐盟擴大對油電混合車設限，稱點出產能過剩本身即是保護主義。"
+    },
+    {
+     "actor": "美國國務院",
+     "view": "盧比歐稱中國在歐洲的影響力對任何國家都不是好事，主張供應鏈多元化。"
+    },
+    {
+     "actor": "CFR",
+     "view": "9月報告認為中國把關鍵原料出口管制當地緣武器，2025年釜山緩和多屬表象，多元化在2035年前難解依賴。"
+    }
+   ],
+   "outlook": "CFR報告建議美歐與G7以聯合關稅、採購規則與經濟嚇阻因應，必要時啟動反脅迫工具；11月10日前中方是否延長暫停，可能左右歐洲國防產業供應。",
+   "watch": "北京會談成果、歐洲理事會峰會、11月10日稀土期限",
+   "actors": [
+    "塞夫柯維奇",
+    "王文濤",
+    "范德賴恩",
+    "盧比歐"
+   ],
+   "sources": [
+    {
+     "publisher": "Forbes",
+     "url": "https://www.forbes.com/sites/marktemnycky/2026/10/06/eu-china-trade-feud-reaches-defense-sector-ahead-of-beijing-talks/"
+    },
+    {
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/acn/202610080321.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aopl/202610093001.aspx"
+    },
+    {
+     "publisher": "CFR",
+     "url": "https://www.cfr.org/reports/dismantling-chinas-supply-chain-weapon"
+    }
+   ]
+  },
+  {
+   "id": "tech-taiwan-20261009",
+   "date": "2026-10-08",
+   "theater": "taiwan_strait",
+   "beat": "TECH",
+   "title": "賴清德促美從軍購轉向共同研發生產 盼建非紅無人機供應鏈",
+   "points": [
+    "賴清德8日在總統府接見美國聯邦眾議員博伊爾（Brendan Boyle），呼籲台美防衛合作從軍購轉向共同研發與共同生產，特別是無人系統（Taipei Times，自由時報轉載）。",
+    "會見參議員班奈特（Michael Bennet）時，賴清德表示台灣希望與美方合作打造「非紅」無人機供應鏈並擴大產業交流，稱提高國防支出反映台灣採用新興科技的防衛轉型。",
+    "班奈特肯定立法院通過特別軍購預算，以及逾70億美元在台建造無人系統的經費，並表示將與國會同僚推動全面落實《台灣關係法》與「六項保證」。",
+    "若共同生產推進，可能縮短無人機取得時程並降低對中國零組件依賴，但仍取決於立法院預算審查與美方授權。",
+    "AEI 9月11日分析指出，5月通過約7800億元的特別預算因在野刪減，完全未編國內或台美共同研發武器經費；行政院擬議追加預算含559億元無人系統，仍待立院審查。"
+   ],
+   "context": "據AEI，追加預算納入先前被刪的600多架偵察無人機、4萬多架攻擊無人機與100多艘小型自殺無人艇，可讓國內無人機業者比六年期無人系統預算更早擴產。",
+   "stances": [
+    {
+     "actor": "賴清德",
+     "view": "台灣位居第一島鏈關鍵位置，主張以實力確保和平，盼台美從軍購走向共研共製。"
+    },
+    {
+     "actor": "班奈特",
+     "view": "肯定立法院無人系統預算，承諾在國會推動落實《台灣關係法》與六項保證。"
+    },
+    {
+     "actor": "AEI",
+     "view": "認為行政院追加預算可立即挹注國內國防產業，讓無人機業者提早擴大生產。"
+    }
+   ],
+   "outlook": "AEI研判追加預算若過關，國內無人機量產可提前；若立法院再度刪減，台美共同生產計畫可能延宕。",
+   "watch": "立法院審查追加預算、台美無人機共製安排",
+   "actors": [
+    "賴清德",
+    "博伊爾",
+    "班奈特",
+    "立法院"
+   ],
+   "sources": [
+    {
+     "publisher": "自由時報（Taipei Times）",
+     "url": "https://news.ltn.com.tw/news/focus/breakingnews/5600423"
+    },
+    {
+     "publisher": "AEI",
+     "url": "https://www.aei.org/commentary/china-taiwan-update-september-11-2026/"
+    }
+   ]
+  },
+  {
+   "id": "tech-ukraine-20261009",
+   "date": "2026-10-08",
+   "theater": "ukraine_front",
+   "beat": "TECH",
+   "title": "德企Quantum Systems擬供烏數萬架SPYS攔截機 反制俄噴射無人機",
+   "points": [
+    "德國防務公司Quantum Systems副總裁Lehna 7日在柏林表示，週末已簽署意向書，將供應烏克蘭數萬架SPYS攔截無人機，用以對付俄軍噴射動力Geran-4、Geran-5（United24）。",
+    "SPYS由Quantum Systems與烏克蘭夥伴WIY的合資公司研製，Lehna稱月產能達數千架、今年就有數千架可交付，並可沿用STRILA攔截機既有生產設施。",
+    "公司代表稱，烏軍對噴射無人機攔截率起初很低，後升破30%，近幾晚超過50%，歸功於結合F-16等戰機的分層防空；此為公司說法，未經獨立證實。若能量產，可能減輕烏軍對稀缺愛國者飛彈的依賴。",
+    "澤倫斯基10月2日稱，截至9月28日烏軍僅擊落57%噴射動力無人機，烏克蘭10月底前可望生產最多400架攔截無人機，但受引擎短缺與預算缺口拖累（Kyiv Independent）。",
+    "俄國防部稱7日晚間起擊落399架烏克蘭無人機，並揚言因煉油廠遇襲將擴大對烏打擊；同夜巴什科爾托斯坦薩拉瓦特煉油廠傳遭無人機攻擊起火（Meduza）。"
+   ],
+   "context": "Asia Times引俄方資料稱Geran-5時速約600公里、航程達1000公里，具抗干擾能力；烏克蘭軍情局指其零件含中國製噴射引擎、美製處理器與德製電晶體。",
+   "stances": [
+    {
+     "actor": "Quantum Systems",
+     "view": "稱可立即開始交付，今年即有數千架SPYS可供烏軍使用。"
+    },
+    {
+     "actor": "澤倫斯基",
+     "view": "稱對噴射無人機的擊落率遠低於需要，預算短缺限制防禦武器量產。"
+    },
+    {
+     "actor": "日本防衛研究所",
+     "view": "富川英生認為烏克蘭結合法規改革、評估標準與對外開放形成無人機生態系，國際合作補足技術與資金缺口。"
+    }
+   ],
+   "outlook": "日本防衛研究所富川英生認為，烏克蘭分散式生產利於快速回應前線需求，但不利同型大量生產，政府正推動標準化；外援量產攔截機可能補足此短板。",
+   "watch": "SPYS交付進度與烏軍對Geran-5攔截率",
+   "actors": [
+    "Quantum Systems",
+    "WIY",
+    "澤倫斯基",
+    "俄羅斯國防部"
+   ],
+   "sources": [
+    {
+     "publisher": "United24 Media",
+     "url": "https://united24media.com/defense-tech/ukraine-to-get-tens-of-thousands-of-spys-interceptor-drones-built-to-hunt-russias-jet-shaheds-23257"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-aims-to-produce-up-to-400-interceptor-drones-as-russian-jet-powered-drone-use-grows-zelensky-says/"
+    },
+    {
+     "publisher": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
+    },
+    {
+     "publisher": "Asia Times",
+     "url": "https://asiatimes.com/2026/10/russias-jet-powered-drones-mark-a-deadly-evolution-in-ukraine-war/"
+    },
+    {
+     "publisher": "日本防衛研究所",
+     "url": "https://www.nids.mod.go.jp/publication/commentary/commentary454.html"
+    }
+   ]
+  },
+  {
+   "id": "cyber-global-20261009",
+   "date": "2026-10-08",
+   "theater": "global",
+   "beat": "CYBER",
+   "title": "美日英等聯手查扣中國「亞麻颱風」駭客工具，台灣大學與能源業受害",
+   "points": [
+    "美國司法部與FBI 10月8日宣布，經法院授權查扣Microscan與FishHub兩套駭客工具相關網域，司法部稱共6個網域，指工具由中國公司Integrity Technology Group操作。",
+    "司法部指FishHub已確認受害者包括約20所台灣大學，Microscan曾鎖定台灣天然氣與電力關鍵基礎設施業者，另含美國南卡羅來納州電力公司及日本、波蘭機場。",
+    "歸因方為美方：司法部稱該公司與中國政府有合約，The Record報導指其受中國國家安全部僱用；據The Hacker News，該公司否認指控。",
+    "FBI等7國機關同日發布聯合通報，指相關駭客竊取東南亞政府、執法、醫療與宗教機構電郵，並經入口網站提供第三方存取；通報列8個遭利用漏洞。",
+    "司法部表示日本警察廳提供大量協助；英國NCSC、澳洲、紐西蘭、加拿大、西班牙也參與通報，顯示盟國在對中網攻歸因上協同加深。",
+    "司法部稱這是兩年內第二度瓦解該公司行動，2024年9月曾瓦解其逾20萬台裝置的Mirai變種殭屍網路；工具改換基礎設施後可能再起。"
+   ],
+   "context": "「亞麻颱風」（Flax Typhoon）為微軟2023年命名，主要鎖定台灣政府、教育、關鍵製造與資訊業。美國2025年1月、英國2025年12月已制裁Integrity Tech。",
+   "stances": [
+    {
+     "actor": "美國司法部",
+     "view": "國安助理部長Eisenberg稱美國不會容許中國或其代理人在網路空間對美行動而不受懲罰。"
+    },
+    {
+     "actor": "CISA",
+     "view": "官員Chris Butera指中國政府駭客持續在關鍵基礎設施網路中預先布局。"
+    },
+    {
+     "actor": "Integrity Tech",
+     "view": "據The Hacker News報導，該公司否認相關指控。"
+    }
+   ],
+   "watch": "台灣數位發展部、資安署與教育部是否回應受害校院清查",
+   "actors": [
+    "美國司法部",
+    "FBI",
+    "CISA",
+    "Integrity Tech",
+    "日本警察廳",
+    "英國NCSC"
+   ],
+   "sources": [
+    {
+     "publisher": "美國司法部",
+     "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated"
+    },
+    {
+     "publisher": "The Record",
+     "url": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown"
+    },
+    {
+     "publisher": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html"
+    },
+    {
+     "publisher": "自由時報",
+     "url": "https://news.ltn.com.tw/news/world/breakingnews/5600474"
+    }
+   ]
+  },
+  {
+   "id": "cyber-taiwan-20261009",
+   "date": "2026-10-08",
+   "theater": "taiwan_strait",
+   "beat": "CYBER",
+   "title": "思科Talos揭露冒名台灣研究機構的釣魚行動，可繞過多因素驗證",
+   "points": [
+    "思科資安團隊Talos 10月8日發布報告，揭露代號UAT-11985的行動，以活動邀請信對台灣研究機構相關人士發動魚叉式釣魚。",
+    "誘餌冒用台灣歐盟中心、政大國際關係研究中心與台灣研究院名義，並在真實活動海報上改放惡意QR碼，連實體文宣讀者也可能中招。",
+    "Talos稱釣魚工具以中間人手法即時轉送帳密與多因素驗證（含passkey提示）以竊取登入工作階段；信件結構高度一致，研判可能由AI輔助生成。",
+    "歸因：Talos未將行動指向特定國家或已知組織，僅以中度信心研判工具開發者母語為簡體中文。",
+    "台灣智庫與學界長期是情蒐目標，此類手法可能用於取得研究人員信箱與國際交流資訊，相關單位宜提高警覺。"
+   ],
+   "context": "Talos表示於2026年年中觀察到此行動，分析3封各冒用不同機構的釣魚信，並發布ClamAV與Snort偵測規則。",
+   "watch": "台灣受冒名機構與資安署是否發出警示",
+   "actors": [
+    "Cisco Talos",
+    "UAT-11985",
+    "台灣歐盟中心",
+    "政大國關中心",
+    "台灣研究院"
+   ],
+   "sources": [
+    {
+     "publisher": "Cisco Talos",
+     "url": "https://blog.talosintelligence.com/uat-11985/"
+    }
+   ]
+  },
+  {
+   "id": "cyber-ukraine-20261009",
+   "date": "2026-10-08",
+   "theater": "ukraine_front",
+   "beat": "CYBER",
+   "title": "ESET：親俄駭客升級惡意程式鎖定烏克蘭運輸與能源業",
+   "points": [
+    "斯洛伐克資安公司ESET新研究指出，網諜組織UAC-0099持續改版下載器MatchBoil，鎖定烏克蘭運輸、製造與能源業者。",
+    "ESET稱該組織「可能為俄羅斯利益行動」；烏克蘭CERT-UA於2023年6月首度公開此組織，並於2025年8月記錄MatchBoil。",
+    "據The Record，感染案例包括2025年7至8月運輸公司、2025年12月製造業者與2026年6月能源業者，最新版本見於2026年4月；受害數量未公開。",
+    "另一資安公司GreyNoise 10月8日報告，9月21日至10月1日針對烏克蘭海康威視攝影機漏洞的利用嘗試激增，時間與俄軍空襲升級重疊。",
+    "GreyNoise指入侵攝影機可能用於空襲前後的目視監控，但明言無法確認與空襲有關聯；網攻與實體打擊結合的風險值得追蹤。"
+   ],
+   "context": "UAC-0099自2022年起活動，過去鎖定烏克蘭政府、金融與媒體機構，以釣魚信散布惡意程式。",
+   "watch": "CERT-UA是否發布新警示及能源設施受害情況",
+   "actors": [
+    "ESET",
+    "UAC-0099",
+    "CERT-UA",
+    "GreyNoise"
+   ],
+   "sources": [
+    {
+     "publisher": "The Record",
+     "url": "https://therecord.media/russia-ukraine-malware-transportation"
+    },
+    {
+     "publisher": "GreyNoise",
+     "url": "https://www.greynoise.io/blog/hikvision-camera-exploitation-attempts-ukraine"
+    }
+   ]
+  },
+  {
+   "id": "info-taiwan-20261009",
+   "date": "2026-10-09",
+   "theater": "taiwan_strait",
+   "beat": "INFO",
+   "title": "國慶前夕中國海警船擾金門，海巡定性為認知作戰重點時期",
+   "points": [
+    "中國海警船4艘於10月9日上午9時10分起，分兩組從料羅東方及西南方進入金門限制水域，至11時13分全數駛離。",
+    "海巡署金馬澎分署稱國慶期間是中國灰色地帶襲擾與「認知作戰重點時期」，以巡防艇一對一併航並以中英文廣播驅離。",
+    "中方此前定調：中國海警局東海分局9月29日稱9月以來在金門附近「常態執法巡查」，以維護兩岸漁民權益為由，可能意在塑造對金門水域的管轄敘事。",
+    "報導未見中方對10月9日行動的說明；海巡所稱認知作戰屬台方定性，台灣方面持續以即時公開資訊回應。"
+   ],
+   "context": "中國海警自2024年起多次以「執法巡查」名義進入金門限制水域，9月底並對台灣海巡廣播喊話。",
+   "stances": [
+    {
+     "actor": "海巡署金馬澎分署",
+     "view": "國慶期間為中國灰色地帶襲擾與認知作戰重點時期，將維持全天候監偵與立即反應。"
+    },
+    {
+     "actor": "中國海警局東海分局",
+     "view": "稱在金門附近依法常態執法巡查，維護兩岸漁民權益與廈金海域航行秩序。"
+    }
+   ],
+   "watch": "國慶當天及賴總統演說後中方官媒與海警動作",
+   "actors": [
+    "海巡署",
+    "中國海警局",
+    "賴清德"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/acn/202610090184.aspx"
+    },
+    {
+     "publisher": "新華網",
+     "url": "https://www.news.cn/legal/20260929/74ff30c70e354c8f9e2c8b7d931c3b6e/c.html"
+    },
+    {
+     "publisher": "FTNN新聞網",
+     "url": "https://www.ftnn.com.tw/news/585944"
+    }
+   ]
+  },
+  {
+   "id": "info-korea-20261009",
+   "date": "2026-10-07",
+   "theater": "korea_peninsula",
+   "beat": "INFO",
+   "title": "查核中心：網傳南韓「數百萬人」要求彈劾李在明影片為2019年舊片",
+   "points": [
+    "台灣事實查核中心10月7日判定為錯誤：網傳影片稱10月3日南韓開天節數百萬人上街要求彈劾總統李在明，實為2019年10月要求法務部長曹國下台的集會畫面。",
+    "查核中心引南韓警方非正式估計，2026年10月3日光化門周邊集會約2.8萬人，與網傳「數百萬人」差距甚大。",
+    "當日確有在野集會，訴求包括徹查非軍事區地雷爆炸事件、暫停中國公民免簽入境與要求國防部長辭職；舊片挪用可能誇大南韓政局動盪印象。"
+   ],
+   "context": "挪用舊抗議畫面誇大他國社會動盪，是台灣社群上國際類假訊息的常見手法。",
+   "watch": "南韓在野抗議規模與相關假訊息後續擴散",
+   "actors": [
+    "台灣事實查核中心",
+    "李在明",
+    "自由統一黨",
+    "國民力量黨"
+   ],
+   "sources": [
+    {
+     "publisher": "台灣事實查核中心",
+     "url": "https://tfc-taiwan.org.tw/fact-check-reports/seoul-protest-video-misused-old-2019-facts/"
+    }
+   ]
+  },
+  {
+   "id": "sum-sudan-20261009",
+   "date": "2026-10-07",
+   "theater": "sudan",
+   "beat": "SUM",
+   "title": "布爾漢拒談判誓言收復全境，聯合國人權理事會籲停火",
+   "points": [
+    "蘇丹軍方領袖布爾漢10月6日在梅羅維（Merowe）集會上表示將奪回快速支援部隊（RSF）控制的「每一寸」土地並拒絕談判，稱軍事選項將持續到RSF被逐出蘇丹（半島電視台引述蘇丹通訊社）。",
+    "美國阿拉伯與非洲事務資深顧問布洛斯10月5日在X發文，主張和平應來自「蘇丹人主導」的包容性全國對話；美國國務院9月稱雙方及其領導人都不代表合法憲政治理。布爾漢拒談與華府路線明顯有落差。",
+    "戰場上，半島電視台報導政府軍在北科爾多凡取得進展後，正朝恩納胡德（En Nahud）與胡韋（Al Khuway）推進，RSF則在西科爾多凡集結；RSF在西科爾多凡一次攻擊造成10名平民死亡。",
+    "東南部藍尼羅州戰線升溫：與RSF結盟的SPLM-N宣稱10月4日攻占鄰近衣索比亞邊境的Al-Kadalou，並揚言進軍州首府達馬津；軍方稱已擊退推進，蘇丹論壇報無法獨立查證。",
+    "國際移民組織（IOM）指出，三天內有逾5,500人自藍尼羅州村落流離失所。",
+    "聯合國人權理事會以28票贊成、10票反對、9票棄權延長蘇丹事實調查團任期，決議要求無條件立即全面停火，並譴責政府軍與RSF雙方違反國際人道法；蘇丹政府曾呼籲會員國否決。",
+    "世界糧食計畫署（WFP）車隊在南科爾多凡迪林與卡杜格利之間遭空襲，一名司機喪生；WFP要求透明調查並究責。"
+   ],
+   "context": "2023年4月，蘇丹軍方與RSF因RSF併入軍隊計畫破局而開戰，聯合國與國際估計已有數萬人死亡、約1,300萬人流離失所；聯合國事實調查團2月認定RSF圍攻並奪取法希爾具種族滅絕特徵。",
+   "stances": [
+    {
+     "actor": "布爾漢（蘇丹軍方）",
+     "view": "拒絕談判，誓言以軍事手段收復RSF控制的全部領土。"
+    },
+    {
+     "actor": "布洛斯（美國）",
+     "view": "主張以蘇丹人主導的包容性全國對話實現和平，並過渡到文人領導政府。"
+    },
+    {
+     "actor": "聯合國人權理事會",
+     "view": "認為危機沒有軍事解方，要求無條件立即停火並建立獨立監督機制。"
+    },
+    {
+     "actor": "CTP（美國企業研究院）",
+     "view": "認為政府軍北科爾多凡攻勢意在確保喀土穆—歐拜伊德公路，為西進Um Sumeima鋪路；RSF在藍尼羅州攻勢可能牽制軍方資源。"
+    }
+   ],
+   "outlook": "美國智庫CTP 9月24日研判，政府軍主攻方向將沿公路向西推進，但藍尼羅州戰線可能分散兵力；在布爾漢拒談下，短期停火機會可能有限。",
+   "watch": "恩納胡德攻防與藍尼羅州達馬津周邊戰況",
+   "actors": [
+    "布爾漢",
+    "蘇丹武裝部隊",
+    "快速支援部隊（RSF）",
+    "SPLM-N",
+    "布洛斯",
+    "聯合國人權理事會",
+    "WFP"
+   ],
+   "sources": [
+    {
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/7/sudans-al-burhan-rejects-talks-vows-to-retake-all-territory-from-rsf"
+    },
+    {
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/6/un-rights-council-condemns-attacks-on-civilians-in-sudan-calls-for-truce"
+    },
+    {
+     "publisher": "Sudan Tribune",
+     "url": "https://sudantribune.com/article/319587"
+    },
+    {
+     "publisher": "Critical Threats（AEI）",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tigray-tplf-fano-china-prc-djibouti-jnim-mali-sudan-saf-rsf-somalia-aussom"
+    }
+   ]
+  },
+  {
+   "id": "sum-myanmar-20261009",
+   "date": "2026-10-08",
+   "theater": "myanmar",
+   "beat": "SUM",
+   "title": "敏昂萊訪馬來西亞，安華表態助緬甸重返東協",
+   "points": [
+    "緬甸總統敏昂萊10月7日抵吉隆坡展開兩天訪問，為2021年政變後首度訪馬；8日與馬來西亞首相安華會談，安華表示將盡「一切可能」協助緬甸透過東協重返區域社群（半島電視台）。",
+    "會談主軸是遣返：安華稱緬方迄今已接收10,493名國民，遣返將自願、安全且有尊嚴；敏昂萊表示會「盡快」接收更多在馬移工。批評者認為安華藉此紓解選前反移民壓力，敏昂萊則在尋求區域正當性。",
+    "馬來西亞是敏昂萊4月就任名義上文人總統後第5個接待他的東協國家，分析指東協一致立場正鬆動；緬甸東協問題專家Win Min認為交往擴大可能替軍政府創造空間，抵抗組織應警惕。",
+    "東協自2021年起因和平計畫沒有進展，將緬甸排除於高層政治會議之外；促成敏昂萊就任的選舉被民主觀察團體批評為「鬧劇」。",
+    "空襲並未停止：若開媒體DMG總編輯10月8日在Irrawaddy撰文，引若開軍（ULA/AA）說法指10月4至5日軍方空襲營區、診所與村落，造成8名平民死亡、11人受傷。",
+    "同文引DMG統計，2024年4月至2026年9月30日若開邦空襲累計造成667名平民死亡、1,302人受傷；作者認為軍方以空襲破壞已失守地區的基礎設施，使其難以治理。",
+    "人權觀察10月7日敦促安華向敏昂萊施壓停止侵權並停止強制遣返；聯合國難民署與人權團體擔憂返國者可能遭迫害與強制徵兵。"
+   ],
+   "context": "2021年政變引發內戰，ACLED統計各方死亡逾10萬人。聯合國資料顯示馬來西亞約有19萬名緬甸難民與尋求庇護者，約三分之二為羅興亞人，是否遣返羅興亞人仍不明。",
+   "stances": [
+    {
+     "actor": "安華（馬來西亞）",
+     "view": "願協助緬甸重返東協，並持續與緬方合作遣返在馬緬甸國民。"
+    },
+    {
+     "actor": "敏昂萊（緬甸）",
+     "view": "表示將盡快接收更多在馬來西亞的緬甸移工。"
+    },
+    {
+     "actor": "ALTSEAN-Burma",
+     "view": "創辦人Stothard認為安華為選票利用遣返議題，敏昂萊則需要東協承認他是總統。"
+    },
+    {
+     "actor": "人權觀察",
+     "view": "敦促安華施壓敏昂萊停止侵權，並停止強制遣返逃離者。"
+    }
+   ],
+   "outlook": "緬甸東協問題專家Win Min研判，交往擴大可能讓軍政府獲得更多空間，但東協整體目前仍未接受該政權。",
+   "watch": "東協是否鬆綁緬甸參與高層會議",
+   "actors": [
+    "敏昂萊",
+    "安華",
+    "若開軍",
+    "東協",
+    "人權觀察",
+    "聯合國難民署"
+   ],
+   "sources": [
+    {
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/8/malaysia-to-help-myanmar-reintegrate-into-asean-despite-rights-concerns"
+    },
+    {
+     "publisher": "The Irrawaddy（AFP）",
+     "url": "https://www.irrawaddy.com/news/myanmars-crisis-the-world/myanmar-coup-leader-lands-in-malaysia-for-migrant-return-talks.html"
+    },
+    {
+     "publisher": "The Irrawaddy",
+     "url": "https://www.irrawaddy.com/news/burma/critics-see-political-motives-behind-anwar-min-aung-hlaing-talks.html"
+    },
+    {
+     "publisher": "The Irrawaddy",
+     "url": "https://www.irrawaddy.com/opinion/guest-column/arakan-under-the-myanmar-regimes-air-war.html"
+    }
+   ]
+  },
+  {
+   "id": "sum-sahel-20261009",
+   "date": "2026-10-06",
+   "theater": "sahel",
+   "beat": "SUM",
+   "title": "馬利軍與俄非洲軍團收復基達爾，美布成立聯合工作小組",
+   "points": [
+    "馬利政府軍與俄羅斯「非洲軍團」10月6日未遇抵抗進入北部重鎮基達爾；據RFI，約120輛車自阿內菲斯出發，午後抵達。阿札瓦德解放陣線（FLA）數小時前宣布撤出，該城自4月起由其控制。",
+    "馬利軍方稱發動大規模空地聯合行動，在廷扎瓦廷等地精準打擊、擊斃「眾多恐怖分子」（未經獨立查證）；FLA稱撤退是暫時的「戰略且有序」措施，並指控俄馬不成比例使用空中武力。",
+    "RFI認為收復基達爾是過渡政府重要的政治與軍事收穫，但城內幾乎已無居民；FLA未正面交戰而保存兵力，其與JNIM的結盟仍在，北部局勢可能仍不穩定。",
+    "布吉納法索方面，美國國務院西非事務副助卿Richard Michaels 10月8日在瓦加杜古與布國外長共同主持首屆美布聯合工作小組，建立常設對話機制；Michaels稱合作應基於尊重各方主權。",
+    "布國外長Karamoko Jean Marie Traoré表示，此框架將重塑關係且不只限於布國，也涉及薩赫勒國家聯盟（AES）；報導未提及反恐合作內容。",
+    "馬利中部軍事壓力仍大：據RFI，9月迪烏拉（Dioura）基地遭襲至少百名士兵喪生，7月阿內菲斯附近伏擊至少50人死亡。"
+   ],
+   "context": "4月下旬JNIM與FLA聯合攻勢奪下基達爾並造成馬利國防部長身亡，重創軍政府。馬利2020、2021年政變上台的軍政府已與法國斷交、轉向俄羅斯；基達爾2023年11月曾被政府軍收復。",
+   "stances": [
+    {
+     "actor": "馬利軍方",
+     "view": "行動目的是消滅武裝恐怖團體並摧毀其庇護所。"
+    },
+    {
+     "actor": "FLA",
+     "view": "撤出是為保護生命的暫時措施，不代表放棄政治目標。"
+    },
+    {
+     "actor": "美國國務院",
+     "view": "Michaels稱與布國夥伴關係應基於相互尊重、尊重主權與共同利益。"
+    },
+    {
+     "actor": "CTP（美國企業研究院）",
+     "view": "認為JNIM加大馬利中部壓力，襲擊塞瓦雷空軍基地等意在削弱馬俄空中支援並切斷北向加奧的補給線。"
+    }
+   ],
+   "outlook": "美國智庫CTP 9月24日研判，加奧是馬俄反攻的主要集結基地，JNIM將持續以伏擊與爆裂物襲擊補給車隊；收復基達爾後，補給線安全可能成為守城關鍵。",
+   "watch": "FLA與JNIM是否反撲基達爾與北向補給線",
+   "actors": [
+    "馬利軍方",
+    "俄非洲軍團",
+    "FLA",
+    "JNIM",
+    "布吉納法索政府",
+    "美國國務院"
+   ],
+   "sources": [
+    {
+     "publisher": "RFI（allAfrica）",
+     "url": "https://allafrica.com/stories/202610080002.html"
+    },
+    {
+     "publisher": "Afrik.com",
+     "url": "https://www.afrik.com/mali-kidal-retombe-aux-mains-des-fama-le-fla-annonce-un-repli-strategique"
+    },
+    {
+     "publisher": "Burkina24",
+     "url": "https://burkina24.com/2026/10/09/le-burkina-faso-et-les-etats-unis-damerique-donnent-un-nouveau-souffle-a-leur-partenariat/"
+    },
+    {
+     "publisher": "Critical Threats（AEI）",
+     "url": "https://www.criticalthreats.org/analysis/ethiopia-tigray-tplf-fano-china-prc-djibouti-jnim-mali-sudan-saf-rsf-somalia-aussom"
+    }
+   ]
+  },
+  {
+   "id": "sum-venezuela-20261009",
+   "date": "2026-10-08",
+   "theater": "venezuela",
+   "beat": "SUM",
+   "title": "美追加起訴馬杜洛酷刑罪，委國第二大煉油廠停擺",
+   "points": [
+    "曼哈頓聯邦檢察官10月8日公布追加起訴書，控告1月3日遭美軍在卡拉卡斯逮捕的前總統馬杜洛共謀酷刑，其妻弗洛雷斯另涉共謀酷刑與毒品恐怖主義罪；起訴書稱馬杜洛主導鎮壓與酷刑體系（ABC新聞）。",
+    "FBI局長帕特爾稱該政權酷刑「超過十幾名美國公民」；美方長期指控馬杜洛政府扣押美國人作為換取制裁鬆綁的籌碼。法官同日駁回弗洛雷斯以健康為由的交保聲請。",
+    "委國現由前副總統羅德里格斯代理執政並加強與川普政府合作；美方8月28日宣布石油協議，取得17個油田逾650億桶儲量的開採權，由盧比歐、赫格塞斯與羅德里格斯談成。",
+    "第二大煉油廠卡登（Cardón）10月6日起火停產，日煉能力31萬桶；路透引述知情人士指起因是供應柴油加氫處理裝置的天然氣管線破裂，國營石油公司PDVSA暫停運作評估損害。",
+    "停電危機加劇民怨：ANOVA政策研究指2026年有62.8%家戶每天停電；委國社會衝突觀察站統計今年抗議逾4,000起，約為去年速度的三倍。",
+    "反對派領袖馬查多陣營10月4日表示，她願與代理總統羅德里格斯或國會議長豪爾赫·羅德里格斯直接對話，並堅持2027年7月舉行總統大選；政府尚未公開回應。",
+    "馬杜洛夫婦先前已對販毒等罪名不認罪，審判訂於2027年6月1日；馬杜洛律師主張他享有國家元首豁免。"
+   ],
+   "context": "美軍2026年1月3日在卡拉卡斯逮捕馬杜洛夫婦並押往紐約受審，委國由羅德里格斯代理總統。美國支持的代理政府與2015年選出的國會之間的談判9月中在卡拉卡斯展開。",
+   "stances": [
+    {
+     "actor": "FBI局長帕特爾",
+     "view": "稱馬杜洛政權酷刑多名美國公民，他們將為罪行負責。"
+    },
+    {
+     "actor": "馬查多陣營",
+     "view": "願與羅德里格斯兄妹直接對話以加速轉型，堅持2027年7月大選。"
+    },
+    {
+     "actor": "能源專家Hernandez",
+     "view": "認為電力危機源於管理與基礎設施的嚴重失敗，不只是天候，與羅德里格斯政府說法不同。"
+    }
+   ],
+   "outlook": "Latin Times分析指，煉油廠停擺減少國內加工選項，可能使美委石油協議的產量目標更難達成。",
+   "watch": "馬杜洛新罪名傳訊、馬查多返國與選舉時程",
+   "actors": [
+    "馬杜洛",
+    "弗洛雷斯",
+    "羅德里格斯",
+    "馬查多",
+    "帕特爾",
+    "PDVSA"
+   ],
+   "sources": [
+    {
+     "publisher": "ABC News",
+     "url": "https://abcnews.com/US/former-venezuelan-president-nicolas-maduro-wife-face-new/story?id=137097107"
+    },
+    {
+     "publisher": "Pajhwok（引述路透）",
+     "url": "https://pajhwok.com/2026/10/08/venezuelas-maduro-faces-new-charges-over-alleged-torture-of-us-citizens/"
+    },
+    {
+     "publisher": "Latin Times",
+     "url": "https://www.latintimes.com/how-venezuelas-simultaneous-refinery-explosion-blackout-crisis-are-testing-us-oil-deal-599962"
+    },
+    {
+     "publisher": "The Rio Times",
+     "url": "https://www.riotimesonline.com/venezuela-machado-ready-meet-delcy-transition-2026"
+    }
+   ]
+  },
+  {
+   "id": "mil-europe-20261009",
+   "date": "2026-10-08",
+   "theater": "europe_security",
+   "beat": "MIL",
+   "title": "立陶宛派兵增援加里寧格勒邊境，拉脫維亞爆白俄蒙面武裝越境",
+   "points": [
+    "立陶宛內政部長Katelynas於10月7日宣布，將派最多約100名軍人協助國家邊防局巡邏與俄羅斯加里寧格勒的邊界，為期約兩週、至10月16日。",
+    "國防部長Kaunas稱此為「預防性」措施，理由是俄國可能動員、恐有逃避兵役者非法越境；他表示命令「立即執行」，並指加里寧格勒段沒有實體圍籬。",
+    "直接觸發點是10月6日拉脫維亞—白俄邊境事件：蒙面武裝人員押送約20名移民闖關未果，數小時後越境破壞配電箱、偷走監視攝影機再退回白俄。",
+    "拉脫維亞內政部長Dombrava警告白俄，此類事件可能對白俄本身帶來「更嚴重後果」；立陶宛方面則稱邊境目前平靜，連續五天無來自白俄的非法越境。",
+    "對戰局而言，波羅的海國家正把「移民武器化」與破壞行動視為同一套混合威脅處理，並開始動用正規軍補邊防缺口，北約東翼的灰色地帶摩擦可能持續升溫。",
+    "北約另於10月8日宣布，年度核嚇阻演習「堅定正午」將於10月13日在義大利登場，17國參與、不使用實彈；北約稱演習與時事無關、不針對任何國家。"
+   ],
+   "context": "立陶宛國會10月6日一讀通過修憲、擬解除境內部署外國核武的禁令，克里姆林宮警告將「採取一切必要措施」。俄國可能動員的傳聞自8月起在東翼國家持續發酵。",
+   "stances": [
+    {
+     "actor": "立陶宛國防部",
+     "view": "Kaunas稱派兵是預防性步驟，因應俄國可能動員後恐增加的非法越境者。"
+    },
+    {
+     "actor": "拉脫維亞內政部",
+     "view": "Dombrava指白俄方面武裝人員主動推送移民，警告白俄可能自食更嚴重後果。"
+    },
+    {
+     "actor": "北約",
+     "view": "秘書長呂特稱「堅定正午」傳遞「團結與決心的明確訊息」，屬例行防禦性訓練。"
+    },
+    {
+     "actor": "RAND Europe",
+     "view": "RAND Europe 9月10日報告認為，防衛波羅的海若要壓制加里寧格勒戰力，可能誤觸俄方核相關資產，構成非蓄意升級風險。"
+    }
+   ],
+   "outlook": "立陶宛官方說法是部署至10月16日；若俄國真宣布動員或白俄邊境挑釁再起，部署可能延長。RAND Europe研判，東翼常規衝突一旦擴大，可能透過加里寧格勒等節點牽動核升級風險。",
+   "watch": "10月16日後立陶宛是否延長部署；俄國是否宣布動員",
+   "actors": [
+    "立陶宛國防部長Kaunas",
+    "立陶宛內政部長Katelynas",
+    "拉脫維亞內政部長Dombrava",
+    "白俄羅斯",
+    "北約秘書長呂特",
+    "RAND Europe"
+   ],
+   "sources": [
+    {
+     "publisher": "The Moscow Times",
+     "url": "https://www.themoscowtimes.com/2026/10/08/lithuania-deploys-army-to-kaliningrad-border-after-belarus-latvia-breach-a93920"
+    },
+    {
+     "publisher": "Militarnyi",
+     "url": "https://militarnyi.com/en/news/lithuania-to-deploy-troops-to-guard-border-with-kaliningrad-region/"
+    },
+    {
+     "publisher": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/07/latvian-officials-say-armed-masked-men-threatened-troops-while-trying-to-push-20-migrants-across-from-belarus-then-crossed-into-latvia-themselves-and-stole-surveillance-cameras"
+    },
+    {
+     "publisher": "NATO",
+     "url": "https://nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon"
+    },
+    {
+     "publisher": "Baltic Sentinel",
+     "url": "https://balticsentinel.eu/8557986/recent-rand-study-europe-s-conventional-shortfalls-could-drive-nuclear-escalation"
+    },
+    {
+     "publisher": "New Voice of Ukraine",
+     "url": "https://english.nv.ua/nation/lithuanian-seimas-advances-nuclear-weapons-ban-repeal-as-kremlin-threatens-measures-50647610.html"
+    }
+   ]
+  },
+  {
+   "id": "dip-europe-20261009",
+   "date": "2026-10-08",
+   "theater": "europe_security",
+   "beat": "DIP",
+   "title": "英相柏納姆首訪柏林，英德聯手反制俄國破壞與網攻",
+   "points": [
+    "英國首相柏納姆10月8日首度正式訪問柏林會晤德國總理梅爾茨，雙方宣布深化網路安全與反破壞等混合威脅合作，將共享情資、協調行動以監控並瓦解威脅。",
+    "英方聲明直指威脅主要來自俄國；柏納姆稱對基礎設施、企業與民主的攻擊「不是遙遠的威脅」，目標是削弱敵對行為者在歐洲運作的能力。",
+    "雙方預計正式完成2025年簽署的《肯辛頓條約》批准程序，涵蓋國防、安全、科技與經濟成長，延續前任施凱爾時期建立的英德軸心。",
+    "此行背景是德國指控俄國策劃萊比錫／哈勒機場無人機攻擊（莫斯科否認），英國曾為此召見俄國高階外交官，顯示英德正把混合威脅應對制度化。",
+    "柏納姆7月接替施凱爾後已先後會見澤倫斯基、馬克宏與川普；他同時表示今年稍晚將提出與歐盟更緊密關係的選項，英歐安全整合可能加速。"
+   ],
+   "context": "德國近月接連遭遇被指與俄國有關的無人機與破壞事件，梅爾茨國內則面臨基民盟地方選舉失利、AfD民調領先的壓力。英德2024年已簽《三一府協定》建立國防工業合作。",
+   "stances": [
+    {
+     "actor": "英國首相柏納姆",
+     "view": "稱英德聯手找出、揭露並瓦解敵對活動，攻擊旨在「削弱並分化」歐洲。"
+    },
+    {
+     "actor": "英國政府",
+     "view": "聲明指來自對手、「尤其是俄國」的威脅遍及全歐並延伸至更遠處。"
+    },
+    {
+     "actor": "俄羅斯",
+     "view": "否認涉入萊比錫／哈勒機場無人機攻擊事件。"
+    }
+   ],
+   "outlook": "英德合作可能成為歐洲反混合威脅協作的樣板；柏納姆若推動與歐盟更緊密關係，英國可能更深度參與歐盟安全倡議，但具體進度仍待其年底方案。",
+   "watch": "英國年底對歐盟關係選項；英德情資共享具體機制",
+   "actors": [
+    "英國首相柏納姆",
+    "德國總理梅爾茨",
+    "英國政府",
+    "德國政府",
+    "俄羅斯"
+   ],
+   "sources": [
+    {
+     "publisher": "Euronews",
+     "url": "https://euronews.com/2026/10/08/uk-pm-burnham-to-discuss-sabotage-and-cybersecurity-with-merz-in-berlin"
+    },
+    {
+     "publisher": "Lower Bucks Times",
+     "url": "https://lowerbuckstimes.com/2026/10/08/burnham-and-merz-launch-uk-germany-partnership-against-sabotage-and-cyber"
+    },
+    {
+     "publisher": "Azat TV（引述Politico）",
+     "url": "https://azat.tv/en/burnham-first-berlin-visit-merz-talks/"
+    }
+   ]
+  },
+  {
+   "id": "pol-europe-20261009",
+   "date": "2026-10-08",
+   "theater": "europe_security",
+   "beat": "POL",
+   "title": "波蘭眾議院推進2027預算，國防編列4.51% GDP",
+   "points": [
+    "波蘭眾議院10月8日以237票對198票（5票棄權）否決退回動議，將2027年預算草案送交委員會審查；二讀訂12月2日、三讀12月4日。",
+    "草案國防支出1981億茲羅提、占GDP 4.51%；總理府表示，部分SAFE計畫軍購將免徵增值稅。赤字上限2812億茲羅提，由圖斯克政府主導。",
+    "依Defence24，2027國防支出比2026年約2000億茲羅提（4.8% GDP）略減；財政部長Domański則稱明年軍備交付將「絕對創紀錄」。",
+    "圖斯克政府盤算以歐盟SAFE貸款（波蘭獲最大份額）承接軍購，減輕國家預算壓力；Defence24副總編Palowski警告最艱難時期可能在2030年後。",
+    "預算最終須經總統納夫羅茨基簽署；他今年3月曾否決SAFE融資法，總統府與內閣在國防財源上的角力可能再度影響預算時程。",
+    "對北約東翼而言，波蘭仍維持逾4.5% GDP國防投入，持續作為東翼軍力主力，但支出比例下滑可能引發盟國與國內反對派質疑。"
+   ],
+   "context": "波蘭為北約國防支出占GDP比例最高的國家之一，也是歐盟SAFE國防貸款最大受益國。總統納夫羅茨基3月以65%歐洲採購規定等理由否決SAFE融資法，圖斯克政府改以不立法方式推進。",
+   "stances": [
+    {
+     "actor": "波蘭財政部長",
+     "view": "Domański稱2027年預測軍備交付量將創紀錄。"
+    },
+    {
+     "actor": "Defence24",
+     "view": "副總編Palowski認為名目數字多屬會計問題，真正困難可能在2030年後SAFE資金用盡時。"
+    }
+   ],
+   "outlook": "Defence24研判，SAFE將成波蘭2030年前主要軍購財源，之後可能需刪減支出或大幅加稅才能維持國防水準；預算能否如期在1月生效，可能取決於總統是否簽署。",
+   "watch": "12月二、三讀；總統納夫羅茨基是否簽署",
+   "actors": [
+    "波蘭總理圖斯克",
+    "總統納夫羅茨基",
+    "財政部長Domański",
+    "波蘭眾議院",
+    "歐盟SAFE"
+   ],
+   "sources": [
+    {
+     "publisher": "UA.News（引述RMF24）",
+     "url": "https://ua.news/en/politika/seim-polshchi-peredav-proiekt-biudzhetu-na-2027-rik-do-komisii-rmf24"
+    },
+    {
+     "publisher": "Defence24",
+     "url": "https://defence24.pl/polityka-obronna/budzet-obronny-lekko-spada-najgorsze-dopiero-przed-nami"
+    },
+    {
+     "publisher": "EUobserver",
+     "url": "https://euobserver.com/207372/tusk-comes-up-with-a-plan-b-after-polish-president-vetoes-historic-defence-spending-law/"
+    }
+   ]
+  },
+  {
+   "id": "mil-iran-20261009",
+   "date": "2026-10-08",
+   "theater": "iran_gulf",
+   "beat": "MIL",
+   "title": "荷莫茲油輪遇襲創開戰以來單週新高，美封鎖持續",
+   "points": [
+    "路透10月7日引述三名海事安全消息人士，9月28日至10月5日荷莫茲海峽周邊至少12艘油輪、液化天然氣及液化石油氣船遭攻擊，為2月28日開戰以來單週最多；國際海事組織同期記錄9起。",
+    "美國主導的聯合海事資訊中心指出，革命衛隊持續以無人機盤旋、監視與無線電呼叫騷擾商船，稱此顯示伊朗「意圖在關鍵航道宣示存在」。",
+    "ISW與CTP研判伊朗「可能已部分重建海上目標鎖定能力」，美國自9月8日後未再空襲伊朗，伊朗可能趁空檔修復岸基雷達；荷莫茲若持續受阻，倚賴中東能源的亞洲進口國包括台灣，可能承受油價壓力。",
+    "Kpler數據顯示，海峽通行船數10月6日降至7艘、為兩個多月來最低，7日回升至10艘（據Dawn引述）。",
+    "革命衛隊顧問納格迪10月7日稱將封鎖「非法航線」；革命衛隊總司令瓦希迪警告，部隊已準備回應任何未經授權的通行。",
+    "美軍中央司令部稱10月5日已攔改第130艘涉伊朗港口船隻；美國10月8日再制裁17艘伊朗「影子船隊」船隻。",
+    "CBS報導，10月7日一艘油輪在卡達外海遭「多枚飛彈」擊中；ISW稱該案發生在海峽以外，約距卡達北部51浬。"
+   ],
+   "context": "美以2月28日對伊朗開戰後，伊朗限制荷莫茲海峽通行並布雷、攻擊商船；6月雙方簽署備忘錄後停火於7月破局，美國自7月14日恢復封鎖伊朗港口。",
+   "stances": [
+    {
+     "actor": "ISW／CTP",
+     "view": "認為伊朗戰爭目標包括讓國際承認其對荷莫茲的控制，並削弱美國持續作戰的能力與意願。"
+    },
+    {
+     "actor": "美軍中央司令部",
+     "view": "司令庫柏稱將「迅速行動」對付任何試圖突破封鎖的船隻，中立商船仍可通行。"
+    },
+    {
+     "actor": "伊朗革命衛隊",
+     "view": "稱海峽在伊朗條件滿足前維持關閉，將封鎖其認定的非法航線。"
+    }
+   ],
+   "outlook": "ISW研判伊朗攻擊能力回升可能讓攻擊頻率維持高檔；川普已宣布期中選舉前不攻擊伊朗，美方短期內可能以封鎖與制裁為主要施壓手段。",
+   "watch": "每日通行船數與UKMTO攻擊通報是否持續上升",
+   "actors": [
+    "伊朗革命衛隊",
+    "美軍中央司令部",
+    "聯合海事資訊中心",
+    "國際海事組織",
+    "瓦希迪",
+    "庫柏"
+   ],
+   "sources": [
+    {
+     "publisher": "路透（gCaptain轉載）",
+     "url": "https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/"
+    },
+    {
+     "publisher": "gCaptain",
+     "url": "https://gcaptain.com/five-hormuz-incidents-reported-monday-as-tanker-attacks-mount/"
+    },
+    {
+     "publisher": "ISW／CTP",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-8-2026"
+    },
+    {
+     "publisher": "ISW／CTP",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-07-2026"
+    },
+    {
+     "publisher": "Dawn",
+     "url": "https://www.dawn.com/news/2035790/iran-weighs-us-response-as-trump-rules-out-attack-before-midterms"
+    },
+    {
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
+    }
+   ]
+  },
+  {
+   "id": "dip-iran-20261009",
+   "date": "2026-10-08",
+   "theater": "iran_gulf",
+   "beat": "DIP",
+   "title": "伊朗研議美方對「七日方案」回覆，數日內答覆",
+   "points": [
+    "伊朗外長阿拉格齊10月8日表示，美伊仍透過中間人交換訊息，伊朗正研究美方對其「七日方案」的回應，「我認為幾天內會回覆」。",
+    "依中東觀察報導，七日方案為美方前四、五天採取約定步驟，第六天恢復正常通航，第七天展開最終協議談判；伊朗要求停止敵對、解凍資產、解除石油出口限制與結束海上封鎖，方案經卡達斡旋轉交。",
+    "雙方核心分歧仍在濃縮鈾：美國副總統范斯10月7日受路透訪問時稱伊朗應在濃縮能力上「做出有意義的事」，語氣似有軟化；伊朗原子能組織主席埃斯拉米則稱不放棄濃縮、不交出鈾。",
+    "國務卿魯比歐稱伊朗「不能擁有核武，句號」，並稱荷莫茲海峽是開放的；川普10月8日稱談判「有成效」，特使威科夫表現很好，但也說自己並不真的想要協議。",
+    "CBS引述一名伊朗資深官員稱美方構想與伊朗要求「相互牴觸」，濃縮權利為紅線；若談判破局，荷莫茲通航與油價可能持續影響台灣等亞洲能源進口國。"
+   ],
+   "context": "美伊6月簽署荷莫茲航行自由備忘錄，但執行因安全安排分歧停滯。9月聯大期間伊朗經卡達提出七日方案，川普9月26日一度表示拒絕，9月30日伊朗證實收到美方回應。",
+   "stances": [
+    {
+     "actor": "伊朗外交部",
+     "view": "談判仍持續，正研究美方回覆，將在數日內答覆。"
+    },
+    {
+     "actor": "美國白宮",
+     "view": "川普稱談判有成效但封鎖維持「全面」，伊朗不得擁有核武。"
+    },
+    {
+     "actor": "伊朗原子能組織",
+     "view": "濃縮是核計畫不可分割的一部分，不會放棄或交出鈾。"
+    },
+    {
+     "actor": "CSIS",
+     "view": "CSIS研究員拉特尼認為沙烏地不會推動升級，可能與海灣國家進行不安的外交以恢復航行自由。"
+    },
+    {
+     "actor": "CSIS",
+     "view": "CSIS的納斯爾認為荷莫茲是伊朗主要籌碼，美國無法以轟炸或制裁解除。"
+    }
+   ],
+   "outlook": "依阿拉格齊說法，伊朗可能在數日內回覆；但濃縮權利分歧未解，CSIS納斯爾認為伊朗視控制海峽為不可逆，短期達成全面協議難度可能偏高。",
+   "watch": "伊朗對美方回覆的內容與卡達斡旋動向",
+   "actors": [
+    "阿拉格齊",
+    "川普",
+    "范斯",
+    "魯比歐",
+    "威科夫",
+    "埃斯拉米",
+    "卡達"
+   ],
+   "sources": [
+    {
+     "publisher": "Tasnim",
+     "url": "https://www.tasnimnews.ir/en/news/2026/10/08/3717882/iran-to-reply-to-us-proposal-within-days-araqchi"
+    },
+    {
+     "publisher": "Middle East Monitor",
+     "url": "https://middleeastmonitor.com/20261008-iran-reviewing-us-feedback-on-7-day-plan-expects-to-respond-within-days"
+    },
+    {
+     "publisher": "Dawn",
+     "url": "https://www.dawn.com/news/2035790/iran-weighs-us-response-as-trump-rules-out-attack-before-midterms"
+    },
+    {
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
+    },
+    {
+     "publisher": "CSIS",
+     "url": "https://www.csis.org/analysis/iran-and-emerging-security-order-middle-east"
+    },
+    {
+     "publisher": "CSIS",
+     "url": "https://www.csis.org/analysis/saudi-arabia-faces-era-disequilibrium"
+    }
+   ]
+  },
+  {
+   "id": "pol-iran-20261009",
+   "date": "2026-10-08",
+   "theater": "iran_gulf",
+   "beat": "POL",
+   "title": "川普宣布期中選舉前不攻擊伊朗，封鎖照舊",
+   "points": [
+    "川普10月8日在真實社群發文，稱11月3日期中選舉前「任何時候都不會攻擊伊朗」，並稱與伊朗的討論「有成效」，海上封鎖維持全面執行。",
+    "此前《大西洋》月刊報導白宮已要求五角大廈提出選前打擊選項，白宮官員回應三軍統帥「隨時擁有所有選項」；油價一度升至每桶約105美元（CBS）。",
+    "The National指出戰爭在美國選民間不受歡迎，荷莫茲受阻推高油價與物價，共和黨在國會僅握微弱多數；川普的表態可能意在選前壓低油價與戰事風險。",
+    "國會研究處報告指出，戰爭中至少81架美軍飛機與無人機損失或受損（CBS引述），可能增加國會對戰爭成本的質疑。",
+    "伊朗方面，石油部長帕克內賈德10月7日稱其辭職「與川普的說法無關」；CBS報導總統裴澤斯基安本週稍早曾稱與美談判「沒有意義」，與外長維持談判的口徑不一。"
+   ],
+   "context": "川普9月曾稱戰爭將在期中選舉後「立即」結束；伊朗則在聯大期間由總統表態希望選前達成協議。美國自9月8日後未再空襲伊朗。",
+   "stances": [
+    {
+     "actor": "川普",
+     "view": "伊朗經濟與軍事狀況很差，封鎖持續，選前不攻擊，伊朗不得擁有核武。"
+    },
+    {
+     "actor": "白宮官員",
+     "view": "回應打擊報導時稱三軍統帥隨時擁有所有選項。"
+    },
+    {
+     "actor": "ISW／CTP",
+     "view": "認為伊朗目標之一是削弱美國持續作戰的意願。"
+    }
+   ],
+   "outlook": "川普表態後選前美方可能以封鎖、制裁與談判施壓；選後是否恢復打擊仍未定。此為依現有報導的推論。",
+   "watch": "11月3日期中選舉前白宮與國會對戰爭的表態",
+   "actors": [
+    "川普",
+    "白宮",
+    "美國國會",
+    "裴澤斯基安",
+    "帕克內賈德"
+   ],
+   "sources": [
+    {
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/us/2026/10/08/trump-rules-out-attack-on-iran-before-midterm-elections/"
+    },
+    {
+     "publisher": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
+    },
+    {
+     "publisher": "Trump's Truth 存檔",
+     "url": "https://trumpstruth.org/statuses/42202"
+    },
+    {
+     "publisher": "Dawn",
+     "url": "https://www.dawn.com/news/2035790/iran-weighs-us-response-as-trump-rules-out-attack-before-midterms"
+    }
+   ]
+  },
+  {
+   "id": "mil-korea-20261009",
+   "date": "2026-10-08",
+   "theater": "korea_peninsula",
+   "beat": "MIL",
+   "title": "南韓首度試射國產極超音速武器 李在明親自觀看",
+   "points": [
+    "南韓8日首度試射國產極超音速武器。美聯社引述聲明，彈頭在預定高度與助推器分離後，做垂直與水平機動並命中目標，試射地點未公開。",
+    "總統李在明親臨並稱這是強化傳統防衛的重要一步，強調「必須以自身力量確保安全」；總統府說他同日也視察玄武-5彈道飛彈。",
+    "聲明稱武器研製完成後可在「韓半島作戰區域」奇襲關鍵目標。美聯社指這呼應李在明減少依賴華府的方向，南韓對北韓的傳統嚇阻可能因此加強。",
+    "北韓10月3日試射時宣稱極超音速彈頭飛行逾1,000公里；南韓估計約700公里以上，日本防衛省估約680公里，落點在日本專屬經濟區外。",
+    "金與正曾稱南韓與日本估算不一，證明兩國無法正確追蹤、也就無法攔截此類飛彈。",
+    "美聯社報導，北韓對南韓這次試射未立即回應；美國8月曾單方面縮減一場美韓大型聯合演習。"
+   ],
+   "context": "9月DMZ地雷爆炸造成3名南韓士兵受傷，南韓軍方與聯合國軍司令部認定是北韓埋設，北韓否認。金正恩持續擴充核武並拒絕川普重啟會談的呼籲。",
+   "stances": [
+    {
+     "actor": "李在明",
+     "view": "稱試射是強化傳統防衛的重大進展，主張以自身力量確保安全。"
+    },
+    {
+     "actor": "金與正",
+     "view": "稱南韓與日本對10月3日試射的估算不一，顯示其無法追蹤與攔截。"
+    },
+    {
+     "actor": "AEI／ISW",
+     "view": "認為北韓的極超音速宣稱是資訊作戰，目的在削弱外界對韓日防空的信心；北韓尚未展示可作戰的極超音速武器。"
+    }
+   ],
+   "outlook": "AEI／ISW研判北韓可能在俄、中技術協助下持續研發極超音速武器；南北雙方的飛彈競賽可能升溫。",
+   "watch": "北韓對南韓試射的反應與10月10日建黨日動向",
+   "actors": [
+    "李在明",
+    "金正恩",
+    "金與正",
+    "南韓總統府",
+    "日本防衛省",
+    "川普"
+   ],
+   "sources": [
+    {
+     "publisher": "美聯社（KPBS轉載）",
+     "url": "https://www.kpbs.org/news/international/2026/10/08/south-korea-test-flies-its-first-domestically-developed-hypersonic-weapon"
+    },
+    {
+     "publisher": "AEI",
+     "url": "https://www.aei.org/commentary/korean-peninsula-update-october-7-2026/"
+    }
+   ]
+  },
+  {
+   "id": "dip-korea-20261009",
+   "date": "2026-10-09",
+   "theater": "korea_peninsula",
+   "beat": "DIP",
+   "title": "金與正兩度拒絕南韓醫療援助 揚言「無視」南韓",
+   "points": [
+    "金與正8日與9日接連透過朝中社發表談話，拒絕南韓統一部提出的醫療器材援助計畫；《中央日報》報導援助金額約675萬美元。",
+    "她稱援助是「政治挑釁的變種」，並稱「披著『善意』外衣的惡意最醜陋」，將其連結到9月DMZ地雷爆炸，指那是南韓自導自演。",
+    "SBS報導，金與正稱北韓將轉身無視南韓，並說這是經國家元首授權，可能代表金正恩本人的意志，南北關係短期內難以改善。",
+    "南韓5月已取得聯合國安理會制裁委員會豁免，原計畫經韓國國際保健醫療財團援助平壤江東郡醫院，最快下月運送。",
+    "兩家媒體都未報導南韓政府對金與正最新談話的回應。"
+   ],
+   "context": "9月21日DMZ地雷爆炸致南韓士兵受傷，韓方調查認定北韓埋雷、違反停戰協定；北韓否認並拒絕南韓提議的軍事分界線會談。",
+   "stances": [
+    {
+     "actor": "金與正",
+     "view": "稱援助是作秀與政治挑釁，北韓將無視南韓，並稱獲國家元首授權。"
+    },
+    {
+     "actor": "南韓統一部",
+     "view": "推動醫療器材援助，稱要改善北韓弱勢族群的基本醫療。"
+    },
+    {
+     "actor": "AEI／ISW",
+     "view": "認為李在明政府對地雷事件保持克制、呼籲對話，是為了保留美朝外交的空間。"
+    }
+   ],
+   "outlook": "AEI／ISW研判北韓可能繞過首爾、直接與華府打交道，並幾乎確定會持續強化DMZ工事；南韓國情院估計APEC前後美朝會談機率約五成。",
+   "watch": "南韓是否撤回援助，以及11月APEC前後美朝有無接觸",
+   "actors": [
+    "金與正",
+    "金正恩",
+    "南韓統一部",
+    "鄭東泳",
+    "李在明"
+   ],
+   "sources": [
+    {
+     "publisher": "SBS",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008790255"
+    },
+    {
+     "publisher": "韓國中央日報",
+     "url": "https://www.koreajoongangdaily.com/korea/norths-kim-yojong-rejects-seouls-medical-aid-plan-as-political-provocation/12911150"
+    },
+    {
+     "publisher": "AEI",
+     "url": "https://www.aei.org/commentary/korean-peninsula-update-october-7-2026/"
+    }
+   ]
+  },
+  {
+   "id": "pol-korea-20261009",
+   "date": "2026-10-09",
+   "theater": "korea_peninsula",
+   "beat": "POL",
+   "title": "北韓勞動黨建黨81週年前夕密集動員 閱兵與否未明",
+   "points": [
+    "韓聯社報導，北韓在10月10日勞動黨建黨81週年前舉辦農業勤勞者同盟慶祝會、全國美術展及各團體音樂會，《勞動新聞》頭版呼籲繼承黨的建黨精神。",
+    "朝中社說，金正恩收到寮國、巴勒斯坦總統及駐北韓武官團致贈的花籃；中國大使王亞軍代表中共中央委員會送花籃，越南、伊朗、古巴也有致贈。",
+    "自由亞洲電台指平壤美林機場有軍人與車輛集結，但規模小於過去閱兵；南韓官員表示要「等著看是否真的閱兵」。",
+    "南韓統一部官員稱今年是非逢五逢十的「過渡性」週年，預料不會有「大規模」活動。",
+    "去年80週年深夜閱兵曾首度亮相火星-20洲際彈道飛彈，若今年舉行閱兵，可能再展示新武器。"
+   ],
+   "context": "北韓慣例在逢五、逢十週年舉行大型閱兵、團體操與武器展，今年81週年不屬此類。北韓近來對南韓採強硬路線並強化核武發展。",
+   "stances": [
+    {
+     "actor": "南韓統一部",
+     "view": "官員認為今年是過渡性週年，不預期有大規模活動。"
+    },
+    {
+     "actor": "北韓《勞動新聞》",
+     "view": "頭版呼籲人民繼承黨的歷史、思想與建黨精神，強化對黨的忠誠。"
+    }
+   ],
+   "watch": "10月10日是否舉行閱兵及金正恩講話內容",
+   "actors": [
+    "金正恩",
+    "北韓勞動黨",
+    "王亞軍",
+    "中國共產黨",
+    "南韓統一部"
+   ],
+   "sources": [
+    {
+     "publisher": "韓聯社（Korea Times轉載）",
+     "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261009/n-korea-revs-up-festive-mood-ahead-of-party-founding-anniversary"
+    },
+    {
+     "publisher": "韓聯社（Korea Times轉載）",
+     "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261008/n-korea-rallies-loyalty-with-celebratory-events-ahead-of-party-founding-anniversary"
+    }
+   ]
+  },
+  {
+   "id": "mil-mideast-20261009",
+   "date": "2026-10-08",
+   "theater": "middle_east",
+   "beat": "MIL",
+   "title": "加薩、黎南停火下仍交火　胡塞飛彈襲利雅德機場3死",
+   "points": [
+    "以軍稱10月8日在加薩市分別空襲，擊斃伊斯蘭聖戰組織火箭部隊指揮官等2人與哈瑪斯軍事部門一名連長；黎巴嫩南部則遭以軍連夜空襲與砲擊，L'Orient Today列出Wadi Slouqi、Mansouri等多處目標。",
+    "以軍說法是3名加薩武裝人員近期「推進對以軍的攻擊」並重建組織戰力，屬違反停火；黎南方面以軍稱一名21歲上尉8日在當地「作戰中殉職」、3人輕傷，法新社指這是6月名義停火以來第17名陣亡以軍。",
+    "葉門戰線外溢沙國：沙國民航總局稱8日利雅德哈立德國王國際機場與一架沙烏地航空客機遭兩次攻擊，3名沙國公民死亡；胡塞宣稱以彈道飛彈攻擊機場。曼德海峽航運若持續受威脅，可能牽動經紅海往返亞洲的航運與能源。",
+    "時報報導指，利雅德機場遇襲是上週末沙國與盟軍對胡塞發動大規模攻勢以來，沙國境內最致命的攻擊；該機場本週稍早已有一名蘇丹籍人士遇害，目前營運已恢復正常。",
+    "ISW／CTP指葉門政府方部隊奪取俯瞰紅海沿岸平原的Jabal Kahbub高地，但胡塞已「有效包圍塔伊茲市」，並在沿岸平原增援陣地。",
+    "路透10月2日報導，胡塞上月奪下曼德海峽；因伊朗衝突使荷莫茲海峽實質關閉，曼德海峽重要性上升，沙國表示胡塞控制海峽期間不會進入新的葉門和談。"
+   ],
+   "context": "加薩停火自2025年10月生效，以軍仍沿「黃線」駐守並持續定點打擊；以黎6月26日在華府簽框架協議，以真主黨解除武裝換取以軍分階段撤出，但據L'Orient Today，以軍仍占領黎南逾600平方公里並每日攻擊。",
+   "stances": [
+    {
+     "actor": "以色列國防軍",
+     "view": "稱遭擊斃的加薩武裝人員在重建組織戰力，打擊是回應違反停火的行為。"
+    },
+    {
+     "actor": "ISW／CTP",
+     "view": "認為奪取Jabal Kahbub高地可能為政府方反攻創造有利條件；也評估胡塞對沙國基礎設施的打擊未達成目的。"
+    },
+    {
+     "actor": "ISW／CTP",
+     "view": "認為胡塞包圍塔伊茲市可能因補給與部署問題，限制政府軍守住陣地的能力。"
+    }
+   ],
+   "outlook": "ISW／CTP研判胡塞仍能威脅紅海沿岸平原上的政府軍；沙國攻勢與胡塞對沙國城市的飛彈報復可能持續拉鋸。",
+   "watch": "沙國聯軍能否推進至曼德海峽；以軍在加薩、黎南的打擊頻率",
+   "actors": [
+    "以色列國防軍",
+    "哈瑪斯",
+    "伊斯蘭聖戰組織",
+    "真主黨",
+    "胡塞",
+    "沙烏地阿拉伯",
+    "葉門政府"
+   ],
+   "sources": [
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/three-hamas-islamic-jihad-operatives-killed-in-gaza-city-strikes-idf-says/"
+    },
+    {
+     "publisher": "L'Orient Today",
+     "url": "https://today.lorientlejour.com/article/1550079/overnight-israeli-strikes-on-wadi-slouqi-artillery-shelling-across-several-sectors.html"
+    },
+    {
+     "publisher": "L'Orient Today／法新社",
+     "url": "https://today.lorientlejour.com/article/1550200/israeli-army-says-one-soldier-killed-three-wounded-in-south-lebanon.html"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudia-airlines-employee-two-others-killed-in-houthi-attack-on-riyadh-airport-yesterday/"
+    },
+    {
+     "publisher": "ISW／Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-8-2026"
+    },
+    {
+     "publisher": "Al-Monitor／路透",
+     "url": "https://www.al-monitor.com/originals/2026/10/saudis-plan-assault-houthis-break-red-sea-chokehold"
+    }
+   ]
+  },
+  {
+   "id": "dip-mideast-20261009",
+   "date": "2026-10-08",
+   "theater": "middle_east",
+   "beat": "DIP",
+   "title": "歐盟卡拉斯訪黎談維和接替　以英東耶路撒冷領館爭議暫解",
+   "points": [
+    "歐盟外交與安全政策高級代表卡拉斯8日訪貝魯特，會晤總統奧恩、國會議長貝里與總理薩拉姆，稱黎南「不能有安全真空」，歐盟傾向延長聯合國維和任務，並稱新的歐盟任務不會取代UNIFIL。",
+    "黎方盤算是保住國際存在：奧恩要求南部任何部署力量在「聯合國旗幟下」運作；貝里警告無替代方案就結束UNIFIL的後果；薩拉姆要求框架協議訂出時間表與查核機制。安理會2025年8月已決定UNIFIL於2026年底結束。",
+    "以方立場相左：L'Orient Today引以軍消息人士稱黎巴嫩軍隊遭「滲透」、未在試點區落實解除真主黨武裝；UNIFIL退場後若無替代，南黎可能出現安全空窗，影響以軍撤出進度。",
+    "歐盟外長預計10月12日批准對黎巴嫩軍隊與內部安全部隊的訓練諮詢任務，並宣布至2027年提供5.05億歐元援助，另有2024年的10億歐元方案。",
+    "以英外交角力：雙方達成協議，英國駐東耶路撒冷總領館結束現有形式，含總領事在內20名外交官離境，館舍改為「英國駐耶路撒冷使團」留7人；以方原遭驅逐威脅的27名駐倫敦外交官可留任。",
+    "以色列外長薩爾稱已確立原則，以色列不會在遭受行動時不採取反制；英國外相米勒班則重申英方長期立場，認為東耶路撒冷是被占領土。起因是英國制裁約旦河西岸屯墾區。",
+    "路透引兩名消息人士稱伊朗9月轉移2億美元給真主黨，用於協助流離失所的黎巴嫩人；ISW指美國國務院否認該報導。",
+    "美伊方面，川普稱與伊朗正進行「有成效的討論」；伊朗總統裴澤斯基安9日表示談判唯有在不施壓、不威脅下才可能成功。"
+   ],
+   "context": "以黎6月26日在華府簽框架協議，設「試點區」由黎軍部署並拆除真主黨設施、以軍撤出，首個為Zawtar Gharbieh；L'Orient Today指以軍持續每日攻擊。英國先前與法國、加拿大一同制裁西岸屯墾區。",
+   "stances": [
+    {
+     "actor": "歐盟（卡拉斯）",
+     "view": "國家全面掌控領土包括在解除真主黨武裝上取得進展；歐盟傾向延長聯合國維和任務。"
+    },
+    {
+     "actor": "黎巴嫩總統奧恩",
+     "view": "以外交作為戰爭的替代方案，稱軍隊在利塔尼河以南全面執行任務，促國際社會施壓以色列遵守協議。"
+    },
+    {
+     "actor": "以色列軍方消息人士",
+     "view": "指黎巴嫩軍隊遭滲透、未能在試點區完成解除武裝任務。"
+    },
+    {
+     "actor": "ISW／CTP",
+     "view": "認為不論報導真偽，真主黨都有強烈誘因取得伊朗資金，以重建民意支持與軍事能力。"
+    }
+   ],
+   "outlook": "依L'Orient Today報導，黎方要求時間表與查核機制，而以方質疑黎軍執行力，UNIFIL年底退場前南黎安全安排可能成為以黎與歐美的主要角力點。",
+   "watch": "10月12日歐盟外長會議；UNIFIL退場後的替代安排",
+   "actors": [
+    "卡拉斯",
+    "奧恩",
+    "貝里",
+    "薩拉姆",
+    "薩爾",
+    "米勒班",
+    "真主黨",
+    "伊朗"
+   ],
+   "sources": [
+    {
+     "publisher": "L'Orient Today",
+     "url": "https://today.lorientlejour.com/article/1550129/aoun-and-berri-stress-need-for-unifil-alternative-to-eu-representative.html"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-october-08-2026/"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog-oct-9-2026/"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/trump-says-us-wont-hit-iran-this-month-as-zamir-said-to-warn-strike-could-delay-israels-election/"
+    },
+    {
+     "publisher": "ISW／Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/iran-update-october-8-2026"
+    }
+   ]
+  },
+  {
+   "id": "pol-mideast-20261009",
+   "date": "2026-10-08",
+   "theater": "middle_east",
+   "beat": "POL",
+   "title": "前軍事秘書指總理辦公室竄改十七事件紀錄　反對黨促調查納坦雅胡",
+   "points": [
+    "納坦雅胡2023年10月7日時的軍事秘書吉爾8日接受第12頻道專訪，指控總理辦公室主任布拉維曼曾要速記員把他與總理6時40分的保密通話時間改成6時29分，他稱此為偽造並曾致函檢察總長。",
+    "吉爾並指納坦雅胡有時為保住聯合政府而放棄可救回人質的協議，問及是否把政治存續置於人質之前，他答「事實上正是如此」。納坦雅胡反擊稱吉爾「選擇不及時叫醒總理」，說法是在掩蓋自身失職。",
+    "距10月27日大選僅19天，反對黨趁勢進攻：艾森柯特的Yashar黨要求檢察總長調查總理是否誤導國家審計長，並稱選後將成立國家調查委員會；李伯曼指控叛國，促總參謀長札米爾防止軍隊被政治利用。",
+    "第13頻道8日民調：納坦雅胡陣營55席、錫安主義反對陣營50席，雙方皆未達組閣所需61席；聯合黨與艾森柯特的Yashar各20席，阿拉伯政黨Joint List 9席、Ra'am 6席；樣本1013人、誤差2.5%。",
+    "伊朗變數牽動選舉：第12頻道報導，美軍高階軍官告訴札米爾，白宮與五角大廈指示在三週內準備對伊朗大規模攻擊，札米爾警告這可能導致以色列大選延期；川普隨後表示美國11月3日期中選舉前不會攻擊伊朗。",
+    "布拉維曼已因機密文件外洩案遭以妨礙司法、詐欺與背信起訴；時報報導未見布拉維曼對吉爾指控的回應。"
+   ],
+   "context": "10月27日大選改選全部120席，是2023年10月7日哈瑪斯襲擊後首次大選。班奈特與拉皮德聯合參選，前總參謀長艾森柯特領導Yashar，甘茨表態不支持納坦雅胡政府。",
+   "stances": [
+    {
+     "actor": "納坦雅胡",
+     "view": "稱吉爾和其他人一樣知道襲擊將至，卻未及時叫醒總理，其說法是在掩蓋自身失職。"
+    },
+    {
+     "actor": "艾森柯特（Yashar）",
+     "view": "指總理忙著改紀錄而非救人，稱選後將成立國家調查委員會。"
+    },
+    {
+     "actor": "李伯曼（以色列我們的家園）",
+     "view": "指控總理叛國，要求檢察總長立即對總理及其團隊展開調查。"
+    },
+    {
+     "actor": "札米爾（總參謀長）",
+     "view": "據第12頻道報導，警告若近期打擊伊朗可能導致以色列大選延期。"
+    }
+   ],
+   "outlook": "依第13頻道民調，兩大陣營均難過半，阿拉伯政黨與門檻邊緣小黨可能左右組閣；若美伊戰事重啟，札米爾警告的選舉延期風險可能浮上檯面。",
+   "watch": "檢察總長是否就紀錄竄改指控立案；10月27日投票能否如期",
+   "actors": [
+    "納坦雅胡",
+    "吉爾",
+    "布拉維曼",
+    "艾森柯特",
+    "李伯曼",
+    "札米爾",
+    "川普"
+   ],
+   "sources": [
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/pms-ex-military-secretary-netanyahu-prioritized-political-survival-when-he-could-have-saved-hostages-lives/"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-led-bloc-ahead-of-zionist-opposition-parties-with-55-50-seats-in-tv-poll/"
+    },
+    {
+     "publisher": "Times of Israel",
+     "url": "https://www.timesofisrael.com/trump-says-us-wont-hit-iran-this-month-as-zamir-said-to-warn-strike-could-delay-israels-election/"
+    }
+   ]
+  },
+  {
+   "id": "mil-scs-20261009",
+   "date": "2026-10-08",
+   "theater": "south_china_sea",
+   "beat": "MIL",
+   "title": "中國船艦9月近倍增 仁愛礁傷兵後送遭水砲延誤",
+   "points": [
+    "菲律賓軍方統計，9月在菲方主張海域監測到101艘中國海軍與海警船艦，較前一個月的56艘近倍增，集中在中業島、仁愛礁、仙賓礁與黃岩島周邊（法新社）。",
+    "菲軍西菲律賓海發言人崔尼達（Roy Vincent Trinidad）稱，中方增兵意在擊垮菲方「守住屬於我們的東西」的意志，並形容為「mission kill」。",
+    "10月8日菲海警後送仁愛礁坐灘艦一名傷病士兵，菲海警發言人塔里埃拉稱中國海警船發射水砲阻擋，後送延誤近10小時；水柱未直接命中菲船。",
+    "中國海警發言人表示基於人道考量允許後送並提供必要協助，重申對南沙群島含仁愛礁擁有主權，要求菲方停止侵權挑釁與「虛假敘事」。",
+    "10月3日黃岩島附近，菲方指中國戰機對菲軍Cessna 208巡邏機危險機動並施放熱焰彈；解放軍南部戰區稱依法跟蹤警告驅離。",
+    "船艦數量增加與對空、對海動作同步升高，菲方在南沙前哨的補給與後送壓力可能持續加大，擦槍走火風險上升。"
+   ],
+   "context": "中國主張南海大部分海域，2016年國際仲裁裁定其主張無法律依據，北京不承認。菲律賓1999年刻意將馬德雷山號坐灘於仁愛礁以維持駐守，中菲船艦對峙多次造成碰撞與人員受傷。",
+   "stances": [
+    {
+     "actor": "菲律賓軍方",
+     "view": "中方增兵是消耗菲方意志、摧毀其持續執行任務能力的「mission kill」戰術。"
+    },
+    {
+     "actor": "中國海警",
+     "view": "人道放行後送並提供協助，指菲方扭曲事實、誤導輿論，要求停止侵權挑釁。"
+    },
+    {
+     "actor": "解放軍南部戰區",
+     "view": "菲機侵入中方所稱黃岩島領空，海空兵力依法依規跟蹤警告驅離。"
+    }
+   ],
+   "outlook": "依菲方統計趨勢，中國在菲方主張海域的船艦部署可能維持高檔，仁愛礁補給與後送可能續遭攔阻。",
+   "watch": "10月中國船艦數量、仁愛礁下次補給是否再遭水砲",
+   "actors": [
+    "菲律賓軍方",
+    "菲律賓海警",
+    "中國海警",
+    "解放軍南部戰區",
+    "崔尼達",
+    "塔里埃拉"
+   ],
+   "sources": [
+    {
+     "publisher": "Malay Mail（法新社）",
+     "url": "https://www.malaymail.com/news/world/2026/10/08/chinese-vessels-surge-around-philippine-held-outposts-in-south-china-sea/238262"
+    },
+    {
+     "publisher": "The Manila Times",
+     "url": "https://www.manilatimes.net/2026/10/08/news/ph-flags-near-doubling-of-chinese-presence-in-disputed-waters/2441538"
+    },
+    {
+     "publisher": "SBS",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008790347"
+    },
+    {
+     "publisher": "Global Times",
+     "url": "https://www.globaltimes.cn/page/202610/1371874.shtml"
+    },
+    {
+     "publisher": "Defense Mirror",
+     "url": "https://defensemirror.com/news/42161"
+    }
+   ]
+  },
+  {
+   "id": "pol-scs-20261009",
+   "date": "2026-10-08",
+   "theater": "south_china_sea",
+   "beat": "POL",
+   "title": "小馬可仕新加坡定調：守主權、拚年底完成南海行為準則",
+   "points": [
+    "菲律賓總統小馬可仕10月8日在新加坡富比士全球執行長大會表示，相關海域「是菲律賓主權領土的一部分」，他已宣誓捍衛憲法。",
+    "他坦言不確定爭端能否解決，當前目標是管控緊張、避免誤判；最大憂慮是「某個水手、某個士兵犯錯」。",
+    "身為今年東協輪值主席，他稱東協與中國的南海行為準則談判有「良好進展」，菲方希望2026年底前完成，雖過程有時令人挫折。",
+    "此定調一方面對內強調主權，一方面以談判管控風險，同時軍方公布中國船艦倍增數據，顯示馬尼拉可能採「強硬但冷靜」的雙軌策略。",
+    "若準則年底前談成且具約束力，可能為南海對峙提供規則框架；但談判長期卡在範圍與執行力，前景仍不確定。"
+   ],
+   "context": "東協與中國2002年簽署不具法律約束力的《南海各方行為宣言》，行為準則談判已逾二十年。汶萊、馬來西亞、菲律賓、越南的主張與中國重疊。菲律賓今年擔任東協輪值主席。",
+   "stances": [
+    {
+     "actor": "小馬可仕",
+     "view": "依聯合國海洋法公約，相關海域屬菲國主權與經濟海域；須維持和平與航行自由。"
+    },
+    {
+     "actor": "中國外交部",
+     "view": "10月6日發言人郭嘉昆稱菲方飛機船隻未經允許進入中方管轄空域海域，要求立即停止侵權挑釁。"
+    }
+   ],
+   "outlook": "菲律賓總統府設定年底完成行為準則；依菲國媒體報導，談判仍卡在範圍與可執行性，能否如期可能取決於中方態度。",
+   "watch": "東協峰會與東協—中國行為準則談判進度",
+   "actors": [
+    "小馬可仕",
+    "菲律賓總統府",
+    "東協",
+    "中國外交部",
+    "郭嘉昆"
+   ],
+   "sources": [
+    {
+     "publisher": "Daily Tribune",
+     "url": "https://tribune.net.ph/2026/10/08/marcos-philippines-will-defend-territory-push-south-china-sea-code"
+    },
+    {
+     "publisher": "Philstar",
+     "url": "https://philstar.com/headlines/2026/10/09/2561936/marcos-optimistic-binding-scs-code-conduct"
+    },
+    {
+     "publisher": "GMA News",
+     "url": "https://www.gmanetwork.com/news/topstories/nation/1005234/marcos-shares-greatest-fear-on-west-philippine-sea-in-forbes-forum/story/"
+    },
+    {
+     "publisher": "中國外交部",
+     "url": "https://www.mfa.gov.cn/eng/xw/fyrbt/202610/t20261006_12035790.html"
+    }
+   ]
+  },
+  {
+   "id": "mil-taiwan-20261008",
+   "date": "2026-10-08",
+   "theater": "taiwan_strait",
+   "beat": "MIL",
+   "title": "中國海上民兵船首現台灣東部外海 國防部批「形塑實質管轄假象」",
+   "points": [
+    "路透10月8日引述安捷航空監測報告報導，中國漁船「閩福鼎漁07902」兼具民兵功能，8月中旬與海警船、科研船同行出現在台灣東部太平洋外海，是此敏感海域首見此類船隻。",
+    "兩名知情台灣高層官員向路透證實，8月中旬確有「閩福鼎漁」、海警船「2502」與科研船「向陽紅3號」在台灣附近活動；國台辦與中國國防部未回應路透詢問。",
+    "國防部稱中共藉執法與科研名義包裝侵擾，在非衝突狀態下擴大活動範圍，「形塑實質管轄假象」，挑戰台灣海域執法權，國軍將與海巡「適切應處」。",
+    "海巡署表示，相關中國船舶活動都在限制水域外，海巡以聯合情監偵手段全天候監控並全程掌握。",
+    "美國國務院發言人以背景方式向中央社表示，美方對中國在台灣以東的活動感到關切、認為高度破壞穩定，並敦促北京停止對台施壓、與台灣民選當局對話。",
+    "民兵船、海警與科研船混編出現在東部，可能意味北京把南海常見的灰色地帶手法延伸到台灣後方海域，增加國軍與海巡監控負擔。"
+   ],
+   "context": "路透指中國海上民兵源於1950年代，多見於南海爭議熱點，通常以受訓船員操作漁船並配合海警行動，分析人士認為可在保持民用外觀下伸張海洋權益。中國外交部9月曾稱依法在台灣以東擁有專屬經濟區與大陸棚，巡邏屬正當行使管轄。",
+   "stances": [
+    {
+     "actor": "台灣國防部",
+     "view": "中共以執法與科研為掩護侵擾，企圖在非衝突狀態下製造實質管轄假象，破壞國際秩序。"
+    },
+    {
+     "actor": "海巡署",
+     "view": "相關船舶均在限制水域外，海巡全天候監控、全程掌握並適切應處。"
+    },
+    {
+     "actor": "美國國務院",
+     "view": "對中國在台灣以東活動表示關切，認為高度破壞穩定，敦促北京停止施壓、與台灣民選當局對話。"
+    },
+    {
+     "actor": "CSIS",
+     "view": "據中央社英文報導，CSIS與其Futures Lab分析認為，2026年夏季中國海警在台灣本島附近日均船數較去年同期增37.5%，台灣以東增3,800%。"
+    }
+   ],
+   "outlook": "依CSIS統計的海警東部巡邏激增趨勢，加上民兵船首現，北京可能持續以海警、民兵、科研船混編常態化出現在台灣以東，測試台方執法底線。",
+   "watch": "東部海域是否再現民兵船或進入限制水域、國台辦回應",
+   "actors": [
+    "中國海上民兵",
+    "中國海警",
+    "台灣國防部",
+    "海巡署",
+    "美國國務院",
+    "安捷航空"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610080327.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610080344.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610080340.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610090015.aspx"
+    },
+    {
+     "publisher": "Focus Taiwan（中央社）",
+     "url": "https://focustaiwan.tw/politics/202609210015"
+    }
+   ]
+  },
+  {
+   "id": "dip-taiwan-20261008",
+   "date": "2026-10-08",
+   "theater": "taiwan_strait",
+   "beat": "DIP",
+   "title": "美眾院訪團國慶前訪台 賴清德盼台美國防從軍購走向共同研發生產",
+   "points": [
+    "賴清德總統10月8日上午在總統府接見美國聯邦眾議院訪團，由預算委員會民主黨首席議員鮑以爾（Brendan Boyle）領隊，成員包括眾議員薩立納斯（Andrea Salinas）與甘迺迪（Tim Kennedy）。",
+    "賴清德表示「唯有實力才能確保和平」，台灣持續增加國防預算、推動國防自主，期待台美國防合作從軍事採購走向共同研發、共同生產，聚焦無人機、反無人機、AI輔助軍事決策與後勤。",
+    "賴清德並盼美國國會儘速完成避免雙重課稅協定相關立法；鮑以爾稱此行為首次訪台，希望深化台美關係。",
+    "同日美國國務院就中國民兵船現蹤台灣東部表態，指台灣和平管理相關海域逾70年，中方主張管轄只會升高緊張，敦促北京與台灣民選當局對話。",
+    "駐美代表俞大㵢7日在雙橡園國慶酒會表示美國對台政策沒有改變；AIT執行理事藍鶯強調美方堅定承諾維護台海和平穩定。",
+    "台方把軍購轉向合作研製的訴求直接向掌管預算的國會議員提出，可能是為爭取美方在預算與立法面的支持。"
+   ],
+   "context": "台灣立法院先前通過縮減版國防特別條例，排除無人機等國產與台美共同研發項目，行政院9月改以追加預算補列。國慶前夕多國代表與外賓陸續訪台。",
+   "stances": [
+    {
+     "actor": "賴清德",
+     "view": "中國以軍事行動與灰色地帶侵擾企圖片面改變台海現狀，台灣須以實力確保和平，並深化台美國防產業合作。"
+    },
+    {
+     "actor": "鮑以爾",
+     "view": "台美人民共享自由、民主與人權價值，希望此行進一步深化台美關係。"
+    },
+    {
+     "actor": "美國國務院",
+     "view": "中國在台灣以東主張管轄只會升高緊張，北京應停止施壓並與台灣民選當局對話。"
+    }
+   ],
+   "watch": "雙十國慶談話、美國會避免雙重課稅立法進度",
+   "actors": [
+    "賴清德",
+    "鮑以爾",
+    "薩立納斯",
+    "甘迺迪",
+    "俞大㵢",
+    "藍鶯",
+    "美國國務院"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610080119.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/aipl/202610090015.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/video/foreign/4356828"
+    },
+    {
+     "publisher": "Taiwan News",
+     "url": "https://www.taiwannews.com.tw/en/news/6433872"
+    }
+   ]
+  },
+  {
+   "id": "pol-taiwan-20261008",
+   "date": "2026-10-08",
+   "theater": "taiwan_strait",
+   "beat": "POL",
+   "title": "陸委會推「跨境鎮壓」單獨入罪 批中共軍媒施壓藝人介入選舉",
+   "points": [
+    "陸委會副主委兼發言人梁文傑10月8日表示，政府研擬修法讓跨境鎮壓「單獨成罪」，現行法制沒有獨立罪名，具體條文由主管機關擬定，陸委會非主辦機關，並呼籲立委屆時支持。",
+    "梁文傑指出，現行反滲透法、國安法適用範圍窄，近期案例只能以傷害、毀損或個資法起訴，包括立委沈伯洋遭跟監案。",
+    "同場記者會上，梁文傑回應解放軍報旗下帳號「鈞正平」10月6日暗批作家蔡康永，稱以威脅介入「必然會造成反效果」，「沒有人希望台灣的選舉由中共來決定」。",
+    "蔡康永10月4日出席台北市長參選人沈伯洋競總成立後，遭數個對岸商業夥伴切割；沈伯洋2024年已被國台辦列入「台獨頑固分子」清單。",
+    "陸委會主委邱垂正8日在國慶晚宴稱中共以軍事威脅、法律戰、認知戰等複合施壓企圖改變現狀，強調「台灣一直是台海和平穩定現狀守護者」。",
+    "九合一選舉前，北京透過經濟切割與軍媒點名施壓台灣公眾人物，政府以修法回應，朝野可能在立法院就跨境鎮壓入法角力。"
+   ],
+   "context": "2026年九合一地方選舉進入選戰期，沈伯洋為台北市長參選人。近期多起涉跨境鎮壓案件，包括印太戰略智庫執行長遇襲、立委沈伯洋遭跟監。",
+   "stances": [
+    {
+     "actor": "陸委會",
+     "view": "現行法制無跨境鎮壓獨立罪名、適用範圍窄，應修法使其單獨成罪，盼立委支持。"
+    },
+    {
+     "actor": "解放軍報「鈞正平」",
+     "view": "未點名批評某些人一邊賺大陸紅利、一邊與台獨往來，警告將付出代價。"
+    },
+    {
+     "actor": "邱垂正",
+     "view": "中共複合性施壓企圖改變台海現狀，政府將堅守主權與民主、自由、法治生活方式。"
+    }
+   ],
+   "watch": "主管機關提出跨境鎮壓修法草案與立法院審議",
+   "actors": [
+    "梁文傑",
+    "邱垂正",
+    "沈伯洋",
+    "蔡康永",
+    "解放軍報",
+    "國台辦"
+   ],
+   "sources": [
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/acn/202610080297.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/acn/202610080335.aspx"
+    },
+    {
+     "publisher": "中央社",
+     "url": "https://www.cna.com.tw/news/acn/202610080368.aspx"
+    }
+   ]
+  },
+  {
+   "id": "mil-ukraine-20261009",
+   "date": "2026-10-08",
+   "theater": "ukraine_front",
+   "beat": "MIL",
+   "title": "俄滑翔炸彈炸克拉馬托斯克33死 烏反擊鄂木斯克煉油廠",
+   "points": [
+    "10月8日上午俄軍滑翔炸彈擊中克拉馬托斯克兩輛小巴，烏克蘭緊急救難署稱至少33人死亡；頓內茨克州長菲拉什金說另有22人受傷，克拉馬托斯克與斯拉維揚斯克暫停所有大眾運輸。",
+    "澤倫斯基表示「這次攻擊不會沒有我們的回應」；烏軍總參謀部同日證實打擊西伯利亞鄂木斯克煉油廠（距烏控區約2,500公里）及巴什科爾托斯坦的薩拉瓦特煉油廠，澤倫斯基另就俄國Yandex資料中心遇襲說「我們一向對等回應」。",
+    "俄方同日以無人機空襲基輔，市長克里契科稱4死至少19傷，基輔多數地區停電、地鐵停駛、右岸供水受影響；烏克蘭空軍稱10月8日夜間俄軍全境出動142架Shahed型無人機，其中82架為噴射動力。",
+    "ISW 10月7日評估，俄軍以改良的噴射動力Geran無人機分擔任務，使巡弋與彈道飛彈能集中打擊較少的特定目標，意在冬季前削弱烏國能源與民生設施、打擊民心，但ISW研判此手法不太可能成功。",
+    "ISW稱烏軍近期在奧列克山德里夫卡以東推進；俄國防部宣稱已在多布羅皮利亞市區作戰，ISW表示除有限滲透外未見證據，並指俄軍據報正把無人系統部隊與特種部隊調往斯拉維揚斯克－克拉馬托斯克方向。",
+    "據俄國Telegram媒體報導，烏方10月9日夜間疑似攻擊特維爾州雷德基諾一座據稱生產Kh-55、Kh-101巡弋飛彈燃料成分的工廠，《基輔獨立報》無法證實，損害程度不明。",
+    "CSIS 10月7日評論指出，中國分析人員約4個月內就能辨識烏俄戰場新戰法，但轉化為裝備、訓練與編制需一年以上；台灣對無人機與反無人機的投資，也將進入兩岸相互適應的同一循環。"
+   ],
+   "context": "俄軍近週大幅加強對烏能源設施打擊，烏方則持續以長程無人機打擊俄國煉油與工業設施。ISW稱俄軍指揮部希望在入冬前奪取頓內茨克「要塞帶」，但以目前推進速度並不實際。",
+   "stances": [
+    {
+     "actor": "澤倫斯基",
+     "view": "誓言回應克拉馬托斯克攻擊，稱烏方對俄攻擊數據中心等行為會對等回應，但「不報復兒童」。"
+    },
+    {
+     "actor": "ISW",
+     "view": "認為俄軍集中多波次打擊少數目標，意在冬季前癱瘓能源、打擊民心；研判難以奏效，西方援助（含愛國者系統）對烏防空至關重要。"
+    },
+    {
+     "actor": "CSIS",
+     "view": "認為解放軍研究烏俄無人機戰爭時，最深入的是防禦面，把烏方海上無人艇與機場突襲視為可能攻擊中國的預演。"
+    }
+   ],
+   "outlook": "ISW研判俄軍將在今冬對烏能源基礎設施發動嚴酷的打擊行動，烏方防空能否撐住取決於西方持續援助。",
+   "watch": "俄軍冬季能源打擊強度、烏方對克拉馬托斯克攻擊的報復行動",
+   "actors": [
+    "澤倫斯基",
+    "烏克蘭空軍",
+    "烏軍總參謀部",
+    "俄羅斯國防部",
+    "克里契科",
+    "菲拉什金",
+    "ISW"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-war-latest-russian-glide-bomb-strikes-in-kramatorsk-kill-at-least-33/"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/"
+    },
+    {
+     "publisher": "ISW／Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-7-2026"
+    },
+    {
+     "publisher": "CSIS",
+     "url": "https://www.csis.org/analysis/learning-without-bleeding-chinas-lessons-russia-ukraine-drone-war"
+    }
+   ]
+  },
+  {
+   "id": "dip-ukraine-20261009",
+   "date": "2026-10-08",
+   "theater": "ukraine_front",
+   "beat": "DIP",
+   "title": "魯比歐：烏俄談判無望 烏代表團仍赴美談能源停火",
+   "points": [
+    "美國國務卿魯比歐10月8日接受希臘《每日報》訪問稱「目前看來沒有談判解決的前景」，原因是俄方堅持不經戰鬥取得頓內茨克州全境，基輔拒絕；俄副外長里亞布科夫10月7日也說目前沒有美方斡旋的烏俄會談計畫。",
+    "克宮發言人佩斯科夫10月8日稱澤倫斯基的言論顯示基輔不願走向和平；澤倫斯基則說美國不能一邊稱外交停滯、一邊與俄談未來經濟合作，但表示「還不準備公開談」細節。",
+    "澤倫斯基派出烏梅洛夫、布達諾夫等高層組成代表團，10月9日在美國與川普特使魏科夫、庫許納會談，議題為能源停火與黑海停火，預計為期兩天，並盼歐洲團隊加入；能否形成局部停火攸關烏國過冬。",
+    "歐盟大使10月7日同意新增1,646筆對俄制裁名單（743名個人、826個實體），另納入77名在烏國被占領區參選9月國家杜馬選舉的議員；據bne IntelliNews，這是第22輪制裁，外長預定週一在盧森堡正式通過。",
+    "英國10月8日宣布38筆新制裁，對象包括影子船隊、軍工與能源企業及與「A7」規避制裁網絡相關的加密貨幣交易所，受制裁船隻累計達645艘。"
+   ],
+   "context": "川普特使9月初走訪基輔與莫斯科後，三方原則上同意舉行美烏俄三邊會議，但一個月後仍無著落。克宮拒絕停火並要求烏方交出頓巴斯，烏方主張沿現有戰線停火。",
+   "stances": [
+    {
+     "actor": "魯比歐",
+     "view": "認為談判解決目前不可行，癥結在俄方要求不戰而取得頓內茨克州全境。"
+    },
+    {
+     "actor": "克宮",
+     "view": "佩斯科夫稱澤倫斯基言論顯示基輔不願和平，副外長里亞布科夫稱目前沒有美方斡旋會談計畫。"
+    },
+    {
+     "actor": "澤倫斯基",
+     "view": "支持美方安排的會談，但強調俄方也必須支持；暗示美俄有秘密經濟洽談。"
+    },
+    {
+     "actor": "CSIS",
+     "view": "認為入冬前的能源停火對烏、俄與全球市場都有利，但過去停火屢遭破壞，需中立監督機制，且不應與解除制裁掛鉤。"
+    }
+   ],
+   "outlook": "CSIS研判若俄方把能源停火與解除制裁掛鉤，談判可能失敗；可行做法是範圍限縮、獨立查核並對違規分級回應。",
+   "watch": "美烏能源與黑海停火會談結果、歐盟外長週一正式通過制裁",
+   "actors": [
+    "魯比歐",
+    "澤倫斯基",
+    "佩斯科夫",
+    "里亞布科夫",
+    "魏科夫",
+    "庫許納",
+    "卡拉斯"
+   ],
+   "sources": [
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/us-russia-confirm-trumps-latest-ukraine-peace-push-is-falling-apart/"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/zelensky-sends-delegation-to-meet-trump-envoys-as-he-hints-at-secret-us-russia-economic-talks/"
+    },
+    {
+     "publisher": "Izvestia",
+     "url": "https://en.iz.ru/en/2181132/2026-10-08/peskov-zelenskys-words-indicate-kievs-unwillingness-embark-peaceful-path"
+    },
+    {
+     "publisher": "Euronews",
+     "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war"
+    },
+    {
+     "publisher": "CSIS",
+     "url": "https://www.csis.org/analysis/energy-truce-viable-ukraine-war"
+    }
+   ]
+  },
+  {
+   "id": "pol-ukraine-20261009",
+   "date": "2026-10-07",
+   "theater": "ukraine_front",
+   "beat": "POL",
+   "title": "克宮將俄最大物流集團收歸國營 強化戰時掌控",
+   "points": [
+    "俄國國營原子能公司Rosatom總裁利哈喬夫10月7日宣布，向創辦人希什卡廖夫買下Delo集團其餘51%股權，取得全部控制權；Rosatom原已持有49%，價格未公開。",
+    "希什卡廖夫說售股所得大部分將用於「國家安全需要」；Rosatom計畫將Delo與旗下FESCO航運集團等運輸資產整併，打造俄國最大的鐵路、公路與港口碼頭網絡。",
+    "ISW 10月7日評估，克宮正把戰略物流資產納入國家控制，可能是為了在烏軍持續打擊下掌握運費並強化物流網絡防護，莫斯科可能藉國家資本長期支撐戰爭。",
+    "Delo旗下包括新羅西斯克KSK穀物碼頭（俄國最大黑海穀物出口碼頭，年處理量最高1,000萬噸）、運量逾22萬TEU的貨櫃船隊及4萬節鐵路平車，均屬戰時關鍵運輸資產。"
+   ],
+   "context": "俄國政府10月初向國會提交三年期預算，據《基輔獨立報》報導，2027年軍費約17兆盧布、高於2026年的12兆，軍事與安全支出占總支出43%，同時醫療、教育與社福支出下降。",
+   "stances": [
+    {
+     "actor": "ISW",
+     "view": "認為克宮整併物流資產，可能意在掌控運費並在烏方打擊下防護物流網絡。"
+    },
+    {
+     "actor": "卡內基基金會",
+     "view": "柯夫曼認為軍費增幅顯示克宮2027年可能想招募更多合約兵；普羅科年科認為預算更透露俄如何籌措戰費。"
+    }
+   ],
+   "outlook": "ISW研判克宮持續把戰略產業收歸國家掌控，搭配卡內基學者對擴大軍費的分析，俄國可能為長期戰爭做準備。",
+   "watch": "俄國國會審議2027年預算、其他戰略資產是否收歸國營",
+   "actors": [
+    "Rosatom",
+    "利哈喬夫",
+    "希什卡廖夫",
+    "ISW",
+    "卡內基基金會"
+   ],
+   "sources": [
+    {
+     "publisher": "Baird Maritime",
+     "url": "https://www.bairdmaritime.com/shipping/ports/rosatom-expands-state-control-over-key-russian-logistics-assets-with-delo-acquisition"
+    },
+    {
+     "publisher": "ISW／Critical Threats",
+     "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-7-2026"
+    },
+    {
+     "publisher": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russias-military-spending-masks-a-longer-term-strategy-for-a-prolonged-war/"
+    }
+   ]
+  }
+ ]
+}

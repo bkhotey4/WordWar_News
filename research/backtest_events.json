@@ -1,0 +1,17 @@
+{
+ "_說明": "預警回測的參考事件（ANALYSIS_SPEC 第五節）。每筆須有 theater、start、end（YYYY-MM-DD，台北日期）、名稱與 https 來源；只收已公開宣布、日期有多方記載的事件。新增後執行 npm run backtest:warning。",
+ "events": [
+  { "id": "tw-2022-08-pelosi", "theater": "taiwan_strait", "name": "2022 年 8 月環台軍演（裴洛西訪台後）", "start": "2022-08-04", "end": "2022-08-10",
+    "sources": [{ "url": "https://en.wikipedia.org/wiki/2022_Chinese_military_exercises_around_Taiwan", "publisher": "Wikipedia" }, { "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022", "publisher": "ASPI" }] },
+  { "id": "tw-2023-04-joint-sword", "theater": "taiwan_strait", "name": "聯合利劍（Joint Sword）", "start": "2023-04-08", "end": "2023-04-10",
+    "sources": [{ "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022", "publisher": "ASPI" }, { "url": "https://jamestown.org/?p=95806", "publisher": "Jamestown Foundation" }] },
+  { "id": "tw-2024-05-joint-sword-a", "theater": "taiwan_strait", "name": "聯合利劍-2024A", "start": "2024-05-23", "end": "2024-05-24",
+    "sources": [{ "url": "https://en.wikipedia.org/wiki/Joint_Sword-2024A", "publisher": "Wikipedia" }, { "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022", "publisher": "ASPI" }] },
+  { "id": "tw-2024-10-joint-sword-b", "theater": "taiwan_strait", "name": "聯合利劍-2024B", "start": "2024-10-14", "end": "2024-10-14",
+    "sources": [{ "url": "https://en.wikipedia.org/wiki/Joint_Sword-2024B", "publisher": "Wikipedia" }, { "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022", "publisher": "ASPI" }] },
+  { "id": "tw-2025-04-strait-thunder", "theater": "taiwan_strait", "name": "海峽雷霆-2025A", "start": "2025-04-01", "end": "2025-04-02",
+    "sources": [{ "url": "https://en.wikipedia.org/wiki/Strait_Thunder-2025A", "publisher": "Wikipedia" }, { "url": "https://globaltaiwan.org/2025/04/the-plas-strait-thunder-exercise/", "publisher": "Global Taiwan Institute" }] },
+  { "id": "tw-2025-12-justice-mission", "theater": "taiwan_strait", "name": "正義使命-2025", "start": "2025-12-29", "end": "2025-12-30",
+    "sources": [{ "url": "https://en.wikipedia.org/wiki/Justice_Mission_2025", "publisher": "Wikipedia" }, { "url": "https://news.usni.org/2025/12/29/china-launches-blockade-drills-around-taiwan-in-protest-of-u-s-arms-sales", "publisher": "USNI News" }] }
+ ]
+}

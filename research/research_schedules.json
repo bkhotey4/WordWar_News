@@ -1,0 +1,4 @@
+{
+ "_說明": "Codex 排程會從 ~/.codex/automations 自動偵測，不必寫在這裡。其他研究排程（例如 Claude 桌面版排程任務）在 schedules 填 runner（與 record_research_run.js 的 --runner 相同）、name、app、times（台北時間 HH:MM）。active:false 表示停用、不檢查漏跑。",
+ "schedules": []
+}

@@ -1,0 +1,1811 @@
+{
+  "_說明": "預警指標紀錄。每筆須附 https 來源並經人工覆核（reviewed:true）才會計入。triggered:false 表示已查核且未觸發；沒有紀錄則為「無法判定」。validHours 預設 168（7 天）。sourceClass：OFFICIAL 官方、INDEPENDENT_MEDIA 獨立媒體、EXTERNAL_ASSESSMENT 外部評估、PARTY_CLAIM 交戰方聲稱（不計入第 3 級來源條件）。規則見 research/ANALYSIS_SPEC.md。 mapEvents：多來源比對後要畫在戰場圖上的事件（不影響預警等級），格式與規則見 research/INTEL_RESEARCH_TASK.md。",
+  "watch": {
+    "taiwan_strait": "國防部每日通報；10 月 10 日國慶前後共軍是否發布演習或聯合戰備警巡。",
+    "iran_gulf": "美伊透過調停方會談的結果；UKMTO 荷莫茲新通報（已自動抓取）。",
+    "europe_security": "波蘭新交戰規則實施後的首次攔截；北約是否召開第 4 條諮商。",
+    "ukraine_front": "烏克蘭空軍每日通報的無人機與飛彈數是否突破 60 日 P95；大規模飛彈夜襲。"
+  },
+  "entries": [
+    {
+      "id": "eu-airspace-mi8-20260923",
+      "theater": "europe_security",
+      "indicator": "eu_airspace",
+      "triggered": true,
+      "observedAt": "2026-09-23T09:08:00Z",
+      "summary": "波蘭作戰司令部公布：俄軍 Mi-8 直升機自加里寧格勒進入布拉涅沃附近波蘭領空約 300 公尺、停留 42 秒；波方派遣戰機升空。",
+      "sources": [
+        {
+          "url": "https://notesfrompoland.com/2026/09/23/russian-military-helicopter-violates-polish-airspace/",
+          "publisher": "Notes from Poland（引述波蘭作戰司令部）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-23T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z",
+      "location": {
+        "lat": 54.38,
+        "lon": 19.82,
+        "label": "布拉涅沃：俄軍 Mi-8 越界"
+      }
+    },
+    {
+      "id": "eu-response-roe-20260929",
+      "theater": "europe_security",
+      "indicator": "eu_response",
+      "triggered": true,
+      "observedAt": "2026-09-29T00:00:00Z",
+      "summary": "波蘭國防部副部長宣布修改交戰規則：開火前不再要求目視辨識，改以雷達與多感測器資料確認身分。9 月 23 日事件中波方亦派遣戰機升空。",
+      "sources": [
+        {
+          "url": "https://notesfrompoland.com/2026/09/29/poland-changes-rules-of-engagement-for-firing-on-foreign-aircraft-amid-growing-russia-threat/",
+          "publisher": "Notes from Poland（引述波蘭國防部）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "eu-reinforcement-airpatrol-20260925",
+      "theater": "europe_security",
+      "indicator": "eu_reinforcement",
+      "triggered": true,
+      "observedAt": "2026-09-25T00:00:00Z",
+      "summary": "波蘭國防部長宣布擴大空防，增加 F-16 與直升機的空中任務；預防性空中巡邏自 9 月 17 日起執行。",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/25/poland-boosts-air-defence-after-russian-provocations-amid-ukraine-war",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-25T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ir-blockade-20260928",
+      "theater": "iran_gulf",
+      "indicator": "ir_blockade",
+      "triggered": true,
+      "observedAt": "2026-09-28T00:00:00Z",
+      "summary": "美軍持續封鎖伊朗南部港口，並拒絕伊朗最新的荷莫茲海峽重開方案。",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ir-decisive-transits-20260927",
+      "theater": "iran_gulf",
+      "indicator": "ir_decisive",
+      "triggered": false,
+      "observedAt": "2026-09-27T00:00:00Z",
+      "validHours": 72,
+      "summary": "海峽未實際封閉：Kpler 資料顯示 9 月 27 日有 19 艘油輪通過（含 17 艘超大型油輪），9 月區域出口為開戰以來最高。",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/28/iran-touts-hormuz-attacks-as-oil-flows-increase-despite-tensions",
+          "publisher": "Al Jazeera（引述 Kpler）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ir-talks-mediators-20260929",
+      "theater": "iran_gulf",
+      "indicator": "ir_talks",
+      "triggered": true,
+      "observedAt": "2026-09-29T00:00:00Z",
+      "summary": "美伊 9 月 28 日在紐約分別與卡達等調停方會談，為今年第三次停火嘗試；伊朗提議七天內重開荷莫茲海峽，換取解除制裁、解凍資產與結束封鎖，並願將 60% 濃縮鈾移交第三國稀釋；美方要求一併處理核問題，川普否認已讓步，尚無突破。",
+      "sources": [
+        {
+          "url": "https://kathmandupost.com/world/2026/09/29/us-iran-separately-talk-with-mediators-in-latest-bid-to-end-war",
+          "publisher": "Kathmandu Post（轉載路透社）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T00:00:00Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T00:00:00Z"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/09/29/us-and-iran-quietly-engage-in-talks-but-breakthrough-proves-elusive/",
+          "publisher": "The National",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T07:39:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T22:55:10Z"
+    },
+    {
+      "id": "eu-response-airports-20260928",
+      "theater": "europe_security",
+      "indicator": "eu_response",
+      "triggered": true,
+      "observedAt": "2026-09-28T15:00:00Z",
+      "summary": "俄軍噴射無人機於 9 月 28 日傍晚落在烏波邊境雅戈丁（Yahodyn）口岸附近；波蘭航管局宣布盧布林、熱舒夫機場暫停起降，讓軍機自由行動，國防部表示防空與戰機已備戰。無人機未進入波蘭領空。",
+      "sources": [
+        {
+          "url": "https://censor.net/en/news/4025658/russian-drone-hits-near-yahodyn-crossing-polish-airports-suspend-flights",
+          "publisher": "Censor.net（引述波蘭航管局、作戰司令部）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T16:00:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/russian-drone-strikes-near-ukraine-poland-border-crossing-in-volyn-oblast/",
+          "publisher": "Kyiv Independent（引述波蘭國防部長）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T17:45:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T17:30:43Z"
+    },
+    {
+      "id": "ua-front-lyman-vivaldi-20260928",
+      "theater": "ukraine_front",
+      "indicator": "ua_front",
+      "triggered": true,
+      "observedAt": "2026-09-28T00:00:00Z",
+      "summary": "ISW 9 月 28 日評估：烏軍第三軍團「維瓦第」行動第三階段在利曼以北推進，Nove、Ridkodub、Katerynivka 有地理定位影片佐證；烏方稱三階段共收復 176 平方公里。",
+      "sources": [
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T23:45:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-downtown-kyiv-kills-one-injures-21-damages-national-academy-of-sciences/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T17:49:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T17:30:43Z"
+    },
+    {
+      "id": "eu-response-scramble-20260930",
+      "theater": "europe_security",
+      "indicator": "eu_response",
+      "triggered": true,
+      "observedAt": "2026-09-30T00:00:00Z",
+      "summary": "9 月 29 日至 30 日夜間俄軍以噴射無人機攻擊烏克蘭西部，波蘭作戰司令部派遣軍機升空，並動員地面防空與雷達；羅馬尼亞在伊茲梅爾以東偵測到空中目標，派兩架西班牙 F-18 升空監控。兩國均未發現領空遭侵犯。",
+      "sources": [
+        {
+          "url": "https://abcnews.com/International/russian-strikes-kill-2-kyiv-prompt-nato-scramble/story?id=136881319",
+          "publisher": "ABC News（引述波蘭作戰司令部、羅馬尼亞國防部）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T10:15:00Z"
+        },
+        {
+          "url": "https://en.apa.az/europe/poland-and-romania-scramble-aircraft-amid-russian-attacks-on-ukraine-527222",
+          "publisher": "APA",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T07:10:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T11:05:00Z"
+    },
+    {
+      "id": "ir-talks-feedback-20260930",
+      "theater": "iran_gulf",
+      "indicator": "ir_talks",
+      "triggered": true,
+      "observedAt": "2026-09-29T00:00:00Z",
+      "summary": "路透引述非伊朗籍知情官員：阿拉奇9月29日在多哈經卡達收到美方對七日方案的回覆，執行順序仍有分歧。事件僅知日期，00:00為日期容器；不是停火生效或恢復通航的證據。",
+      "sources": [
+        {
+          "url": "https://www.brecorder.com/news/40441974/iran-receives-us-feedback-on-seven-day-trust-building-plan",
+          "publisher": "Reuters（Business Recorder轉載；單一未具名知情官員）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T07:48:41Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T11:44:03.603Z"
+    },
+    {
+      "id": "ua-energy-winter-20260930",
+      "theater": "ukraine_front",
+      "indicator": "ua_energy",
+      "triggered": true,
+      "observedAt": "2026-09-30T00:00:00Z",
+      "summary": "9 月 29–30 日俄軍以約 188 架無人機與多枚飛彈夜襲並於白天續攻，ISW 評估為 2026–27 冬季能源打擊行動開始：特里皮利亞火力發電廠受損，Ukrenergo 報告頓內次克、第聶伯、哈爾科夫、蘇梅、基輔州停電；烏方稱首次出現切割電塔的無人機。事件僅知日期，00:00 為日期容器。",
+      "sources": [
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-30-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "url": "https://www.detroitnews.com/story/news/world/2026/09/30/russia-attacks-ukrainian-energy-grid-forcing-power-cuts-as-winter-looms/92023913007/",
+          "publisher": "AP（Detroit News 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T12:00:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/russia-strikes-ukrainian-power-pylon-with-steel-cutting-drone-for-1st-time-zelenskys-adviser-says/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T16:25:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T11:20:00Z"
+    },
+    {
+      "id": "eu-response-roe-effective-20261001",
+      "theater": "europe_security",
+      "indicator": "eu_response",
+      "triggered": true,
+      "observedAt": "2026-10-01T00:00:00Z",
+      "summary": "波蘭新交戰規則 10 月 1 日起實施：國防部長卡米什表示，作戰指揮官諾瓦克上將已提交備便報告，戰機與直升機可依雷達、其他系統與烏方提供的資訊進行「正面識別」後授權擊落，不再強制目視確認。事件僅知日期，00:00 為日期容器。",
+      "sources": [
+        {
+          "url": "https://newsukraine.rbc.ua/news/poland-removes-mandatory-visual-checks-before-1790837505.html",
+          "publisher": "RBC-Ukraine（引述波蘭廣播電台）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T06:51:00Z"
+        },
+        {
+          "url": "https://www.usnews.com/news/world/articles/2026-09-30/poland-to-set-quicker-air-defence-procedures-defence-minister-says",
+          "publisher": "Reuters（US News 轉載，僅標題可見）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T23:20:00Z"
+    },
+    {
+      "id": "eu-reinforcement-patriot-lublin-20261006",
+      "theater": "europe_security",
+      "indicator": "eu_reinforcement",
+      "triggered": true,
+      "observedAt": "2026-10-06T00:00:00Z",
+      "summary": "波蘭副總理兼國防部長卡米什經波蘭廣播電台宣布，將首度在盧布林省（盧布林機場附近）部署愛國者飛彈連，保護當地居民與常因空襲警報中斷的航班；另在比烏戈拉伊、武庫夫、波尼亞托瓦成立含無人機部隊的新單位。部署時程未公布。事件僅知日期，00:00 為日期容器。",
+      "sources": [
+        {
+          "url": "https://www.ukrinform.net/rubric-defense/4171627-defense-minister-poland-to-deploy-patriot-systems-near-ukrainian-border.html",
+          "publisher": "Ukrinform（引述波蘭廣播電台）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T16:58:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T16:50:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/86222",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    }
+  ],
+  "mapEvents": [
+    {
+      "id": "ua-lyman-ridkodub-20260927",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-27T21:23:38Z",
+      "title": "烏軍收復里德科杜布",
+      "summary": "利曼以北「維瓦第」行動第三階段，烏軍收復 Ridkodub、Nove、Katerynivka 等村。",
+      "comparison": "DeepState 9/27 標示收復；ISW 9/28 評估有地理定位影片佐證；烏軍第三軍團 9/28 宣布。三方一致。",
+      "place": {
+        "name": "Ridkodub",
+        "admin": "Kramatorsk Raion, Donetsk Oblast",
+        "lat": 49.1866,
+        "lon": 37.7984,
+        "basis": "GAZETTEER"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-27T21:23:38Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ua-lyman-nove-20260927",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-27T21:23:38Z",
+      "title": "烏軍收復諾韋",
+      "summary": "與里德科杜布同一波行動收復 Nove。",
+      "comparison": "DeepState 9/27 與 ISW 9/28（引述並以影片佐證）一致。座標由地名查詢取得。",
+      "place": {
+        "name": "Nove",
+        "admin": "Kramatorsk Raion, Donetsk Oblast"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-27T21:23:38Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ua-lyman-katerynivka-20260927",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-27T21:23:38Z",
+      "title": "烏軍收復卡特琳尼夫卡",
+      "summary": "與里德科杜布同一波行動收復 Katerynivka。",
+      "comparison": "DeepState 9/27 與 ISW 9/28 一致。座標由地名查詢取得（同名村莊多，只在本圖範圍內查）。",
+      "place": {
+        "name": "Katerynivka",
+        "admin": "Kramatorsk Raion, Donetsk Oblast"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-27T21:23:38Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ua-lyman-novomykhailivka-20260927",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-27T21:23:38Z",
+      "title": "新米哈伊利夫卡附近恢復控制",
+      "summary": "烏軍在 Novomykhailivka 附近恢復控制。",
+      "comparison": "DeepState 9/27 附座標標示；ISW 9/28 引述第三軍團列出 Novomykhailivka。兩方一致。",
+      "place": {
+        "name": "Novomykhailivka",
+        "lat": 49.2216,
+        "lon": 37.916,
+        "basis": "SOURCE_COORDS"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en#14/49.2216404/37.9159682",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-27T21:23:38Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ua-lyman-lypove-20260927",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-27T21:23:38Z",
+      "title": "利波韋附近恢復控制",
+      "summary": "DeepState 標示烏軍在 Lypove 附近恢復控制。",
+      "comparison": "只有 DeepState 標示；ISW 9/28 未列出 Lypove，列為單一來源。",
+      "place": {
+        "name": "Lypove",
+        "lat": 49.1714,
+        "lon": 37.7789,
+        "basis": "SOURCE_COORDS"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en#14/49.1714359/37.7788909",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-27T21:23:38Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T00:00:00Z"
+    },
+    {
+      "id": "ua-lyman-karpivka-20260928",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-28T00:00:00Z",
+      "title": "烏方宣布收復卡爾皮夫卡",
+      "summary": "烏軍第三軍團宣布收復 Karpivka。",
+      "comparison": "仍只有第三軍團宣布；ISW 9/28、9/29 評估皆轉述同一聲明，未見地理定位影片；DeepState 本次無可讀取的更新，維持交戰方單一來源。",
+      "place": {
+        "name": "Karpivka",
+        "admin": "Kramatorsk Raion, Donetsk Oblast"
+      },
+      "side": "UA",
+      "kind": "CLAIMED_ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP（轉述烏軍第三軍團）",
+          "sourceClass": "PARTY_CLAIM",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/85702",
+          "publisher": "ISW／CTP 9/29 評估（Kyiv Post 轉載，轉述烏軍第三軍團）",
+          "sourceClass": "PARTY_CLAIM",
+          "publishedAt": "2026-09-30T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T11:05:00Z"
+    },
+    {
+      "id": "tw-jiahaike7-batanes-20260928",
+      "theater": "taiwan_strait",
+      "observedAt": "2026-09-28T00:00:00Z",
+      "title": "中國研究船「嘉海科7」滯留巴丹",
+      "summary": "菲律賓海巡指中國研究船嘉海科7 自 9/28 在伊巴亞特島西北約 37–38 浬滯留四天、偽造 AIS 位置。10/1 菲方派 BRP Teresa Magbanua、橡皮艇與巴斯科起飛的飛機驅離，中國海警 2503 到場反向喊話；該船當地 11:42 以 4.6 節駛離。",
+      "comparison": "船隻在場與10/1驅離：菲海巡、路透與Philstar一致。偽造位置與駛離時間為菲方說法；中國使館稱合法作業並主張管轄權，海警2503到場僅菲方說法，中方未回應。列為有爭議。位置依「伊巴亞特西北 38 浬」推算。",
+      "place": {
+        "name": "伊巴亞特島西北 38 浬",
+        "lat": 21.23,
+        "lon": 121.36,
+        "basis": "DERIVED_FROM_TEXT"
+      },
+      "side": "PRC",
+      "kind": "INCIDENT",
+      "confidence": "DISPUTED",
+      "sources": [
+        {
+          "url": "https://gcaptain.com/philippines-accuses-chinese-vessel-of-spoofing-location-in-northern-waters/",
+          "publisher": "gCaptain（轉載路透社）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        },
+        {
+          "url": "https://www.philstar.com/headlines/2026/09/28/2559544/pcg-chinese-ship-faked-location-near-batanes-cable-corridor",
+          "publisher": "Philstar（引述菲律賓海巡）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        },
+        {
+          "url": "https://mb.com.ph/2026/09/28/chinese-embassy-says-research-vessel-operating-lawfully-as-pcg-flags-alleged-ais-spoofing-off-batanes",
+          "publisher": "Manila Bulletin（標題：中國使館稱合法作業）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        },
+        {
+          "url": "https://www.philstar.com/headlines/2026/09/30/2559936/pcg-repels-china-vessels-anew",
+          "publisher": "Philstar（9/30，引述菲海巡轉述中國使館）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T00:00:00Z"
+        },
+        {
+          "url": "https://bworldonline.com/the-nation/2026/10/01/783569/philippines-sends-largest-ship-aircraft-to-drive-away-chinese-vessel-in-waters-near-taiwan/",
+          "publisher": "Reuters（BusinessWorld 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T07:47:00Z"
+        },
+        {
+          "url": "https://www.philstar.com/headlines/2026/10/02/2560398/pcg-drives-away-chinese-research-vessel-batanes",
+          "publisher": "Philstar（10/2，引述菲海巡塔列拉）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T16:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T23:20:00Z"
+    },
+    {
+      "id": "ua-kyiv-strike-20260928",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-28T09:00:00Z",
+      "title": "俄軍無人機白天空襲基輔市中心",
+      "summary": "9 月 28 日俄軍日夜連續以噴射無人機空襲，基輔國家科學院大樓、教育科學部與 Dobrobut 醫療中心起火，基輔 1 至 2 死、24 傷；哈爾科夫、第聶伯、札波羅熱亦有住宅受損。",
+      "comparison": "Kyiv Independent、路透社、半島電視台皆報導科學院遭擊中，ISW 一致。基輔死亡數 KI 為 1 人、半島電視台為 2 人，全國至少 9 死；傷亡與 289 架無人機數字各家不同，後者為烏空軍數字。",
+      "place": {
+        "name": "Kyiv",
+        "admin": "Kyiv City"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-downtown-kyiv-kills-one-injures-21-damages-national-academy-of-sciences/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T17:49:00Z"
+        },
+        {
+          "url": "https://www.thestar.com.my/news/world/2026/09/28/kyiv-science-academy-hit-as-russian-jet-drones-strike-across-ukraine",
+          "publisher": "Reuters（The Star 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T14:00:00Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T23:45:00Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T03:38:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T22:55:10Z"
+    },
+    {
+      "id": "eu-yahodyn-drone-20260928",
+      "theater": "europe_security",
+      "observedAt": "2026-09-28T15:00:00Z",
+      "title": "俄無人機落在波蘭邊境雅戈丁口岸旁",
+      "summary": "俄軍噴射無人機擊中烏克蘭沃倫州雅戈丁口岸（對面為波蘭多羅胡斯克）數百公尺處，口岸建物入口受損、無人傷亡；波蘭兩座機場暫停起降，並宣布改以雷達確認身分即可開火。",
+      "comparison": "波蘭作戰司令部發言人、波蘭國防部長與烏克蘭國家邊防局說法一致：落點在烏方境內、未進入波蘭領空。距邊境「數百公尺」或「1.5 公里」各家不同。",
+      "place": {
+        "name": "Yahodyn",
+        "admin": "Kovel Raion, Volyn Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russian-drone-strikes-near-ukraine-poland-border-crossing-in-volyn-oblast/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T17:45:00Z"
+        },
+        {
+          "url": "https://censor.net/en/news/4025658/russian-drone-hits-near-yahodyn-crossing-polish-airports-suspend-flights",
+          "publisher": "Censor.net",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T16:00:00Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-28-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-09-28T23:45:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T17:30:43Z"
+    },
+    {
+      "id": "scs-kota-militia-20260928",
+      "theater": "south_china_sea",
+      "observedAt": "2026-09-28T02:00:00Z",
+      "title": "菲海巡驅離南鑰島旁中國民兵船與24艘小艇",
+      "summary": "菲律賓海巡稱 9 月 28 日上午在南沙 Kota 島（南鑰島，菲方卡拉延島群）西北約 1.2 浬發現中國海上民兵船 CMMV 9622 與 24 艘小艇（每艇 2 人，未下網），小艇分布距島 300 碼內；海巡派橡皮艇喊話後船隊離開。",
+      "comparison": "只有菲律賓海巡發言人 Tarriela 的聲明，Philstar 與 BusinessWorld 皆轉述同一聲明，算單一來源；中方未回應，無獨立影像證實。",
+      "place": {
+        "name": "Loaita Island",
+        "admin": "Kalayaan, Palawan"
+      },
+      "side": "PRC",
+      "kind": "INCIDENT",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://www.philstar.com/headlines/2026/09/29/2559790/philippine-coast-guard-drives-chinese-militia-vessel-24-boats-near-kota-island",
+          "publisher": "Philstar（引述菲律賓海巡）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-09-29T00:00:00Z"
+        },
+        {
+          "url": "https://bworldonline.com/the-nation/2026/09/29/783051/pcg-drives-away-chinese-vessel-24-fishing-boats-near-kota-island/",
+          "publisher": "BusinessWorld（引述菲律賓海巡）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-09-29T00:00:00Z"
+        },
+        {
+          "url": "https://www.philstar.com/headlines/2026/09/30/2559936/pcg-repels-china-vessels-anew",
+          "publisher": "Philstar（9/30，引述菲律賓海巡）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-09-30T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T23:10:00Z"
+    },
+    {
+      "id": "ua-dnipro-strike-20260928",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-28T07:00:00Z",
+      "title": "俄噴射無人機擊中第聶伯市中心商業大樓",
+      "summary": "9 月 28 日上班時間，俄軍噴射無人機擊中第聶伯市中心一棟商業大樓並起火，3 死 15 傷、47 人疏散；同州錫內利尼科韋一處物流據點遭擊中，1 死 3 傷。",
+      "comparison": "第聶伯州軍政府首長漢札的說法經 Ukrinform、Kyiv Post 與半島電視台分別報導，死亡 3 人一致；傷者數由 12 人逐步增至 15 至 19 人，各家不同。武器為噴射無人機僅 Kyiv Post 明寫。",
+      "place": {
+        "name": "Dnipro",
+        "admin": "Dnipropetrovsk Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4168822-russian-strike-on-business-center-in-dnipro-injury-toll-rises-to-15-three-dead.html",
+          "publisher": "Ukrinform",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T12:54:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/85581",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T12:50:00Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T03:38:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T22:55:10Z"
+    },
+    {
+      "id": "ua-kharkiv-saltivka-20260928",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-28T01:00:00Z",
+      "title": "俄軍空襲哈爾科夫薩爾季夫區九層住宅",
+      "summary": "9 月 28 日凌晨哈爾科夫薩爾季夫區一棟九層住宅遭擊中，下層結構損毀、32 人撤出；緊急救援署 29 日宣布搜救結束，累計 48 人受傷、含 12 名兒童。",
+      "comparison": "Euronews 與 Ukrinform（引述哈爾科夫州緊急救援署）都報導同一棟九層樓遭擊中、32 人撤出。傷者數隨時間由 25 人升至 48 人；武器 Ukrinform 稱導引炸彈，Euronews 稱仍在調查，未證實。",
+      "place": {
+        "name": "Kharkiv",
+        "admin": "Kharkiv Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4169218-rescue-operations-conclude-in-kharkiv-after-russian-strike-on-highrise-injures-48-people.html",
+          "publisher": "Ukrinform",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T13:31:00Z"
+        },
+        {
+          "url": "https://www.euronews.com/video/2026/09/28/ukraine-kharkiv-apartment-block-hit-by-russian-strike-25-injured",
+          "publisher": "Euronews",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T10:30:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T22:55:10Z"
+    },
+    {
+      "id": "ua-sumy-school-kab-20260929",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-29T13:30:00Z",
+      "title": "俄軍四枚導引炸彈擊中蘇梅市中心學校",
+      "summary": "9 月 29 日白天俄軍以四枚導引滑翔炸彈（KAB）攻擊蘇梅市中心，其中一枚擊中上課中的學校，師生約百人已在防空避難室；附近住宅 2 人死亡、6 人受傷（含 3 名兒童）。",
+      "comparison": "Kyiv Independent、Ukrinform 與路透社（US News 轉載）皆引述蘇梅州長赫里霍羅夫：4 枚 KAB、2 死，一致。傷者 KI 只寫 3 名兒童，Ukrinform 為 6 傷含 3 童。確切攻擊時刻各家未寫明。",
+      "place": {
+        "name": "Sumy",
+        "admin": "Sumy Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/3-children-injured-as-russia-strikes-sumy-school-with-glide-bombs/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T17:14:00Z"
+        },
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4169279-russian-glidebomb-strikes-on-central-sumy-leaves-two-killed-children-among-wounded.html",
+          "publisher": "Ukrinform",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T15:55:00Z"
+        },
+        {
+          "url": "https://www.usnews.com/news/world/articles/2026-09-29/russian-bomb-attack-kills-two-in-ukraines-sumy-officials-say",
+          "publisher": "Reuters（US News 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-29T16:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T22:55:10Z"
+    },
+    {
+      "id": "scs-cabra-ccg3303-20260927",
+      "theater": "south_china_sea",
+      "observedAt": "2026-09-27T02:00:00Z",
+      "title": "中國海警3303與三艘解放軍艦出現在卡布拉島西北",
+      "summary": "菲律賓海巡巡邏機於 9 月 27 日在西民都洛省卡布拉島西北 36.61 浬目視確認中國海警 CCG-3303，另有解放軍海軍 572、536、551 號艦在同島西北約 31 浬；菲方派 BRP Teresa Magbanua 監控，海警船未回應無線電。",
+      "comparison": "菲律賓通訊社（PIA）與菲律賓星報都引述菲海巡同一份說明，屬同一來源；尚無中方或第三方證實。座標由「卡布拉島西北 36.61 浬」推算。",
+      "place": {
+        "name": "Cabra Island",
+        "admin": "Lubang, Occidental Mindoro",
+        "lat": 14.31,
+        "lon": 119.57,
+        "basis": "DERIVED_FROM_TEXT"
+      },
+      "side": "PRC",
+      "kind": "MANEUVER",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://pia.gov.ph/news/pcg-deploys-aircraft-and-brp-teresa-magbanua-to-challenge-china-coast-guard-vessel-near-cabra-island-pla-navy-warships-monitored-in-the-area/",
+          "publisher": "菲律賓通訊社（PIA，引述菲海巡）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-09-28T00:00:00Z"
+        },
+        {
+          "url": "https://www.philstar.com/headlines/2026/09/29/2559694/pcg-challenges-china-ships-mindoro-batanes",
+          "publisher": "Philippine Star",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T16:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-29T22:55:10Z"
+    },
+    {
+      "id": "ua-kyiv-ballistic-20260930",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-30T00:00:00Z",
+      "title": "俄軍彈道飛彈與無人機夜襲基輔與基輔州",
+      "summary": "9 月 30 日凌晨俄軍以飛彈與噴射無人機攻擊基輔地區：斯維亞托申區住宅起火、佩切爾斯克區停電、一處通訊設施受損；維什霍羅德一名兒童罹難。半島電視台計 4 死（基輔 3、周邊 1 名兒童），約 8,000 戶一度斷電；伊茲梅爾港口設施同夜受損。",
+      "comparison": "Kyiv Independent、自由歐洲電台、半島電視台一致：凌晨飛彈攻擊、能源設施受損、兒童罹難。死亡數由至少 3 人更新為 4 人（半島）；188 架無人機為烏空軍數字；俄國防部稱目標為基輔州電力與軍工相關設施。",
+      "place": {
+        "name": "Kyiv",
+        "admin": "Kyiv City"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-disrupt-electricity-as-multi-day-russian-attacks-on-capital-continue/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T00:28:00Z"
+        },
+        {
+          "url": "https://www.rferl.org/a/russia-drone-missile-stirke-ukraine-kyiv/33866974.html",
+          "publisher": "RFE/RL",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T05:25:00Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T11:32:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T23:10:00Z"
+    },
+    {
+      "id": "me-gaza-telalhawa-minibus-20260930",
+      "theater": "middle_east",
+      "observedAt": "2026-09-30T00:00:00Z",
+      "title": "以色列空襲加薩市泰勒哈瓦區小巴士",
+      "summary": "9 月 30 日以軍空襲加薩市泰勒哈瓦（Tel al-Hawa）區一輛小巴士，至少 4 死、14 傷；同日加薩市住宅與汗尤尼斯另有空襲，全日至少 5 至 7 人死亡。事件僅知日期，00:00 為日期容器。",
+      "comparison": "美聯社、路透與 The New Arab 一致：泰勒哈瓦區載客車遭擊；死傷數美聯社 4 死 14 傷、New Arab 5 死 13 傷不一。全日死亡數 5 至 8 人說法不一。以軍未對此次空襲回應。",
+      "place": {
+        "name": "Tel al-Hawa",
+        "admin": "Gaza City"
+      },
+      "side": "OTHER",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://krmg.com/2026/09/30/israeli-strikes-in-gaza-kill-5-wound-19-and-other-mideast-developments/",
+          "publisher": "AP（KRMG 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T10:10:00Z"
+        },
+        {
+          "url": "https://www.irishtimes.com/world/middle-east/2026/09/30/israeli-strikes-kill-six-people-in-gaza-medics-say/",
+          "publisher": "Reuters（Irish Times 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T15:04:00Z"
+        },
+        {
+          "url": "https://www.arabnews.com/middle-east/israeli-minibus-strike-kills-5-in-gaza-city-3003899",
+          "publisher": "Arab News（路透稿）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T13:12:00Z"
+        },
+        {
+          "url": "https://www.newarab.com/news/israeli-strikes-kill-eight-palestinians-across-gaza",
+          "publisher": "The New Arab（引述巴勒斯坦紅新月會）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T11:20:00Z"
+    },
+    {
+      "id": "mm-kyauktaw-market-20260928",
+      "theater": "myanmar",
+      "observedAt": "2026-09-28T05:30:00Z",
+      "title": "緬軍空襲若開邦皎道鎮市場",
+      "summary": "9 月 28 日中午（當地時間），緬甸軍方空襲若開邦北部皎道（Kyauktaw）鎮主要批發市場與旁邊橋梁，罹難者多為攤販、購物民眾與搬運工。死亡人數由初報至少 33 人增至 50 人、58 人受傷。該地由若開軍控制。",
+      "comparison": "美聯社（引述若開軍與救援官員）與法新社（引述救援人員與志工）一致：市場遭空襲、平民死傷。死亡數初報 33、9/29 更新為 50。緬軍未回應，此前一貫稱只打擊合法軍事目標。",
+      "place": {
+        "name": "Kyauktaw",
+        "admin": "Rakhine State"
+      },
+      "side": "OTHER",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/9/28/myanmar-army-air-strike-kills-dozens-in-rakhine-state",
+          "publisher": "AP（Al Jazeera 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-28T12:00:00Z"
+        },
+        {
+          "url": "https://www.manilatimes.net/2026/09/30/world/asia-oceania/myanmar-airstrike-death-toll-rises-to-50/2435011",
+          "publisher": "AFP（Manila Times 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-09-30T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-09-30T23:10:00Z"
+    },
+    {
+      "id": "ua-kyiv-school-20261001",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-01T06:00:00Z",
+      "title": "俄軍無人機擊中基輔索洛米揚區學校",
+      "summary": "10 月 1 日上午基輔空襲警報期間（當地 08:48–09:31），一架俄軍無人機擊中索洛米揚區一所學校引發火災，學童在防空洞，未傳傷亡；美聯社稱彈頭未引爆。前一夜同區16層住宅、奧博隆區倉庫與佩喬爾斯克區非住宅設施亦遭擊中，1人受傷。時間為警報時段約略值。",
+      "comparison": "路透與美聯社（均引述基輔市長克里契科）、國際文傳電訊烏克蘭及基輔郵報一致：學校遭擊、起火、無傷亡。未爆彈頭僅美聯社提及；俄方稱只打軍事目標（路透），未獲證實。",
+      "place": {
+        "name": "Solomianskyi District",
+        "admin": "Kyiv"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://theprint.in/world/russian-drone-smashes-into-kyiv-school-no-injuries-officials-say/3058975/",
+          "publisher": "Reuters（ThePrint 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T09:00:00Z"
+        },
+        {
+          "url": "https://www.news4jax.com/news/world/2026/10/01/a-russian-drone-hits-a-kyiv-school-as-moscow-presses-its-aerial-campaign-against-ukraine/",
+          "publisher": "AP（News4Jax 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T10:00:00Z"
+        },
+        {
+          "url": "https://en.interfax.com.ua/news/general/1212645.html",
+          "publisher": "Interfax-Ukraine",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T06:45:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/85806",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T06:46:00Z"
+        },
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4169842-man-injured-in-overnight-attack-on-kyiv.html",
+          "publisher": "Ukrinform（引述基輔市軍政府，夜間攻擊）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-10-01T04:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T11:20:00Z"
+    },
+    {
+      "id": "ua-sumy-korchakivka-20260929",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-29T00:00:00Z",
+      "title": "烏軍在蘇梅市北方科爾恰基夫卡以北推進",
+      "summary": "ISW 9 月 30 日評估：依 9 月 29 日公布的地理定位影片，烏軍近日在科爾恰基夫卡（蘇梅市北方）以北推進。俄方同日宣稱占領蘇梅市西北的托夫斯托杜博韋，ISW 未證實。事件僅知日期，00:00 為日期容器。",
+      "comparison": "僅 ISW 依地理定位影片評估；ua.news 為轉述 ISW，不算獨立來源。烏軍總參謀部與 DeepState 未查到對應公告，列為單一來源。",
+      "place": {
+        "name": "Korchakivka",
+        "admin": "Sumy Raion, Sumy Oblast"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-september-30-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-01T00:00:00Z"
+        },
+        {
+          "url": "https://ua.news/en/war-vs-rf/na-sumshchini-zafiksuvali-prosuvannia-ukrayinskikh-viiskovikh-isw",
+          "publisher": "UA.News（轉述 ISW）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T07:49:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T11:20:00Z"
+    },
+    {
+      "id": "ua-kyiv-southbridge-20261001",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-01T08:30:00Z",
+      "title": "俄軍無人機兩度擊中基輔南橋",
+      "summary": "10 月 1 日當地約 11:30 兩架俄軍無人機在基輔南橋橋墩附近爆炸，地鐵車廂進塵、無人傷，初檢無結構性損壞後恢復通行；當晚 21:50 再有無人機擊中橋面，橋墩、護欄、路面與地鐵防護牆受損，地鐵與地面交通再度中斷。",
+      "comparison": "基輔市長克里契科（Telegram）、法新社與基輔郵報、基輔獨立報一致：上午兩架無人機擊中橋墩附近、無傷亡。晚間第二次擊中與損壞項目僅見克里契科及基輔郵報轉述，尚無獨立結構評估。",
+      "place": {
+        "name": "Pivdennyi Bridge",
+        "admin": "Kyiv"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/2-russian-drones-strike-near-supports-of-kyiv-bridge-linking-eastern-western-banks-klitshchko-says/",
+          "publisher": "Kyiv Independent（引述克里契科）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T10:14:00Z"
+        },
+        {
+          "url": "https://www.malaymail.com/news/world/2026/10/01/russian-drones-hit-key-kyiv-bridge-disrupting-transport/237304",
+          "publisher": "AFP（Malay Mail 轉載）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T11:49:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/85885",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T19:38:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T23:20:00Z"
+    },
+    {
+      "id": "ua-kyiv-nuclear-institute-20260930",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-30T15:18:00Z",
+      "title": "俄軍無人機擊中基輔核子研究所院區",
+      "summary": "9 月 30 日當地 18:18，一架俄軍無人機擊中烏克蘭國家科學院核子研究所院區，引發火災後迅速撲滅，無人傷；院內 VVR-M 研究用反應爐自 2022 年 2 月停機、爐心已卸載，反應爐與安全系統未損，輻射值 0.16–0.20 μSv/h 屬背景值。烏外交部稱落點距反應爐約 100 公尺，要求 IAEA 回應。",
+      "comparison": "烏克蘭國家核能管制檢查局（經烏克蘭國家通訊社、基輔獨立報）與烏外交部（國際文傳電訊烏克蘭）一致：院區遭擊、反應爐未損、輻射正常；ABC 引述法新社、路透亦報導。100 公尺距離僅烏外交部說法；截至查核時未見 IAEA 聲明。",
+      "place": {
+        "name": "Institute for Nuclear Research",
+        "admin": "Kyiv"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4169998-russian-drone-attacks-institute-for-nuclear-research-in-kyiv.html",
+          "publisher": "Ukrinform（引述國家核能管制檢查局）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-10-01T11:20:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/russian-drone-strikes-kyiv-nuclear-institute-housing-research-reactor/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T14:13:00Z"
+        },
+        {
+          "url": "https://en.interfax.com.ua/news/general/1213142.html",
+          "publisher": "Interfax-Ukraine（引述烏克蘭外交部）",
+          "sourceClass": "PARTY_CLAIM",
+          "publishedAt": "2026-10-01T17:38:00Z"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2026-10-02/school-and-nuclear-facility-hit-in-latest-russian-air-strikes/107218686",
+          "publisher": "ABC（澳洲，引述法新社／路透）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T14:02:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-01T23:20:00Z"
+    },
+    {
+      "id": "ua-kyiv-darnytskyi-20261002",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-02T00:00:00Z",
+      "title": "俄軍無人機夜襲基輔達爾尼查區高樓、南橋再遭擊",
+      "summary": "10 月 2 日凌晨俄軍無人機擊中基輔達爾尼查區一棟 25 層住宅，24、25 樓起火，1 死 2 傷；南橋（Pivdennyi）再度受損，路面、橋墩與地鐵線防護結構受損，南橋與帕頓橋封閉。烏空軍稱當夜俄軍發射 108 架無人機、擊落或干擾 88 架。事件僅知日期，00:00 為日期容器。",
+      "comparison": "基輔獨立報與基輔郵報一致報導 1 死 2 傷、25 層住宅起火與南橋再遭擊，兩者皆引述基輔市長克里契科與基輔市軍政府；無人機數量僅烏空軍（交戰方）說法。",
+      "place": {
+        "name": "Darnytskyi District",
+        "admin": "Kyiv"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russian-strike-kills-1-injures-2-in-kyiv-as-southern-bridge-hit-again-overnight/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T05:04:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/85907",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T05:48:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-02T11:20:00Z"
+    },
+    {
+      "id": "ua-kramatorsk-bus-fpv-20261002",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-02T04:08:00Z",
+      "title": "俄軍 FPV 無人機擊中克拉馬托斯克公車",
+      "summary": "10 月 2 日當地 07:08，俄軍 FPV 無人機擊中克拉馬托斯克市一輛載客行駛中的公車，2 名乘客受傷。",
+      "comparison": "基輔獨立報與 Mezha 皆引述克拉馬托斯克市議會同一則 Telegram 公告，屬同一原始來源，列為單一來源；市內確切路段未公布。",
+      "place": {
+        "name": "Kramatorsk",
+        "admin": "Donetsk Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russian-attacks-kill-2-injure-27-across-ukraine-hit-passenger-bus-with-fpv-drone-in-kramatorsk/",
+          "publisher": "Kyiv Independent（引述克拉馬托斯克市議會）",
+          "sourceClass": "OFFICIAL",
+          "publishedAt": "2026-10-02T08:56:00Z"
+        },
+        {
+          "url": "https://mezha.net/eng/news/04c9a4eb_russian_forces_strike/",
+          "publisher": "Mezha（引述同一市議會公告）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T08:01:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-02T11:20:00Z"
+    },
+    {
+      "id": "ru-volgograd-refinery-20261002",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-02T00:00:00Z",
+      "title": "烏軍無人機襲擊伏爾加格勒煉油廠",
+      "summary": "10 月 2 日夜間烏軍無人機襲擊俄國伏爾加格勒，烏克蘭總參謀部稱擊中盧克石油伏爾加格勒煉油廠與薩馬拉州輸油站；目擊影像顯示煉油廠與 Kaustik 化工廠大火。事件僅知日期，00:00 為日期容器。",
+      "comparison": "烏總參謀部（交戰方，經基輔獨立報）稱擊中煉油廠；Meduza 引述伏爾加格勒州長博恰羅夫證實工業設施遭「大規模無人機攻擊」、1 人受傷，但州長未點名設施；煉油廠受損程度兩方皆未獨立證實。",
+      "place": {
+        "name": "Volgograd",
+        "admin": "Volgograd Oblast"
+      },
+      "side": "UA",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-oil-facilities-in-russias-volgograd-samara-regions/",
+          "publisher": "Kyiv Independent（引述烏總參謀部）",
+          "sourceClass": "PARTY_CLAIM",
+          "publishedAt": "2026-10-02T04:33:00Z"
+        },
+        {
+          "url": "https://meduza.io/en/news/2026/10/02/ukrainian-drone-attacks-hit-volgograd-and-samara-setting-a-refinery-and-a-major-oil-tank-farm-on-fire",
+          "publisher": "Meduza",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T04:02:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-02T11:20:00Z"
+    },
+    {
+      "id": "ua-kharkiv-kab-20261002",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-02T00:00:00Z",
+      "title": "俄軍三枚導引炸彈襲擊哈爾科夫，2 死 36 傷",
+      "summary": "10 月 2 日下午俄軍以三枚導引炸彈（KAB）攻擊哈爾科夫市斯洛博茨基區與涅米什利亞區，兩名婦女（66、80 歲）死亡、36 人受傷（含 3 名兒童）；市長捷列霍夫稱一棟住宅全毀。事件僅知日期，00:00 為日期容器。",
+      "comparison": "基輔獨立報與 Gwara Media 一致報導 2 死、至少 36 傷與兩個受襲區，皆引述哈爾科夫州長西涅古博夫、市長捷列霍夫與緊急救援署；Gwara 初報為 28 傷，後更新為 36 傷。",
+      "place": {
+        "name": "Kharkiv",
+        "admin": "Kharkiv Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russian-glide-bombs-strike-kharkiv-kill-women-injure-children-2/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T16:21:00Z"
+        },
+        {
+          "url": "https://gwaramedia.com/en/2-killed-at-least-36-injured-photos-show-residential-districts-of-kharkiv-in-aftermath-of-russian-bombardment/",
+          "publisher": "Gwara Media",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T16:38:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-02T23:10:00Z"
+    },
+    {
+      "id": "ua-polohy-sviatopetrivka-20261001",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-01T18:23:57Z",
+      "title": "DeepState：俄軍占領札波羅熱州斯維亞托彼得里夫卡",
+      "summary": "DeepState 10 月 1 日更新稱俄軍已占領札波羅熱州波洛希區的斯維亞托彼得里夫卡（Sviatopetrivka），並在鄰近的斯塔羅烏克蘭卡（Staroukrainka）附近推進。",
+      "comparison": "僅 DeepState 一方說法（Censor.NET 10 月 2 日轉述同一則），俄國防部、烏總參謀部與 ISW 尚未查到對應說法，列單一來源。座標取自 DeepState 連結。",
+      "place": {
+        "name": "Sviatopetrivka",
+        "admin": "Polohy Raion, Zaporizhzhia Oblast",
+        "lat": 47.6924,
+        "lon": 36.1641,
+        "basis": "SOURCE_COORDS"
+      },
+      "side": "RU",
+      "kind": "ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en#dl!coords!47.69243236930309,36.164073944091804",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-01T18:23:57Z"
+        },
+        {
+          "url": "https://censor.net/en/news/4026446/deepstate-reports-russian-capture-of-sviatopetrivka",
+          "publisher": "Censor.NET（轉述 DeepState）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-02T17:44:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-02T23:10:00Z"
+    },
+    {
+      "id": "ua-kyiv-northbridge-20261003",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-03T03:37:00Z",
+      "title": "俄軍噴射無人機擊中基輔北橋，連續第三天打擊橋梁",
+      "summary": "10 月 3 日清晨（當地約 6:37 空軍發布警報後）俄軍噴射無人機擊中第聶伯河上的基輔北橋，路面與無軌電車架空線受損，往西車流封閉、橋墩附近起火；為連續第三天打擊基輔主要橋梁，前一天為南橋。時間取空軍警報時刻，命中時間在其後不久。",
+      "comparison": "Kyiv Independent 與 Kyiv Post 均引述基輔市長克里奇科，說法一致（北橋路面與電車線受損、交通中斷）；無傷亡報告。俄方未對此單獨聲明。無來源座標，僅填地名。",
+      "place": {
+        "name": "Pivnichnyi Bridge",
+        "admin": "Kyiv"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russia-strikes-key-kyiv-bridge-for-3rd-straight-day-as-attacks-intensify/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T04:53:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/86006",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T05:34:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-03T11:10:00Z"
+    },
+    {
+      "id": "md-drones-spillover-20261003",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-03T04:50:00Z",
+      "title": "俄軍五架無人機與飛彈侵入摩爾多瓦並爆炸",
+      "summary": "10 月 3 日俄軍夜襲烏克蘭期間，摩爾多瓦稱 5 件俄製無人機與飛彈侵入領空並在境內爆炸，碎片散落考沙尼、什特凡沃德、欣切什蒂、阿內尼伊諾伊四區（Crocmaz、Delacău、Puhăceni、Constantinovca 等村），引發草火與農舍受損，無人傷亡。總統桑杜稱戰爭正危險地延伸到摩國。時間取考沙尼首次警報（當地約 7:50）。",
+      "comparison": "Kyiv Independent 引述桑杜與摩國國防部，Kyiv Post 引述摩國警察總局，兩者在件數方向、受影響地區與無傷亡上一致；件數 5 件出自桑杜。摩爾多瓦非北約成員，不計入東翼預警指標。無來源座標，僅填地名。Kyiv Post 發布時刻未取得，publishedAt 以日期容器 00:00 表示。",
+      "place": {
+        "name": "Ștefan Vodă",
+        "admin": "Ștefan Vodă District, Moldova"
+      },
+      "side": "RU",
+      "kind": "INCIDENT",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/5-russian-missiles-and-drones-exploded-over-moldovas-airspace-sandu-says/",
+          "publisher": "Kyiv Independent（引述桑杜、摩國國防部）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T07:06:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/86022",
+          "publisher": "Kyiv Post（引述摩國警察總局）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-03T11:10:00Z"
+    },
+    {
+      "id": "ua-odesa-liberian-ship-20261003",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-03T00:00:00Z",
+      "title": "俄軍打擊敖德薩州港口賴比瑞亞籍貨輪，1 死 3 傷",
+      "summary": "烏克蘭海港管理局 10 月 3 日稱，俄軍攻擊停靠敖德薩州港口的一艘賴比瑞亞籍民用貨輪，一名輪機員身亡、3 人受傷，13 人撤離。船名、確切港口、攻擊時刻與武器種類均未公布。事件僅知日期，00:00 為日期容器。",
+      "comparison": "Reuters、Kyiv Independent、Kyiv Post 三家說法一致（1 死 3 傷、13 人撤離），但全部引述烏克蘭海港管理局同一份聲明，依規則只算一個來源，判為單一來源；俄方未回應。無來源座標，只填州名。",
+      "place": {
+        "name": "Odesa",
+        "admin": "Odesa Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/03/russia-hits-liberian-flagged-ship-in-ukraine-s-odesa-port-kills-one",
+          "publisher": "Reuters（Internazionale 轉載，引述烏克蘭海港管理局）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T10:48:36Z"
+        },
+        {
+          "url": "https://kyivindependent.com/russian-strike-on-liberian-flagged-cargo-ship-in-black-sea-kills-1-injures-3/",
+          "publisher": "Kyiv Independent（引述烏克蘭海港管理局）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T00:00:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/86032",
+          "publisher": "Kyiv Post（引述烏克蘭海港管理局）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-04T00:55:00Z"
+    },
+    {
+      "id": "ua-kyiv-northbridge-20261004",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-04T00:00:00Z",
+      "title": "俄軍無人機再擊基輔北橋，連續第四天打擊橋梁",
+      "summary": "10 月 4 日上午俄軍無人機再度擊中第聶伯河上的基輔北橋，路面出現彈坑，熱力幹管受損導致德斯納區暫停熱水供應，多條無軌電車與公車改道；為連續第四天打擊基輔橋梁。確切時刻未公布，00:00 為日期容器。",
+      "comparison": "Kyiv Independent、烏通社（Ukrinform）與 Euromaidan Press 皆引述基輔市長克里奇科，說法一致（北橋路面與熱力管受損、無死亡報告）；澤倫斯基亦證實。俄方未單獨聲明。無來源座標，僅填地名。",
+      "place": {
+        "name": "Pivnichnyi Bridge",
+        "admin": "Kyiv"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russia-targets-kyiv-bridges-for-fourth-consecutive-day-hits-northern-bridge/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T09:14:00Z"
+        },
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4170866-russian-attack-damages-heating-main-in-kyivs-desnianskyi-district.html",
+          "publisher": "烏通社 Ukrinform",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T09:32:00Z"
+        },
+        {
+          "url": "https://euromaidanpress.com/2026/10/04/russias-drones-keep-targeting-the-bridges-kyiv-cant-easily-replace-now-the-northern-crossing-is-cratered/",
+          "publisher": "Euromaidan Press",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T09:44:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-04T11:20:00Z"
+    },
+    {
+      "id": "ua-dobropillia-ivanivka-20261003",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-03T20:27:40Z",
+      "title": "DeepState稱俄軍占領伊萬尼夫卡，ISW未證實",
+      "summary": "DeepState 10 月 3 日更新稱俄軍已占領頓內茨克州波克羅夫斯克區的伊萬尼夫卡（Ivanivka），並朝新沙霍韋（Nove Shakhove）推進，位於多布羅皮利亞方向。",
+      "comparison": "DeepState 稱占領；112.ua 引述 Espreso 轉述同一則，不算第二來源。ISW 10 月 3 日評估則稱俄軍在多布羅皮利亞周邊 10 月 2–3 日『未推進』，與 DeepState 相矛盾（ISW 資料截止時間可能早於 DeepState 更新），列有爭議。DeepState 連結無座標，僅填地名。",
+      "place": {
+        "name": "Ivanivka",
+        "admin": "Pokrovsk Raion, Donetsk Oblast"
+      },
+      "side": "RU",
+      "kind": "ADVANCE",
+      "confidence": "DISPUTED",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en#dl!city!dsm:l:6361",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-03T20:27:40Z"
+        },
+        {
+          "url": "https://112.ua/en/rosijski-vijska-zahopili-ivanivku-ta-prosunulisa-v-rajoni-novogo-sahovogo-situacia-zagostruetsa-189139",
+          "publisher": "112.ua（轉述 DeepState）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T09:24:00Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-3-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-04T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-04T11:20:00Z"
+    },
+    {
+      "id": "ru-adygea-khanskaya-20261004",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-03T22:00:00Z",
+      "title": "烏國安局無人機襲擊阿迪格共和國漢斯卡亞空軍基地",
+      "summary": "烏克蘭國家安全局（SBU）稱 10 月 4 日凌晨以長程無人機攻擊俄羅斯阿迪格共和國漢斯卡亞（Khanskaya）空軍基地，距離約 500 公里，擊中一架 Su-35、一架 Su-34 與一座彈藥庫。當地居民回報當地時間約凌晨 1 點聽到無人機與防空射擊，隨後發生二次爆炸與大火。",
+      "comparison": "攻擊本身：SBU 聲稱，Kyiv Post 引述邁科普居民與地方監控頻道回報爆炸與大火，UNN 轉述 Exilenova+ 衛星影像可見機場受損，彼此一致。擊毀兩架戰機僅 SBU 說法，衛星影像無法確認機型；俄方未表態。時間依居民所述當地凌晨 1 點換算。",
+      "place": {
+        "name": "Khanskaya",
+        "admin": "Maykopsky District, Republic of Adygea"
+      },
+      "side": "UA",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4170953-ukrainian-drones-hit-two-russian-fighter-jets-at-air-base-in-adygea.html",
+          "publisher": "Ukrinform（引述 SBU）",
+          "sourceClass": "PARTY_CLAIM",
+          "publishedAt": "2026-10-04T14:43:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/86087",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T00:00:00Z"
+        },
+        {
+          "url": "https://unn.ua/en/news/satellite-images-showing-the-aftermath-of-the-sbu-strike-on-the-khanskaya-airfield-in-adygea-have-appeared-online",
+          "publisher": "UNN（轉述 Exilenova+ 衛星影像）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T17:58:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-04T23:20:00Z"
+    },
+    {
+      "id": "ua-pryluky-missile-20261007",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-07T00:00:00Z",
+      "title": "俄軍飛彈擊中普里盧基五層公寓，局部倒塌",
+      "summary": "10 月 7 日夜間俄軍大規模飛彈攻擊中，一枚飛彈擊中切爾尼戈夫州普里盧基一棟五層公寓，大段結構倒塌。烏內政部長稱該市 6 死（含 8 歲男童）、34 傷，仍有人受困瓦礫。事件僅知日期，00:00 為日期容器。",
+      "comparison": "Kyiv Post 證實五層公寓大段倒塌；Ukrinform 初報 4 死 20 傷，UNN 引述內政部長更新為 6 死 34 傷，Euromaidan Press 為 5 死 26 傷，差異屬傷亡數陸續更新，事件本身一致。俄方未單獨回應。",
+      "place": {
+        "name": "Pryluky",
+        "admin": "Chernihiv Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.kyivpost.com/post/86298",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:00:00Z"
+        },
+        {
+          "url": "https://www.ukrinform.net/rubric-ato/4171812-russian-missile-strike-on-pryluky-kills-four-injures-20.html",
+          "publisher": "Ukrinform",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:00:00Z"
+        },
+        {
+          "url": "https://unn.ua/en/amp/a-russian-attack-killed-12-people-an-8-year-old-boy-was-killed-in-pryluky",
+          "publisher": "UNN（引述烏內政部長）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:00:00Z"
+        },
+        {
+          "url": "https://euromaidanpress.com/2026/10/07/five-dead-in-pryluky-two-each-in-kyiv-kremenchuk-and-oleksandriia-russias-night-of-70-missiles/",
+          "publisher": "Euromaidan Press",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T08:33:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-kremenchuk-strike-20261007",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-07T00:00:00Z",
+      "title": "俄軍飛彈與無人機襲擊克列緬丘格，2 死 7 傷",
+      "summary": "10 月 7 日俄軍以飛彈與無人機攻擊波爾塔瓦州克列緬丘格，2 死 7 傷，多棟公寓與民宅、工業設施受損；市長馬列茨基稱為全面入侵以來該市住宅受損最嚴重的一次。空軍稱 6 點後對波爾塔瓦州有第二波攻擊。事件僅知日期，00:00 為日期容器。",
+      "comparison": "Kyiv Post（引述市長）、EU Today 與 Euromaidan Press 一致報導 2 死、7–8 傷與住宅大量受損；遭擊工業設施名稱未公布。",
+      "place": {
+        "name": "Kremenchuk",
+        "admin": "Poltava Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.kyivpost.com/post/86298",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:00:00Z"
+        },
+        {
+          "url": "https://eutoday.net/russia-mass-attack-ukraine-7-october-2026/",
+          "publisher": "EU Today",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T08:24:00Z"
+        },
+        {
+          "url": "https://euromaidanpress.com/2026/10/07/five-dead-in-pryluky-two-each-in-kyiv-kremenchuk-and-oleksandriia-russias-night-of-70-missiles/",
+          "publisher": "Euromaidan Press",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T08:33:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-kyiv-mass-strike-20261007",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-07T00:15:00Z",
+      "title": "俄軍彈道與巡弋飛彈夜襲基輔，2 死",
+      "summary": "10 月 7 日當地約 3:15 起俄軍以彈道與巡弋飛彈攻擊基輔，波季爾、奧博隆、達爾尼查、謝甫琴科四區受影響，達爾尼查區車庫合作社起火、2 人死亡。全國當夜約 70 枚飛彈與 130 架無人機，擊落 5 枚彈道、39 枚巡弋飛彈與 117 架無人機（烏空軍）。時間取首波爆炸時刻。",
+      "comparison": "Kyiv Independent、Kyiv Post、Al Jazeera 一致：基輔 2 死、達爾尼查區起火；俄國防部亦稱對基輔進行「大規模打擊」。飛彈與無人機數量僅烏空軍（交戰方）說法。",
+      "place": {
+        "name": "Kyiv",
+        "admin": "Kyiv City"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:25:00Z"
+        },
+        {
+          "url": "https://www.kyivpost.com/post/86298",
+          "publisher": "Kyiv Post",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:00:00Z"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-07T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ru-moscow-volodarsk-20261006",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-06T00:00:00Z",
+      "title": "烏軍無人機襲擊莫斯科州最大油庫沃洛達爾斯克站",
+      "summary": "10 月 5–6 日夜間烏軍大規模無人機攻擊莫斯科州，康斯坦丁諾沃村的沃洛達爾斯克線性生產調度站（年處理 300 萬噸油品，距邊境約 450 公里）起火。莫斯科市長稱共 650 架無人機飛向莫斯科地區、擊落 105 架。事件僅知日期，00:00 為日期容器。",
+      "comparison": "ISW 依 10/5 地理定位影片與莫斯科州長沃羅比約夫證實攻擊與大火；Kyiv Independent 引述目擊影片與 Exilenova+，註明未能獨立核實。設施受損程度兩方皆未證實；無人機數量為俄方說法。",
+      "place": {
+        "name": "Konstantinovo",
+        "admin": "Ramensky District, Moscow Oblast"
+      },
+      "side": "UA",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-07T01:00:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/ukrainian-drones-reportedly-attack-moscow-oblast-in-mass-attack-near-russias-capital/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-zaporizhzhia-bridge-20261006",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-06T00:00:00Z",
+      "title": "俄軍無人機擊中札波羅熱市聶伯河橋梁",
+      "summary": "10 月 6 日夜間俄軍無人機擊中札波羅熱市一座聶伯河橋梁，路面受損，橋梁封閉、交通改道；同夜該州 5 人受傷（含 2 名紅十字會人員）。市議會未公布是哪座橋。事件僅知日期，00:00 為日期容器。",
+      "comparison": "Kyiv Independent 引述札波羅熱市議會；ISW 10/6 評估另引述地方官員說法，並將此列為俄軍近期擴大打擊烏克蘭橋梁的一環。兩者一致，橋名皆未公布。",
+      "place": {
+        "name": "Zaporizhzhia",
+        "admin": "Zaporizhzhia Oblast"
+      },
+      "side": "RU",
+      "kind": "STRIKE",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://kyivindependent.com/russian-drone-strikes-zaporizhzhia-bridge-in-overnight-attack/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T04:26:00Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-07T01:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "bs-bulgaria-eez-ships-20261006",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-06T00:00:00Z",
+      "title": "保加利亞專屬經濟區兩艘商船遭無人機擊中，一艘沉沒",
+      "summary": "10 月 6 日當地約 3 時，多哥籍 Alfa Watan 與帛琉籍 Able 在保加利亞外海約 70 浬、其專屬經濟區內遭無人機攻擊；Alfa Watan 沉沒、船員下落不明，Able 起火、18 人獲救、2 人重傷送瓦爾納。為首起在保國專屬經濟區內的商船無人機攻擊。另一艘馬紹爾群島籍船同日在黑海遭擊 1 死 7 傷。",
+      "comparison": "Al Jazeera（引述保加利亞總理拉德夫）、Kyiv Independent（引述保國 Nova 電視）與 Türkiye Today 一致：兩船遭擊、一沉一燒；無人機來源各方皆未確認，烏方將前一起羅馬尼亞附近事件歸咎俄國。無座標，方位未公布。",
+      "place": {
+        "name": "Black Sea",
+        "admin": "Bulgarian exclusive economic zone"
+      },
+      "side": "OTHER",
+      "kind": "INCIDENT",
+      "confidence": "CONFIRMED_MULTI",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/6/bulgaria-says-two-commercial-vessels-were-hit-in-drone-attack-in-its-waters",
+          "publisher": "Al Jazeera",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T00:00:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T11:47:00Z"
+        },
+        {
+          "url": "https://www.turkiyetoday.com/world/drones-hit-two-turkish-owned-ships-off-bulgaria-one-sinks-crew-missing-3229734",
+          "publisher": "Türkiye Today",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T00:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-polohy-tsvitkove-20261004",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-04T20:56:55Z",
+      "title": "DeepState：俄軍在札波羅熱州茨維特科韋附近推進",
+      "summary": "DeepState 10 月 4 日更新稱俄軍在札波羅熱州波洛希區茨維特科韋（Tsvitkove）附近推進，位於先前回報的斯維亞托彼得里夫卡一帶。",
+      "comparison": "僅 DeepState 一方說法；ISW 10/6 評估未提及此地，俄國防部與烏總參謀部未查到對應說法，列單一來源。座標取自 DeepState 連結。",
+      "place": {
+        "name": "Tsvitkove",
+        "admin": "Polohy Raion, Zaporizhzhia Oblast",
+        "lat": 47.7259,
+        "lon": 36.1449,
+        "basis": "SOURCE_COORDS"
+      },
+      "side": "RU",
+      "kind": "ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en#14/47.7259309/36.1449322",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-04T20:56:55Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-pokrovsk-bilytske-20261005",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-05T20:58:19Z",
+      "title": "DeepState：俄軍在比利茨克附近推進",
+      "summary": "DeepState 10 月 5 日更新稱俄軍在頓內茨克州比利茨克（Bilytske）附近推進，並修正科特利內（Kotlyne）附近戰線；比利茨克 9 月 30 日已有同類回報。",
+      "comparison": "僅 DeepState 一方說法；ISW 10/6 評估未提及比利茨克，俄國防部與烏總參謀部未查到對應說法，列單一來源。科特利內為「戰線修正」非推進，不另列。座標取自 DeepState 連結。",
+      "place": {
+        "name": "Bilytske",
+        "admin": "Pokrovsk Raion, Donetsk Oblast",
+        "lat": 48.417,
+        "lon": 37.1818,
+        "basis": "SOURCE_COORDS"
+      },
+      "side": "RU",
+      "kind": "ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://deepstatemap.live/en#15/48.4169545/37.1818109",
+          "publisher": "DeepStateMap",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-05T20:58:19Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-orikhiv-novoandriivka-20261005",
+      "theater": "ukraine_front",
+      "observedAt": "2026-10-05T00:00:00Z",
+      "title": "ISW：烏軍在奧里希夫西南諾沃安德里伊夫卡北部推進",
+      "summary": "ISW 10 月 6 日評估依 10/5 發布的地理定位影片，評估烏軍在奧里希夫西南的諾沃安德里伊夫卡北部推進，並在奧里希夫以西諾沃謝利夫卡東南維持或推進陣地，與俄方控制該地的說法相反。事件僅知日期，00:00 為日期容器。",
+      "comparison": "僅 ISW 依地理定位影片的評估；烏總參謀部與 DeepState 未查到對應更新，俄方則宣稱控制該區，列單一來源。諾沃謝利夫卡同名村多，不另標點。",
+      "place": {
+        "name": "Novoandriivka",
+        "admin": "Polohy Raion, Zaporizhzhia Oblast"
+      },
+      "side": "UA",
+      "kind": "ADVANCE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-07T01:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "ua-chonhar-bridge-collapse-20260930",
+      "theater": "ukraine_front",
+      "observedAt": "2026-09-30T00:00:00Z",
+      "title": "衛星影像：琼哈爾橋一跨倒塌",
+      "summary": "連接克里米亞與被占領赫爾松州的琼哈爾橋，在烏軍多次打擊後，9 月 26 日衛星影像可見路面三個大洞，9 月 30 日影像顯示一跨已倒塌，俄軍經此往返克里米亞的補給受阻。日期取衛星影像日期，00:00 為日期容器。",
+      "comparison": "Kyiv Post（引述 Dnipro OSINT）與 ISW 10/6 評估（引述烏克蘭 OSINT 分析員）說法一致，但兩者可能源自同一份衛星影像分析，依規則列單一來源；俄方與占領當局未回應。",
+      "place": {
+        "name": "Chonhar",
+        "admin": "Henichesk Raion, Kherson Oblast"
+      },
+      "side": "UA",
+      "kind": "STRIKE",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://www.kyivpost.com/post/86237",
+          "publisher": "Kyiv Post（引述 Dnipro OSINT）",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T00:00:00Z"
+        },
+        {
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-6-2026",
+          "publisher": "ISW／CTP",
+          "sourceClass": "EXTERNAL_ASSESSMENT",
+          "publishedAt": "2026-10-07T01:00:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    },
+    {
+      "id": "eu-latvia-belarus-armed-20261006",
+      "theater": "europe_security",
+      "observedAt": "2026-10-06T00:00:00Z",
+      "title": "白俄羅斯側武裝蒙面人威脅拉脫維亞士兵、越境破壞",
+      "summary": "拉脫維亞內政部長東布拉瓦稱，10 月 6 日白俄羅斯側武裝蒙面人員護送約 20 名移民逼近邊境並威脅拉國士兵；數小時後同批人越境進入拉脫維亞，破壞電力設施、偷走監視器後撤回白俄羅斯。確切邊境段與時刻未公布，00:00 為日期容器。",
+      "comparison": "Meduza 引述內政部長與拉脫維亞國家武裝部隊，Kyiv Independent 引述內政部長 X 貼文，內容一致，但皆出自拉國官方同一說法，無獨立第二來源，列單一來源；白俄羅斯未回應。",
+      "place": {
+        "name": "Latgale",
+        "admin": "Latvia"
+      },
+      "side": "OTHER",
+      "kind": "INCIDENT",
+      "confidence": "SINGLE_SOURCE",
+      "sources": [
+        {
+          "url": "https://meduza.io/en/news/2026/10/07/latvian-officials-say-armed-masked-men-threatened-troops-while-trying-to-push-20-migrants-across-from-belarus-then-crossed-into-latvia-themselves-and-stole-surveillance-cameras",
+          "publisher": "Meduza",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T18:08:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/armed-individuals-from-belarus-threaten-latvian-soldiers-at-border-followed-by-another-breach/",
+          "publisher": "Kyiv Independent",
+          "sourceClass": "INDEPENDENT_MEDIA",
+          "publishedAt": "2026-10-06T21:24:00Z"
+        }
+      ],
+      "reviewed": true,
+      "reviewedAt": "2026-10-07T11:40:00Z"
+    }
+  ]
+}

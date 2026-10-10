@@ -1,0 +1,504 @@
+{
+ "warningBacktest": {
+  "generatedAt": "2026-10-07T14:48:53.199Z",
+  "lookbackDays": 7,
+  "referenceEvents": [
+   {
+    "id": "tw-2022-08-pelosi",
+    "theater": "taiwan_strait",
+    "name": "2022 年 8 月環台軍演（裴洛西訪台後）",
+    "start": "2022-08-04",
+    "end": "2022-08-10",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/2022_Chinese_military_exercises_around_Taiwan",
+      "publisher": "Wikipedia"
+     },
+     {
+      "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022",
+      "publisher": "ASPI"
+     }
+    ]
+   },
+   {
+    "id": "tw-2023-04-joint-sword",
+    "theater": "taiwan_strait",
+    "name": "聯合利劍（Joint Sword）",
+    "start": "2023-04-08",
+    "end": "2023-04-10",
+    "sources": [
+     {
+      "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022",
+      "publisher": "ASPI"
+     },
+     {
+      "url": "https://jamestown.org/?p=95806",
+      "publisher": "Jamestown Foundation"
+     }
+    ]
+   },
+   {
+    "id": "tw-2024-05-joint-sword-a",
+    "theater": "taiwan_strait",
+    "name": "聯合利劍-2024A",
+    "start": "2024-05-23",
+    "end": "2024-05-24",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Joint_Sword-2024A",
+      "publisher": "Wikipedia"
+     },
+     {
+      "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022",
+      "publisher": "ASPI"
+     }
+    ]
+   },
+   {
+    "id": "tw-2024-10-joint-sword-b",
+    "theater": "taiwan_strait",
+    "name": "聯合利劍-2024B",
+    "start": "2024-10-14",
+    "end": "2024-10-14",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Joint_Sword-2024B",
+      "publisher": "Wikipedia"
+     },
+     {
+      "url": "https://www.pressurepoints.aspi.org.au/taiwan-and-the-taiwan-strait/chinas-military-coercion/chinas-large-scale-exercises-since-2022",
+      "publisher": "ASPI"
+     }
+    ]
+   },
+   {
+    "id": "tw-2025-04-strait-thunder",
+    "theater": "taiwan_strait",
+    "name": "海峽雷霆-2025A",
+    "start": "2025-04-01",
+    "end": "2025-04-02",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Strait_Thunder-2025A",
+      "publisher": "Wikipedia"
+     },
+     {
+      "url": "https://globaltaiwan.org/2025/04/the-plas-strait-thunder-exercise/",
+      "publisher": "Global Taiwan Institute"
+     }
+    ]
+   },
+   {
+    "id": "tw-2025-12-justice-mission",
+    "theater": "taiwan_strait",
+    "name": "正義使命-2025",
+    "start": "2025-12-29",
+    "end": "2025-12-30",
+    "sources": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Justice_Mission_2025",
+      "publisher": "Wikipedia"
+     },
+     {
+      "url": "https://news.usni.org/2025/12/29/china-launches-blockade-drills-around-taiwan-in-protest-of-u-s-arms-sales",
+      "publisher": "USNI News"
+     }
+    ]
+   }
+  ],
+  "indicators": [
+   {
+    "id": "tw_japan_fleet",
+    "name": "日本統合幕僚監部：中國艦艇／軍機動向",
+    "theater": "taiwan_strait",
+    "ruleVersion": "js-china-7d-p95-v1",
+    "note": "日本只公布經過其周邊海域的動態，不涵蓋台灣西側；航艦或與那國附近通過即觸發。",
+    "coverage": {
+     "from": "2022-06-05",
+     "to": "2026-10-07",
+     "days": 1585,
+     "dataFrom": "2008-12-23"
+    },
+    "triggeredDays": 301,
+    "triggeredShare": 19,
+    "episodes": 32,
+    "eventsCovered": 6,
+    "hits": 2,
+    "misses": 3,
+    "duringOnly": 1,
+    "falseAlarms": 29,
+    "falseAlarmsPer30Days": 0.55,
+    "medianLeadDays": 4,
+    "recentFalseAlarms": [
+     {
+      "from": "2026-03-31",
+      "to": "2026-04-05"
+     },
+     {
+      "from": "2026-04-22",
+      "to": "2026-04-28"
+     },
+     {
+      "from": "2026-05-26",
+      "to": "2026-06-07"
+     },
+     {
+      "from": "2026-06-22",
+      "to": "2026-07-05"
+     },
+     {
+      "from": "2026-09-08",
+      "to": "2026-09-10"
+     }
+    ],
+    "events": [
+     {
+      "eventId": "tw-2022-08-pelosi",
+      "name": "2022 年 8 月環台軍演（裴洛西訪台後）",
+      "start": "2022-08-04",
+      "outcome": "MISS"
+     },
+     {
+      "eventId": "tw-2023-04-joint-sword",
+      "name": "聯合利劍（Joint Sword）",
+      "start": "2023-04-08",
+      "outcome": "HIT",
+      "leadDays": 4,
+      "firstTrigger": "2023-04-04"
+     },
+     {
+      "eventId": "tw-2024-05-joint-sword-a",
+      "name": "聯合利劍-2024A",
+      "start": "2024-05-23",
+      "outcome": "MISS"
+     },
+     {
+      "eventId": "tw-2024-10-joint-sword-b",
+      "name": "聯合利劍-2024B",
+      "start": "2024-10-14",
+      "outcome": "HIT",
+      "leadDays": 7,
+      "firstTrigger": "2024-10-07"
+     },
+     {
+      "eventId": "tw-2025-04-strait-thunder",
+      "name": "海峽雷霆-2025A",
+      "start": "2025-04-01",
+      "outcome": "DURING_ONLY"
+     },
+     {
+      "eventId": "tw-2025-12-justice-mission",
+      "name": "正義使命-2025",
+      "start": "2025-12-29",
+      "outcome": "MISS"
+     }
+    ]
+   },
+   {
+    "id": "tw_nav_warning",
+    "name": "中國海事局軍事航行警告",
+    "theater": "taiwan_strait",
+    "ruleVersion": "msa-taiwan-7d-p95-v1",
+    "note": "快取只回溯首次採集時的列表頁，涵蓋期間短；基線不足 30 天時只有「中線以東」會觸發。",
+    "coverage": {
+     "from": "2026-07-29",
+     "to": "2026-10-07",
+     "days": 70,
+     "dataFrom": "2026-07-29"
+    },
+    "triggeredDays": 6,
+    "triggeredShare": 8.6,
+    "episodes": 1,
+    "eventsCovered": 0,
+    "hits": 0,
+    "misses": 0,
+    "duringOnly": 0,
+    "falseAlarms": 1,
+    "falseAlarmsPer30Days": 0.43,
+    "medianLeadDays": null,
+    "recentFalseAlarms": [
+     {
+      "from": "2026-09-09",
+      "to": "2026-09-14"
+     }
+    ],
+    "events": [
+     {
+      "eventId": "tw-2022-08-pelosi",
+      "name": "2022 年 8 月環台軍演（裴洛西訪台後）",
+      "start": "2022-08-04",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2023-04-joint-sword",
+      "name": "聯合利劍（Joint Sword）",
+      "start": "2023-04-08",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2024-05-joint-sword-a",
+      "name": "聯合利劍-2024A",
+      "start": "2024-05-23",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2024-10-joint-sword-b",
+      "name": "聯合利劍-2024B",
+      "start": "2024-10-14",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2025-04-strait-thunder",
+      "name": "海峽雷霆-2025A",
+      "start": "2025-04-01",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2025-12-justice-mission",
+      "name": "正義使命-2025",
+      "start": "2025-12-29",
+      "outcome": "NO_DATA"
+     }
+    ]
+   },
+   {
+    "id": "board_taiwan_strait",
+    "name": "預警看板等級（第 2 級以上）",
+    "theater": "taiwan_strait",
+    "ruleVersion": "iw-v1-trial、iw-v2-trial",
+    "note": "等級無法回推到看板上線前；只計算有巡檢紀錄的日子。",
+    "coverage": {
+     "from": "2026-09-30",
+     "to": "2026-10-07",
+     "days": 7,
+     "dataFrom": "2026-09-30"
+    },
+    "triggeredDays": 7,
+    "triggeredShare": 100,
+    "episodes": 1,
+    "eventsCovered": 0,
+    "hits": 0,
+    "misses": 0,
+    "duringOnly": 0,
+    "falseAlarms": 1,
+    "falseAlarmsPer30Days": 4.29,
+    "medianLeadDays": null,
+    "recentFalseAlarms": [
+     {
+      "from": "2026-09-30",
+      "to": "2026-10-06"
+     }
+    ],
+    "events": [
+     {
+      "eventId": "tw-2022-08-pelosi",
+      "name": "2022 年 8 月環台軍演（裴洛西訪台後）",
+      "start": "2022-08-04",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2023-04-joint-sword",
+      "name": "聯合利劍（Joint Sword）",
+      "start": "2023-04-08",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2024-05-joint-sword-a",
+      "name": "聯合利劍-2024A",
+      "start": "2024-05-23",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2024-10-joint-sword-b",
+      "name": "聯合利劍-2024B",
+      "start": "2024-10-14",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2025-04-strait-thunder",
+      "name": "海峽雷霆-2025A",
+      "start": "2025-04-01",
+      "outcome": "NO_DATA"
+     },
+     {
+      "eventId": "tw-2025-12-justice-mission",
+      "name": "正義使命-2025",
+      "start": "2025-12-29",
+      "outcome": "NO_DATA"
+     }
+    ]
+   },
+   {
+    "id": "board_iran_gulf",
+    "name": "預警看板等級（第 2 級以上）",
+    "theater": "iran_gulf",
+    "ruleVersion": "iw-v1-trial、iw-v2-trial",
+    "note": "等級無法回推到看板上線前；只計算有巡檢紀錄的日子。",
+    "coverage": {
+     "from": "2026-09-30",
+     "to": "2026-10-07",
+     "days": 7,
+     "dataFrom": "2026-09-30"
+    },
+    "triggeredDays": 7,
+    "triggeredShare": 100,
+    "episodes": 1,
+    "eventsCovered": 0,
+    "hits": 0,
+    "misses": 0,
+    "duringOnly": 0,
+    "falseAlarms": null,
+    "falseAlarmsPer30Days": null,
+    "medianLeadDays": null,
+    "recentFalseAlarms": [],
+    "events": []
+   },
+   {
+    "id": "board_europe_security",
+    "name": "預警看板等級（第 2 級以上）",
+    "theater": "europe_security",
+    "ruleVersion": "iw-v1-trial、iw-v2-trial",
+    "note": "等級無法回推到看板上線前；只計算有巡檢紀錄的日子。",
+    "coverage": {
+     "from": "2026-09-30",
+     "to": "2026-10-07",
+     "days": 7,
+     "dataFrom": "2026-09-30"
+    },
+    "triggeredDays": 7,
+    "triggeredShare": 100,
+    "episodes": 1,
+    "eventsCovered": 0,
+    "hits": 0,
+    "misses": 0,
+    "duringOnly": 0,
+    "falseAlarms": null,
+    "falseAlarmsPer30Days": null,
+    "medianLeadDays": null,
+    "recentFalseAlarms": [],
+    "events": []
+   },
+   {
+    "id": "board_ukraine_front",
+    "name": "預警看板等級（第 2 級以上）",
+    "theater": "ukraine_front",
+    "ruleVersion": "iw-v1-trial、iw-v2-trial",
+    "note": "等級無法回推到看板上線前；只計算有巡檢紀錄的日子。",
+    "coverage": {
+     "from": "2026-09-30",
+     "to": "2026-10-07",
+     "days": 7,
+     "dataFrom": "2026-09-30"
+    },
+    "triggeredDays": 6,
+    "triggeredShare": 85.7,
+    "episodes": 1,
+    "eventsCovered": 0,
+    "hits": 0,
+    "misses": 0,
+    "duringOnly": 0,
+    "falseAlarms": null,
+    "falseAlarmsPer30Days": null,
+    "medianLeadDays": null,
+    "recentFalseAlarms": [],
+    "events": []
+   }
+  ],
+  "method": "用各指標現行規則逐日重算（以台北日期當日結束時的狀態代表該日）。事件開始前 7 天內有觸發＝命中，提前天數取最早觸發日；只在事件期間觸發＝「僅事件期間」；資料不涵蓋＝無資料，不計漏報。觸發期間（連續觸發日）不在任何事件前 7 天或事件期間＝誤報。",
+  "limitations": "參考事件只含已公開宣布的大型演習，未列入的小型活動也會被算成誤報；樣本數少，結果不能換算成開戰機率。國防部共機資料只回溯到 2026 年 8 月，無法重算 2022–2025 的事件。"
+ },
+ "legacyKeywordAlerts": {
+  "generatedAt": "2026-09-27T03:15:55.629Z",
+  "windowDays": 30,
+  "totalAlerts": 19,
+  "totalGroundTruthEvents": 2,
+  "uncaughtEvents": [],
+  "categoryResults": {
+   "KEYWORD_ELEVATED": {
+    "code": "KEYWORD_ELEVATED",
+    "totalAlerts": 5,
+    "truePositives": 0,
+    "falsePositives": 5,
+    "precision": "0%",
+    "recall": "0%",
+    "recommendation": "SUPPRESS_OR_OBSERVE_ONLY",
+    "rationale": "精確率過低（0%）：大部分警報未對應到已核實的真實事件，可能是噪音過多。建議改為靜默觀察模式。",
+    "sampleAlerts": [
+     {
+      "title": "🟡 中度情資異動關注: North Korea Tests New Hypersonic Missile",
+      "timestamp": "2026-09-23T15:03:13.763Z"
+     },
+     {
+      "title": "🟡 中度情資異動關注: North Korea Tests New Hypersonic Missile",
+      "timestamp": "2026-09-23T19:03:26.107Z"
+     },
+     {
+      "title": "🟡 中度情資異動關注: North Korea Tests New Hypersonic Missile",
+      "timestamp": "2026-09-23T23:06:27.351Z"
+     }
+    ]
+   },
+   "NEWS_HEADLINE_REVIEW": {
+    "code": "NEWS_HEADLINE_REVIEW",
+    "totalAlerts": 13,
+    "truePositives": 2,
+    "falsePositives": 10,
+    "precision": "15%",
+    "recall": "100%",
+    "recommendation": "SUPPRESS_OR_OBSERVE_ONLY",
+    "rationale": "精確率過低（15%）：大部分警報未對應到已核實的真實事件，可能是噪音過多。建議改為靜默觀察模式。",
+    "sampleAlerts": [
+     {
+      "title": "新聞標題待查：俄軍空襲不斷 烏國兩天9平民死亡 和平仍無期 - 新唐人電視台",
+      "timestamp": "2026-09-27T00:09:47.878Z"
+     },
+     {
+      "title": "新聞標題待查：U.S., Europe worry Russia is testing NATO with hybrid attacks and sabotage - The Spokesman-Review",
+      "timestamp": "2026-09-27T00:12:48.868Z"
+     },
+     {
+      "title": "新聞標題待查：俄羅斯空襲烏克蘭資料中心，10萬戶家庭斷網 - BigGo 財經",
+      "timestamp": "2026-09-27T00:15:48.193Z"
+     }
+    ]
+   },
+   "NOTAM_EXERCISE_ADVANCE_WARNING": {
+    "code": "NOTAM_EXERCISE_ADVANCE_WARNING",
+    "totalAlerts": 1,
+    "truePositives": 0,
+    "falsePositives": 1,
+    "precision": "0%",
+    "recall": "0%",
+    "recommendation": "INSUFFICIENT_DATA",
+    "rationale": "樣本數不足（1 次），需更多歷史數據後再評估。",
+    "sampleAlerts": [
+     {
+      "title": "NOTAM 演訓禁航通告預警：西南空域國軍實彈射擊操演（編號 A0892/26）",
+      "timestamp": "2026-09-26T16:15:21.505Z"
+     }
+    ]
+   }
+  },
+  "summary": [
+   {
+    "code": "KEYWORD_ELEVATED",
+    "recommendation": "SUPPRESS_OR_OBSERVE_ONLY",
+    "precision": "0%",
+    "recall": "0%"
+   },
+   {
+    "code": "NEWS_HEADLINE_REVIEW",
+    "recommendation": "SUPPRESS_OR_OBSERVE_ONLY",
+    "precision": "15%",
+    "recall": "100%"
+   },
+   {
+    "code": "NOTAM_EXERCISE_ADVANCE_WARNING",
+    "recommendation": "INSUFFICIENT_DATA",
+    "precision": "0%",
+    "recall": "0%"
+   }
+  ],
+  "researcherNote": "以上僅為統計建議，實際啟用決策必須由研究員人工審查後手動設定。系統不會自動改變推播設定。"
+ }
+}

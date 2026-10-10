@@ -1,0 +1,45 @@
+{
+  "reports": [
+    {
+      "id": "ocha-civilian-services-20260929",
+      "title": "OCHA新刊報告：西岸醫療覆蓋受壓，加薩雨季風險涉及逾46萬安置居民",
+      "theater": "middle_east",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新刊資料與事件日期",
+          "text": "OCHA於9月28日上架題名為9月25日的人道報告。其西岸主要統計期間是9月15日至21日：拆除導致147人流離失所，其中73名兒童。這是新刊統計，不是9月28日當天新增人數。",
+          "evidence": [
+            "a7dc60ffa5e60cf3"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "民用服務與雨季風險",
+          "text": "報告指出，西岸20個地點的流動診所覆蓋面臨資金中斷，另17處已無服務；加薩451處高洪水風險安置點約住46.44萬人。後者是暴露於風險的人口，不代表已有同等人數受災。",
+          "evidence": [
+            "a7dc60ffa5e60cf3"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "可驗證結論",
+          "text": "這批資料支持醫療服務延續和雨季整備不足的警訊。後續應看診所是否停診、物資能否進入及實際降雨影響；本稿不據此推定新增攻勢、控制區或戰爭機率。",
+          "evidence": [
+            "a7dc60ffa5e60cf3"
+          ]
+        }
+      ],
+      "basis": [
+        {
+          "id": "a7dc60ffa5e60cf3",
+          "contentHash": "f09dde0cd6f9fdc5b108449197c93c3c91b78da1e33de033fccef5f66e75e8bb"
+        }
+      ],
+      "asOf": "2026-09-28T00:00:00.000Z",
+      "generatedAt": "2026-09-28T23:35:08.935Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    }
+  ]
+}

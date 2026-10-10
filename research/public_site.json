@@ -1,0 +1,6 @@
+{
+ "enabled": true,
+ "repo": "https://github.com/bkhotey4/wordwar-intel.git",
+ "note": "公開情報網頁（GitHub Pages）。enabled 為 true 時，機器人每天台北 08:40、20:40 後執行 scripts/build_public_site.js --push。",
+ "layout": "G"
+}

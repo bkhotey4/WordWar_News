@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="已覆核公開來源的圖文簡報、分析觀點與衛星影像判讀界線">
+  <title>情勢簡報｜WordWar News</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="briefing.css">
+  <script src="briefing.js" defer></script>
+</head>
+<body>
+  <header class="site-header analysis-header">
+    <div class="shell">
+      <nav class="page-nav" aria-label="頁面導覽"><a href="index.html">新聞首頁</a><a href="global.html">全球戰況</a><a href="events.html">事件與更正</a></nav>
+      <p class="eyebrow">WORDWAR NEWS / ANALYSIS DESK</p>
+      <h1>情勢簡報</h1>
+      <p class="subtitle">把已查核事實、研究者研判與有條件的情境分開閱讀。每個觀點可回查原文、時間與證據限制。</p>
+      <p class="preview-ribbon">直接在網頁觀看 · 內容依已覆核研究稿與來源影像更新</p>
+      <p><button id="open-briefing" type="button" disabled>返回簡報畫面</button></p>
+    </div>
+  </header>
+  <main class="shell analysis-main">
+    <div class="analysis-topline"><div><p class="eyebrow">SOURCE-BACKED BRIEFING</p><h2>公開來源研究面板</h2></div><p id="analysis-status" role="status">讀取現有報導…</p></div>
+    <section class="analysis-summary" aria-label="內容概覽">
+      <div><span>已覆核報導</span><strong id="report-count">—</strong></div>
+      <div><span>分析段落</span><strong id="analysis-count">—</strong></div>
+      <div><span>有條件情境</span><strong id="scenario-count">—</strong></div>
+      <div><span>最新資料時間</span><strong id="latest-asof">—</strong></div>
+    </section>
+    <div class="analysis-layout">
+      <aside class="analysis-sidebar" aria-label="研究篩選">
+        <h2>瀏覽範圍</h2>
+        <label for="theater-filter">區域</label><select id="theater-filter"><option value="all">所有已收錄區域</option></select>
+        <label for="lens-filter">觀點</label><select id="lens-filter"><option value="all">全部觀點</option><option value="general">綜合分析</option><option value="military">軍事</option><option value="diplomacy">外交</option><option value="intelligence">情報</option><option value="politics">政治</option></select>
+        <p class="sidebar-note">軍事、外交、情報、政治分類只顯示研究稿明確標記的觀點；既有未分類段落保留為「綜合分析」。</p>
+        <div class="lens-list" id="lens-counts" aria-label="分類篇數"></div>
+      </aside>
+      <section class="analysis-feed" aria-labelledby="feed-title">
+        <div class="feed-heading"><div><p class="eyebrow">RESEARCH NOTES</p><h2 id="feed-title">最新分析</h2></div><span id="visible-count"></span></div>
+        <div id="analysis-cards" class="analysis-cards"></div>
+      </section>
+      <aside class="analysis-inspector" aria-labelledby="inspector-title">
+        <p class="eyebrow">EVIDENCE PANEL</p><h2 id="inspector-title">來源與界線</h2>
+        <div id="inspector-content"><p>選取一篇報導，查看原文來源、已知限制與有條件情境。</p></div>
+      </aside>
+    </div>
+  </main>
+  <section class="briefing" id="briefing" aria-label="重點簡報" hidden>
+    <div class="briefing-toolbar"><strong>WORDWAR NEWS <span>研究簡報</span></strong><div><span id="slide-counter"></span><button id="close-briefing" type="button" aria-label="查看詳細資料">詳細資料 ↗</button></div></div>
+    <div class="briefing-stage" id="briefing-stage" aria-live="polite"></div>
+    <div class="briefing-controls"><button id="previous-slide" type="button">上一頁</button><span>方向鍵切換 · Esc 離開</span><button id="next-slide" type="button">下一頁</button></div>
+  </section>
+</body>
+</html>

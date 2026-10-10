@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="公開資料來源、時間與待查線索監測">
+  <title>WorldWar News｜公開來源監測</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-content">
+      <div>
+        <p class="eyebrow">WORDWAR NEWS · OPEN SOURCE MONITOR</p>
+        <h1>軍事新聞與戰況報導</h1>
+        <p class="subtitle">主動查閱原始資料，交叉比對後以繁體中文報導戰況、分析變化與待確認處。</p>
+      </div>
+      <div class="header-actions">
+        <a href="briefing.html">圖文情勢簡報</a>
+        <a href="global.html">全球戰況與情境推演</a>
+        <a href="events.html">事件時間線與更正</a>
+        <a href="ops.html">研究排程與預警回測</a>
+        <span class="badge neutral">非官方資料</span>
+        <button id="refresh-button" type="button">重新檢查</button>
+        <p id="checked-at" class="micro" aria-live="polite">資料載入中</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="notice" aria-labelledby="notice-title">
+      <div class="notice-icon">!</div>
+      <div>
+        <h2 id="notice-title">總體危機評級暫停</h2>
+        <p>目前來源不足以建立經校準的全球風險分數或官方戰備級別。下方只呈現來源狀態與待查線索；缺資料時顯示「未取得」。</p>
+      </div>
+    </section>
+
+    <section class="summary-grid" aria-label="來源概覽">
+      <article class="summary-card">
+        <p class="label">OpenSky ADS-B</p>
+        <strong id="airspace-value">載入中</strong>
+        <p id="airspace-detail">公開廣播訊號，不代表全部航空器。</p>
+      </article>
+      <article class="summary-card">
+        <p class="label">48 小時內研究報導</p>
+        <strong id="news-value">載入中</strong>
+        <p>依消息、研判與待確認處閱讀。</p>
+      </article>
+      <article class="summary-card">
+        <p class="label">STAC 區域產品紀錄</p>
+        <strong id="scene-value">載入中</strong>
+        <p>產品紀錄不等於已判讀圖片。</p>
+      </article>
+      <article class="summary-card">
+        <p class="label">本機圖片溯源</p>
+        <strong id="image-value">載入中</strong>
+        <p>未與來源產品對應的圖片不作為證據。</p>
+      </article>
+    </section>
+
+    <div class="content-grid">
+      <section class="panel report-panel" aria-labelledby="taiwan-title">
+        <div class="panel-heading"><div><p class="eyebrow">OFFICIAL TAIWAN REPORTS</p><h2 id="taiwan-title">台海官方動態與異常觀察</h2></div></div>
+        <div id="taiwan-panel" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+      <section class="panel report-panel" aria-labelledby="satellite-assets-title">
+        <div class="panel-heading"><div><p class="eyebrow">SOURCE SATELLITE IMAGES</p><h2 id="satellite-assets-title">衛星來源影像與不同日期比對</h2></div></div>
+        <p class="section-note">實際讀取 Sentinel-2 原始真彩色影像，依座標裁切區域；失敗時標示產品縮圖。附拍攝時間、來源與授權，未判讀兵力或戰損。</p>
+        <div id="satellite-assets-panel" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+      <section class="panel" aria-labelledby="firms-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">NASA FIRMS THERMAL ANOMALIES</p><h2 id="firms-title">NASA 衛星實體火點觀測</h2></div>
+          <span id="firms-badge" class="badge neutral">載入中</span>
+        </div>
+        <p class="section-note">NASA Suomi-NPP VIIRS 375m 熱異常資料；顯示過去 24 小時的觀測與下載時間。熱源可能為野火、農業或工業，不能單獨證實軍事攻擊。</p>
+        <div id="firms-panel" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+      <section class="panel" aria-labelledby="notam-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">NOTAM AIRSPACE ADVISORIES</p><h2 id="notam-title">航空禁航通告與演訓預警</h2></div>
+          <span id="notam-badge" class="badge neutral">載入中</span>
+        </div>
+        <p class="section-note">官方 NOTAM 自動採集尚未接通；只顯示附來源與查核紀錄的匯入通告。有效期間不代表戰爭預判，缺資料時無法判定空域是否有管制。</p>
+        <div id="notam-panel" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+      <section class="panel" aria-labelledby="events-title">
+        <div class="panel-heading"><h2 id="events-title">資料事件與更正紀錄</h2></div>
+        <div id="events-panel" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+      <section class="panel" aria-labelledby="sources-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">DATA HEALTH</p><h2 id="sources-title">來源健康</h2></div>
+          <span id="health-summary" class="badge neutral">檢查中</span>
+        </div>
+        <div id="sources-list" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+
+      <section class="panel" aria-labelledby="airspace-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">PUBLIC AIRSPACE</p><h2 id="airspace-title">公開航空訊號</h2></div>
+        </div>
+        <div id="airspace-panel" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+        <p class="section-note">ADS-B 覆蓋不完整。訊號數量及應答機代碼不能單獨判斷軍事活動。</p>
+      </section>
+
+      <section class="panel report-panel" aria-labelledby="headlines-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">FIELD REPORTS</p><h2 id="headlines-title">軍事新聞報導</h2></div>
+          <span class="badge warning">事實依據與研判分列</span>
+        </div>
+        <p class="section-note">每則由原始公告、訪談與外部評估整理研究依據，再寫成中文報導。同源轉述不視為獨立證實，缺少影像或戰線證據會明列。</p>
+        <div id="headlines-list" class="report-grid" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+
+      <section class="panel" aria-labelledby="imagery-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">SATELLITE CATALOG</p><h2 id="imagery-title">衛星產品目錄</h2></div>
+        </div>
+        <p class="section-note">以下是區域產品查詢。已下載的來源缩圖另列於影像比對區；舊參考圖仍不作證據。產品整片雲量不能代表特定位置可見度。</p>
+        <div id="imagery-list" class="stack" aria-live="polite"><p class="empty">載入中…</p></div>
+      </section>
+      <section class="panel limitations-panel" aria-labelledby="limitations-title" style="grid-column: 1 / -1; margin-top: 1rem;">
+        <div class="panel-heading">
+          <div><p class="eyebrow">SYSTEM NOTICES</p><h2 id="limitations-title">系統已知限制與誠信須知</h2></div>
+          <span class="badge warning">運作限制</span>
+        </div>
+        <ul class="limitations-list" style="margin: 0.75rem 0 0 1.25rem; line-height: 1.7; font-size: 0.9rem; color: #cbd5e1;">
+          <li>自動中文研究執行器尚未設定；來源採集不等於自動完成研究分析。</li>
+          <li>目前原文自動採集主要是烏克蘭軍方與軍方媒體；來源數量不等於獨立佐證數。外部評估需另外查閱並匯入。</li>
+          <li>已有附產品來源的區域影像裁切與不同日期比對；雲遮、覆蓋差異與像素對位尚未用於自動戰損判讀。</li>
+          <li>未核實新聞保留待查、不發送已核實特報；台海 P95 僅供觀察，公開航空異常通知仍需查核。不能宣稱能預測戰爭。</li>
+          <li>台海觀測、事件版本與影像紀錄採 SQLite 交易；舊研究稿 JSON 仍須避免跨程序同時發布。</li>
+          <li>Discord 已接受訊息後、成功紀錄落盤前若程序崩潰，仍可能重送；目前無法保證嚴格只送一次。</li>
+          <li>對引用的格式與時效驗證不會自動證明段落語意真的受到來源支持，仍需研究者比對原文。</li>
+          <li>舊專題與圖卡產生器尚保留歷史內容，但沒有接回有效報導流程。要恢復功能必須改為讀取有來源的資料。</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-content">
+      <p>來源中斷、時間過期或原始連結缺失時，以「未取得」呈現；沒有資料不代表沒有事件。</p>
+      <nav aria-label="外部來源">
+        <a href="https://opensky-network.org/" target="_blank" rel="noopener noreferrer">OpenSky</a>
+        <a href="https://earth-search.aws.element84.com/v1" target="_blank" rel="noopener noreferrer">Earth Search STAC</a>
+        <a href="https://www.nato.int/" target="_blank" rel="noopener noreferrer">NATO 官方網站</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

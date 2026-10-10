@@ -1,0 +1,44 @@
+{
+  "name": "wordwar-news",
+  "version": "1.0.0",
+  "description": "Global Military Conflict Tactical Briefing HUD & Discord Bot",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "bot": "node src/bot.js",
+    "setup": "node scripts/setup_env.js",
+    "all": "node src/server.js",
+    "research:refresh": "node scripts/refresh_research_sources.js",
+    "intel:refresh": "node scripts/refresh_intel_capabilities.js",
+    "test": "node --test scripts/test_data_integrity.js scripts/test_news_reports.js scripts/test_research_reports.js scripts/test_delivery_logic.js scripts/test_intel_capabilities.js scripts/test_taiwan_sentry_integration.js scripts/test_phase2_firms_notam.js scripts/test_verification_engine.js scripts/test_review_regressions.js scripts/test_research_dispatch.js scripts/test_phase3_open_teacher_features.js scripts/test_strategic_outlook.js scripts/test_global_api.js scripts/test_open_teacher_completion.js scripts/test_news_context.js scripts/test_warning_board.js scripts/test_collectors_iw.js scripts/test_battle_map.js scripts/test_taiwan_precursors.js scripts/test_source_health.js scripts/test_poster.js scripts/test_preparedness.js scripts/test_report_card.js scripts/test_taiwan_sources.js scripts/test_taiwan_infra.js scripts/test_weekly_buttons.js scripts/test_draft_queue.js scripts/test_ops_features.js scripts/test_bot_modules.js scripts/test_diplomacy.js scripts/test_new_features.js scripts/test_beats.js scripts/test_imint.js",
+    "backtest:warning": "node -e \"const b=require('./src/warning_backtest');b.writeBacktestReport();console.log(b.warningBacktestText())\"",
+    "research:deliver": "node scripts/deliver_research_reports.js",
+    "satellite:refresh": "node scripts/refresh_satellite_assets.js",
+    "satellite:optimize": "node scripts/optimize_satellite_images.js"
+  },
+  "keywords": [
+    "nato",
+    "military",
+    "briefing",
+    "discord-bot",
+    "tactical-map"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "better-sqlite3": "^11.10.0",
+    "cheerio": "1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "geotiff": "^2.1.3",
+    "proj4": "^2.19.10",
+    "rss-parser": "^3.13.0",
+    "sharp": "^0.35.4"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="已覆核事件、原文修訂、研究稿更正與預警等級變化的時間線">
+  <title>事件時間線與更正</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="events.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell">
+      <p class="eyebrow">WORDWAR NEWS · TIMELINE</p>
+      <h1>事件時間線與更正紀錄</h1>
+      <p class="subtitle">每筆分開列出事件發生、來源發布與本站記錄三種時間。同一事件的首報、後續、否認與更正，只依研究者標註的串接關係連在一起，不以地點或時間相近自動合併。</p>
+      <nav class="page-nav"><a href="/">新聞首頁</a><a href="briefing.html">圖文情勢簡報</a><a href="global.html">全球戰況</a><a href="ops.html">研究排程與預警回測</a></nav>
+    </div>
+  </header>
+  <main class="shell">
+    <div class="filters">
+      <label>戰區 <select id="theater"><option value="">全部</option></select></label>
+      <label>類型 <select id="kind"><option value="">全部</option><option value="corrections">只看更正／撤下</option></select></label>
+      <button id="refresh" type="button">重新讀取</button>
+      <span id="status" class="micro" role="status">載入中…</span>
+    </div>
+    <ol id="timeline" class="timeline"></ol>
+    <p id="note" class="section-note"></p>
+  </main>
+</body>
+</html>

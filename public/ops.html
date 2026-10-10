@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="研究排程執行狀態與預警指標回測">
+  <title>研究排程與預警回測</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="ops.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell">
+      <p class="eyebrow">WORDWAR NEWS · OPERATIONS</p>
+      <h1>研究排程與預警回測</h1>
+      <p class="subtitle">排程「已設定」不代表研究已完成；這裡依每次執行紀錄判斷是否漏跑。回測只在資料實際涵蓋的期間計分，結果不是開戰機率。</p>
+      <nav class="page-nav"><a href="/">新聞首頁</a><a href="briefing.html">圖文情勢簡報</a><a href="global.html">全球戰況</a><a href="events.html">事件時間線</a></nav>
+      <p><button id="refresh" type="button">重新讀取</button></p>
+      <p id="status" class="micro" role="status">載入中…</p>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="panel" aria-labelledby="health-title">
+      <div class="panel-heading"><h2 id="health-title">研究排程健康</h2><span id="overall"></span></div>
+      <div id="health"></div>
+    </section>
+    <section class="panel" aria-labelledby="bt-title" style="margin-top:18px">
+      <div class="panel-heading"><h2 id="bt-title">預警回測（試行）</h2></div>
+      <div id="backtest"><p class="empty">回測計算中（約數秒）…</p></div>
+    </section>
+  </main>
+</body>
+</html>

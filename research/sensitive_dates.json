@@ -1,0 +1,11 @@
+{
+  "note": "敏感日期行事曆。kind=POLITICAL 會在日期後 windowDays 天內觸發台海「政治時間點」次要指標；kind=CONTEXT 只在看板與推播中提醒，不改變等級。每筆需附來源。",
+  "entries": [
+    { "date": "2026-10-01", "name": "中華人民共和國國慶", "kind": "CONTEXT", "windowDays": 3,
+      "note": "國慶前後常見共機擾台與聯合戰備警巡；2026/9/30 國防部公布共機 21 架次、15 架次越過中線。",
+      "source": { "url": "https://newtalk.tw/news/view/2026-09-30/1062812", "publisher": "新頭殼" } },
+    { "date": "2026-10-10", "name": "中華民國國慶日與總統演說", "kind": "POLITICAL", "windowDays": 14,
+      "note": "前例：2024 年國慶演說後 4 天（10/14），東部戰區發動「聯合利劍-2024B」圍台演習。",
+      "source": { "url": "https://www.cna.com.tw/news/acn/202410140010.aspx", "publisher": "中央社" } }
+  ]
+}

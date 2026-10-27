@@ -1,0 +1,35 @@
+{
+  "_說明": "兵力估計：只收有明確出處與日期的數字（官方、交戰方聲稱或外部評估），海報上會標出處、日期與類別；超過 90 天的數字標示「較舊」。不得自行估算。",
+  "estimates": [
+    {
+      "id": "ua-ru-total-20260626",
+      "theater": "ukraine_front",
+      "side": "RU",
+      "label": "在烏克蘭境內集結的俄軍",
+      "value": "約 72.1 萬人",
+      "asOf": "2026-06-26",
+      "source": { "url": "https://militarnyi.com/en/news/russia-concentrate-721000-troops-in-ukraine/", "publisher": "烏軍總司令瑟爾斯基（Militarnyi 報導）", "sourceClass": "PARTY_CLAIM" },
+      "note": "烏方說法；較 2025 年底增加約 1.1 萬人。"
+    },
+    {
+      "id": "ua-ru-oleksandrivka-20260626",
+      "theater": "ukraine_front",
+      "side": "RU",
+      "label": "俄軍奧列克桑德里夫卡方向",
+      "value": "逾 7.1 萬人",
+      "asOf": "2026-06-26",
+      "source": { "url": "https://militarnyi.com/en/news/russia-concentrate-721000-troops-in-ukraine/", "publisher": "烏軍總司令瑟爾斯基（Militarnyi 報導）", "sourceClass": "PARTY_CLAIM" },
+      "note": "烏方說法；胡利艾波列、奧里希夫方向規模相近。"
+    },
+    {
+      "id": "ir-us-carriers-202604",
+      "theater": "iran_gulf",
+      "side": "US",
+      "label": "美軍在中東的航艦",
+      "value": "3 艘（布希號、林肯號、福特號）",
+      "asOf": "2026-04-24",
+      "source": { "url": "https://www.rferl.org/a/iran-us-strait-of-hormuz-blockade/33744467.html", "publisher": "RFE/RL（引述美軍中央司令部）", "sourceClass": "INDEPENDENT_MEDIA" },
+      "note": "4 月的部署數字，之後可能已有艦艇輪替。"
+    }
+  ]
+}

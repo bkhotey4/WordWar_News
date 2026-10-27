@@ -1,0 +1,105 @@
+# 雲端巡檢：每 15 分鐘抓官方與公開來源資料、算預警燈號、發 Discord 私訊、發布研究稿，
+# 並依排程更新公開網站（整頁每 3 小時、燈號數據每小時、燈號上升或新報導時加開）。
+# GitHub 的 cron 常被延後或略過，所以一次工作連續跑約 5.5 小時、自己每 15 分鐘巡檢一輪（scripts/cloud_loop.js）；
+# 排程每 30 分鐘觸發一次，在前一次工作執行中時排隊，結束後立即接上。
+# 執行期資料放在私人倉庫 bkhotey4/worldwar-state（scripts/cloud_state.js），不會出現在這個公開倉庫。
+# 需要的 Secrets：STATE_TOKEN（可寫 worldwar-state 與 wordwar-intel 的 fine-grained token）、DISCORD_BOT_TOKEN、COMMANDER_USER_ID、GFW_TOKEN
+name: 雲端巡檢
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+# 同一時間只跑一輪，避免兩輪同時發同一則私訊
+concurrency:
+  group: patrol
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  patrol:
+    # 只在本倉庫執行；別人 fork 後不會跑（也拿不到 Secrets）
+    if: github.repository == 'bkhotey4/WordWar_News'
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    env:
+      TZ: Asia/Taipei
+    steps:
+      # 不保留 checkout 的認證，私人倉庫與網站倉庫一律用 STATE_TOKEN
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # 地圖、海報與圖卡的中文字型（Noto Sans CJK TC）；裝一次後存進快取
+      - name: 中文字型（快取）
+        id: fonts
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/fonts/noto
+          key: fonts-noto-cjk-v1
+      - name: 安裝中文字型
+        if: steps.fonts.outputs.cache-hit != 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          mkdir -p ~/.local/share/fonts/noto
+          cp /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc ~/.local/share/fonts/noto/
+      - run: fc-cache -f >/dev/null
+
+      - run: npm ci --no-audit --no-fund
+
+      # 底圖圖磚與衛星影像只是快取（可重新下載），內容有變才存新版本
+      - name: 還原圖磚與衛星影像快取
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            research/tile_cache
+            public/images/sentinel
+          key: media-${{ github.run_id }}
+          restore-keys: media-
+
+      - name: 設定私人倉庫與網站倉庫的推送權限
+        env:
+          STATE_TOKEN: ${{ secrets.STATE_TOKEN }}
+        run: |
+          test -n "$STATE_TOKEN" || { echo "::error::缺少 STATE_TOKEN"; exit 1; }
+          git config --global url."https://x-access-token:${STATE_TOKEN}@github.com/bkhotey4/worldwar-state".insteadOf "https://github.com/bkhotey4/worldwar-state"
+          git config --global url."https://x-access-token:${STATE_TOKEN}@github.com/bkhotey4/wordwar-intel".insteadOf "https://github.com/bkhotey4/wordwar-intel"
+
+      # 每輪：下載雲端狀態 → 對齊網站倉庫（public_site）→ 巡檢 → 上傳雲端狀態。
+      # 下載失敗的那輪不上傳（以免舊資料蓋掉雲端）；巡檢失敗仍上傳推播紀錄，避免下一輪重發
+      - name: 巡檢（每 15 分鐘一輪，約 5.5 小時）
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          COMMANDER_USER_ID: ${{ secrets.COMMANDER_USER_ID }}
+          GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
+          # 每個 node 行程（含網站建置子行程）先註冊中文字型，否則圖上的中文會變方框
+          NODE_OPTIONS: --require ${{ github.workspace }}/scripts/cjk_fonts.js
+        run: node scripts/cloud_loop.js 330
+
+      - name: 儲存圖磚與衛星影像快取
+        if: always() && hashFiles('research/tile_cache/**', 'public/images/sentinel/**') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            research/tile_cache
+            public/images/sentinel
+          key: media-${{ hashFiles('research/tile_cache/**', 'public/images/sentinel/**') }}
+        continue-on-error: true
+
+      # 公開倉庫 60 天沒有提交時 GitHub 會停用排程；超過 45 天就補一個空提交
+      - name: 保持排程啟用
+        run: |
+          last=$(git log -1 --format=%ct)
+          if [ $(( $(date +%s) - last )) -gt $(( 45 * 86400 )) ]; then
+            git -c user.name='WorldWar Bot' -c user.email='wordwar-bot@users.noreply.github.com' commit -q --allow-empty -m '保持雲端排程啟用'
+            git push -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
+          fi

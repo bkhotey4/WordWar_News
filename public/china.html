@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="中國政治與經濟：每季長期分析、官方對台論調、軍方高層人事、人民幣與陸港股、政治行事曆與每週研究">
+  <title>中國政治與經濟</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="china.js" defer></script>
+  <style>
+    .stat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:18px}
+    .chart{width:100%;height:auto;background:#0b1724;border:1px solid var(--line);border-radius:10px}
+    .chart text{font-family:'IBM Plex Mono',monospace;font-size:11px;fill:var(--muted)}
+    .legend{display:flex;gap:16px;font-size:.82rem;color:var(--muted);margin:6px 0 14px}.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:4px;vertical-align:-2px}
+    .headline{border-bottom:1px solid #22344a;padding:8px 0}.headline .micro{color:var(--muted);text-transform:none;letter-spacing:0}
+    .brief h4,.pe h3{color:var(--cyan);margin:14px 0 4px}.brief .srcs a,.pe .srcs a{display:inline-block;margin:4px 10px 0 0;font-size:.85rem}
+    .pe .facts{border-left:3px solid #2c6d58;padding-left:12px}.pe .assess{border-left:3px solid #d9bc6a;padding-left:12px}.pe .tag{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--muted)}
+    .ind{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin:12px 0}.ind div{background:#0b1724;border:1px solid var(--line);border-radius:8px;padding:10px}.ind b{display:block;font-size:1.25rem}.ind span{font-size:.78rem;color:var(--muted)}
+    .mkt{width:100%;border-collapse:collapse}.mkt td{padding:6px 4px;border-bottom:1px solid #22344a}.mkt .num{text-align:right;font-variant-numeric:tabular-nums}.mkt .risk{color:#f2cd7b;font-weight:700}
+    .cal dt{color:var(--text);font-weight:600;margin-top:8px}.cal dd{margin:2px 0 0;color:var(--muted);font-size:.88rem}
+    @media(max-width:700px){.stat-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell">
+      <p class="eyebrow">WORDWAR NEWS · CHINA POLITICS &amp; ECONOMY</p>
+      <h1>中國政治與經濟</h1>
+      <p class="subtitle">每季的長期分析、官方對台論調、軍方高層人事、人民幣與陸港股、政治行事曆，以及每週的中國政局研究。這一頁提供背景與對解放軍能力、意圖的判斷，不是行動時間的預測；分析中「已知事實」與「研判」分開寫。</p>
+      <nav class="page-nav"><a href="/">新聞首頁</a><a href="briefing.html">圖文情勢簡報</a><a href="global.html">全球戰況</a><a href="events.html">事件時間線</a><a href="ops.html">研究排程與預警回測</a></nav>
+      <p><button id="refresh" type="button">重新讀取</button></p>
+      <p id="status" class="micro" role="status">載入中…</p>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="panel pe" aria-labelledby="pe-title">
+      <div class="panel-heading"><h2 id="pe-title">長期分析（每季）</h2></div>
+      <div id="analysis"></div>
+    </section>
+    <section class="stat-grid" id="stats" style="margin-top:18px"></section>
+    <section class="panel" aria-labelledby="mkt-title">
+      <div class="panel-heading"><h2 id="mkt-title">人民幣與陸港股（背景）</h2></div>
+      <div id="markets"></div>
+    </section>
+    <section class="panel" aria-labelledby="tone-title" style="margin-top:18px">
+      <div class="panel-heading"><h2 id="tone-title">官方對台論調（近 90 天）</h2></div>
+      <div id="tone"></div>
+    </section>
+    <section class="panel" aria-labelledby="personnel-title" style="margin-top:18px">
+      <div class="panel-heading"><h2 id="personnel-title">軍方高層人事與整肅</h2></div>
+      <div id="personnel"></div>
+    </section>
+    <section class="panel" aria-labelledby="brief-title" style="margin-top:18px">
+      <div class="panel-heading"><h2 id="brief-title">每週中國政局研究</h2></div>
+      <div id="brief"></div>
+    </section>
+    <section class="panel" aria-labelledby="cal-title" style="margin-top:18px">
+      <div class="panel-heading"><h2 id="cal-title">政治行事曆（背景）</h2></div>
+      <div id="calendar"></div>
+    </section>
+    <p id="note" class="section-note" style="margin-top:18px"></p>
+  </main>
+</body>
+</html>

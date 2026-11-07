@@ -1,0 +1,411 @@
+{
+  "system_status": {
+    "codename": "GLOBAL TACTICAL OVERWATCH (GTO-3)",
+    "defcon_level": null,
+    "defcon_name": null,
+    "threat_assessment": "資料不足",
+    "last_updated": null,
+    "escalation_index": null,
+    "nato_alert_status": "未接入北約即時狀態來源",
+    "nato_official_url": "https://www.nato.int",
+    "nato_news_url": "https://www.nato.int/cps/en/natohq/news.htm",
+    "nato_shape_url": "https://shape.nato.int"
+  },
+  "theaters": [
+    {
+      "id": "europe",
+      "name": "歐洲戰區 (European Theater - Russia vs NATO)",
+      "threat_level": "UNKNOWN",
+      "summary": "此區域尚無可核對時間的近期來源，無法提供目前威脅評級。",
+      "hotspots_count": 5
+    },
+    {
+      "id": "asia",
+      "name": "亞洲/印太戰區 (Indo-Pacific Theater - WW3 Axis)",
+      "threat_level": "UNKNOWN",
+      "summary": "此區域尚無可核對時間的近期來源，無法提供目前威脅評級。",
+      "hotspots_count": 4
+    },
+    {
+      "id": "middle-east",
+      "name": "中東與紅海戰區 (Middle East Axis)",
+      "threat_level": "UNKNOWN",
+      "summary": "此區域尚無可核對時間的近期來源，無法提供目前威脅評級。",
+      "hotspots_count": 2
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "suwalki-gap",
+      "theater": "europe",
+      "name": "蘇瓦烏基走廊 (Suwalki Gap)",
+      "country": "波蘭 / 立陶宛邊界 (鄰接白俄羅斯與俄羅斯加里寧格勒)",
+      "coordinates": [
+        54.2,
+        23.35
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "北約東翼前沿部署概況",
+          "url": "https://www.nato.int/cps/en/natohq/topics_136388.htm"
+        },
+        {
+          "title": "NATO 歐洲盟軍最高司令部 (SHAPE)",
+          "url": "https://shape.nato.int"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "baltic-states",
+      "theater": "europe",
+      "name": "波羅的海前沿防線 (Baltic States Front)",
+      "country": "愛沙尼亞、拉脫維亞、立陶宛",
+      "coordinates": [
+        58.5953,
+        25.0136
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "北約波羅的海空中警戒官方介紹",
+          "url": "https://www.nato.int/cps/en/natohq/topics_132685.htm"
+        },
+        {
+          "title": "北約官方新聞即時發布室",
+          "url": "https://www.nato.int/cps/en/natohq/news.htm"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "ukraine-frontline",
+      "theater": "europe",
+      "name": "烏克蘭主戰線 (Ukraine Active Combat Line)",
+      "country": "頓巴斯、哈爾科夫、庫斯克、黑海",
+      "coordinates": [
+        48.3794,
+        37.0942
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "北約對烏克蘭綜合援助承諾 (NATO Assistance)",
+          "url": "https://www.nato.int/cps/en/natohq/topics_192648.htm"
+        },
+        {
+          "title": "北約官方首頁",
+          "url": "https://www.nato.int"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "kaliningrad-enclave",
+      "theater": "europe",
+      "name": "加里寧格勒俄軍飛地 (Kaliningrad Exclave)",
+      "country": "俄羅斯波羅的海飛地 (波蘭與立陶宛夾峙)",
+      "coordinates": [
+        54.7104,
+        20.4522
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "北約官方防務政策與威懾姿態",
+          "url": "https://www.nato.int/cps/en/natohq/topics_133127.htm"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "nordic-arctic-flank",
+      "theater": "europe",
+      "name": "北歐與北極邊境 (Nordic & Arctic Flank)",
+      "country": "芬蘭、挪威與俄羅斯科拉半島邊境",
+      "coordinates": [
+        66.5,
+        28
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "芬蘭與瑞典加入北約防務進程",
+          "url": "https://www.nato.int/cps/en/natohq/topics_195856.htm"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "taiwan-strait",
+      "theater": "asia",
+      "name": "台灣海峽戰區 (Taiwan Strait Theater)",
+      "country": "台灣 / 中國沿海 / 第一島鏈",
+      "coordinates": [
+        24,
+        120
+      ],
+      "risk_level": "ELEVATED",
+      "status": "【觀測時間未提供】ADS-B 實時在空 61 架 (中線正面巡航 8 架)",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "【系統估算，非官方戰備等級】ADS-B 實時在空 61 架 (中線正面巡航 8 架)。模型觀測級別: null (暫停總體風險評級：缺少多來源驗證與校準)。",
+      "official_links": [
+        {
+          "title": "美國國防部印太戰略白皮書",
+          "url": "https://www.defense.gov"
+        },
+        {
+          "title": "北約與印太四夥伴 (IP4: 日韓澳紐) 合作聲明",
+          "url": "https://www.nato.int/cps/en/natohq/topics_183254.htm"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "south-china-sea",
+      "theater": "asia",
+      "name": "南海主權與航行衝突 (South China Sea Hotspot)",
+      "country": "仁愛礁 / 黃岩島 / 南沙群島",
+      "coordinates": [
+        9.9,
+        115.85
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "美國國防部印太盟友安全架構",
+          "url": "https://www.defense.gov"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "korean-peninsula",
+      "theater": "asia",
+      "name": "朝鮮半島 DMZ 與朝俄軍事軸心 (Korean Peninsula DMZ)",
+      "country": "北韓 / 南韓北緯38度線",
+      "coordinates": [
+        38.3214,
+        127
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "韓美聯合軍事威懾 (CFC)",
+          "url": "https://www.usfk.mil"
+        },
+        {
+          "title": "北約與南韓戰略夥伴關係",
+          "url": "https://www.nato.int/cps/en/natohq/topics_50098.htm"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "sino-indian-lac",
+      "theater": "asia",
+      "name": "中印邊界實際控制線 (Sino-Indian LAC)",
+      "country": "拉達克 / 班公湖 / 阿魯納恰爾邦",
+      "coordinates": [
+        34,
+        78.5
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "四方安全對話 (Quad) 合作概覽",
+          "url": "https://www.defense.gov"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    },
+    {
+      "id": "middle-east-strait",
+      "theater": "middle-east",
+      "name": "荷姆茲海峽與紅海咽喉 (Middle East Maritime Chokepoint)",
+      "country": "葉門曼德海峽 / 荷姆茲海峽 / 以色列",
+      "coordinates": [
+        12.58,
+        43.33
+      ],
+      "risk_level": "UNKNOWN",
+      "status": "近期觀測資料不足",
+      "scenario": "歷史情境參考，不代表目前動態。",
+      "key_forces": [],
+      "intel_brief": "此熱點尚無附原始來源與觀測時間的近期資料。",
+      "official_links": [
+        {
+          "title": "美國中央司令部 (USCENTCOM)",
+          "url": "https://www.centcom.mil"
+        }
+      ],
+      "evidence_status": "UNVERIFIED"
+    }
+  ],
+  "ww3_escalation_triggers": [
+    {
+      "trigger": "俄羅斯對波羅的海或波蘭邊境實施突襲或重大導彈/無人機誤擊事件",
+      "effect": "強制觸發北約第 5 條款（Article 5），歐洲全面進入直接大國交火狀態。",
+      "axis": "歐洲主戰線"
+    },
+    {
+      "trigger": "台海封鎖演練轉化為突擊兩棲作戰或美菲在南海仁愛礁發生致命交火",
+      "effect": "啟動美菲共同防禦條約與美軍印太戰時介入，太平洋全面封鎖與航道斷絕。",
+      "axis": "亞洲/印太戰線"
+    },
+    {
+      "trigger": "朝俄條約聯動：若北韓挑釁或俄羅斯徵調朝軍赴歐，南韓可能直接軍援烏克蘭先進重武",
+      "effect": "兩韓軍力直接投射至歐洲大戰場，亞洲與歐洲戰略板塊完全融合為單一世界大戰。",
+      "axis": "歐亞聯動樞紐"
+    },
+    {
+      "trigger": "核威懾臨界點破裂 (戰術核武試爆或核電廠遭軍事打擊)",
+      "effect": "戰略威懾體系崩潰，全球金融與能源航運陷入癱瘓。",
+      "axis": "戰略核階梯"
+    }
+  ],
+  "weapon_systems": [
+    {
+      "id": "iskander-m",
+      "name": "俄羅斯 9M723 伊斯坎德爾-M (Iskander-M)",
+      "category": "ballistic",
+      "theater": "europe",
+      "type": "短程準彈道飛彈 / 戰術核常兼備打擊系統",
+      "speed": "極速 Mach 5.9 - 6.2 (高超音速終端俯衝)",
+      "range": "500 km (加里寧格勒可覆蓋波蘭全境與波羅的海三國)",
+      "warhead": "480 - 700 kg (高爆破片、鑽地侵徹或 5-50 千噸戰術核彈頭)",
+      "guidance": "GLONASS 衛星導引 + 光學區域相關匹配 (DSMAC)，圓機率誤差 CEP < 5 公尺",
+      "tactical_profile": "具備高過載大過載機動（拉起變軌）能力，能有效規避傳統早期反導雷達預測軌道。"
+    },
+    {
+      "id": "patriot-pac3",
+      "name": "美軍 / 北約 MIM-104 愛國者 PAC-3 MSE",
+      "category": "air-defense",
+      "theater": "europe",
+      "type": "末端高空動能打擊攔截防空系統 (Hit-to-Kill)",
+      "speed": "Mach 4.5+",
+      "range": "攔截彈道飛彈半徑約 35-40 km，防空攔截半徑 120 km",
+      "warhead": "動能殺傷殺傷器 (KKV) + 微型殺傷增強器",
+      "guidance": "主動毫米波雷達尋標頭 (Active Ka-band Radar) + 向量推力控制 (ACM)",
+      "tactical_profile": "實戰成功攔截匕首高超音速飛彈與伊斯坎德爾-M，為歐洲防空與台海防禦之核心中樞。"
+    },
+    {
+      "id": "df-17",
+      "name": "解放軍 東風-17 (DF-17) 高超音速滑翔飛彈",
+      "category": "hypersonic",
+      "theater": "asia",
+      "type": "中程高超音速乘波體滑翔打擊武器 (HGV)",
+      "speed": "Mach 8 - 10+",
+      "range": "1,800 - 2,500 km (覆蓋第一島鏈、台海全域及關島邊緣)",
+      "warhead": "乘波體常規高爆或核彈頭",
+      "guidance": "北斗衛星導引 + 慣性導航 + 終端雷達尋標",
+      "tactical_profile": "大氣層內跳躍滑翔（錢學森彈道），傳統反導系統難以計算預估落點，專門刺穿防空防衛網。"
+    },
+    {
+      "id": "geran-5",
+      "name": "俄羅斯 / 伊朗 Geran-5 (Shahed-238 渦輪噴射版)",
+      "category": "drone",
+      "theater": "europe",
+      "type": "高速噴射自殘攻擊型無人機 (Loitering Munition)",
+      "speed": "500 - 600 km/h (較活塞版 Shahed-136 快 3 倍)",
+      "range": "800 - 1,200 km",
+      "warhead": "50 kg 高爆破片 / 燃燒破甲",
+      "guidance": "抗干擾衛星模組 (Kometa-M) + 終端熱成像 / 光學尋標器",
+      "tactical_profile": "黑夜低空突防，大幅縮短防空部隊預警與反應時間，飽和消耗昂貴防空飛彈。"
+    },
+    {
+      "id": "storm-shadow",
+      "name": "英法 暴風影 / SCALP-EG 匿蹤巡弋飛彈",
+      "category": "cruise",
+      "theater": "europe",
+      "type": "空射型匿蹤防區外精確打擊巡弋飛彈",
+      "speed": "Mach 0.8 - 0.95 (高亞音速)",
+      "range": "250 - 560 km",
+      "warhead": "450 kg BROACH 串聯多級侵徹戰鬥部 (摧毀加固地下洞庫)",
+      "guidance": "GPS + 慣導 (INS) + 地形匹配 (TERPROM) + 終端紅外線影像 (IIR)",
+      "tactical_profile": "雷達散射截面極低，曾成功精確打擊俄黑海艦隊司令部與塞凡堡潛艦乾塢。"
+    }
+  ],
+  "wargame_scenarios": [
+    {
+      "id": "suwalki-blitz",
+      "name": "歐洲東翼兵推：蘇瓦烏基走廊 48h 閃電穿插",
+      "theater": "europe",
+      "stages": [
+        {
+          "phase": "第 1 階段 [0-12h]",
+          "desc": "俄軍實施全頻譜電子干擾，加里寧格勒 S-400 與伊斯坎德爾開火壓制北約前沿機場。"
+        },
+        {
+          "phase": "第 2 階段 [12-24h]",
+          "desc": "白俄羅斯裝甲縱隊沿立陶宛-波蘭邊境突穿，試圖在 65 公里狹窄走廊合圍會師。"
+        },
+        {
+          "phase": "第 3 階段 [24-48h]",
+          "desc": "北約啟動第 5 條款，德國第 45 裝甲旅與駐波蘭美軍重裝旅發動兩側鉗形反擊。"
+        },
+        {
+          "phase": "升級臨界點",
+          "desc": "若俄軍常規推進受挫，加里寧格勒核庫可能進入預先熱備狀態，觸發全面戰略核威懾。"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-blockade",
+      "name": "印太雙戰線兵推：台海多軸圍島與第一島鏈突破",
+      "theater": "asia",
+      "stages": [
+        {
+          "phase": "第 1 階段 [封鎖建立]",
+          "desc": "解放軍東部戰區劃定台灣東部與南北外海實彈射擊禁航區，東風-17 實施警告試射。"
+        },
+        {
+          "phase": "第 2 階段 [能源斷絕]",
+          "desc": "天然氣船（LNG）遭全面阻隔，本島發電面臨 7-14 天關鍵窗口考驗。"
+        },
+        {
+          "phase": "第 3 階段 [聯軍介入]",
+          "desc": "美軍航母戰鬥群進駐菲律賓海與巴士海峽，日本自衛隊啟動西南諸島愛國者連防。"
+        },
+        {
+          "phase": "升級臨界點",
+          "desc": "若美軍航母遭高超音速反艦彈道飛彈命中，戰事將直接突破常規局限，向西太平洋全面交火擴散。"
+        }
+      ]
+    }
+  ]
+}

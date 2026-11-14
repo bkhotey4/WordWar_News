@@ -1,0 +1,117 @@
+{
+  "theaters": [
+    {
+      "id": "ukraine_front",
+      "name": "烏俄戰爭",
+      "kind": "ACTIVE_CONFLICT",
+      "satelliteRegions": [
+        "ukraine_civil"
+      ],
+      "sources": [
+        "https://understandingwar.org/research/",
+        "https://www.ohchr.org/en/countries/ukraine"
+      ]
+    },
+    {
+      "id": "iran_gulf",
+      "name": "美伊戰爭與荷莫茲海峽",
+      "kind": "ACTIVE_CONFLICT",
+      "satelliteRegions": [
+        "hormuz_bandar_abbas"
+      ],
+      "sources": [
+        "https://www.centcom.mil/MEDIA/PRESS-RELEASES/",
+        "https://www.ukmto.org/",
+        "https://www.iaea.org/",
+        "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+        "https://www.aljazeera.com/",
+        "https://www.reuters.com/world/middle-east/"
+      ]
+    },
+    {
+      "id": "middle_east",
+      "name": "以巴、黎巴嫩與紅海",
+      "kind": "REGIONAL_CONFLICTS",
+      "satelliteRegions": [
+        "gaza_civil"
+      ],
+      "sources": [
+        "https://www.ochaopt.org/",
+        "https://www.unifil.unmissions.org/"
+      ]
+    },
+    {
+      "id": "sudan",
+      "name": "蘇丹",
+      "kind": "ACTIVE_CONFLICT",
+      "satelliteRegions": [
+        "khartoum_civil"
+      ],
+      "sources": [
+        "https://sudan.un.org/en",
+        "https://www.ohchr.org/en/countries/sudan"
+      ]
+    },
+    {
+      "id": "myanmar",
+      "name": "緬甸",
+      "kind": "ACTIVE_CONFLICT",
+      "satelliteRegions": [
+        "mandalay_civil"
+      ],
+      "sources": [
+        "https://myanmar.un.org/en",
+        "https://iimm.un.org/"
+      ]
+    },
+    {
+      "id": "taiwan_strait",
+      "name": "台海",
+      "kind": "REGIONAL_SECURITY",
+      "satelliteRegions": [
+        "longtian"
+      ],
+      "sources": [
+        "https://www.mnd.gov.tw/news/plaactlist",
+        "https://www.mod.go.jp/js/",
+        "https://coastguard.gov.ph/",
+        "https://pia.gov.ph/",
+        "https://www.reuters.com/world/asia-pacific/",
+        "https://www.abs-cbn.com/news",
+        "https://www.gmanetwork.com/news/"
+      ]
+    },
+    {
+      "id": "south_china_sea",
+      "name": "南海",
+      "kind": "REGIONAL_SECURITY",
+      "satelliteRegions": [
+        "sabina"
+      ],
+      "sources": [
+        "https://news.usni.org/",
+        "https://amti.csis.org/",
+        "https://coastguard.gov.ph/",
+        "https://pia.gov.ph/",
+        "https://www.reuters.com/world/asia-pacific/",
+        "https://www.abs-cbn.com/news",
+        "https://www.gmanetwork.com/news/"
+      ]
+    },
+    {
+      "id": "europe_security",
+      "name": "波蘭與北約東翼",
+      "kind": "REGIONAL_SECURITY",
+      "satelliteRegions": [
+        "suwalki"
+      ],
+      "sources": [
+        "https://www.nato.int/",
+        "https://www.osce.org/",
+        "https://www.gov.pl/web/national-defence",
+        "https://notesfrompoland.com/",
+        "https://kyivindependent.com/"
+      ]
+    }
+  ]
+}

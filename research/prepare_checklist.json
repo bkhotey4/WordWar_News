@@ -1,0 +1,54 @@
+{
+  "version": "2026-09-30",
+  "note": "basis=OFFICIAL 表示官方指引明列；basis=ESTIMATE 表示本程式依官方原則換算的估算或實務補充，購買時請依家中狀況調整。",
+  "sources": [
+    { "id": "mnd_guide", "title": "臺灣全民安全指引（國防部全民防衛動員署）", "url": "https://prepare.mnd.gov.tw/" },
+    { "id": "mnd_manual", "title": "臺灣全民安全指引 手冊 PDF", "url": "https://prepare.mnd.gov.tw/assets/pdf/manual.pdf" },
+    { "id": "mnd_list", "title": "日常居家儲備清單 PDF", "url": "https://prepare.mnd.gov.tw/assets/pdf/emergency-supplies.zh-Hant.pdf" },
+    { "id": "cna_gobag", "title": "中央社：全民國防應變手冊緊急避難包清單", "url": "https://www.cna.com.tw/news/aipl/202306130149.aspx" },
+    { "id": "taipei_fire", "title": "臺北市防災學習：日常儲備及緊急避難包", "url": "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=97&TID=4&CID=14" }
+  ],
+  "principles": [
+    { "text": "每人每天至少 3 公升飲用水，家中至少儲備 7 天。", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "text": "循環儲備：平時就買、照常吃用、用掉再補；每半年檢查一次，換掉快過期的。", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "text": "防災物資與日常物資分開放，分散風險。", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "text": "避難包以背得動為原則（建議男性約 15 公斤、女性約 10 公斤內），準備 1～3 天份，放玄關等好拿的位置。", "basis": "OFFICIAL", "source": "mnd_manual" }
+  ],
+  "home": [
+    { "cat": "水", "item": "瓶裝飲用水", "perPersonDay": 3, "unit": "公升", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "cat": "水", "item": "生活用水（沖馬桶、清潔）：浴缸或水桶儲水", "basis": "ESTIMATE", "note": "停水時才裝，不必買" },
+    { "cat": "食物", "item": "免煮或少煮的主食（泡麵、即食飯、罐頭、麥片、餅乾）", "perPersonDay": 3, "unit": "份", "basis": "ESTIMATE", "source": "mnd_manual" },
+    { "cat": "食物", "item": "高熱量零食（巧克力、堅果、能量棒）", "perPersonDay": 1, "unit": "份", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "cat": "食物", "item": "卡式爐＋瓦斯罐（停電時煮水、加熱）", "perHouseholdDay": 0.5, "unit": "罐", "basis": "ESTIMATE", "note": "以一家人每天約半罐估算" },
+    { "cat": "藥品", "item": "慢性病藥物、常用藥（退燒、止痛、腸胃、過敏）", "basis": "OFFICIAL", "source": "cna_gobag", "note": "慢性處方箋可提早領下一期" },
+    { "cat": "藥品", "item": "急救包（紗布、繃帶、優碘、OK 繃、口罩）", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "cat": "電力照明", "item": "手電筒或頭燈＋備用電池", "basis": "OFFICIAL", "source": "taipei_fire" },
+    { "cat": "電力照明", "item": "行動電源（平時充飽）", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "cat": "電力照明", "item": "收音機（手搖／電池式，網路中斷時聽廣播）", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "cat": "電力照明", "item": "手搖發電機或太陽能充電板", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "cat": "衛生", "item": "衛生紙、濕紙巾、垃圾袋", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "cat": "衛生", "item": "女性生理用品、嬰兒用品、寵物食物（依家中需要）", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "cat": "衛生", "item": "簡易馬桶凝固劑（停水時用）", "perPersonDay": 5, "unit": "次", "basis": "ESTIMATE" },
+    { "cat": "其他", "item": "小額現金（停電時刷卡、行動支付可能不能用）", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "cat": "其他", "item": "證件影本（身分證、健保卡）與重要資料備份", "basis": "OFFICIAL", "source": "cna_gobag" }
+  ],
+  "gobag": [
+    { "item": "飲用水 600ml×2", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "item": "高熱量餅乾或即食餐", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "item": "急救包、個人藥品、口罩、濕紙巾", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "item": "薄外套、輕便雨衣、保暖毯、手套、暖暖包", "basis": "OFFICIAL", "source": "taipei_fire" },
+    { "item": "證件影本、小額現金、備用鑰匙", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "item": "哨子、手電筒、電池、行動電源、多功能刀具", "basis": "OFFICIAL", "source": "cna_gobag" },
+    { "item": "收音機", "basis": "OFFICIAL", "source": "mnd_manual" },
+    { "item": "好走的鞋", "basis": "OFFICIAL", "source": "taipei_fire" }
+  ],
+  "airRaid": [
+    "空襲警報：先進地下室或防空疏散避難設施，或聽從警察引導。",
+    "避難四原則：地下優於地上、室內優於室外、遠離外牆門窗、避開危險物品。",
+    "在戶外來不及躲：趴下、嘴巴微張、護住頭部、背對爆炸方向。",
+    "網路斷了就聽廣播；廣播也沒有，到派出所或村里辦公室問。",
+    "臺灣若遭軍事侵略，任何「國家戰敗」「政府投降」的訊息都是假訊息。"
+  ],
+  "hotlines": "報案 110｜緊急救援 112｜消防 119｜海巡 118｜地方政府 1999｜心理諮詢 1925",
+  "apps": "手機裝「消防防災 e 點通」（避難收容處所、警報）與「警政服務」（防空避難設施位置）"
+}

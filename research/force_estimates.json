@@ -1,0 +1,35 @@
+{
+  "_說明": "兵力估計：只收有明確出處與日期的數字（官方、交戰方聲稱或外部評估），海報上會標出處、日期與類別；超過 90 天的數字標示「較舊」。不得自行估算。",
+  "estimates": [
+    {
+      "id": "ua-ru-total-20260626",
+      "theater": "ukraine_front",
+      "side": "RU",
+      "label": "在烏克蘭境內集結的俄軍",
+      "value": "約 72.1 萬人",
+      "asOf": "2026-06-26",
+      "source": { "url": "https://militarnyi.com/en/news/russia-concentrate-721000-troops-in-ukraine/", "publisher": "烏軍總司令瑟爾斯基（Militarnyi 報導）", "sourceClass": "PARTY_CLAIM" },
+      "note": "烏方說法；較 2025 年底增加約 1.1 萬人。"
+    },
+    {
+      "id": "ua-ru-oleksandrivka-20260626",
+      "theater": "ukraine_front",
+      "side": "RU",
+      "label": "俄軍奧列克桑德里夫卡方向",
+      "value": "逾 7.1 萬人",
+      "asOf": "2026-06-26",
+      "source": { "url": "https://militarnyi.com/en/news/russia-concentrate-721000-troops-in-ukraine/", "publisher": "烏軍總司令瑟爾斯基（Militarnyi 報導）", "sourceClass": "PARTY_CLAIM" },
+      "note": "烏方說法；胡利艾波列、奧里希夫方向規模相近。"
+    },
+    {
+      "id": "ir-us-carriers-20261105",
+      "theater": "iran_gulf",
+      "side": "US",
+      "label": "美軍在中東的航艦",
+      "value": "2 艘（另 1 艘在途）",
+      "asOf": "2026-11-05",
+      "source": { "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/", "publisher": "CBS News（引述一名美國官員）", "sourceClass": "INDEPENDENT_MEDIA" },
+      "note": "CBS 11 月 5 日引美國官員稱區內已有兩個航艦打擊群，未具名艦名；老羅斯福號打擊群將先停靠新加坡，至少兩週後才抵中東。"
+    }
+  ]
+}

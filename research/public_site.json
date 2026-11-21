@@ -1,0 +1,6 @@
+{
+ "enabled": true,
+ "repo": "https://github.com/bkhotey4/wordwar-intel.git",
+ "note": "公開情報網頁（GitHub Pages）。enabled 為 true 時，巡檢在台北 02:40 起每 3 小時（02/05/08/11/14/17/20/23:40）整頁重建並推送，燈號升級或新報導時加開。",
+ "layout": "H"
+}

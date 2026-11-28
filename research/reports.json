@@ -1,0 +1,3742 @@
+{
+  "reports": [
+    {
+      "id": "ukraine-moscow-460-drones-ru-mod-1246-ua-162-20261128",
+      "title": "莫斯科市長稱27日晚至28日晨460架無人機飛向莫斯科州、俄國防部稱一夜擊落1246架：烏空軍同夜稱俄軍射162架無人機、13處遭擊中",
+      "theater": "ukraine_front",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜俄方稱一夜攔截1246架烏軍無人機，莫斯科州機場限飛",
+          "evidence": [
+            "f6ad6d70b8cc6415"
+          ],
+          "text": "據《基輔獨立報》11月28日報導，莫斯科市長索比亞寧27日晚間約11時稱11架飛往莫斯科的無人機遭擊落，28日早晨再稱當晚共有460架無人機鎖定莫斯科州，其中123架在飛往莫斯科途中被攔截，但未說明全州擊落總數。俄國防部稱27日晚至28日晨共攔截1246架烏克蘭無人機，範圍涵蓋14個俄國地區、巴什科爾托斯坦共和國與克里米亞。伏努科沃、多莫傑多沃兩座莫斯科州機場，以及卡盧加、奔薩、薩拉托夫、唐波夫機場實施飛行限制。報導未提到莫斯科州具體遭擊目標或傷亡；同日羅斯托夫州諾沃沙赫京斯克煉油廠附近傳出火災，但報導未把它與莫斯科州攻擊連結。截至發稿，烏方未就莫斯科州攻擊發表評論。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "同夜俄軍攻勢｜烏空軍稱162架無人機、74架為噴射動力",
+          "evidence": [
+            "6c0cab2dd18dc3ed"
+          ],
+          "text": "烏克蘭空軍稱，俄軍自27日18時起以162架無人機攻擊烏克蘭，包括沙赫德式攻擊無人機與Gerbera、Parodiya誘餌機，其中74架為噴射動力；發射方向為俄國奧廖爾、米勒羅沃、庫爾斯克，被占領的頓涅茨克與克里米亞赫瓦爾傑伊斯克。截至28日8時擊落或壓制141架（含54架噴射沙赫德），13處遭擊中、7處有殘骸墜落；空軍稱空襲仍在進行。報導未列受影響州別與傷亡。這是烏方公布數字，本稿無法獨立核實。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜不是紀錄規模，但顯示烏方對莫斯科的長程打擊持續",
+          "evidence": [
+            "f6ad6d70b8cc6415",
+            "6c0cab2dd18dc3ed"
+          ],
+          "text": "依《基輔獨立報》引述，俄國防部11月16日夜與17日夜分別稱攔截1336架與1441架，本夜1246架並非本月最高；460架飛向莫斯科州的說法也低於10月底索比亞寧所稱逾600架的規模。值得注意的是，這類全國性擊落數是俄方單方面說法，不能換算成烏方實際發射數或命中數。另一方面，烏空軍公布的俄軍162架、無飛彈，7日日均約140架／枚，仍遠低於60日P95的360；近3天平均143.7架／枚，沒有明顯爬升。澤倫斯基26日警告俄軍將再度大規模空襲能源設施，但截至28日晨的官方數字尚未出現這種規模的攻擊。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜俄方數字無法查證，莫斯科州是否有命中不明",
+          "evidence": [
+            "f6ad6d70b8cc6415",
+            "6c0cab2dd18dc3ed"
+          ],
+          "text": "本稿沒有直接讀到索比亞寧與俄國防部的Telegram原文，數字依《基輔獨立報》轉述；路透社相關稿件伺服器暫時無法讀取（HTTP 503）。莫斯科州是否有設施遭擊中、有無傷亡，報導未提及，不應推論。烏方空軍數字屬交戰方公布，截稿時攻擊仍在進行，最終統計可能變動。"
+        }
+      ],
+      "location": {
+        "lat": 55.75,
+        "lon": 37.62,
+        "label": "莫斯科州"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "莫斯科州460架",
+          "text": "索比亞寧稱27日晚至28日晨460架無人機鎖定莫斯科州，123架在飛往莫斯科途中遭攔截。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "俄稱一夜1246架",
+          "text": "俄國防部稱攔截1246架烏軍無人機，伏努科沃、多莫傑多沃等機場限飛；烏方未評論。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "俄軍射162架",
+          "text": "烏空軍稱俄軍以162架無人機攻擊，擊落壓制141架，13處遭擊中，無飛彈。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "非紀錄規模",
+          "text": "俄方本月16、17日夜曾稱攔截1336與1441架；俄軍7日日均約140架／枚，仍低於P95。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "f6ad6d70b8cc6415",
+          "contentHash": "5bbd26084913717de7489d86cea6246ae475e9649f3afbcfc4d7ee098d73b40d"
+        },
+        {
+          "id": "6c0cab2dd18dc3ed",
+          "contentHash": "18b7d2edc513ed19b8c37644f71e88dba0431403164fe9051cd3dd8b4c6c5dfd"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "f6ad6d70b8cc6415",
+          "contentHash": "5bbd26084913717de7489d86cea6246ae475e9649f3afbcfc4d7ee098d73b40d",
+          "url": "https://kyivindependent.com/ukraine-reportedly-launches-massive-attack-on-moscow-oblast-with-460-drones/",
+          "publisher": "Kyiv Independent",
+          "publishedAt": "2026-11-28T10:05:00.000Z",
+          "originGroup": "ru-sobyanin-mod-20261128",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "6c0cab2dd18dc3ed",
+          "contentHash": "18b7d2edc513ed19b8c37644f71e88dba0431403164fe9051cd3dd8b4c6c5dfd",
+          "url": "https://en.lb.ua/news/2026/11/28/51862_russia_attacks_ukraine_162.html",
+          "publisher": "LB.ua（轉述烏克蘭空軍）",
+          "publishedAt": "2026-11-28T06:11:00.000Z",
+          "originGroup": "ua-air-force-20261128",
+          "sourceType": "PARTY_CLAIM"
+        }
+      ],
+      "asOf": "2026-11-28T10:05:00.000Z",
+      "generatedAt": "2026-11-28T11:46:02.893Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "taiwan-election-day-33-aircraft-27-median-20261128",
+      "title": "九合一投票日前一天共機33架次、27架次逾越中線：國防部稱共艦假借「聯合戰備警巡」騷擾，兩項數據皆高於本站60日P95",
+      "theater": "taiwan_strait",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜27日6時至28日6時偵獲共機33架次、共艦8艘、公務船4艘",
+          "evidence": [
+            "9f2bc1ecd99c0a6b",
+            "9bd6d0bdbd3be2dd"
+          ],
+          "text": "國防部11月28日（九合一選舉投票日）上午公布，統計自27日上午6時至28日上午6時，偵獲共機33架次、共艦8艘、公務船4艘，合計45機艦船；其中27架次逾越台灣海峽中線及其延伸線，進入北部、中部、西南及東部空域。國防部稱國軍運用任務機、艦及岸置飛彈系統嚴密監控應處。據中央社報導，國防部另說明27日上午9時25分起陸續偵獲殲10、殲16、蘇愷30、轟6K、空警500等主、輔戰機及無人機共30架次出海，其中26架次逾越中線及其延伸線，配合共艦假借「聯合戰備警巡」「遠海長航」之名騷擾台灣周邊空、海域。依示意圖，台海空域27日7時20分至20時20分有13架次（7架次越線，含戰機、無人機與直升機），西南空域9時25分至11時50分10架次主戰機，東部空域6時55分至12時45分6架次，東南空域6時30分至18時30分4架次。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "官方數據比對｜架次與越線高於60日P95，共艦則在常態內",
+          "evidence": [
+            "9f2bc1ecd99c0a6b",
+            "2db6bbe8019c289f"
+          ],
+          "text": "依本站整理的國防部每日數據，33架次高於60日P95的30架次，27架次越線或進入空域也高於P95的23架次；共艦8艘則低於P95的10艘，近3天共艦平均7艘、沒有爬升。共機近3天平均12架次、前7天平均6.4架次，單日跳升明顯但尚未形成連日爬升。日本海上保安廳目前有效的NAVAREA XI航行警報中，台灣周邊沒有射擊、演習或飛彈落區公告；中國海事局近7天台海周邊軍事航行警告1則，屬常態；近7天也沒有2家以上媒體確認的具名演習。今周刊報導指出，台海空域7架次越線會壓縮海峽防衛縱深，並把時間點置於選前敏感期，但沒有提出過往比較。值得注意的是，國防部用語是「聯合戰備警巡」而非具名演習，這類行動過去多為一天內結束；機種涵蓋轟6K與空警500，顯示可能是多兵種協同而非單純戰機巡航。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "外媒觀察｜聯合早報稱「四面繞台」，北京未說明",
+          "evidence": [
+            "8d6f27b4e8d7bccc"
+          ],
+          "text": "太報整理外媒報導稱，新加坡《聯合早報》以「台九合一投票前33架次大陸軍機四面繞台演習」為題，形容共機四面環行台灣本島進行軍事施壓；半島電視台同樣引用33架次數字，並指此次地方選舉以交通、托育、環境等地方議題為主，結果不會直接改變台灣對中政策，但北京密切關注。太報報導中沒有任何中國官方對此次行動的說明。「繞台演習」是媒體用語，國防部並未如此定性。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜與選舉的關聯未獲證實、示意圖未逐架核對",
+          "evidence": [
+            "9f2bc1ecd99c0a6b",
+            "9bd6d0bdbd3be2dd",
+            "2db6bbe8019c289f",
+            "8d6f27b4e8d7bccc"
+          ],
+          "text": "國防部與各媒體都只把活動放在選舉的時間脈絡中，沒有證據顯示中方明言與投票有關；中國東部戰區至截稿前未見發布同名行動說明，本稿也未查到中方官方定性。今周刊內文同時出現26架次與27架次，差異來自「9時25分起30架次中26架次越線」與「全日33架次中27架次」兩個統計口徑，並非數據矛盾。示意圖時段由中央社轉述，本稿未逐架核對航跡；國防部原文稱活動於6時仍在持續，28日之後架次是否回落，須看次日公布。"
+        }
+      ],
+      "location": {
+        "lat": 23.7,
+        "lon": 120.9,
+        "label": "台灣周邊空、海域"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "共機33架次、27架越線",
+          "text": "國防部稱27日6時至28日6時偵獲共機33架次、共艦8艘、公務船4艘，27架次逾越中線。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "假借聯合戰備警巡",
+          "text": "9時25分起30架次出海，含殲16、轟6K、空警500，國防部稱共艦假借聯合戰備警巡騷擾。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "高於60日P95",
+          "text": "架次與越線分別高於P95的30與23架次；共艦8艘在常態內，日本與中國海事單位無台灣周邊演習公告。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "選舉關聯未證實",
+          "text": "媒體把時間點連結投票日，但中方未說明，聯合早報「四面繞台」是媒體用語。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "9f2bc1ecd99c0a6b",
+          "contentHash": "599b2a775b5d1bfd951c6d2a41e284fccae40e70f66a1dac8f2bd007f8399970"
+        },
+        {
+          "id": "9bd6d0bdbd3be2dd",
+          "contentHash": "c98b7474804911fa811226d0c9d728c6823d2a9cb72edc0f54dd0623cf55f88f"
+        },
+        {
+          "id": "2db6bbe8019c289f",
+          "contentHash": "3806c9f23bc44cd38087b122d4b9864e6abc06470277c2ff1701b31de75048ae"
+        },
+        {
+          "id": "8d6f27b4e8d7bccc",
+          "contentHash": "3b84ae4d20d482e6b8c4928646066fb747b8a4973c709ab87ef898512c102e9e"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "9f2bc1ecd99c0a6b",
+          "contentHash": "599b2a775b5d1bfd951c6d2a41e284fccae40e70f66a1dac8f2bd007f8399970",
+          "url": "https://www.mnd.gov.tw/news/plaact/88365",
+          "publisher": "中華民國國防部（僅知發布日期）",
+          "publishedAt": "2026-11-27T16:00:00.000Z",
+          "originGroup": "mnd-plaact-20261128",
+          "sourceType": "OFFICIAL"
+        },
+        {
+          "id": "9bd6d0bdbd3be2dd",
+          "contentHash": "c98b7474804911fa811226d0c9d728c6823d2a9cb72edc0f54dd0623cf55f88f",
+          "url": "https://cna.com.tw/news/aipl/202611280019.aspx",
+          "publisher": "中央社",
+          "publishedAt": "2026-11-28T01:57:00.000Z",
+          "originGroup": "mnd-plaact-20261128",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "2db6bbe8019c289f",
+          "contentHash": "3806c9f23bc44cd38087b122d4b9864e6abc06470277c2ff1701b31de75048ae",
+          "url": "https://www.businesstoday.com.tw/article/category/183027/post/202611280006/",
+          "publisher": "今周刊",
+          "publishedAt": "2026-11-28T04:12:00.000Z",
+          "originGroup": "businesstoday-20261128",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "8d6f27b4e8d7bccc",
+          "contentHash": "3b84ae4d20d482e6b8c4928646066fb747b8a4973c709ab87ef898512c102e9e",
+          "url": "https://www.taisounds.com/news/content/84/312351",
+          "publisher": "太報",
+          "publishedAt": "2026-11-28T06:17:00.000Z",
+          "originGroup": "taisounds-foreign-media-20261128",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-28T06:17:00.000Z",
+      "generatedAt": "2026-11-28T11:46:02.867Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-centcom-pacific-archer-disabled-irgc-ghanem-mine-20261127",
+      "title": "美軍26日以精準彈藥打癱阿曼灣突破封鎖的帛琉籍貨輪Pacific Archer：恢復封鎖後第6艘，革命衛隊27日再稱油輪走「未授權航路」觸雷",
+      "theater": "iran_gulf",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜美軍機擊中Pacific Archer船尾、推進系統失效",
+          "text": "美軍中央司令部（CENTCOM）27日宣布，26日在阿曼灣使一艘試圖突破美軍對伊朗港口封鎖的商船失去動力。據《海事執行者》與美聯社，該船為帛琉籍散裝貨輪Pacific Archer，《海事執行者》稱為中國船東、2001年造、載重約5.2萬噸。CENTCOM稱該船自阿巴斯港出發後無視多次警告，一架美軍機發射「精準彈藥」擊中船尾，推進系統失效，船上平民船員未受傷；船舶追蹤網站顯示目的地為新加坡。CENTCOM稱這是7月恢復封鎖以來第6艘遭打癱的船，另有158艘遵令改道；美聯社統計自春季封鎖開始以來至少已有15艘公開遭打癱，前一次在11月7日。",
+          "evidence": [
+            "58642d0cb634d387",
+            "1a0b80d33eadc3fb"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "伊朗說法｜革命衛隊稱一艘油輪觸雷、另一艘折返",
+          "text": "據《中東報》，伊朗革命衛隊27日稱，兩艘油輪試圖經「未經授權」航路通過荷莫茲海峽，其中一艘觸雷、另一艘折返，並稱近日未經授權通行的油輪已大幅減少；該報表示無法獨立核實，文中也沒有UKMTO、船東或CENTCOM的證實，船名、船籍與傷亡均未公布。革命衛隊航太軍司令穆薩維另在X發文，稱敵人應預期伊朗在空中與海上的行動，突破封鎖是「堅定任務」。《海事執行者》另引伊朗陸軍海軍司令沙赫蘭·伊拉尼稱伊朗突擊隊奪回兩艘被美方扣押的船，該報認為說法缺乏說服力。",
+          "evidence": [
+            "4a1da38db1d1901f",
+            "58642d0cb634d387"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜美伊各自用武力管制同一條航道",
+          "text": "值得注意的是，美方與伊朗現在各自宣稱對荷莫茲以東、以西的商船有通行管制權：美方在阿曼灣以空中打擊打癱出港船隻，伊朗則宣稱未經其許可的油輪會觸雷。兩邊說法若都成立，商船可能同時面對兩道管制。不過《海事執行者》引海事情報公司Windward稱，受制裁成品油輪Voyager Haven可能已突破封鎖駛往吉布地，代表封鎖並非完全無漏洞。Rystad Energy估計11月前兩週波灣石油流量約每日1300萬桶，較10月少約20%。官方數據比對：本站UKMTO紀錄近7天灣區船舶遇襲8件，低於60日P95的12件，最新一筆是25日波斯灣南部；USNI 11月23日週報顯示阿拉伯海有2艘美軍航艦，達本站門檻。Pacific Archer屬美軍執行封鎖，不在UKMTO遇襲統計內。",
+          "evidence": [
+            "58642d0cb634d387",
+            "4a1da38db1d1901f"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜CENTCOM原貼文未能讀取、觸雷說法未證實",
+          "text": "CENTCOM在X的原始貼文本輪以閱讀工具讀取失敗（HTTP 402），船名、日期與統計數字取自美聯社與《海事執行者》轉述，兩者屬同一份CENTCOM聲明，不算兩個獨立觀測。中國船東身分只見《海事執行者》，美聯社未提。船體受損程度、是否拖帶或登檢，CENTCOM未公布。革命衛隊所稱觸雷事件只有伊方說法，伊朗的Mehr通訊社原文本輪讀取失敗（HTTP 503）。本站不推論事件確切座標。",
+          "evidence": [
+            "58642d0cb634d387",
+            "1a0b80d33eadc3fb",
+            "4a1da38db1d1901f"
+          ]
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "美軍打癱貨輪",
+          "text": "CENTCOM稱26日在阿曼灣以精準彈藥擊中帛琉籍貨輪Pacific Archer船尾，推進系統失效、船員無傷。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "恢復封鎖後第6艘",
+          "text": "CENTCOM稱7月恢復封鎖以來已打癱6艘、158艘改道；美聯社統計春季以來至少15艘。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "革命衛隊稱觸雷",
+          "text": "革命衛隊稱兩艘油輪走未授權航路、一艘觸雷一艘折返，未獲UKMTO或船東證實。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "原貼文未讀到",
+          "text": "CENTCOM原貼文讀取失敗，資料取自美聯社與海事媒體轉述；船損程度未公布。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "58642d0cb634d387",
+          "contentHash": "dd0d567a1f9d68f984e10cf6c87d36a8e02bc7ca68c1434ddc8f892c1cfd337d"
+        },
+        {
+          "id": "1a0b80d33eadc3fb",
+          "contentHash": "fe62a806fe719d3a734d8708c3406d8a53e0b81cae6fec386bb43836fe940bc9"
+        },
+        {
+          "id": "4a1da38db1d1901f",
+          "contentHash": "fc9ffed7fda8dfd5f1247122a1c7de6c229b02921e049a02a2b760471c9b9179"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "58642d0cb634d387",
+          "contentHash": "dd0d567a1f9d68f984e10cf6c87d36a8e02bc7ca68c1434ddc8f892c1cfd337d",
+          "url": "https://maritime-executive.com/article/us-disables-chinese-owned-bulker-running-the-iran-blockade",
+          "publisher": "The Maritime Executive（頁面時間16:23，未標時區，以UTC記）",
+          "publishedAt": "2026-11-27T16:23:00.000Z",
+          "originGroup": "CENTCOM-PACIFIC-ARCHER-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "1a0b80d33eadc3fb",
+          "contentHash": "fe62a806fe719d3a734d8708c3406d8a53e0b81cae6fec386bb43836fe940bc9",
+          "url": "https://www.ktnv.com/world/middle-east/us-military-says-it-has-disabled-another-ship-trying-to-breach-its-iran-blockade",
+          "publisher": "美聯社（KTNV轉載，只知日期，頁面未顯示時刻）",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "originGroup": "CENTCOM-PACIFIC-ARCHER-20261126",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "4a1da38db1d1901f",
+          "contentHash": "fc9ffed7fda8dfd5f1247122a1c7de6c229b02921e049a02a2b760471c9b9179",
+          "url": "https://english.aawsat.com/world/5346276-iran-guards-say-tanker-hits-mine-near-strait-hormuz",
+          "publisher": "Asharq Al-Awsat（頁面標11:47與18:03兩個時間，未說明時區，以日期記）",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "originGroup": "IRGC-GHANEM-MINE-20261127",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-27T16:23:00.000Z",
+      "generatedAt": "2026-11-27T23:46:03.501Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "europe-trump-putin-pull-back-posture-review-delay-20261127",
+      "title": "川普稱曾要求普丁「撤回對歐洲各地的一切軍事侵略」：美駐北約副大使告知盟國，駐歐兵力態勢檢討將錯過12月1日期限",
+      "theater": "europe_security",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜川普感恩節發文，稱戰爭是「徹底血洗」",
+          "text": "據自由歐洲電台與《新聞週刊》，美國總統川普26日（感恩節）在Truth Social發文，稱他在中國與俄國總統普丁會談時花了很多時間，要求普丁「撤回對歐洲各地領土的一切軍事侵略」，以利盡快達成俄烏協議；他稱戰爭是每月奪走數千人性命的「徹底血洗」，並稱很快達成協議「很有可能」，且已向25日晚在海湖莊園會面的北約秘書長呂特簡報。川普當天對記者稱「我對俄國一直很強硬，但我想達成協議」，把語氣轉硬說成談判手法。《新聞週刊》指出，川普分享的川呂聯合聲明版本呼籲俄烏雙方都避免擴大衝突，北約公布的版本只點名俄國。兩篇報導都沒有收錄克里姆林宮的正式回應。",
+          "evidence": [
+            "d2ffe5b056ddc98f",
+            "93a9f3917904009d"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "兵力態勢｜檢討延後，五角大廈敲定五個方案",
+          "text": "自由歐洲電台報導，美國駐北約副大使奧德柯克在布魯塞爾告知盟國大使，美軍兵力態勢檢討將錯過12月1日的暫定期限，也趕不上下週的北約外長會議。據該報，五角大廈正敲定五個方案，每個都附有含歐洲盟軍最高統帥意見的軍事評估；延後主因是華府仍在審視歐洲盟國提出、用來替補美軍兵力與裝備的能力方案。目前駐歐美軍約8萬人，主要在德國、義大利與英國，川普沒有說是否縮減。報導另提到，一個美軍步兵旅已自羅馬尼亞撤出且未補位，另計畫自德國移5000人到波蘭。",
+          "evidence": [
+            "d2ffe5b056ddc98f"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜嚴詞與撤軍評估同時進行",
+          "text": "值得注意的是，川普公開要俄國停止對歐洲的軍事侵略，同一時間美方對駐歐兵力的去留卻仍未定案，盟國可能更關心後者的實際數字。這也延續了25日川呂聯合聲明的方向：要俄方避免擴大戰爭，但美方用詞對俄烏雙方的點名並不一致。同日澤倫斯基第二度警告俄軍正準備新一輪大規模空襲；歐盟則在布魯塞爾峰會討論為烏克蘭2027年需求新增450億歐元貸款，歐洲理事會主席科斯塔稱有24個成員國支持。官方數據比對：本站歐洲戰區最近交易日天然氣TTF下跌2.8%，美國對東翼各國旅遊警示近14天沒有升級，與這則外交消息沒有直接關聯。",
+          "evidence": [
+            "d2ffe5b056ddc98f",
+            "93a9f3917904009d",
+            "675a78af377b6d5d"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜貼文原文未直接讀取，方案內容未公開",
+          "text": "本稿沒有直接讀取川普的Truth Social原文，引文取自自由歐洲電台、《新聞週刊》與半島電視台轉述；《華盛頓時報》報導本輪讀取失敗（HTTP 403）。五個兵力方案的內容、是否縮減駐歐美軍、何時宣布，報導都沒有說明，本站不推測數字。川普所稱「對歐洲各地的軍事侵略」具體指哪些行動，貼文轉述中沒有列出。",
+          "evidence": [
+            "d2ffe5b056ddc98f",
+            "93a9f3917904009d",
+            "675a78af377b6d5d"
+          ]
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "川普對普丁喊話",
+          "text": "川普稱曾在中國要求普丁撤回對歐洲各地的一切軍事侵略，稱戰爭是徹底血洗、協議很可能很快達成。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "兵力檢討延後",
+          "text": "美駐北約副大使告知盟國，駐歐兵力態勢檢討將錯過12月1日期限，五角大廈正敲定五個方案。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "盟國關注去留",
+          "text": "嚴詞與撤軍評估同時進行，約8萬駐歐美軍是否縮減仍未定案。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "方案內容未公開",
+          "text": "五個方案內容與宣布時程未公開，貼文原文未直接讀取。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "d2ffe5b056ddc98f",
+          "contentHash": "06cfbf3eb01304a519244e1560d7a0d546f7f5f95278fc6a37c15b86e91741e8"
+        },
+        {
+          "id": "93a9f3917904009d",
+          "contentHash": "87039054db27fd90cfbea0878ff5ab0da14aa3249f7cd3afd2651f68b0f6fd42"
+        },
+        {
+          "id": "675a78af377b6d5d",
+          "contentHash": "545374d980d4542f38f693da7c16612ce5e77d3948f19ee76f20e6ba274d6d56"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "d2ffe5b056ddc98f",
+          "contentHash": "06cfbf3eb01304a519244e1560d7a0d546f7f5f95278fc6a37c15b86e91741e8",
+          "url": "https://www.rferl.org/a/trump-putin-europe-ukraine-russia-aggression/33906739.html",
+          "publisher": "RFE/RL（頁面標11月27日01:54 CET）",
+          "publishedAt": "2026-11-27T00:54:00.000Z",
+          "originGroup": "RFERL-POSTURE-20261127",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "93a9f3917904009d",
+          "contentHash": "87039054db27fd90cfbea0878ff5ab0da14aa3249f7cd3afd2651f68b0f6fd42",
+          "url": "https://www.newsweek.com/donald-trump-putin-russia-nato-europe-ukraine-bloodbath-12771381",
+          "publisher": "Newsweek（只知發布日期11月26日）",
+          "publishedAt": "2026-11-26T00:00:00.000Z",
+          "originGroup": "NEWSWEEK-TRUMP-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "675a78af377b6d5d",
+          "contentHash": "545374d980d4542f38f693da7c16612ce5e77d3948f19ee76f20e6ba274d6d56",
+          "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back",
+          "publisher": "Al Jazeera（含路透稿，只知日期）",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "originGroup": "ALJAZEERA-20261127",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-27T00:54:00.000Z",
+      "generatedAt": "2026-11-27T23:46:03.470Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "middle-east-jazan-refinery-nepali-killed-hodeidah-20261126",
+      "title": "沙烏地吉贊煉油廠26日遭空中彈體擊中起火、1名尼泊爾工人罹難：聯軍指胡塞所為並稱摧毀荷台達發射平台，胡塞未立即認領",
+      "theater": "middle_east",
+      "location": {
+        "lat": 16.9,
+        "lon": 42.55,
+        "label": "吉贊（沙烏地西南部紅海岸）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜能源部：「敵對空中彈體」擊中吉贊煉油廠，1死多傷、部分作業暫停",
+          "evidence": [
+            "ff015daba84e2130",
+            "b19530789696beaa",
+            "3e4f2a466b6b1f68"
+          ],
+          "text": "沙烏地能源部表示，位於紅海岸、靠近葉門邊界的吉贊煉油廠11月26日（週四）遭「敵對空中彈體」擊中引發火災，部分作業暫時停止；1名尼泊爾籍工人罹難，另有多名不同國籍工人受傷就醫，緊急與技術團隊已到場評估損害與設施安全。能源部聲明未點名攻擊者。沙烏地主導的「恢復葉門合法性聯軍」發言人馬勒基（Turki al-Maliki）在X上稱煉油廠遭「胡塞恐怖民兵」攻擊，並警告攻擊平民與民用設施將遭「堅決軍事回應」；聯軍當天稍晚稱已摧毀葉門荷台達省一處用於這次攻擊的彈道飛彈發射平台。半島電視台與彭博（Rigzone轉載）均稱胡塞未立即發表聲明。吉贊煉油廠設計日處理量40萬桶原油。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "背景｜一週內利雅德金融區、吉贊港與拉斯坦努拉相繼成為目標",
+          "evidence": [
+            "ff015daba84e2130",
+            "b19530789696beaa",
+            "3e4f2a466b6b1f68"
+          ],
+          "text": "據阿拉伯新聞，24日（週二）胡塞攻擊利雅德阿卜杜拉國王金融區一棟大樓，沙國民防稱11人受傷；25日胡塞攻擊吉贊港造成輕微損害、無人傷亡，另嘗試攻擊吉達伊斯蘭港與西部地區。胡塞25日也宣稱攻擊沙國最大煉油廠拉斯坦努拉（日處理55萬桶），彭博稱沙方說在該區攔截4架無人機，當局未證實煉油廠受襲。彭博並稱吉贊煉油廠8、9月曾遭襲停工，聯軍稱已摧毀沙那、荷台達與薩達的50個胡塞軍事目標。半島電視台指出，自7月內戰再起、胡塞宣布封鎖沙國港口以來，攻擊已迫使利雅德多數國際航班取消；世衛組織統計8月戰事升級以來2,361人死亡。值得注意的是，這次攻擊造成煉油廠人員死亡，且胡塞先前揚言攻擊吉達港與舒蓋格電廠，能源設施可能持續是主要目標。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜攻擊者與發射平台戰果僅聯軍說法，攻擊時刻與彈種未公布",
+          "evidence": [
+            "ff015daba84e2130",
+            "b19530789696beaa"
+          ],
+          "text": "能源部只說「空中彈體」，沒有公布確切時刻、彈種與損害程度；指認胡塞與「摧毀荷台達發射平台」都是聯軍單方說法，本稿未讀到獨立查證或胡塞回應。親沙國政府部隊所稱26日空襲767次、「消滅」117名戰鬥人員也屬未經證實的交戰方數字，本稿不據以推論葉門地面戰線變化。阿拉伯新聞與半島電視台的發布時刻未註明時區；煉油廠恢復作業時間不明。本稿撰寫時（11月27日11時UTC）未查到紅海商船因本事件遭波及的UKMTO通報。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "吉贊煉油廠遇襲起火",
+          "text": "沙國能源部稱26日「敵對空中彈體」擊中吉贊煉油廠，1名尼泊爾工人罹難、多人受傷。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "聯軍：摧毀發射平台",
+          "text": "聯軍指胡塞所為，並稱摧毀荷台達一處彈道飛彈發射平台；胡塞未立即認領。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "一週連串攻擊",
+          "text": "24日利雅德金融區大樓11傷、25日吉贊港輕微受損，胡塞並稱攻擊拉斯坦努拉，沙方未證實。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "多項說法待證",
+          "text": "攻擊者與戰果僅聯軍說法，攻擊時刻、彈種與恢復作業時間均未公布。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "ff015daba84e2130",
+          "contentHash": "a62b3da16fdb33169474890ee019dc4eaa47dd538c63c7c71b88024876b7ac6b"
+        },
+        {
+          "id": "b19530789696beaa",
+          "contentHash": "20f42080e63e676890b4279f4d6191f77603fdded4888081b38862d7b3c806d4"
+        },
+        {
+          "id": "3e4f2a466b6b1f68",
+          "contentHash": "25c39ffa43560b53f52c5194d72614c9406a98b26ade1e8787249298ee7be2bf"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "ff015daba84e2130",
+          "contentHash": "a62b3da16fdb33169474890ee019dc4eaa47dd538c63c7c71b88024876b7ac6b",
+          "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+          "publisher": "Al Jazeera（僅知日期）",
+          "publishedAt": "2026-11-26T00:00:00.000Z",
+          "originGroup": "saudi-energy-ministry-jazan-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "b19530789696beaa",
+          "contentHash": "20f42080e63e676890b4279f4d6191f77603fdded4888081b38862d7b3c806d4",
+          "url": "https://www.arabnews.com/saudi-arabia/houthi-attack-on-saudi-arabias-jazan-refinery-kills-nepali-worker-3014153",
+          "publisher": "Arab News（頁面標18:19，未註明時區）",
+          "publishedAt": "2026-11-26T18:19:00.000Z",
+          "originGroup": "saudi-energy-ministry-jazan-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "3e4f2a466b6b1f68",
+          "contentHash": "25c39ffa43560b53f52c5194d72614c9406a98b26ade1e8787249298ee7be2bf",
+          "url": "https://www.rigzone.com/news/deadly_houthi_strike_at_jazan_refinery_halts_some_operations-27-nov-2026-185180-article",
+          "publisher": "Rigzone轉載Bloomberg（美東3:03）",
+          "publishedAt": "2026-11-27T08:03:00.000Z",
+          "originGroup": "bloomberg-jazan-20261127",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-27T08:03:00.000Z",
+      "generatedAt": "2026-11-27T11:48:33.039Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "korea-dprk-pauses-aid-russia-hur-claim-20261126",
+      "title": "烏克蘭軍情局稱北韓暫停對俄軍援：KN-23飛彈與砲彈停運、俄軍機禁入北韓領空，起因是俄副外長對南韓表態；俄朝均未證實",
+      "theater": "korea_peninsula",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜烏軍情局：金正恩親自決定「暫時中止」對俄軍事支援",
+          "evidence": [
+            "2e58f26b67bfce9e",
+            "078e0829369a2d00",
+            "0f3a0ccce77600e2"
+          ],
+          "text": "烏克蘭國防部情報總局（HUR）11月25日（當地時間）發表分析，稱北韓外相崔善姬宣布「暫時中止」對俄羅斯的軍事支援，並稱這是北韓領導人金正恩親自做出的決定。據HUR說法，措施包括：禁止俄軍運輸機使用北韓領空、停止交付KN-23彈道飛彈與下一批砲彈，並暫緩俄方把北韓駐俄兵力由8,500人擴增到50,000人的請求。HUR稱，雙方嫌隙始於10月，俄國副外長魯堅科（Andrei Rudenko）表示莫斯科可協助緩和南北韓緊張，崔善姬10月下旬回應這類說法「不符合兩國同盟關係」，要求俄方說明對南韓政策。烏克蘭國家通訊社Ukrinform、基輔獨立報與美國軍事媒體Defense Post均於26日引述HUR報導，內容一致。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "背景｜北韓部隊與飛彈單位仍在俄境，HUR稱北韓人員損失7,058人",
+          "evidence": [
+            "078e0829369a2d00",
+            "0f3a0ccce77600e2"
+          ],
+          "text": "同一份HUR說法也指出，北韓第11特種作戰軍團部分單位仍以第二梯隊角色留在俄國庫斯克州；另有一支北韓飛彈單位自今年仲夏起駐在沃羅涅日州，據報屬第112飛彈旅，被俄軍用來打擊烏克蘭。HUR估計北韓派遣部隊在庫斯克損失7,058人，其中2,251人陣亡或無法歸隊，並稱雙方協同性低、語言障礙與口譯不足、北韓後勤薄弱。Defense Post整理的背景是：澤倫斯基7月曾說俄方想再要3萬名北韓士兵，8月有報告稱駐俄北韓單位可操作120枚彈道飛彈。值得注意的是，若HUR所述屬實，KN-23與砲彈補給中斷可能影響俄軍對烏彈道飛彈打擊的庫存，但本稿沒有讀到任何能量化影響的獨立資料，暫停期間與恢復條件HUR也未說明。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜只有烏方情報單一來源，俄朝未回應、南韓未證實，且與近期俄朝互動有出入",
+          "evidence": [
+            "2e58f26b67bfce9e",
+            "078e0829369a2d00",
+            "790d83bd19ffcdef"
+          ],
+          "text": "全部說法只來自HUR這一個原始來源，Ukrinform、基輔獨立報、Defense Post、SBS都是轉述，屬同源，不算獨立證據；HUR未說明情報取得方式，基輔獨立報與Defense Post都表示無法獨立查證。本稿在HUR英文官網新聞列表未找到這份分析（最新一則為11月23日），未能核對原文措辭。一名南韓資深官員向基輔獨立報表示，北韓與俄國的軍事合作「仍是嚴重關切事項」、違反聯合國安理會決議的合作必須立即停止，但未評論HUR的具體說法；截至本稿撰寫（11月27日11時UTC），沒有讀到俄國、北韓或南韓國家情報院的正式回應。南韓SBS指出，普丁近期才會見北韓高層並強調「戰鬥情誼」，與決裂之說相互矛盾，且魯堅科相關發言未經官方證實，需要進一步分析。本稿不據此推論俄朝同盟已破裂或駐俄北韓部隊將撤回。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "烏情報：北韓暫停軍援",
+          "text": "HUR稱北韓暫停對俄軍援，停運KN-23飛彈與砲彈、禁止俄軍運輸機入北韓領空。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "增兵5萬請求暫緩",
+          "text": "HUR稱北韓暫緩俄方把駐俄兵力由8,500人擴到5萬人的請求，起因是俄副外長對南韓的發言。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "部隊與飛彈單位仍在俄",
+          "text": "HUR稱北韓特戰部隊仍在庫斯克、飛彈單位駐沃羅涅日，估計北韓人員損失7,058人。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "單一來源、各方未證實",
+          "text": "僅烏方情報說法，俄朝未回應；南韓官員未評論具體內容，SBS指與近期俄朝互動矛盾。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "2e58f26b67bfce9e",
+          "contentHash": "d226c160a80b12e255749f2596dbc1133a0e602e36457951898f977f887fc9f5"
+        },
+        {
+          "id": "078e0829369a2d00",
+          "contentHash": "51e061035f570a34d0812b06b0416490467300b2a26af0e918644d6f73e91aba"
+        },
+        {
+          "id": "0f3a0ccce77600e2",
+          "contentHash": "c4f65e63888f9b8334dddc1bc552c08ed4caa4d830352f3e7859af9ba135608d"
+        },
+        {
+          "id": "790d83bd19ffcdef",
+          "contentHash": "27557249bf2adacdf40495b140abfe1aaad046dbec7fa5c2a5fc54336b1af412"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "2e58f26b67bfce9e",
+          "contentHash": "d226c160a80b12e255749f2596dbc1133a0e602e36457951898f977f887fc9f5",
+          "url": "https://kyivindependent.com/north-korea-pauses-military-aid-to-russia-ukrainian-intelligence-says/",
+          "publisher": "The Kyiv Independent（頁面標11:56，推定基輔時間）",
+          "publishedAt": "2026-11-26T09:56:00.000Z",
+          "originGroup": "hur-dprk-aid-pause-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "078e0829369a2d00",
+          "contentHash": "51e061035f570a34d0812b06b0416490467300b2a26af0e918644d6f73e91aba",
+          "url": "https://thedefensepost.com/2026/11/26/north-korea-halts-deliveries-russia/",
+          "publisher": "The Defense Post",
+          "publishedAt": "2026-11-26T13:05:01.000Z",
+          "originGroup": "hur-dprk-aid-pause-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "0f3a0ccce77600e2",
+          "contentHash": "c4f65e63888f9b8334dddc1bc552c08ed4caa4d830352f3e7859af9ba135608d",
+          "url": "https://ukrinform.net/rubric-polytics/4188791-north-korea-suspends-military-aid-to-russia-including-ballistic-missile-dupplies-diu.html",
+          "publisher": "Ukrinform（頁面標11:20，推定基輔時間）",
+          "publishedAt": "2026-11-26T09:20:00.000Z",
+          "originGroup": "hur-dprk-aid-pause-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "790d83bd19ffcdef",
+          "contentHash": "27557249bf2adacdf40495b140abfe1aaad046dbec7fa5c2a5fc54336b1af412",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008865968",
+          "publisher": "SBS News（首爾時間11月27日06:24，機器翻譯英文版）",
+          "publishedAt": "2026-11-26T21:24:00.000Z",
+          "originGroup": "hur-dprk-aid-pause-20261125",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-26T21:24:00.000Z",
+      "generatedAt": "2026-11-27T11:48:32.999Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-marinovka-neptune-subkhankulovo-zelensky-warning-20261126",
+      "title": "烏總參謀部稱以海王星飛彈打擊伏爾加格勒馬里諾夫卡機場、巴什科爾托斯坦輸油站起火：澤倫斯基警告俄軍即將再度大規模空襲",
+      "theater": "ukraine_front",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜一夜打擊距邊境逾千公里的機場與輸油站",
+          "text": "國際文傳電訊烏克蘭分社26日13時43分（基輔時間）報導，烏克蘭總參謀部與國防部稱，25日至26日夜間烏軍打擊兩個目標：一是伏爾加格勒州馬里諾夫卡（Marinovka）機場，由烏克蘭海軍「海王星」岸置飛彈系統執行，該機場駐有俄軍南部軍區第11混合航空團，是Su-34戰鬥轟炸機與Su-24MR偵察機的後方基地；總參謀部稱打擊結果與受損程度仍在確認。二是巴什科爾托斯坦共和國的俄國石油管道運輸公司（Transneft）蘇布漢庫洛沃（Subkhankulovo）輸油站，總參謀部稱一座儲油槽遭擊中並起火，並稱該站年處理量達9000萬噸。《基輔獨立報》另引烏國防情報總局（HUR）稱，克拉斯諾達爾邊疆區斯拉維揚斯克ECO煉油廠在維修期間再遭長程無人機擊中。",
+          "evidence": [
+            "08aa67994a32c344",
+            "c072fa7ab465b0ac"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "澤倫斯基｜情報顯示俄方「正完成新一輪大規模空襲準備」",
+          "text": "美聯社26日報導，澤倫斯基引述烏克蘭情報稱，莫斯科「正在完成新一輪大規模打擊的準備」，目標是能源設施、物流與關鍵服務，並稱俄軍持續攻擊變電所、架空電線與整個電網；6個州正在搶修前一夜飛彈與無人機攻擊造成的停電。俄國防部稱前一夜攔截343架烏克蘭無人機；俄方任命的札波羅熱被占區官員稱烏軍無人機攻擊造成5人死亡。美方特使庫許納則稱，和談在烏克蘭領土問題上陷入「有點僵局」。",
+          "evidence": [
+            "31f7af76eba9ec8b"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜持續打擊滑翔炸彈載台與輸油網路",
+          "text": "《基輔獨立報》指馬里諾夫卡是部分Su-34的基地，HUR在10月稱俄軍約有140架Su-34服役；Su-34是對烏投擲導引滑翔炸彈的主要載台。繼25日烏方稱薩瓦斯列伊卡5架軍機遭擊中後，烏軍連兩夜打擊俄方空中打擊載台的基地，值得注意的是這次改用海王星飛彈而非無人機。輸油站與煉油廠的打擊則延續烏方打擊俄國石油收入的作法，總參謀部稱「每一次打擊都意味著更少的石油與戰爭用的石油盧布」。官方數據比對：烏空軍公布26日俄軍無人機113架、飛彈1枚，7日日均186架次，低於60日P95的360；澤倫斯基警告的大規模空襲是否發生，可能成為本週觀察重點。",
+          "evidence": [
+            "08aa67994a32c344",
+            "c072fa7ab465b0ac",
+            "31f7af76eba9ec8b"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜戰果只有烏方說法，距離基準不一",
+          "text": "馬里諾夫卡受損程度連烏方都尚未公布；《基輔獨立報》明言無法獨立核實各項打擊，現場畫面來自烏方開源情報頻道。巴什科爾托斯坦方面，當地媒體Bashinform只引述圖伊瑪齊區首長稱無人機殘骸落入工業區起火，未證實輸油站儲油槽受損。國際文傳電訊標題稱「距邊境逾1000公里」、內文稱「距接觸線約1200公里」，基準不同。札波羅熱5死只有俄方任命官員說法。本輪未查到衛星影像，本站不推論受損位置或機數。",
+          "evidence": [
+            "08aa67994a32c344",
+            "c072fa7ab465b0ac",
+            "31f7af76eba9ec8b"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 48.65,
+        "lon": 43.79,
+        "label": "馬里諾夫卡機場（伏爾加格勒州）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "海王星打擊機場",
+          "text": "烏總參謀部稱以海王星飛彈打擊伏爾加格勒州馬里諾夫卡機場，該地駐有Su-34，戰果確認中。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "輸油站起火",
+          "text": "總參謀部稱巴什科爾托斯坦蘇布漢庫洛沃輸油站儲油槽遭擊中起火。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "澤倫斯基示警",
+          "text": "澤倫斯基引情報稱俄方正完成新一輪大規模空襲準備，鎖定能源與物流。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "戰果未證實",
+          "text": "各項打擊只有烏方說法，媒體無法獨立核實，本輪未見衛星影像。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "08aa67994a32c344",
+          "contentHash": "897e81630954f972292fd61bac874075a127f0b0c02c2f5f116c48d8f25ec7bc"
+        },
+        {
+          "id": "c072fa7ab465b0ac",
+          "contentHash": "3ac995469a83f1df4f2917c2057b39acfab6397ea588f39692cb68c2c63cf906"
+        },
+        {
+          "id": "31f7af76eba9ec8b",
+          "contentHash": "07accab07ea6d433448a8a567ff967c88eea397c9108799c7996e667ae61ad8c"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "08aa67994a32c344",
+          "contentHash": "897e81630954f972292fd61bac874075a127f0b0c02c2f5f116c48d8f25ec7bc",
+          "url": "https://en.interfax.com.ua/news/general/1242844.html",
+          "publisher": "Interfax-Ukraine（頁面標13:43，推定基輔時間）",
+          "publishedAt": "2026-11-26T11:43:00.000Z",
+          "originGroup": "UA-GENSTAFF-MARINOVKA-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "c072fa7ab465b0ac",
+          "contentHash": "3ac995469a83f1df4f2917c2057b39acfab6397ea588f39692cb68c2c63cf906",
+          "url": "https://kyivindependent.com/2-russian-oil-facilities-reportedly-on-fire-in-bashkortostan-and-samara-oblast/",
+          "publisher": "The Kyiv Independent（頁面標11:25、20:25更新，推定基輔時間）",
+          "publishedAt": "2026-11-26T09:25:00.000Z",
+          "originGroup": "UA-GENSTAFF-MARINOVKA-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "31f7af76eba9ec8b",
+          "contentHash": "07accab07ea6d433448a8a567ff967c88eea397c9108799c7996e667ae61ad8c",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid",
+          "publisher": "PBS NewsHour（美聯社稿，頁面標美東12:24）",
+          "publishedAt": "2026-11-26T17:24:00.000Z",
+          "originGroup": "AP-ZELENSKY-20261126",
+          "sourceType": "WIRE"
+        }
+      ],
+      "asOf": "2026-11-26T17:24:00.000Z",
+      "generatedAt": "2026-11-26T23:46:04.798Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-kuwait-skyguard-two-italians-killed-20261126",
+      "title": "科威特稱伊朗無人機26日擊中防空監視站、2名義大利萊茵金屬技師身亡：伊朗軍方否認，同日荷莫茲又有油輪中彈",
+      "theater": "iran_gulf",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜科威特防空設施遇襲，2名義大利技師傷重不治",
+          "text": "科威特國防部發言人阿特萬（Saud Al-Atwan）上校26日表示，科威特軍方偵測並攔截多架敵對無人機，指這是「伊朗的惡劣侵略」，目標為一處「重要地點」，碎片造成4人受傷：1名科威特人、1名巴基斯坦人與2名義大利人；國防部稍後證實2名義大利人傷重死亡。義大利外交部長塔亞尼（Antonio Tajani）說明，兩人是萊茵金屬義大利公司（Rheinmetall Italia）技師，在一座防空監視站維修裝備；義大利外交部稱他們正在維護「Skyguard防空系統的偵測天線」。路透與美聯社稿（澳洲ABC轉載）另引塔亞尼稱，受傷的科威特人是一名陸軍上尉。義大利總理梅洛尼在X發文致哀。",
+          "evidence": [
+            "678032236ce41afe",
+            "c37d45646ee2006f",
+            "4fc23f8f90d5d1b0"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "伊朗否認｜軍方發言人稱未在區內發動攻擊行動",
+          "text": "伊朗官方通訊社IRNA引述伊朗武裝部隊發言人謝卡爾奇（Shekarchi）稱，伊朗武裝部隊未在「區域內」執行任何攻擊行動，並暗指這類指控是以色列與美軍「假旗」手法的掩護。科威特認定為伊朗所為，目前只有科威特國防部的說法，兩方說法互相矛盾。同一天革命衛隊經法爾斯通訊社聲稱，2艘「未經德黑蘭許可」的油輪在哈薩卜以北觸雷。英國海事貿易組織（UKMTO）同期則報告2艘油輪遭不明彈體攻擊：據Vanguard Tech與Riviera報導，香港籍化學品／成品油輪「Kun Peng」機艙中彈起火、火勢已撲滅，Vanguard稱1名船員重傷，UKMTO則稱船員均已確認安全；另一艘「Captain Leon」在杜拜以西約50海里，船長回報不明彈體在右舷約50公尺外爆炸。",
+          "evidence": [
+            "678032236ce41afe",
+            "4b6d1f18b4634fcb"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜第三國技術人員首度在灣區防空設施喪生",
+          "text": "值得注意的是，遇害者並非軍人，而是為科威特防空系統提供維修的歐洲國防承包商人員；若科威特的歸因屬實，這可能使義大利乃至歐洲在荷莫茲與灣區防務上的政治壓力升高，並讓在灣國駐點的外籍技術人員面臨更高風險。本站18日稿已記錄伊朗無人機襲擊科威特阿里薩勒姆空軍基地、兩國稱全數攔截；這次則是攔截後碎片仍造成死亡，顯示「攔截成功」不等於無人傷亡。官方數據比對：UKMTO近7天灣區船舶遇襲9件，低於60日P95的12件；USNI 23日週報中東海域有2艘航艦，達門檻。伊朗方面另把拖船與海事支援船納入「不合規」名單（11月24日增至266艘），Riviera引分析人士稱這是從打擊船舶轉向打擊「協助者」。",
+          "evidence": [
+            "c37d45646ee2006f",
+            "4fc23f8f90d5d1b0",
+            "4b6d1f18b4634fcb"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜歸因、確切地點與船員傷情未獲獨立證實",
+          "text": "科威特未公開遇襲設施的確切位置，各報導均只稱「重要地點」或防空監視站，本站不標示地點。伊朗責任目前只有科威特與義大利官方說法，未見獨立鑑識或殘骸資料；伊朗方面明確否認。死者姓名與年齡僅部分媒體報導，本站未能核對，不予刊載。Kun Peng船員是否重傷，Vanguard與UKMTO說法不一；革命衛隊所稱的「觸雷」與UKMTO的「不明彈體」說法不同，未見船名對應。Riviera稿只標日期，時刻不明；本輪未能直接讀取UKMTO官網（HTTP 403），相關細節取自轉述報導。",
+          "evidence": [
+            "678032236ce41afe",
+            "c37d45646ee2006f",
+            "4fc23f8f90d5d1b0",
+            "4b6d1f18b4634fcb"
+          ]
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "2名義大利技師身亡",
+          "text": "科威特稱伊朗無人機26日擊中防空監視站，碎片致4傷，其中2名萊茵金屬義大利技師不治。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "伊朗否認",
+          "text": "伊朗武裝部隊發言人稱未在區內發動攻擊，暗指是假旗手法。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "荷莫茲油輪中彈",
+          "text": "UKMTO報2艘油輪遭不明彈體攻擊，香港籍Kun Peng機艙起火已撲滅。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "歸因待證",
+          "text": "伊朗責任只有科威特與義大利官方說法，設施確切位置未公開。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "678032236ce41afe",
+          "contentHash": "943222d326b6ea31443b43b0a5b9358bcd4686333d8b76a58bbcc2af78f943fe"
+        },
+        {
+          "id": "c37d45646ee2006f",
+          "contentHash": "1e2fa5f05cc462d6396db55b62caa166008c81ffd8b13fe5bb9383b2869db10a"
+        },
+        {
+          "id": "4fc23f8f90d5d1b0",
+          "contentHash": "8ed22e158ea2e9883cc7f6236ea79ae1d8afb8c1812ffcffaa94f87c75119b94"
+        },
+        {
+          "id": "4b6d1f18b4634fcb",
+          "contentHash": "1f8a2fedcc1ddc0ea7a854ab450b5b6d7238bfd07129e6b06de99f1828718e3f"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "678032236ce41afe",
+          "contentHash": "943222d326b6ea31443b43b0a5b9358bcd4686333d8b76a58bbcc2af78f943fe",
+          "url": "https://www.yahoo.com/news/politics/articles/iran-live-updates-tehran-says-093556957.html",
+          "publisher": "Yahoo News（ABC News即時更新）",
+          "publishedAt": "2026-11-26T14:39:00.000Z",
+          "originGroup": "ABCNEWS-LIVE-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "c37d45646ee2006f",
+          "contentHash": "1e2fa5f05cc462d6396db55b62caa166008c81ffd8b13fe5bb9383b2869db10a",
+          "url": "https://www.aerotime.aero/articles/italian-rheinmetall-technicians-killed-in-kuwaiti-drone-explosion",
+          "publisher": "AeroTime",
+          "publishedAt": "2026-11-26T15:26:00.000Z",
+          "originGroup": "AEROTIME-20261126",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "4fc23f8f90d5d1b0",
+          "contentHash": "8ed22e158ea2e9883cc7f6236ea79ae1d8afb8c1812ffcffaa94f87c75119b94",
+          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+          "publisher": "ABC（澳洲，轉載路透與美聯社；頁面標27日2:19，推定澳洲東部夏令時間）",
+          "publishedAt": "2026-11-26T15:19:00.000Z",
+          "originGroup": "REUTERS-AP-KUWAIT-20261126",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "4b6d1f18b4634fcb",
+          "contentHash": "1f8a2fedcc1ddc0ea7a854ab450b5b6d7238bfd07129e6b06de99f1828718e3f",
+          "url": "https://www.rivieramm.com/news-content-hub/two-tankers-hit-in-hormuz-as-pgsa-adds-tugs-and-osvs-to-non-compliant-list-90704",
+          "publisher": "Riviera News（只標日期，時刻不明）",
+          "publishedAt": "2026-11-26T00:00:00.000Z",
+          "originGroup": "RIVIERA-20261126",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-26T15:26:00.000Z",
+      "generatedAt": "2026-11-26T23:46:04.775Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-znpp-28th-blackout-ferosplavna-shelling-20261125",
+      "title": "札波羅熱核電廠25日凌晨再失唯一外部線路、靠柴油機維持安全：IAEA稱戰時第28次，烏方指俄軍砲擊所致",
+      "theater": "ukraine_front",
+      "location": {
+        "lat": 47.51,
+        "lon": 34.585,
+        "label": "埃涅爾戈達爾（札波羅熱核電廠）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜唯一330千伏外線Ferosplavna-1中斷，全廠改由緊急柴油發電機供電",
+          "evidence": [
+            "d15a2fafca153976",
+            "f3faa1cb08063496"
+          ],
+          "text": "烏克蘭國營核電業者Energoatom表示，俄軍占領的札波羅熱核電廠（ZNPP）11月25日（週三）凌晨4時28分與烏克蘭電網斷開，原因是僅存的330千伏Ferosplavna-1線路跳脫；廠內自用電改由備用柴油發電機供應（國際文傳電訊烏克蘭版當日12:28刊出）。Energoatom稱斷線起因是俄軍在聶伯河右岸、距Ferosplavna變電所約13公里處砲擊；烏克蘭能源部稱這是今年第17次全廠失去外部電力。另據烏克蘭財經媒體Finway轉述，國際原子能總署（IAEA）稱斷線發生在當地時間5時28分，是全面戰爭以來第28次全廠失去外部電力，緊急柴油發電機正提供關鍵核安全與保安功能，駐廠團隊仍在查明斷線原因與地點。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "背景｜距上次全廠斷電僅17天，同日烏國電網仍在空襲後實施全日輪流停電",
+          "evidence": [
+            "0dfb55ae3b77b38a",
+            "3573a6973e9af59c"
+          ],
+          "text": "上一次全廠斷電發生在11月8日凌晨2時36分，同一條Ferosplavna-1線路跳脫且自動重合閘失敗；Energoatom當時稱是今年第16次，本站11月8日稿依IAEA記為戰時第27次。這次能源部「今年第17次」與IAEA「第28次」的序數彼此銜接。6座反應爐自2022年起停機，但用過燃料與爐心餘熱冷卻仍需電力；Energoatom曾警告，柴油機若故障或燃料耗盡，冷卻系統可能失效。同一時間烏克蘭電網承受空襲後果：國營電網公司Ukrenergo宣布26日全國多個地區全日實施輪流停電，各類用戶停電0.5至3.5個輪次（每輪4小時，即每日2至14小時），工業另受限電，理由是「敵方攻擊電力系統的後果」。值得注意的是，核電廠外線與烏國電網同時吃緊，外線維修可能更依賴局部停火安排，但本稿未讀到本次是否已談妥維修停火。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜斷線原因只有烏方說法、時間差1小時、復電與否未證實",
+          "evidence": [
+            "d15a2fafca153976",
+            "f3faa1cb08063496",
+            "3573a6973e9af59c"
+          ],
+          "text": "「俄軍砲擊所致」是Energoatom單方說法，本稿未讀到IAEA或俄國占領當局對原因的確認；IAEA目前只說原因與地點仍在調查。Energoatom寫4時28分、IAEA寫當地時間5時28分，兩者相差1小時，可能是基輔時間（UTC+2）與占領區所用莫斯科時間（UTC+3）之差，換算同為UTC 02:28，但兩份原文都沒有說明時區，這只是推論。IAEA原始聲明（官網更新稿）讀取時回應付費／存取錯誤，未能直接核對全文，IAEA部分依Finway轉述。截至本稿撰寫（11月26日11時UTC），沒有讀到外部電力已恢復的報導。官方量測方面，烏方公布26日凌晨俄軍無人機113架、飛彈1枚，7日日均186架／枚，低於60日P95的360，近3天沒有明顯爬升；本稿不據此推論核電廠周邊有新的地面交戰或戰線變化。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "唯一外線再斷",
+          "text": "札波羅熱核電廠25日凌晨失去唯一330千伏外線Ferosplavna-1，改由緊急柴油發電機供電。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "IAEA：戰時第28次",
+          "text": "IAEA稱是全面戰爭以來第28次全廠斷電；烏能源部稱今年第17次，原因仍在調查。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "距上次僅17天",
+          "text": "上次全廠斷電在11月8日；26日烏國多地仍全日輪流停電，每日最長14小時。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "原因僅烏方說法",
+          "text": "「俄軍砲擊致斷線」僅Energoatom說法，IAEA未確認，復電與否未見報導。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "d15a2fafca153976",
+          "contentHash": "386ef62006dd915bee7e67381d9f8196e4c1e170cc5280fd54259397b397378c"
+        },
+        {
+          "id": "f3faa1cb08063496",
+          "contentHash": "5c29fb6528f2a4377769749b92b6551886384d6deb9f0111d874cd8babea02e3"
+        },
+        {
+          "id": "0dfb55ae3b77b38a",
+          "contentHash": "1be21871b1024a48fd896ae7115ad9d30e894b8530acdb3d9cab5e5e3c5f4c8d"
+        },
+        {
+          "id": "3573a6973e9af59c",
+          "contentHash": "d4c9a0fea9f4c86c365e5d4d762e431ec620d371eb30bb8a1b12d76e44c736b5"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "d15a2fafca153976",
+          "contentHash": "386ef62006dd915bee7e67381d9f8196e4c1e170cc5280fd54259397b397378c",
+          "url": "https://en.interfax.com.ua/news/general/1242093.html",
+          "publisher": "Interfax-Ukraine",
+          "publishedAt": "2026-11-25T10:28:00.000Z",
+          "originGroup": "energoatom-znpp-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "f3faa1cb08063496",
+          "contentHash": "5c29fb6528f2a4377769749b92b6551886384d6deb9f0111d874cd8babea02e3",
+          "url": "https://finway.com.ua/en/zaporizhzhia-npp-loses-external-power/",
+          "publisher": "Finway（僅知日期）",
+          "publishedAt": "2026-11-25T00:00:00.000Z",
+          "originGroup": "iaea-znpp-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "0dfb55ae3b77b38a",
+          "contentHash": "1be21871b1024a48fd896ae7115ad9d30e894b8530acdb3d9cab5e5e3c5f4c8d",
+          "url": "https://unn.ua/en/news/on-november-26-schedules-will-be-in-effect-around-the-clock-in-ukraine-how-long-you-will-have-to-sit-without-electricity",
+          "publisher": "UNN",
+          "publishedAt": "2026-11-25T17:30:00.000Z",
+          "originGroup": "ukrenergo-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "3573a6973e9af59c",
+          "contentHash": "d4c9a0fea9f4c86c365e5d4d762e431ec620d371eb30bb8a1b12d76e44c736b5",
+          "url": "https://www.ukrinform.net/rubric-economy/4182587-znpp-loses-external-power-supply-switches-to-diesel-generators.html",
+          "publisher": "Ukrinform",
+          "publishedAt": "2026-11-08T08:55:00.000Z",
+          "originGroup": "energoatom-znpp-20261108",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-25T17:30:00.000Z",
+      "generatedAt": "2026-11-26T11:45:26.925Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-trump-rutte-expand-war-peskov-mediterranean-20261126",
+      "title": "川普與北約秘書長呂特25日聯合聲明要俄國避免「擴大戰爭」：克里姆林宮反控烏克蘭在地中海與波羅的海「恐怖活動」",
+      "theater": "ukraine_front",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜海湖莊園會談後聯合聲明：俄國應避免「有意或無意」擴大戰爭",
+          "evidence": [
+            "4f1acfe7426bd917",
+            "b3ad2bc60bb7d3ab"
+          ],
+          "text": "美國總統川普與北約秘書長呂特11月25日（週三）在佛州海湖莊園閉門會談後發表聯合聲明（路透社、法新社稿）。聲明稱雙方「也討論了俄國避免任何有意或無意擴大戰爭之行動的重要性」，並強調「盡快達成和平解決」；會談主題是烏克蘭戰爭與美以對伊朗的戰爭，但聲明沒有交代伊朗部分談了什麼，另討論美國與北約各國提高國防支出與投資。法新社稿引白宮稱會談「極為出色」「非常有影響力」。呂特接受福斯新聞《Fox & Friends》訪問時說，川普「包括在深圳會談中，是在試探普丁」，「讓我們持續施壓，我認為有效」，並稱任何協議（不論和約或長期停火）都必須包含對烏克蘭的安全保證。法新社稿另稱，國防部長赫格塞斯預計未來幾週宣布檢討美軍在歐洲的兵力部署。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "俄方回應｜佩斯科夫：沒人想擴大衝突，是基輔把戰火帶到地中海與波羅的海",
+          "evidence": [
+            "d49856909f60f719",
+            "8975b06c0e8f3a4c"
+          ],
+          "text": "克里姆林宮發言人佩斯科夫26日（週四）在電話記者會回應美國與北約聲明時說，沒有人希望衝突擴大，但指責烏克蘭正在擴大戰區：「我們正看到基輔政權在地中海與波羅的海的恐怖活動」，並稱此舉「不可能不引起」沿岸國家、很可能也包括整個北約的關切（路透社莫斯科稿）。路透與愛爾蘭RTE都把聯合聲明解讀為警告莫斯科不要對烏方遠離戰區的打擊過度報復。兩家報導回顧：烏方週日以海上無人艇在利比亞港口擊沉俄軍護衛艦，前一天以無人機攻擊芬蘭灣俄軍關聯貨船；利比亞當局譴責，義大利對基輔表示在利比亞水域攻擊俄艦是錯誤的、警告勿把戰火擴及新地區，挪威則呼籲在波羅的海行動保持謹慎。烏軍未就此評論。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜同一句「擴大戰爭」，美方指向俄方報復，俄方轉指烏方遠洋打擊",
+          "evidence": [
+            "4f1acfe7426bd917",
+            "b3ad2bc60bb7d3ab",
+            "d49856909f60f719",
+            "8975b06c0e8f3a4c"
+          ],
+          "text": "值得注意的是，聯合聲明全文措辭只點名俄國，但俄方立刻把「擴大戰爭」改指烏克蘭在利比亞與芬蘭灣的行動，並拉入沿岸國與北約的安全顧慮；義大利、挪威此前的保留態度，可能讓這個論述在歐洲找到附和者。路透與法新社稿另提到，川普上週在深圳與普丁、習近平會面時稱普丁為「朋友」；據法新社，澤倫斯基對CNN說「對我們而言他是殺手」，並主張歐洲須加入目前只有美俄烏參與的初步談判。RTE同日報導，俄軍26日以彈道飛彈攻擊基輔左岸購物中心等3棟建物、市長稱7人受傷；美國國務院核准約6.219億美元、由歐洲國家出資的烏克蘭F-16維修與裝備案。研判上，聲明沒有附帶具體懲罰或新制裁，可能主要是外交訊號；俄方是否把遠洋打擊當作升高報復的理由，仍需觀察後續空襲規模。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜聲明全文未讀到、未說明「擴大」所指何事",
+          "evidence": [
+            "4f1acfe7426bd917",
+            "b3ad2bc60bb7d3ab"
+          ],
+          "text": "本稿沒有直接讀到白宮發布的聲明原文，引文依路透社與法新社轉述；兩家引述字句一致。聲明沒有具體說明何種行動算「擴大戰爭」，也沒有點名利比亞或波羅的海事件，「警告俄方勿過度報復」是媒體解讀，不是聲明文字。赫格塞斯兵力檢討只是「預計」宣布，尚未公布內容，不可解讀為撤軍。官方量測方面，烏方公布26日凌晨俄軍無人機113架、飛彈1枚，7日日均186架／枚，低於60日P95的360，近3天平均107架／枚、沒有明顯爬升；目前數據還看不出俄方以大規模空襲回應。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "美北約聯合聲明",
+          "text": "川普與呂特25日會談後稱，俄國應避免任何有意或無意擴大戰爭的行動，並盡快達成和平。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "克宮反控基輔",
+          "text": "佩斯科夫稱基輔在地中海與波羅的海進行「恐怖活動」，會引起沿岸國與北約關切。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "擴大戰爭各自表述",
+          "text": "聲明只點名俄國，俄方改指烏方遠洋打擊；義大利、挪威此前已表保留。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "未附具體措施",
+          "text": "聲明未說明何謂擴大、未附制裁；7日日均186架／枚，尚未見大規模報復空襲。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "4f1acfe7426bd917",
+          "contentHash": "fe5491086421a024444295f8362d54af3278b1cac95bb197e1cbb5921b5647e6"
+        },
+        {
+          "id": "b3ad2bc60bb7d3ab",
+          "contentHash": "89f96a428fc80341a2c4fb3a1d3f736acc3506f2232ee958c6327392e8f3c00c"
+        },
+        {
+          "id": "d49856909f60f719",
+          "contentHash": "faffecfb6d2faa2ddbeb036053c822b50259f981256756e5f22c81bae8501e62"
+        },
+        {
+          "id": "8975b06c0e8f3a4c",
+          "contentHash": "3b768287f2196f410b09778e1dfb8908e0736fdf33d6b832cce5025fcf62b3f7"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "4f1acfe7426bd917",
+          "contentHash": "fe5491086421a024444295f8362d54af3278b1cac95bb197e1cbb5921b5647e6",
+          "url": "https://www.ntd.com/trump-and-nato-chief-urge-russia-to-avoid-actions-that-widen-ukraine-war_1187589.html",
+          "publisher": "NTD（路透社稿）",
+          "publishedAt": "2026-11-26T09:07:31.000Z",
+          "originGroup": "reuters-trump-rutte-20261125",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "b3ad2bc60bb7d3ab",
+          "contentHash": "89f96a428fc80341a2c4fb3a1d3f736acc3506f2232ee958c6327392e8f3c00c",
+          "url": "https://www.24newshd.tv/26-Nov-2026/trump-nato-chief-urge-russia-expand-ukraine-war",
+          "publisher": "24 News HD（法新社稿；巴基斯坦時間16:16換算）",
+          "publishedAt": "2026-11-26T11:16:00.000Z",
+          "originGroup": "afp-trump-rutte-20261125",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "d49856909f60f719",
+          "contentHash": "faffecfb6d2faa2ddbeb036053c822b50259f981256756e5f22c81bae8501e62",
+          "url": "https://whbl.com/2026/11/26/kremlin-accuses-ukraine-of-trying-to-widen-conflict-zone-to-mediterranean-and-baltic-seas/",
+          "publisher": "WHBL（路透社莫斯科稿；頁面時間04:22以美中部時間換算）",
+          "publishedAt": "2026-11-26T10:22:00.000Z",
+          "originGroup": "reuters-peskov-20261126",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "8975b06c0e8f3a4c",
+          "contentHash": "3b768287f2196f410b09778e1dfb8908e0736fdf33d6b832cce5025fcf62b3f7",
+          "url": "https://www.rte.ie/news/ukraine/2026/1126/1600710-trump-nato-ukraine/",
+          "publisher": "RTÉ（頁面為更新時間）",
+          "publishedAt": "2026-11-26T10:47:00.000Z",
+          "originGroup": "rte-ukraine-20261126",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-26T11:16:00.000Z",
+      "generatedAt": "2026-11-26T11:45:26.883Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-savasleyka-five-aircraft-mig31-su34-20261125",
+      "title": "烏總參謀部稱薩瓦斯列伊卡機場5架俄軍機遭擊中：初步為3架MiG-31、2架Su-34，戰損評估持續中、俄方未回應",
+      "theater": "ukraine_front",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜烏方首度公布薩瓦斯列伊卡戰損數字",
+          "text": "《基輔獨立報》25日16時50分（基輔時間）報導，烏克蘭總參謀部稱，烏軍24日至25日夜間打擊俄羅斯下諾夫哥羅德州薩瓦斯列伊卡軍用機場，擊中5架俄軍機；據初步資訊為3架MiG-31戰機與2架Su-34戰鬥轟炸機。總參謀部稱戰損評估仍在進行，可能還有其他飛機受影響，並稱這5架飛機「一段時間內無法飛行」。《基輔郵報》同日引述總參謀部，說法相同。本站25日稿撰寫時，烏國防部只稱打擊該機場、未提出戰損，這是烏方首度公布具體機數與機型。總參謀部同一通報另稱，25日打擊被占領盧甘斯克州卡拉萬—索洛德基附近一座P-18雷達站，以及盧甘斯克、頓內次克州多處油料庫、後勤設施與彈藥庫。",
+          "evidence": [
+            "0fa2c68be0b8949f",
+            "aacbbe742bb4850b"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "背景｜MiG-31K與Su-34都是對烏遠程打擊載台",
+          "text": "《基輔郵報》指出，薩瓦斯列伊卡駐有可掛載Kh-47M2「匕首」飛彈的MiG-31K，烏方曾在2024年8月與2025年6月9日報告打擊該機場；《基輔獨立報》指Su-34用於發射飛彈與投擲導引炸彈。若烏方說法屬實，值得注意的是這是在同一夜打擊薩馬拉州兩座煉油廠之外，同時針對俄方空射飛彈與滑翔炸彈載台，可能短期削弱俄方以MiG-31K投射「匕首」的機隊可用數。但總參謀部只說「一段時間內無法飛行」，屬受損而非宣稱全毀，修復期長短無從判斷。本輪官方數據比對：烏空軍公布25日俄軍飛彈0枚、無人機112架，7日日均184架次，低於60日P95的360，尚未見俄方大規模報復性空襲。",
+          "evidence": [
+            "0fa2c68be0b8949f",
+            "aacbbe742bb4850b"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜5架機數只有烏方說法，未見影像或俄方證實",
+          "text": "機數與機型均標為「初步」，來源只有烏克蘭總參謀部；《基輔獨立報》明言無法獨立核實受損程度，其配圖為2020年莫斯科的MiG-31K資料照，非現場影像。《基輔郵報》的資訊同樣來自烏軍方Telegram貼文。兩家媒體都未提到俄國防部或地方當局對機場遇襲的回應。本輪未查到商業衛星影像或獨立地理定位資料，本站不推論受損位置、機身狀態或攻擊手段。盧甘斯克、頓內次克各目標也只有烏方說法。",
+          "evidence": [
+            "0fa2c68be0b8949f",
+            "aacbbe742bb4850b"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 54.98,
+        "lon": 42.38,
+        "label": "薩瓦斯列伊卡機場（下諾夫哥羅德州）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "5架俄軍機遭擊中",
+          "text": "烏總參謀部稱24至25日夜間打擊薩瓦斯列伊卡機場，初步擊中3架MiG-31、2架Su-34。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "戰損評估中",
+          "text": "總參謀部稱可能還有其他飛機受影響，5架機「一段時間內無法飛行」。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "打擊載台",
+          "text": "若屬實，可能短期削弱俄方以MiG-31K投射「匕首」飛彈的可用機數。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "未獲證實",
+          "text": "機數只有烏方說法，媒體無法獨立核實，俄方未回應，本輪未見衛星影像。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "0fa2c68be0b8949f",
+          "contentHash": "225a476e32b6ff1fa74985732f9ecfa5acbe4b91be6b2688d68f5d4e2a6319c5"
+        },
+        {
+          "id": "aacbbe742bb4850b",
+          "contentHash": "94eb637d351a85914436237b0cedbb14d21b2df47f525d7e32d3b63a1e587a8c"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "0fa2c68be0b8949f",
+          "contentHash": "225a476e32b6ff1fa74985732f9ecfa5acbe4b91be6b2688d68f5d4e2a6319c5",
+          "url": "https://kyivindependent.com/5-russian-aircraft-hit-at-airfield-in-russias-nizhny-novgorod-oblast-general-staff-says/",
+          "publisher": "The Kyiv Independent（頁面標16:50，推定基輔時間）",
+          "publishedAt": "2026-11-25T14:50:00.000Z",
+          "originGroup": "UA-GENSTAFF-SAVASLEYKA-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "aacbbe742bb4850b",
+          "contentHash": "94eb637d351a85914436237b0cedbb14d21b2df47f525d7e32d3b63a1e587a8c",
+          "url": "https://www.kyivpost.com/post/91162",
+          "publisher": "Kyiv Post（頁面標13:57，推定基輔時間）",
+          "publishedAt": "2026-11-25T11:57:00.000Z",
+          "originGroup": "UA-GENSTAFF-SAVASLEYKA-20261125",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-25T14:50:00.000Z",
+      "generatedAt": "2026-11-25T23:46:16.272Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-hatami-tighten-hormuz-lng-two-tankers-claim-20261125",
+      "title": "伊朗陸軍司令哈塔米下令荷莫茲「一天比一天更封閉」：革命衛隊25日再稱2艘油輪與1艘LNG船觸雷起火，船名與損害均未獲證實",
+      "theater": "iran_gulf",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜伊方25日再稱多艘船觸雷起火",
+          "text": "土耳其安納托利亞通訊社25日引述伊朗國營IRIB，革命衛隊海軍稱兩艘油輪25日凌晨試圖經「未經授權航線」、以「虛假航線」悄悄通過荷莫茲海峽時觸發水雷，機艙起火，地點在海峽南岸與東岸外海；革命衛隊並警告關閉導航與定位系統的船員不要聽信「美國官員的誤導性說法」。路透稿（阿拉伯新聞網轉載）稱，伊朗法爾斯通訊社同日引述陸軍聲明，另有一艘油輪在「管制區」觸雷起火；25日晚間革命衛隊又稱一艘液化天然氣（LNG）船觸雷起火。陸軍發言人阿克拉米尼亞稱已部署新系統並升級既有系統以強化監控，未與伊朗部隊協調的船隻風險更高。路透表示無法獨立核實。",
+          "evidence": [
+            "0541dc611e09e630",
+            "903aa83ee33f915a"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "背景｜哈塔米下令收緊管控，卡達首相赴華府斡旋",
+          "text": "歐洲新聞台24日報導，伊朗陸軍總司令哈塔米少將引述最高領袖穆吉塔巴．哈米尼的命令，要求海軍持續收緊對荷莫茲的控制，直到華府滿足德黑蘭條件，海峽要「一天比一天更封閉」，並稱若美國再啟戰端，伊朗回應將「沒有地理限制」。國會議長卡利巴夫稱在伊方七項條件落實前不會有行動或談判。卡達首相23日在華府會晤國務卿魯比歐與副總統范斯，美聯社引述消息稱與范斯會面約10分鐘。路透稿稱伊方經卡達傳話，華府滿足條件後48小時內可重開海峽。",
+          "evidence": [
+            "903aa83ee33f915a",
+            "71fbea513e24c95b"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜伊方「觸雷」敘事與通行量下降同時出現",
+          "text": "半島電視台24日引用Marine Traffic資料，11月1日至7日進出波灣船隻226艘次，17日至23日只剩125艘次、減少逾四成；另一AIS平台記錄發稿前24小時有28艘通過。歐洲新聞台引述聯合海事資訊中心（JMIC），19日至21日有114航次在美方協助下通過，且伊方觸雷說法未獲證實。值得注意的是，伊方從「水雷攔阻違規船」轉向強調監控系統升級與「必須協調通行」，可能是要把通行改為須經伊方許可；但通行量下降也可能反映保險與船東自主避險，無法單獨歸因於水雷。本站數據比對：UKMTO最新收錄為22日第221號通報，近7天灣區遇襲7件，低於60日P95的12件，尚未收錄25日伊方所稱事件；USNI 23日週報中東海域2艘航艦，觸發航艦集中指標；布蘭特原油最近交易日-0.6%，無異常上漲。",
+          "evidence": [
+            "903aa83ee33f915a",
+            "71fbea513e24c95b",
+            "21697336199e5535"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜船名、船旗與傷亡皆無獨立來源",
+          "text": "25日所稱兩艘油輪、陸軍所稱油輪與LNG船，是否為不同船隻或部分重複，本輪無法判斷；所有來源都沒有船名、船旗、位置座標或傷亡，均屬伊方說法。本輪未讀到UKMTO或船東確認。哈塔米命令發布日，歐洲新聞台記為週一（23日），半島電視台記為週二（24日），兩者不一致。安納托利亞社與半島電視台頁面只確認日期，本稿以當日00:00 UTC記錄；路透稿以阿拉伯新聞網轉載版閱讀，非路透原站。",
+          "evidence": [
+            "0541dc611e09e630",
+            "903aa83ee33f915a",
+            "71fbea513e24c95b",
+            "21697336199e5535"
+          ]
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "再稱觸雷",
+          "text": "革命衛隊稱25日凌晨2艘油輪走「未經授權航線」觸雷起火，晚間再稱1艘LNG船觸雷。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "收緊封鎖",
+          "text": "陸軍總司令哈塔米要求海峽「一天比一天更封閉」，直到美方滿足伊方條件。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "通行量下降",
+          "text": "Marine Traffic資料顯示17至23日進出波灣船隻較月初減少逾四成，原因可能不只水雷。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "未獲證實",
+          "text": "船名、船旗與傷亡皆無獨立來源，路透無法核實，UKMTO尚未收錄。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "0541dc611e09e630",
+          "contentHash": "9959270aaa5043d25ee6f575963416f6c21afd21fa14e7301c9a29222eba7322"
+        },
+        {
+          "id": "903aa83ee33f915a",
+          "contentHash": "dbf4121436c0fa5a8400f0a0a4502683cf9a337f68d52bb8681275167c8ab54c"
+        },
+        {
+          "id": "71fbea513e24c95b",
+          "contentHash": "5e92d37ac4bb5b9189ea2b6539a96e6e2e0da46253dbdb3bded2d85a26364099"
+        },
+        {
+          "id": "21697336199e5535",
+          "contentHash": "383bcc65c7712ede4fbdb66c2a997678aa298d4e84dc9275fe8024004d3059a0"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "0541dc611e09e630",
+          "contentHash": "9959270aaa5043d25ee6f575963416f6c21afd21fa14e7301c9a29222eba7322",
+          "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-rogue-oil-tankers-hit-naval-mines-catch-fire-in-strait-of-hormuz/4136585",
+          "publisher": "Anadolu Agency（只確認日期，時刻不明）",
+          "publishedAt": "2026-11-25T00:00:00.000Z",
+          "originGroup": "IRGCN-TWO-TANKERS-20261125",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "903aa83ee33f915a",
+          "contentHash": "dbf4121436c0fa5a8400f0a0a4502683cf9a337f68d52bb8681275167c8ab54c",
+          "url": "https://www.arabnews.com/middle-east/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage-3013942",
+          "publisher": "Reuters（經Arab News轉載；頁面標25日07:54、26日更新，時區不明，以當日00:00 UTC記）",
+          "publishedAt": "2026-11-25T00:00:00.000Z",
+          "originGroup": "REUTERS-HORMUZ-MINES-20261125",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "71fbea513e24c95b",
+          "contentHash": "5e92d37ac4bb5b9189ea2b6539a96e6e2e0da46253dbdb3bded2d85a26364099",
+          "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks",
+          "publisher": "Euronews",
+          "publishedAt": "2026-11-24T10:42:00.000Z",
+          "originGroup": "EURONEWS-HATAMI-20261124",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "21697336199e5535",
+          "contentHash": "383bcc65c7712ede4fbdb66c2a997678aa298d4e84dc9275fe8024004d3059a0",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+          "publisher": "Al Jazeera English（只確認日期，時刻不明）",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "originGroup": "ALJAZEERA-HORMUZ-TRAFFIC-20261124",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-25T00:00:00.000Z",
+      "generatedAt": "2026-11-25T23:46:16.247Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-samara-syzran-kuibyshev-savasleyka-20261125",
+      "title": "烏總參謀部稱25日凌晨打擊薩馬拉州敘茲蘭與古比雪夫煉油廠、並襲擊薩瓦斯列伊卡MiG-31K機場：州長稱擊落145架無人機、薩馬拉市1死",
+      "theater": "ukraine_front",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜薩馬拉州兩座俄油煉油廠起火",
+          "text": "路透25日報導，俄羅斯薩馬拉州敘茲蘭的工業設施24日深夜至25日凌晨遭烏克蘭無人機攻擊，地方當局稱州府薩馬拉市有1人在無人機攻擊中死亡。州長費多里謝夫在社群媒體稱當地防空一夜擊落145架無人機、造成停電，並稱「地面」出現後果，要求民眾不要發布攻擊後的照片與影片。路透表示，社群媒體稱敘茲蘭與古比雪夫兩座煉油廠遇襲，但路透無法獨立核實。烏克蘭總參謀部25日在臉書稱，與「黑色火花」抵抗運動協同打擊俄羅斯石油公司（Rosneft）旗下兩廠：古比雪夫廠AVT-4、AVT-5常減壓蒸餾裝置、催化重組裝置與兩座儲槽多處起火；敘茲蘭廠據初步資訊目標為AVT-6蒸餾裝置、脫硫、重組、加氫與異構化裝置及兩座儲槽，發生大火。",
+          "evidence": [
+            "85a6f0d67929b3a3",
+            "905cdf8ef9a2b0ae",
+            "c6a316dc1b691294"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "同輪｜烏方稱打擊薩瓦斯列伊卡機場與新沙赫京斯克廠停工",
+          "text": "烏克蘭國防部25日在臉書稱打擊下諾夫哥羅德州薩瓦斯列伊卡機場，Ukrinform引述稱該基地駐有可掛載「匕首」飛彈的MiG-31K；國防部未提出戰損評估，也未證實擊毀任何飛機。總參謀部同一份通報另稱，23日遇襲的羅斯托夫州新沙赫京斯克煉油廠已暫停運作，亞速港的Flash Energy油庫在16日遭擊後2座儲槽被毀、4座受損。這些戰果全屬烏方說法。烏克蘭空軍同日稱，俄軍24日18時起至25日8時以112架無人機攻擊烏克蘭、擊落或壓制88架，18處遭命中，其中47架為噴射動力型。",
+          "evidence": [
+            "c6a316dc1b691294",
+            "9346748932f10761",
+            "eb00c521f07a76e5"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜能源停火破局後，烏方深打擊重心回到伏爾加煉油群",
+          "text": "路透指出，川普10月中宣布「能源停火」後，烏方對俄煉油廠的打擊一度減少，但自10月底起明顯回升；普丁24日已誓言報復。Militarnyi整理，敘茲蘭廠年處理量約850萬至890萬公噸、生產汽油、柴油與航空煤油，是俄軍重要燃料供應者，9月15日曾遭擊、主要蒸餾裝置受損；古比雪夫廠年處理約700萬公噸，9月22日亦遭擊。兩廠在本站18日稿所述克拉斯諾達爾煉油廠遇襲與俄國內汽油限購之後再度遇襲，值得注意的是烏方打擊從黑海沿岸的克拉斯諾達爾、羅斯托夫延伸到伏爾加河流域，可能加重俄國內成品油供應壓力；同時打擊MiG-31K基地，顯示烏方試圖同時削弱俄方「匕首」飛彈投射能力。俄方可能據此以新一輪大規模空襲回應，但本輪官方數據顯示25日俄軍飛彈0枚、無人機112架，7日日均184架次，低於60日P95的360，目前尚未出現升高。",
+          "evidence": [
+            "85a6f0d67929b3a3",
+            "905cdf8ef9a2b0ae",
+            "2cb02a136bce4afe"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜損害程度與停工未獲獨立證實",
+          "text": "兩廠受損的具體裝置清單來自烏克蘭總參謀部，俄方未承認遇襲設施名稱；路透明言無法核實煉油廠遇襲。Ukrinform引用的OSINT頻道Astra稱確認兩廠起火，但屬社群影片判讀，非現場查核。Militarnyi稱敘茲蘭廠「暫停原油處理」一句未註明來源，且上下文指9月15日事件，本稿不採為本次停工證據。新沙赫京斯克停工與MiG-31K損失都只有烏方說法。薩馬拉市死者身分與地點、停電範圍，本輪未查到官方細節。路透稿本輪經KELO網站轉載閱讀，非路透原站。",
+          "evidence": [
+            "85a6f0d67929b3a3",
+            "905cdf8ef9a2b0ae",
+            "c6a316dc1b691294",
+            "9346748932f10761"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 53.16,
+        "lon": 48.47,
+        "label": "敘茲蘭（薩馬拉州）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "兩座煉油廠起火",
+          "text": "烏總參謀部稱25日凌晨打擊俄油旗下敘茲蘭、古比雪夫煉油廠多座裝置與儲槽，引發大火。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "俄方說法",
+          "text": "薩馬拉州長稱擊落145架無人機、造成停電；地方當局稱薩馬拉市1人死亡，路透無法核實煉油廠遇襲。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "機場同遭攻擊",
+          "text": "烏國防部稱打擊駐有MiG-31K的薩瓦斯列伊卡機場，未提出戰損評估。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "打擊重心",
+          "text": "能源停火破局後，烏方深打擊延伸到伏爾加流域煉油群，可能加重俄成品油壓力。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "85a6f0d67929b3a3",
+          "contentHash": "80f974c6aad70d237d1ff2756553ccd1ee56921d53b239ed2631a832531d419e"
+        },
+        {
+          "id": "905cdf8ef9a2b0ae",
+          "contentHash": "27acca0911d0a5effc2f97ed7b4783d24358a0e05cc04f09444d5638ff2a5c63"
+        },
+        {
+          "id": "c6a316dc1b691294",
+          "contentHash": "256f213518f3b9a3f7993bcc24531de5e97a199c62eb05345f4605b480f526bb"
+        },
+        {
+          "id": "2cb02a136bce4afe",
+          "contentHash": "ed47fc0ac0378a4eaf2ed3f85977f8400231ea390416ef50534a8833752c35f8"
+        },
+        {
+          "id": "9346748932f10761",
+          "contentHash": "809d577b39e9f30ef2a1b853ed0d19c687942eb4197c59c55766134d17f356dc"
+        },
+        {
+          "id": "eb00c521f07a76e5",
+          "contentHash": "7f529b871185470be3df53565e5d5909ff372278c041d23a6df8a83724bcb19f"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "85a6f0d67929b3a3",
+          "contentHash": "80f974c6aad70d237d1ff2756553ccd1ee56921d53b239ed2631a832531d419e",
+          "url": "https://kelo.com/2026/11/25/ukrainian-drones-attacked-industrial-facilities-in-russias-syzran-authorities-say/",
+          "publisher": "Reuters（經KELO轉載；網站時間未標時區，以UTC記）",
+          "publishedAt": "2026-11-25T03:51:00.000Z",
+          "originGroup": "REUTERS-SYZRAN-20261125",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "905cdf8ef9a2b0ae",
+          "contentHash": "27acca0911d0a5effc2f97ed7b4783d24358a0e05cc04f09444d5638ff2a5c63",
+          "url": "https://www.ukrinform.net/rubric-ato/4188325-two-rosneft-oil-refineries-in-russias-samara-region-on-fire-following-drone-attack-media.html",
+          "publisher": "Ukrinform（頁面09:38未標時區，推定基輔時間）",
+          "publishedAt": "2026-11-25T07:38:00.000Z",
+          "originGroup": "ASTRA-OSINT-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "c6a316dc1b691294",
+          "contentHash": "256f213518f3b9a3f7993bcc24531de5e97a199c62eb05345f4605b480f526bb",
+          "url": "https://www.ukrinform.net/rubric-ato/4188460-ukrainian-forces-strike-two-russian-oil-refineries.html",
+          "publisher": "Ukrinform（引述烏克蘭總參謀部；頁面13:21推定基輔時間）",
+          "publishedAt": "2026-11-25T11:21:00.000Z",
+          "originGroup": "UA-GENSTAFF-20261125",
+          "sourceType": "PARTY_CLAIM"
+        },
+        {
+          "id": "2cb02a136bce4afe",
+          "contentHash": "ed47fc0ac0378a4eaf2ed3f85977f8400231ea390416ef50534a8833752c35f8",
+          "url": "https://militarnyi.com/en/news/ukrainian-drones-strike-syzran-and-kuibyshev-oil-refineries-in-russia-s-samara-region/",
+          "publisher": "Militarnyi（頁面09:46未標時區，推定基輔時間）",
+          "publishedAt": "2026-11-25T07:46:00.000Z",
+          "originGroup": "MILITARNYI-20261125",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "9346748932f10761",
+          "contentHash": "809d577b39e9f30ef2a1b853ed0d19c687942eb4197c59c55766134d17f356dc",
+          "url": "https://www.ukrinform.net/rubric-ato/4188463-ukrainian-defense-forces-strike-savasleyka-airfield-in-russia.html",
+          "publisher": "Ukrinform（引述烏克蘭國防部；頁面13:30推定基輔時間）",
+          "publishedAt": "2026-11-25T11:30:00.000Z",
+          "originGroup": "UA-MOD-20261125",
+          "sourceType": "PARTY_CLAIM"
+        },
+        {
+          "id": "eb00c521f07a76e5",
+          "contentHash": "7f529b871185470be3df53565e5d5909ff372278c041d23a6df8a83724bcb19f",
+          "url": "https://www.ukrinform.net/rubric-ato/4188315-air-defenses-down-88-of-112-russian-drones-targeting-ukraine-overnight.html",
+          "publisher": "Ukrinform（引述烏克蘭空軍；頁面09:00推定基輔時間）",
+          "publishedAt": "2026-11-25T07:00:00.000Z",
+          "originGroup": "UA-AIRFORCE-20261125",
+          "sourceType": "PARTY_CLAIM"
+        }
+      ],
+      "asOf": "2026-11-25T11:30:00.000Z",
+      "generatedAt": "2026-11-25T11:45:28.985Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "europe-sparta-ii-zelensky-confirms-norway-caution-20261124",
+      "title": "澤倫斯基證實烏克蘭以無人機攻擊芬蘭灣俄貨船Sparta II、稱「做得完全正確」：自稱在俄領海內打擊，挪威國防部長要求顧及區域穩定",
+      "theater": "europe_security",
+      "supersedes": [
+        "europe-gulf-of-finland-sparta-ii-drone-strike-20261121"
+      ],
+      "updateType": "UPDATE",
+      "changeSummary": "舊稿寫「基輔未認領」，僅有芬蘭國防軍研判「很可能」為烏方所為。24日澤倫斯基接受彭博專訪，正式證實烏克蘭於21日以無人機攻擊Sparta II，稱該船載運武器屬合法目標，並稱打擊發生在俄羅斯領海、之後船隻漂流。另補充：船已於22日由俄方船隻拖回聖彼得堡錨泊、16名船員全數撤離；挪威國防部長與克里姆林宮作出回應。事發位置仍有分歧。",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜澤倫斯基在彭博專訪中認領攻擊",
+          "text": "彭博24日刊出在基輔的專訪，烏克蘭總統澤倫斯基證實烏克蘭須為11月21日（週六）在芬蘭灣以無人機攻擊俄羅斯貨船Sparta II負責，並說「我們做得完全正確」。他稱該船載運武器，任何載運武器或受制裁貨物的俄籍船隻，「在俄羅斯領海或中立水域」都是烏方的合法目標；他說「我們是在俄羅斯領海內打擊」，船隻中彈起火後發生漂流，「當然會有疑問」。澤倫斯基承認「當波羅的海發生事情時，一些歐洲夥伴會擔心」，並已指示部長與軍方與夥伴加強溝通，「讓他們掌握足夠細節、不會措手不及」。彭博表示無法獨立核實船上載有武器。路透經莫斯科時報刊出的報導亦引述相同訪談內容。",
+          "evidence": [
+            "a310b1ba3203a54c",
+            "f9c6b378b8a37362",
+            "35e4866e65528cbd"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "後續｜船已拖回聖彼得堡，挪威與俄方回應",
+          "text": "路透報導，芬蘭、愛沙尼亞與俄羅斯船隻曾聯合滅火，22日（週日）一艘俄方船隻將Sparta II拖回俄羅斯水域，目前錨泊於聖彼得堡。UNN稱16名船員全數撤離，並指船東Oboronlogistika為服務俄國防部的公司，2022年5月起受美國制裁。挪威國防部長桑維克24日表示，烏克蘭在波羅的海地區攻擊俄方目標「必須尊重我們對周邊地區穩定的需要」，並稱挪方與烏方已有良好對話。彭博另稱克里姆林宮表示這次攻擊升高了波羅的海緊張情勢。本輪未讀到芬蘭政府對認領的正式聲明原文。",
+          "evidence": [
+            "f9c6b378b8a37362",
+            "35e4866e65528cbd",
+            "c227fa9079af2857"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜認領把波羅的海打擊轉為公開政策",
+          "text": "澤倫斯基先前已認領在利比亞班加西攻擊俄艦「水星號」與貨船Angara，這次再公開認領芬蘭灣事件，並把「載運武器或受制裁貨物的俄籍船」界定為合法目標，值得注意的是這等於把對俄海上補給線的打擊從個案提升為公開原則，範圍包括連結加里寧格勒的波羅的海航線。由於波羅的海兩岸多為北約成員國，船隻中彈後漂入芬蘭領海，加上挪威公開要求顧及區域穩定，夥伴國對外溢風險（油污、無人機誤入、俄方越界救援）的顧慮可能上升；澤倫斯基主動提到要加強事前溝通，顯示基輔意識到這個政治成本。俄方可能以此為由強化波羅的海護航或對北約國家施壓，但本輪尚未看到具體軍事動作。官方數據比對：本站歐洲東翼數據24日GDELT北約東翼報導量0.554%，在常態範圍內；TTF天然氣價格無異常波動。",
+          "evidence": [
+            "a310b1ba3203a54c",
+            "f9c6b378b8a37362",
+            "35e4866e65528cbd"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜事發位置與貨物仍無獨立證據",
+          "text": "事發位置說法仍有衝突：澤倫斯基稱在俄羅斯領海；舊稿所引俄羅斯列寧格勒州長說法為國際水域、距俄邊界約3海里，愛沙尼亞警察與邊防委員會則稱在愛沙尼亞經濟海域，本稿無法核對精確船位。船上載有武器只是澤倫斯基說法，彭博與路透都未證實。本輪讀到的彭博稿是gCaptain轉載版，路透稿是莫斯科時報轉載版；兩者引述同一場專訪，訪談內容不算兩份獨立證據。芬蘭國防部長對Yle的評論只見於搜尋摘錄，本稿未採用。",
+          "evidence": [
+            "a310b1ba3203a54c",
+            "f9c6b378b8a37362",
+            "35e4866e65528cbd",
+            "c227fa9079af2857"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 60.1,
+        "lon": 27,
+        "label": "芬蘭灣東部"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "基輔認領",
+          "text": "澤倫斯基24日對彭博證實烏克蘭21日以無人機攻擊Sparta II，稱「做得完全正確」、該船載運武器。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "位置分歧",
+          "text": "澤倫斯基稱在俄領海打擊後船隻漂流；俄方先前稱國際水域，愛沙尼亞稱在其經濟海域。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "夥伴反應",
+          "text": "挪威國防部長要求攻擊須尊重周邊穩定；克里姆林宮稱攻擊升高波羅的海緊張。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "打擊原則公開化",
+          "text": "烏方把載運武器或受制裁貨物的俄籍船界定為合法目標，可能加重北約夥伴對外溢風險的顧慮。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "a310b1ba3203a54c",
+          "contentHash": "4f52fc62df6d8e02bb4d98d8ea1c17b618327b82b97a3a23779565488cb135bc"
+        },
+        {
+          "id": "f9c6b378b8a37362",
+          "contentHash": "051dd5856d7d55443e17d92a61827cec8ec6e3dcbd8d268a2c67b9e54b5e659a"
+        },
+        {
+          "id": "35e4866e65528cbd",
+          "contentHash": "3961055f2b94d1d7996fc4542a19828af41cb8160576029d9aabec8cfd7a452b"
+        },
+        {
+          "id": "c227fa9079af2857",
+          "contentHash": "eaa19ac49483ca1cef0e5a2b2795fc7ffa9670febf17828e42d5e7b90a44803c"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "a310b1ba3203a54c",
+          "contentHash": "4f52fc62df6d8e02bb4d98d8ea1c17b618327b82b97a3a23779565488cb135bc",
+          "url": "https://gcaptain.com/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland/",
+          "publisher": "Bloomberg（經gCaptain轉載；只知日期，時刻不明）",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "originGroup": "BLOOMBERG-ZELENSKY-INTERVIEW-20261124",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "f9c6b378b8a37362",
+          "contentHash": "051dd5856d7d55443e17d92a61827cec8ec6e3dcbd8d268a2c67b9e54b5e659a",
+          "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-a94364",
+          "publisher": "Reuters（經The Moscow Times刊出，17:47莫斯科時間）",
+          "publishedAt": "2026-11-24T14:47:00.000Z",
+          "originGroup": "REUTERS-SPARTA-20261124",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "35e4866e65528cbd",
+          "contentHash": "3961055f2b94d1d7996fc4542a19828af41cb8160576029d9aabec8cfd7a452b",
+          "url": "https://www.ukrinform.net/rubric-ato/4188087-zelensky-confirms-strike-on-russian-ship-in-gulf-of-finland.html",
+          "publisher": "Ukrinform（頁面15:20推定基輔時間）",
+          "publishedAt": "2026-11-24T13:20:00.000Z",
+          "originGroup": "BLOOMBERG-ZELENSKY-INTERVIEW-20261124",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "c227fa9079af2857",
+          "contentHash": "eaa19ac49483ca1cef0e5a2b2795fc7ffa9670febf17828e42d5e7b90a44803c",
+          "url": "https://unn.ua/en/news/zelenskyy-confirmed-ukraines-strike-on-the-russian-vessel-sparta-ii-in-the-gulf-of-finland-how-the-allies-reacted",
+          "publisher": "UNN（16:39基輔時間）",
+          "publishedAt": "2026-11-24T14:39:00.000Z",
+          "originGroup": "UNN-20261124",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-24T14:47:00.000Z",
+      "generatedAt": "2026-11-25T11:45:28.934Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-dymer-apartment-11-killed-vyshneve-20261123",
+      "title": "俄軍無人機22日擊中基輔州德梅爾五層公寓、死亡增至11人：州政府稱週末全州至少15死，維什涅韋超市同遭攻擊",
+      "theater": "ukraine_front",
+      "location": {
+        "lat": 50.78,
+        "lon": 30.3,
+        "label": "德梅爾（基輔州）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜德梅爾公寓倒塌，搜救23日晚結束",
+          "evidence": [
+            "282c94590b2f7635",
+            "bb6fc7b5f7f864fa"
+          ],
+          "text": "基輔州軍事行政首長特卡琴科23日在Telegram表示，俄軍攻擊基輔以北約45公里德梅爾鎮一棟住宅大樓的死亡人數增至11人，救難人員又從瓦礫中尋獲一具遺體。烏克蘭國家通訊社（Ukrinform）報導，一名7歲男童受困約14小時後獲救送醫；救援人員徹夜清理瓦礫，期間曾因防空警報暫停，該社同頁23日20時03分的後續標題稱緊急搜救作業已結束。自由歐洲電台（RFE/RL）22日晚間的報導則稱，俄軍無人機摧毀這棟住宅，當時至少5人確認死亡，其中一人為18歲男子，搜救仍在進行。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "同一週末｜維什涅韋超市遇襲3死，全州至少15死",
+          "evidence": [
+            "500c3a97bc529091"
+          ],
+          "text": "基輔郵報（Kyiv Post）23日報導，俄軍攻擊無人機在22日（週日）夜間擊中德梅爾一棟五層住宅，五個樓層的公寓都有坍塌，鄰近一所幼兒園與一家商店受損。同一天晚間，基輔近郊維什涅韋一家超市遭無人機擊中，市長稱3死15傷、含3名兒童；比拉採爾克瓦區一棟民宅遇襲1死。地方官員統計週末全州至少15人死亡。澤倫斯基稱，過去一週俄軍對烏克蘭20個州發射約2700架攻擊無人機、近1460枚導引滑翔炸彈與165枚飛彈，其中包括改良型北韓彈道飛彈；第聶伯羅彼得羅夫斯克州一座變電站22日也遭攻擊。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜來襲總量不高，但單點傷亡嚴重",
+          "evidence": [
+            "282c94590b2f7635",
+            "500c3a97bc529091"
+          ],
+          "text": "本站官方數據比對：烏方公布23日（22日晚至23日晨）俄軍無人機153架、飛彈0枚，7日日均218架／枚，低於60日P95的360，連日爬升指標也未觸發。換句話說，德梅爾與維什涅韋的重大傷亡並非發生在特別大規模的空襲夜，與本站20日克里維里赫稿觀察到的情形相似：傷亡規模未必與當夜來襲總量同步。值得注意的是，澤倫斯基所稱一週約2700架無人機，平均每天約390架，高於烏空軍逐日公布的近期日均，兩者統計口徑可能不同（例如是否含前線短程無人機），本稿不加以換算。俄方未就德梅爾攻擊回應，也未說明攻擊目標。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜攻擊時刻與武器型號說法不一",
+          "evidence": [
+            "282c94590b2f7635",
+            "bb6fc7b5f7f864fa",
+            "500c3a97bc529091"
+          ],
+          "text": "來源都沒有公布德梅爾遇襲的確切時刻：自由歐洲電台22日19時46分（中歐時間）已報導此事，基輔郵報寫「週日夜間」，可能指21日深夜至22日凌晨，本稿只寫22日。多數媒體稱是攻擊無人機，個別烏克蘭網站寫成飛彈，但內文與標題互相矛盾、日期也有誤，本稿未採用。失蹤人數各來源說法不一，Ukrinform未給數字。死亡人數以23日州政府公布的11人為準，後續仍可能更新。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "德梅爾公寓11死",
+          "text": "俄軍無人機22日擊中基輔以北德梅爾五層住宅，州政府23日稱死亡增至11人，搜救已結束。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "7歲男童14小時獲救",
+          "text": "一名7歲男童受困瓦礫約14小時後獲救送醫。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "週末全州至少15死",
+          "text": "維什涅韋超市遭無人機擊中3死15傷，地方官員稱週末基輔州至少15人死亡。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "來襲量未超常態",
+          "text": "烏方公布23日無人機153架、飛彈0枚，7日日均218，低於60日P95的360。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "282c94590b2f7635",
+          "contentHash": "0b5fcfa9ed1e02ae779191899ff99c7ac8dd77c110a02bc3b6431cbeb47162d0"
+        },
+        {
+          "id": "bb6fc7b5f7f864fa",
+          "contentHash": "646fb3e9fccd75cea7a6fa8a326bb887aaddff853678b184ad77555536884fd3"
+        },
+        {
+          "id": "500c3a97bc529091",
+          "contentHash": "0bd4f028f881da95ba762df5c71f84ba2fa99d9cd87bb9d736ef7bba194ead14"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "282c94590b2f7635",
+          "contentHash": "0b5fcfa9ed1e02ae779191899ff99c7ac8dd77c110a02bc3b6431cbeb47162d0",
+          "url": "https://www.ukrinform.net/rubric-ato/4187563-death-toll-from-russian-strike-on-apartment-building-in-kyiv-regions-dymer-rises-to-11.html",
+          "publisher": "Ukrinform（頁面時間10:59，推定基輔時間）",
+          "publishedAt": "2026-11-23T08:59:00.000Z",
+          "originGroup": "kyiv-oblast-mva-20261123",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "bb6fc7b5f7f864fa",
+          "contentHash": "646fb3e9fccd75cea7a6fa8a326bb887aaddff853678b184ad77555536884fd3",
+          "url": "https://www.rferl.org/a/ukraine-dymer-russian-strike-apartment-building/33903592.html",
+          "publisher": "RFE/RL烏克蘭語部（頁面時間19:46 CET）",
+          "publishedAt": "2026-11-22T18:46:00.000Z",
+          "originGroup": "rferl-dymer-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "500c3a97bc529091",
+          "contentHash": "0bd4f028f881da95ba762df5c71f84ba2fa99d9cd87bb9d736ef7bba194ead14",
+          "url": "https://www.kyivpost.com/post/90880",
+          "publisher": "Kyiv Post（頁面時間9:17，推定基輔時間）",
+          "publishedAt": "2026-11-23T07:17:00.000Z",
+          "originGroup": "kyivpost-kyiv-oblast-20261123",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-23T08:59:00.000Z",
+      "generatedAt": "2026-11-23T23:45:38.722Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-irgc-three-tankers-mines-us-escort-claim-20261123",
+      "title": "革命衛隊海軍稱23日又有3艘油輪在荷莫茲觸雷起火、其中2艘有美軍空中護航：船名與損害未獲證實，伊朗外交部稱將以「一切手段」對抗封鎖",
+      "theater": "iran_gulf",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜伊方稱數小時內3艘油輪觸雷，2艘在美軍護航下受損",
+          "evidence": [
+            "7b8216f84190b13e",
+            "9dd99d50352eab4c"
+          ],
+          "text": "據科威特阿拉伯時報（Arab Times）轉述伊朗官方媒體，伊朗革命衛隊海軍11月23日（週一）表示，3艘油輪在數小時內於荷莫茲海峽觸發水雷，發生爆炸與嚴重火災。其中一艘在海峽南岸附近，另兩艘在其東方；革命衛隊特別聲稱，東側兩起事件發生時油輪正接受「大規模美軍空中護航」，但護航未能阻止爆炸。革命衛隊並警告，荷莫茲「不是測試未經授權航線或無視航海警告的地方」，不聽指示的船隻將被視為「與入侵部隊合作」。哥倫比亞廣播公司（CBS）即時報導在美東時間23日17時19分記錄同一說法，稱尚無傷亡報告，並指週六（21日）另有3艘油輪遇襲。兩家媒體都未提供船名、船員或受損程度。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "相關動態｜伊朗稱封鎖是「軍事侵略」，美方再祭制裁、國務卿會晤卡達",
+          "evidence": [
+            "9dd99d50352eab4c"
+          ],
+          "text": "CBS即時報導記錄，伊朗外交部發言人巴蓋伊23日稱，伊朗將以「一切可用手段」對抗美軍封鎖，稱封鎖是「軍事侵略」，並援引聯合國憲章第51條自衛權；伊方稱只要華府滿足其要求、包括解除封鎖，荷莫茲兩天內就能重開。外長阿拉格齊稱對伊朗實施陸上封鎖「不可能」。美方方面，財政部同日對約兩打伊朗個人與企業實施制裁，鎖定德黑蘭與杜拜的「影子銀行」網絡；國務卿魯比歐在華府會晤卡達首相兼外長，卡達是停滯中美伊談判的主要調停方。伊朗司法機關另稱已取得對美2900億美元求償判決，國營電視稱部分與美國有關的商船已遭扣押並用於抵償。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜伊方把「觸雷」敘事延伸到美軍護航船隻",
+          "evidence": [
+            "7b8216f84190b13e",
+            "9dd99d50352eab4c"
+          ],
+          "text": "這是伊方一週多來第三度以「觸雷」解釋油輪受損（14日、22日與23日），但這次首度明確宣稱受損船隻有美軍空中護航。若屬實，可能表示美軍護航並不能完全排除水雷風險；但這是交戰方單方說法，美軍中央司令部未見回應，本站無法證實。值得注意的是，伊方同時以「未經授權航線」「與入侵部隊合作」定性商船，可能是在為攻擊不服從其指示的船隻建立說詞。本站官方數據比對：本站UKMTO資料最新為21日第216號通報，近7天灣區船舶遇襲5件，低於60日P95的12件，尚未收錄23日事件；USNI 23日週報中東海域有2艘航艦（羅斯福號、布希號，均在阿拉伯海），觸發航艦集中指標；布蘭特原油最近交易日下跌6.3%，沒有異常上漲。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜沒有獨立來源證實觸雷，UKMTO原文無法讀取",
+          "evidence": [
+            "7b8216f84190b13e",
+            "9dd99d50352eab4c"
+          ],
+          "text": "3艘油輪的船名、船旗、確切位置與傷亡，目前只有伊朗革命衛隊說法，阿拉伯時報明言未經獨立證實。本輪嘗試讀取UKMTO近期事件頁面遭HTTP 403拒絕，未能確認是否有對應通報。阿拉伯時報只標11月24日日期（科威特時間）、無發布時刻，本稿以24日00:00科威特時間記錄；CBS各則只標美東時刻。本稿不推論水雷布設者、位置或美軍是否應變。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "伊方稱3艘油輪觸雷",
+          "text": "革命衛隊海軍稱23日數小時內3艘油輪在荷莫茲觸雷爆炸起火，船名與損害未公布。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "稱2艘有美軍護航",
+          "text": "伊方稱東側兩艘遇雷時有美軍空中護航；美方未見回應，未獲獨立證實。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "「一切手段」對抗封鎖",
+          "text": "伊朗外交部稱封鎖是軍事侵略、援引自衛權；美財政部同日制裁影子銀行網絡。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "UKMTO尚無對應紀錄",
+          "text": "本站UKMTO資料最新為21日，近7天5件低於P95；USNI週報中東2艘航艦觸發指標。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "7b8216f84190b13e",
+          "contentHash": "c93313e015e9a60f3d76c321720d02447bbfe8492d3fee79468f0fc541de958e"
+        },
+        {
+          "id": "9dd99d50352eab4c",
+          "contentHash": "35dd58bcf8d36d0f7754d1aeae24c8c1491e7e2be8bfa140ada56d769d16dc62"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "7b8216f84190b13e",
+          "contentHash": "c93313e015e9a60f3d76c321720d02447bbfe8492d3fee79468f0fc541de958e",
+          "url": "https://www.arabtimesonline.com/news/irgc-says-three-oil-tankers-hit-naval-mines-in-strait-of-hormuz/",
+          "publisher": "Arab Times（只標日期11月24日，無發布時刻；以科威特時間當日00:00記錄）",
+          "publishedAt": "2026-11-23T21:00:00.000Z",
+          "originGroup": "irgc-navy-statement-20261123",
+          "sourceType": "PARTY_CLAIM"
+        },
+        {
+          "id": "9dd99d50352eab4c",
+          "contentHash": "35dd58bcf8d36d0f7754d1aeae24c8c1491e7e2be8bfa140ada56d769d16dc62",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+          "publisher": "CBS News（即時頁面；最新一則美東時間17:19，頁面更新18:11 EST）",
+          "publishedAt": "2026-11-23T22:19:00.000Z",
+          "originGroup": "cbs-live-20261123",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-23T22:19:00.000Z",
+      "generatedAt": "2026-11-23T23:45:38.679Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-benghazi-merkury-corvette-sunk-angara-20261123",
+      "title": "烏克蘭稱以7艘海上無人艇擊沉停靠利比亞班加西的俄軍護衛艦「水星號」並擊中運輸船Angara：利比亞東部政府稱侵犯主權，克里姆林宮交國防部回應",
+      "theater": "ukraine_front",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜俄艦在班加西海軍基地爆炸翻覆，基輔23日認領",
+          "text": "11月22日清晨，停靠利比亞東部班加西海軍基地的一艘俄羅斯軍艦發生爆炸起火。利比亞東部政府稱，該艦依雙方合作協議停靠加油補給，爆炸屬「嚴重侵犯國家主權」，並與俄方聯合調查；義大利《24小時太陽報》即時報導引兩名利比亞軍方官員初步調查稱，至少4艘海上無人艇遭攔截，另有2艘擊中軍艦，當地醫療來源稱10人輕傷、無人死亡。半島電視台引衛星影像商Vantor辨識該艦為俄海軍護衛艦「水星號」（Merkury），艦體大部分翻覆下沉。23日，澤倫斯基表示烏軍出動7艘國產海上無人艇擊沉水星號並擊中運輸船Angara；烏克蘭安全局（SBU）稱無人艇由一艘「母船」發射，艦上一架Ka-27直升機一併沉沒。",
+          "evidence": [
+            "241408f4887cf1ce",
+            "c3072a6f4c5278b0",
+            "3c897a51af98f62d",
+            "a6342cc474d5f825"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "各方回應｜克里姆林宮暫不評論、聯合國駐利比亞特派團要求獨立調查",
+          "text": "據NBC新聞，克里姆林宮發言人培斯科夫稱已注意到澤倫斯基的說法，交由國防部回應，截至該報導俄國防部尚未表態。聯合國利比亞支援團（UNSMIL）要求「立即、獨立且透明」的調查；西部的利比亞政府則表示反對把利比亞變成國際衝突的戰場。半島電視台報導，東部總理哈馬德已正式要求聯合國大會與安理會進行國際調查，並稱懷疑無人艇自利比亞西部發射，要求基輔說明烏克蘭專家是否在利國境內。同日班加西外海另有一艘馬爾他籍商船遭海上無人艇擊中，東部衛生部稱船員均已獲救治。",
+          "evidence": [
+            "c3072a6f4c5278b0",
+            "a6342cc474d5f825"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜烏方海上打擊延伸到地中海俄軍後勤線",
+          "text": "SBU稱水星號定期護航俄方船團、負責掩護用於運送武器的Angara，並稱兩船皆為合法軍事目標；基輔郵報描述Angara為受制裁、與俄軍事後勤有關的乾貨船，但這是該報描述，不是SBU說法。水星號屬守護級（Steregushchiy）護衛艦，據SBU於2023年服役、2024年加入俄地中海分艦隊。值得注意的是，這距芬蘭灣Sparta II貨船21日遇襲僅一天，兩起都是針對俄方海上補給的遠離黑海行動；若烏方說法屬實，可能使俄軍經地中海與利比亞的後勤節點必須加強港內防護，也可能讓利比亞東部當局與俄方的合作承受政治壓力。本站官方數據比對：本站沒有地中海或俄方艦艇損失的官方量測數據；烏克蘭空軍公布23日俄軍來襲無人機153架、飛彈0枚，7日日均218架／枚，低於60日P95的360，與本事件沒有直接關聯。",
+          "evidence": [
+            "c3072a6f4c5278b0",
+            "3c897a51af98f62d",
+            "a6342cc474d5f825"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜發射地點、傷亡與Angara受損程度未證實",
+          "text": "發射地點說法互相矛盾：SBU稱由「母船」發射，利比亞方面消息與半島電視台引美聯社匿名來源則稱自利比亞西部烏方據點發射，本稿無法判斷。傷亡也不一致：醫療來源稱10人輕傷無人死亡，半島電視台引匿名當地人士稱有利、俄人員死亡，未獲證實。攔截無人艇數量有「至少4艘」與「至少12艘」兩種說法。Angara受損程度、水星號是否完全沉沒，本輪只有SBU說法與衛星影像商描述，俄國防部尚未證實。NPR與Naval News原文本輪讀取失敗（HTTP 503），未納入核對。",
+          "evidence": [
+            "241408f4887cf1ce",
+            "c3072a6f4c5278b0",
+            "3c897a51af98f62d",
+            "a6342cc474d5f825"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 32.117,
+        "lon": 20.067,
+        "label": "班加西海軍基地（利比亞）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "俄艦班加西翻覆",
+          "text": "停靠班加西海軍基地的俄護衛艦水星號22日清晨爆炸，衛星影像商稱艦體大部分翻覆下沉。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "基輔認領",
+          "text": "澤倫斯基稱出動7艘海上無人艇擊沉水星號並擊中運輸船Angara；SBU稱由母船發射。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "利比亞與聯合國",
+          "text": "東部政府稱侵犯主權並與俄聯合調查，UNSMIL要求獨立調查，克里姆林宮交國防部回應。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "發射地點未明",
+          "text": "SBU稱母船發射，利比亞方面稱自利國西部發射；死傷人數說法不一。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "241408f4887cf1ce",
+          "contentHash": "af735023820066d6719c9ecfe7edb9217f2e0c6d7754f823d2fb7df341837631"
+        },
+        {
+          "id": "c3072a6f4c5278b0",
+          "contentHash": "2d31414d1150536fc2d1a1f19dd74ab6ab5ba740f6fab0986592f302ce03d0af"
+        },
+        {
+          "id": "3c897a51af98f62d",
+          "contentHash": "891f89ef3e33981fd97f6b647c23064f02db13a0c293c1e3ad93246ef90a555a"
+        },
+        {
+          "id": "a6342cc474d5f825",
+          "contentHash": "1370f727ffe643d9935abf697c949cf86ccdaaa69e982718854028ddbdf654c2"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "241408f4887cf1ce",
+          "contentHash": "af735023820066d6719c9ecfe7edb9217f2e0c6d7754f823d2fb7df341837631",
+          "url": "https://en.ilsole24ore.com/art/war-latest-news-ukraine-russian-attack-kryvyi-rih-73-injured-including-9-children-AJnYj5OC",
+          "publisher": "Il Sole 24 ORE（即時報導，只知日期）",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "originGroup": "ilsole24ore-live-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "c3072a6f4c5278b0",
+          "contentHash": "2d31414d1150536fc2d1a1f19dd74ab6ab5ba740f6fab0986592f302ce03d0af",
+          "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+          "publisher": "Al Jazeera（只知日期）",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "originGroup": "aljazeera-benghazi-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "3c897a51af98f62d",
+          "contentHash": "891f89ef3e33981fd97f6b647c23064f02db13a0c293c1e3ad93246ef90a555a",
+          "url": "https://www.kyivpost.com/post/90913",
+          "publisher": "Kyiv Post",
+          "publishedAt": "2026-11-23T10:57:00.000Z",
+          "originGroup": "sbu-statement-20261123",
+          "sourceType": "PARTY_CLAIM"
+        },
+        {
+          "id": "a6342cc474d5f825",
+          "contentHash": "1370f727ffe643d9935abf697c949cf86ccdaaa69e982718854028ddbdf654c2",
+          "url": "https://www.nbcnews.com/world/ukraine/ukraine-sinks-russian-warship-merkury-libya-naval-drones-war-rcna610822",
+          "publisher": "NBC News",
+          "publishedAt": "2026-11-23T10:40:00.000Z",
+          "originGroup": "nbc-merkury-20261123",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-23T10:57:00.000Z",
+      "generatedAt": "2026-11-23T11:45:18.066Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-gulf-of-oman-tanker-military-forces-ghanem-mines-claim-20261122",
+      "title": "UKMTO：阿曼灣恰巴哈爾外海22日一艘油輪涉及「軍事部隊」事件、接近美軍封鎖線；伊朗海軍稱兩艘超級油輪在加南島以北觸雷停駛，川普稱伊方一週來無人機與飛彈發射量逾一年最多",
+      "theater": "iran_gulf",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜阿曼灣油輪與軍事部隊事件，細節未公布",
+          "text": "據歐洲新聞台（Euronews）報導，英國海事貿易行動辦公室（UKMTO）11月22日晚間稱，一艘油輪在阿曼灣與「軍事部隊」發生事件，地點靠近伊朗東南部恰巴哈爾外海、荷莫茲海峽以東，通報來自船公司保安官，相關調查仍在進行。UKMTO未說明油輪名稱、軍事部隊所屬或發生了什麼。同一天，中東之眼（Middle East Eye）引伊朗法爾斯通訊社稱，伊朗海軍表示兩艘超級油輪在進入荷莫茲以東「禁區」後於加南島（Ghanam）以北觸發水雷起火並停駛，指兩船事前關閉偵測與導航系統，並警告依賴美軍中央司令部的「走私者」將蒙受重大損失。兩家媒體都指出，目前不清楚UKMTO事件是否與伊方所稱的兩艘油輪有關。",
+          "evidence": [
+            "f21154d75441a575",
+            "0a12df7ad7890473"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "相關動態｜哈格島油輪出港說法分歧、川普稱伊方發射量創一年新高",
+          "text": "歐洲新聞台另報導，22日關於一艘伊朗油輪是否從哈格島出發突破美軍封鎖的說法互相矛盾，伊朗南部沿岸軍事據點錫里克（Sirik）傳出爆炸與防空火力；伊朗副外長加里巴巴迪稱美軍封鎖是「戰爭行為」，伊方先前已威脅若美軍攔截其油輪將立即打擊波灣能源設施。哥倫比亞廣播公司（CBS）即時報導記錄，川普22日稱伊朗過去一週發射的無人機與飛彈「超過一年多來任何時候」，但未造成損害；美國國務院同日呼籲在巴林的美國人提高警覺。川普21日接受福斯新聞訪問時稱要一份「永久」協議。",
+          "evidence": [
+            "f21154d75441a575",
+            "9eacc261c7588a1f"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜封鎖線附近的「軍事部隊」用語值得注意",
+          "text": "歐洲新聞台分析，UKMTO使用「軍事部隊」措辭、加上地點接近美軍封鎖線，可能指向美軍對油輪採取行動，但美方未證實；美軍20日才宣布把封鎖擴及海上船對船轉運。值得注意的是，伊朗海軍連續以「觸雷」說明油輪受損，與UKMTO此前多次記錄的「不明彈體擊中」說法不同，伊方說法也未經獨立證實。若22日事件確屬美軍攔截，可能代表伊朗試探突破封鎖與美軍執法進入直接對峙階段，伊方先前的能源設施報復威脅也將受到檢驗。本站官方數據比對：UKMTO近7天灣區船舶遇襲6件，低於60日P95的12件，本站資料最新為21日第216號通報，尚未收錄22日事件；布蘭特原油最近交易日下跌4.3%，沒有異常上漲；USNI 16日週報中東海域3艘航艦。",
+          "evidence": [
+            "f21154d75441a575",
+            "0a12df7ad7890473",
+            "9eacc261c7588a1f"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜UKMTO原文未讀、船名與攻擊方均未證實",
+          "text": "本輪未直接讀取UKMTO通報原文，事件內容依歐洲新聞台轉述；兩艘「觸雷」油輪的船名、船旗與受損程度均無獨立來源，美軍中央司令部對伊方說法未見回應。錫里克爆炸只見歐洲新聞台一家報導，原因不明。CBS即時頁面各則只標美東時刻，川普談話原文未讀到全文。本稿不推論油輪所屬或美軍是否開火。",
+          "evidence": [
+            "f21154d75441a575",
+            "0a12df7ad7890473",
+            "9eacc261c7588a1f"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 25.29,
+        "lon": 60.64,
+        "label": "恰巴哈爾外海（阿曼灣）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "阿曼灣油輪事件",
+          "text": "UKMTO稱22日一艘油輪在恰巴哈爾外海與「軍事部隊」發生事件，未說明細節，調查中。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "伊方稱油輪觸雷",
+          "text": "伊朗海軍稱兩艘超級油輪在加南島以北禁區觸雷停駛，未獲獨立證實。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "川普表態",
+          "text": "川普稱伊朗一週來無人機與飛彈發射量逾一年最多但未造成損害；國務院呼籲在巴林美國人提高警覺。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "兩事件關聯未明",
+          "text": "UKMTO事件是否與伊方所稱油輪有關、是否為美軍攔截，均未證實。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "f21154d75441a575",
+          "contentHash": "5fed0d3fb02d91b1a4c1154495fad2e8098a358c412869c1d8d13452b3e21e09"
+        },
+        {
+          "id": "0a12df7ad7890473",
+          "contentHash": "5a0ae35e47dd507374df31a49d2b9aa22ac27fcdf93eb8cce5fb5496ac1c44c9"
+        },
+        {
+          "id": "9eacc261c7588a1f",
+          "contentHash": "091bd93c57f7503ed0ea3eaeca66e8b4abb1ea89055d67600aeeb5dc13094762"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "f21154d75441a575",
+          "contentHash": "5fed0d3fb02d91b1a4c1154495fad2e8098a358c412869c1d8d13452b3e21e09",
+          "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz",
+          "publisher": "Euronews",
+          "publishedAt": "2026-11-22T18:07:00.000Z",
+          "originGroup": "euronews-tanker-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "0a12df7ad7890473",
+          "contentHash": "5a0ae35e47dd507374df31a49d2b9aa22ac27fcdf93eb8cce5fb5496ac1c44c9",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-supertankers-hit-mines-near-hormuz-iranian-navy-says",
+          "publisher": "Middle East Eye",
+          "publishedAt": "2026-11-22T17:13:00.000Z",
+          "originGroup": "irgc-navy-mines-claim-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "9eacc261c7588a1f",
+          "contentHash": "091bd93c57f7503ed0ea3eaeca66e8b4abb1ea89055d67600aeeb5dc13094762",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
+          "publisher": "CBS News（即時報導，最新一則美東17:29）",
+          "publishedAt": "2026-11-22T22:29:00.000Z",
+          "originGroup": "cbs-iran-live-20261122",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-22T22:29:00.000Z",
+      "generatedAt": "2026-11-23T11:45:18.028Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "taiwan-balloons-ten-three-days-11-warships-20261122",
+      "title": "九合一選前中共空飄氣球連3天累計10顆、多顆飛越本島：國防部22日同時偵獲共艦11艘，高於本站60日P95",
+      "theater": "taiwan_strait",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜三份每日動態合計10顆氣球",
+          "evidence": [
+            "fb5a272c054a121c",
+            "db0c94615575d884",
+            "53fb315efc88a822"
+          ],
+          "text": "國防部11月20、21、22日公布的「中共解放軍臺海周邊海、空域動態」分別記錄偵獲中共空飄氣球4顆、4顆與2顆，涵蓋19日06時至22日06時，三天累計10顆。22日公布的時段（21日06時至22日06時）另偵獲共機24架次，其中17架次逾越中線進入中部及西南空域，共艦11艘、公務船1艘；21日公布時段為共機2架次、共艦6艘、公務船1艘；20日公布時段為共機8架次（6架次逾越中線）、共艦7艘、公務船2艘。國防部稱運用任務機、艦及岸置飛彈系統監控應處。三份官方公告本身只列氣球數量，未說明航跡。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "媒體補充｜飛越本島、高度與國防部定性",
+          "evidence": [
+            "b69736e26c56480b",
+            "469d08f58e9dd36c"
+          ],
+          "text": "自由時報22日上午報導，首批4顆中有2顆飛越本島，次批4顆全數飛越本島，22日公布的2顆也有飛越情形；一批氣球於下午2時20分至25分間由台中以西越過中線，高度約1萬8000至2萬2000英尺，向東飄過台灣中部，約3時20分消失。台北時報23日報導引國防部稱，這些氣球屬灰色地帶襲擾，企圖以認知作戰影響民心士氣，飛行路徑危及航空安全；國軍已通報民航主管機關、完成反偵蒐作為，並依預警程序將部隊轉入隱蔽掩蔽。兩報都指出這發生在11月28日九合一地方選舉前不到一週。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "背景｜與2024年大選及「正義使命-2025」的對照",
+          "evidence": [
+            "b69736e26c56480b",
+            "469d08f58e9dd36c"
+          ],
+          "text": "據兩報整理，國防部在2024年1月總統與立委選舉期間共偵獲57顆中共氣球，部分飛越本島，當時國防部即以灰色地帶襲擾與認知作戰定性；去年底「正義使命-2025」演習結束後，2026年1月1日至3日也連續三天偵獲氣球。值得注意的是，這一次同樣在選前密集出現，時間型態與2024年相似，但目前沒有公開證據顯示氣球搭載何種酬載或與選舉有直接關聯，國防部也未公布研判其目的的具體依據。冬季東北季風與高空西風也可能影響氣球漂流路徑，這是本站推論，不是官方說法。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "官方數據比對｜共艦11艘高於60日P95，其餘指標正常",
+          "evidence": [
+            "fb5a272c054a121c"
+          ],
+          "text": "本站官方數據比對：22日公布的共艦11艘高於60日P95的9艘，觸發共艦數指標；共機24架次低於P95的30架次，逾越中線17架次低於P95的23架次；近3天共機與共艦平均都沒有連日爬升。近7天沒有兩家以上媒體確認的東部戰區具名演習，中國海事局台海周邊軍事航行警告0則，日本海保NAVAREA XI沒有台灣周邊射擊或演習區公告，國家級防空或飛彈告警也沒有發布。因此本輪資料只支持「艦艇數單日偏高加上選前氣球密集」，不足以判定已有新演習或封鎖行動。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜航跡時間與批次對應不一致",
+          "evidence": [
+            "db0c94615575d884",
+            "b69736e26c56480b",
+            "469d08f58e9dd36c"
+          ],
+          "text": "自由時報把下午2時20分越過中線的航跡列在21日公布的那一批，台北時報則寫成「上週五」那一批，兩報對批次與日期的對應不一致；國防部21日公告本身只列4顆氣球，未載航跡。本輪未讀到國防部另發的氣球航跡圖說明原文，飛越本島的顆數與時間依媒體轉述。氣球是否具情報蒐集能力、由何單位施放，都沒有公開證據。台北時報只標刊登日期（23日），時刻不明。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "三天10顆氣球",
+          "text": "國防部20至22日公告分別偵獲中共空飄氣球4、4、2顆，媒體報導多顆飛越本島。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "共艦11艘",
+          "text": "22日公布時段偵獲共機24架次（17架次逾越中線）、共艦11艘、公務船1艘。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "選前一週",
+          "text": "兩報指出氣球出現在11月28日九合一選舉前不到一週，國防部定性為灰色地帶襲擾。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "無演習跡象",
+          "text": "近7天沒有具名演習或台海周邊軍事航行警告，目的與酬載未證實。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "fb5a272c054a121c",
+          "contentHash": "6f3c3afcfdc525ed9798c2af43aa450f94b908430a07b0a29171922030bb8538"
+        },
+        {
+          "id": "db0c94615575d884",
+          "contentHash": "e643a566cd615dbb8f1a27fe69c7602af20539098481f1c66454cda24e9d54ba"
+        },
+        {
+          "id": "53fb315efc88a822",
+          "contentHash": "258b66db5d575feb45db0f8c6c86302c32e2520853d4ef6978d14f13d1ea38a3"
+        },
+        {
+          "id": "b69736e26c56480b",
+          "contentHash": "00b1f003148bb42e3e1014513cde3932726b6a3daedbab0979eb39cbab0eb18b"
+        },
+        {
+          "id": "469d08f58e9dd36c",
+          "contentHash": "d14b3d287e509defec89e3a9f81e9bdd4946941e90e7df6d3eb719b3b8dcbd78"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "fb5a272c054a121c",
+          "contentHash": "6f3c3afcfdc525ed9798c2af43aa450f94b908430a07b0a29171922030bb8538",
+          "url": "https://www.mnd.gov.tw/news/plaact/88316",
+          "publisher": "中華民國國防部政治作戰局（只知發布日期，日期精度）",
+          "publishedAt": "2026-11-21T16:00:00.000Z",
+          "originGroup": "mnd-plaact-20261122",
+          "sourceType": "OFFICIAL"
+        },
+        {
+          "id": "db0c94615575d884",
+          "contentHash": "e643a566cd615dbb8f1a27fe69c7602af20539098481f1c66454cda24e9d54ba",
+          "url": "https://www.mnd.gov.tw/news/plaact/88312",
+          "publisher": "中華民國國防部政治作戰局（只知發布日期，日期精度）",
+          "publishedAt": "2026-11-20T16:00:00.000Z",
+          "originGroup": "mnd-plaact-20261121",
+          "sourceType": "OFFICIAL"
+        },
+        {
+          "id": "53fb315efc88a822",
+          "contentHash": "258b66db5d575feb45db0f8c6c86302c32e2520853d4ef6978d14f13d1ea38a3",
+          "url": "https://www.mnd.gov.tw/news/plaact/88310",
+          "publisher": "中華民國國防部政治作戰局（只知發布日期，日期精度）",
+          "publishedAt": "2026-11-19T16:00:00.000Z",
+          "originGroup": "mnd-plaact-20261120",
+          "sourceType": "OFFICIAL"
+        },
+        {
+          "id": "b69736e26c56480b",
+          "contentHash": "00b1f003148bb42e3e1014513cde3932726b6a3daedbab0979eb39cbab0eb18b",
+          "url": "https://def.ltn.com.tw/article/breakingnews/5649305",
+          "publisher": "自由時報 自由軍武頻道",
+          "publishedAt": "2026-11-22T02:39:00.000Z",
+          "originGroup": "ltn-balloons-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "469d08f58e9dd36c",
+          "contentHash": "d14b3d287e509defec89e3a9f81e9bdd4946941e90e7df6d3eb719b3b8dcbd78",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/23/2003868234",
+          "publisher": "Taipei Times（只標刊登日期11月23日，日期精度）",
+          "publishedAt": "2026-11-22T16:00:00.000Z",
+          "originGroup": "taipeitimes-balloons-20261123",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-22T16:00:00.000Z",
+      "generatedAt": "2026-11-22T23:45:15.530Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-ukmto-weekly-263-transits-hengam-claim-20261122",
+      "title": "UKMTO週報：荷莫茲截至18日一週通行263艘次、較前週少15%，油輪由52降至37艘；革命衛隊稱攻巴林是報復美軍打擊亨加姆島雷達，22日再稱擊落MQ-1",
+      "theater": "iran_gulf",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新數據｜通行量再降、一週6艘油輪遇襲",
+          "evidence": [
+            "5f2f2d0c82def0b4",
+            "5f59cc08c3133d1a"
+          ],
+          "text": "據Marine Insight與半島電視台引述英國海事貿易行動辦公室（UKMTO）11月20日發布的每週概況，截至11月18日的7天內，荷莫茲海峽通行263艘次，前一週為308艘次，約少15%；其中入港148、出港115艘次（前週169、139），有開AIS的船73艘（前週82）。半島電視台引同一數據稱油輪37艘，前週52艘。UKMTO稱這一週6艘油輪遇襲，4起在海峽、2起在波斯灣內，其中2艘需要協助、無船沉沒，另4艘結果不明；包括16、17日哈薩卜以北LPG船兩度遇襲與17日哈薩卜以北約13海里另一艘油輪起火。Marine Insight稱通行量仍比戰前低約65%，UKMTO自2月28日開戰以來共記錄海峽106起事件。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "交戰方說法｜亨加姆島雷達與第20架MQ-1",
+          "evidence": [
+            "5f2f2d0c82def0b4"
+          ],
+          "text": "半島電視台22日整理稱，革命衛隊把21日對巴林里法與阿瓦利基地的飛彈與無人機攻擊，說成是報復美軍打擊伊朗亨加姆島（Hengam，格什姆島以南）的雷達設施，並以美軍無人機侵犯領空為由；文中沒有給出美軍打擊亨加姆的日期，也沒有美方證實。伊朗部隊22日稱又在荷莫茲以東擊落一架MQ-1，革命衛隊稱是2月底開戰以來第20架、24小時內第4架。美軍中央司令部先前否認伊方擊傷F-16的說法，稱區內美軍戰機「全數安全」；對雷達與MQ-1宣稱，本輪來源未見美方回應。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜航運量與油輪比例同步下滑",
+          "evidence": [
+            "5f2f2d0c82def0b4",
+            "5f59cc08c3133d1a"
+          ],
+          "text": "值得注意的是，週通行量下降的同時，油輪占比也從約17%降到約14%，與同期哈薩卜外海出海峽方向的連續遇襲在時間上重疊，可能反映船東對出海峽航段的風險評估上升；但週報涵蓋期在21日巴林遇襲與21日晨兩艘油輪遇襲之前，下一週數據才能看出這波升級的影響。半島電視台駐德黑蘭記者稱14日以來約25起油輪事件，這個數字遠高於UKMTO經主要來源核實的件數，兩者統計口徑不同，不宜直接比較。本站官方數據比對：UKMTO近7天灣區船舶遇襲7件，低於60日P95的12件，最新為21日第216號通報；布蘭特原油最近交易日下跌2.2%，沒有異常上漲；USNI 16日週報中東海域3艘航艦（之後本站前稿已記華盛頓號離開）。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜週報原文未能讀取，美方打擊未證實",
+          "evidence": [
+            "5f2f2d0c82def0b4",
+            "5f59cc08c3133d1a"
+          ],
+          "text": "UKMTO週報PDF本輪以工具讀取時回應HTTP 403，未繞過，週數據依Marine Insight與半島電視台轉述；UKMTO本身也說明美方協助通行的船數無法獨立核實，且可能有未通報事件。亨加姆島雷達遭美軍打擊、擊落MQ-1與累計架數都只有伊方說法。半島電視台頁面只標22日日期，時刻不明。"
+        }
+      ],
+      "location": {
+        "lat": 26.63,
+        "lon": 55.87,
+        "label": "亨加姆島（伊朗）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "一週263艘次",
+          "text": "UKMTO稱截至18日一週荷莫茲通行263艘次，前週308；油輪37艘，前週52。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "6艘油輪遇襲",
+          "text": "同週6艘油輪遇襲，4起在海峽、2起在灣內，2艘需協助、無船沉沒。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "伊方稱報復亨加姆",
+          "text": "革命衛隊稱攻擊巴林是報復美軍打擊亨加姆島雷達，22日再稱擊落第20架MQ-1。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "美方未證實",
+          "text": "亨加姆打擊與擊落宣稱都只有伊方說法，週報原文未能直接讀取。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "5f2f2d0c82def0b4",
+          "contentHash": "0b893362c3ba04238e82ddc909a26323e8732d3c24416d0d10c3dc93f3acf343"
+        },
+        {
+          "id": "5f59cc08c3133d1a",
+          "contentHash": "7eb3b26d54a22aabd734a71cbdb5938a4f826369925d81afc55ec923c698682c"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "5f2f2d0c82def0b4",
+          "contentHash": "0b893362c3ba04238e82ddc909a26323e8732d3c24416d0d10c3dc93f3acf343",
+          "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf",
+          "publisher": "Al Jazeera（頁面只標日期22 Nov 2026，日期精度）",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "originGroup": "aljazeera-gulf-explainer-20261122",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "5f59cc08c3133d1a",
+          "contentHash": "7eb3b26d54a22aabd734a71cbdb5938a4f826369925d81afc55ec923c698682c",
+          "url": "https://www.marineinsight.com/strait-hormuz-shipping-65-below-tanker-attacks/",
+          "publisher": "Marine Insight（只知刊登日期21日，日期精度；引UKMTO 20日週報）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "ukmto-weekly-20261120",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-22T00:00:00.000Z",
+      "generatedAt": "2026-11-22T23:45:15.491Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "europe-gulf-of-finland-sparta-ii-drone-strike-20261121",
+      "title": "俄軍關聯貨船Sparta II 21日在芬蘭灣遭無人機攻擊起火、漂入芬蘭領海：芬蘭國防軍稱「很可能」烏方所為並重設海空限制，基輔未認領",
+      "theater": "europe_security",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜駛往加里寧格勒的俄貨船在芬蘭灣遭無人機攻擊起火",
+          "text": "俄籍滾裝貨船Sparta II於11月21日上午由聖彼得堡方向駛往加里寧格勒途中，在芬蘭灣東部戈格蘭島以西遭無人機攻擊起火。俄羅斯列寧格勒州長德羅茲堅科稱，該船在國際水域、距俄邊界約3海里處被兩架無人機擊中，同時稱該州上空一夜擊落80架無人機。芬蘭國防軍證實船隻受損起火後漂入芬蘭領海，並在當天下午表示攻擊「很可能」由烏克蘭執行；烏克蘭外交部未立即回應，截至本輪查閱未見基輔官方認領。愛沙尼亞警察與邊防委員會（PPA）稱爆炸使船橋起火。各方說法中未見人員傷亡報告。",
+          "evidence": [
+            "2a872eedd794d9fc",
+            "9d15a653712b7eed",
+            "f68bf2beabaa11d8"
+          ]
+        },
+        {
+          "kind": "REPORTED",
+          "label": "處置｜芬蘭重設海空限制、俄直升機涉侵入領空",
+          "text": "芬蘭國防部稱已在芬蘭灣東部重新實施臨時航空與海上限制，理由是保護民眾、並在必要時便於攔截無人機，且已通知盟國；ERR報導芬方當天兩度限制交通。芬蘭國防部長哈卡寧另稱，一架俄羅斯直升機侵入芬蘭領空逾4公里，可能與救援或追蹤行動有關，正在調查。救援由芬蘭邊防軍主導，愛沙尼亞海軍巡邏艦、芬蘭民用拖船與應芬方要求到場的俄方救援船Murman參與。DroneXL整理芬方資訊稱，22日早上船上火勢仍未完全撲滅，船錨泊於洛維薩外海，芬方希望拖往俄方責任海域以降低油污風險；本輪未找到已完成拖離的確認。",
+          "evidence": [
+            "2a872eedd794d9fc",
+            "9d15a653712b7eed",
+            "f68bf2beabaa11d8",
+            "f8cc3ee631482e14"
+          ]
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜烏俄海上打擊延伸到北約成員國海域旁",
+          "text": "芬方稱該船與俄軍有關聯，DroneXL引美國財政部制裁名單指其與俄國防部體系的物流公司Oboronlogistika相連、2022年起受美國制裁；烏克蘭軍事情報單位則稱該船曾運送武器裝備。若攻擊確由烏方執行，值得注意的是這是11月11日烏克蘭安全局稱在戈格蘭島附近擊中俄艦Naro-Fominsk後，十天內芬蘭灣第二起，目標從軍艦擴及連結加里寧格勒的軍用海運補給。由於船隻漂入芬蘭領海、事發海域靠近愛沙尼亞經濟海域，事件可能使芬蘭與愛沙尼亞面臨油污、無人機誤入與俄方越界救援等連帶風險；芬蘭總理則公開表示烏克蘭有權反擊。",
+          "evidence": [
+            "2a872eedd794d9fc",
+            "f68bf2beabaa11d8",
+            "f8cc3ee631482e14"
+          ]
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜事發位置、貨物與攻擊者仍未定",
+          "text": "事發位置說法不一：俄方稱國際水域、愛沙尼亞PPA稱在愛沙尼亞經濟海域，DroneXL另稱芬方曾描述為俄方海域，本稿無法核對精確船位。船上是否載有軍用物資，芬蘭邊防軍只說「不能排除」，尚未證實；船員人數16人僅見DroneXL轉述，且其撤離敘述前後不一。芬蘭邊防局與國防部原始公告本輪查閱時回應403，BBC無法讀取，故未核對官方原文；路透稿經NBC與莫斯科時報刊登屬同源。芬蘭國防軍對烏方的歸因是研判，不是認領。官方數據比對：本輪站內歐洲東翼數據只有GDELT報導量於21日異常升高（反應性訊號），歐洲天然氣TTF無異常波動。",
+          "evidence": [
+            "9d15a653712b7eed",
+            "f68bf2beabaa11d8",
+            "f8cc3ee631482e14"
+          ]
+        }
+      ],
+      "location": {
+        "lat": 60.05,
+        "lon": 26.97,
+        "label": "戈格蘭島（芬蘭灣東部）"
+      },
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "貨船遇襲起火",
+          "text": "俄籍滾裝貨船Sparta II 21日在戈格蘭島以西遭無人機攻擊起火，漂入芬蘭領海，未見傷亡報告。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "芬方歸因與管制",
+          "text": "芬蘭國防軍稱很可能是烏克蘭所為，並在芬蘭灣東部重設臨時海空限制；基輔未認領。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "十天內第二起",
+          "text": "若屬烏方，這是11月11日Naro-Fominsk遇襲後芬蘭灣第二起，目標擴及加里寧格勒軍用補給。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "位置與貨物未定",
+          "text": "俄、愛、芬對事發海域說法不一，船上是否載軍用物資尚未證實。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "2a872eedd794d9fc",
+          "contentHash": "66718d2c55b96ad85d4461feb4dbd7d998b029ab6a7bc618cfa4f52db723b60b"
+        },
+        {
+          "id": "9d15a653712b7eed",
+          "contentHash": "188f6819e6057d2276461aef3e24a1c47fd3fd4721942a44ee70a9b05c70afd6"
+        },
+        {
+          "id": "f68bf2beabaa11d8",
+          "contentHash": "ac92b40876111334c22cd271a17ed1647e62fb5259badd1525d8ebb718743afd"
+        },
+        {
+          "id": "f8cc3ee631482e14",
+          "contentHash": "e43cbd5291462858aa53141cca71b5c974d570c4f50755d157b48b18b2cdcd01"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "2a872eedd794d9fc",
+          "contentHash": "66718d2c55b96ad85d4461feb4dbd7d998b029ab6a7bc618cfa4f52db723b60b",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+          "publisher": "Al Jazeera（與路透合寫；僅知發布日期 11月21日）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "ALJAZEERA",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "9d15a653712b7eed",
+          "contentHash": "188f6819e6057d2276461aef3e24a1c47fd3fd4721942a44ee70a9b05c70afd6",
+          "url": "https://www.nbcnews.com/world/russia/cargo-ship-bound-russias-kaliningrad-hit-drones-finland-tightens-secur-rcna610567",
+          "publisher": "NBC News（轉載路透）",
+          "publishedAt": "2026-11-21T15:52:00.000Z",
+          "originGroup": "REUTERS",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "f68bf2beabaa11d8",
+          "contentHash": "ac92b40876111334c22cd271a17ed1647e62fb5259badd1525d8ebb718743afd",
+          "url": "https://news.err.ee/1610202715/russian-cargo-ship-on-fire-in-gulf-of-finland-after-reported-drone-strike",
+          "publisher": "ERR News（愛沙尼亞公共廣播；僅知發布日期 11月21日）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "ERR",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "f8cc3ee631482e14",
+          "contentHash": "e43cbd5291462858aa53141cca71b5c974d570c4f50755d157b48b18b2cdcd01",
+          "url": "https://dronexl.co/2026/11/22/sparta-ii-russian-military-cargo-ship-drone-strike-gulf-of-finland/",
+          "publisher": "DroneXL",
+          "publishedAt": "2026-11-22T10:32:00.000Z",
+          "originGroup": "DRONEXL",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-22T10:32:00.000Z",
+      "generatedAt": "2026-11-22T11:45:15.520Z",
+      "reviewed": false,
+      "language": "zh-Hant",
+      "supersededBy": "europe-sparta-ii-zelensky-confirms-norway-caution-20261124"
+    },
+    {
+      "id": "iran-bahrain-sitra-fire-patriot-radar-claim-f16-denial-20261121",
+      "title": "伊朗21日晚兩波攻擊巴林、內政部稱民用工業設施起火無人傷：革命衛隊稱摧毀美軍愛國者雷達，美軍否認F-16遭擊；卡達代表團赴德黑蘭斡旋",
+      "theater": "iran_gulf",
+      "location": {
+        "lat": 26.15,
+        "lon": 50.62,
+        "label": "錫特拉島（巴林；居民目擊冒煙）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜巴林稱伊朗攻擊擊中民用工業設施起火，當晚兩波來襲",
+          "evidence": [
+            "28cd46f0daaa7e57",
+            "e373cf131c3f3b8b",
+            "e9ee1dee2f27386b"
+          ],
+          "text": "巴林內政部21日（週六）晚在X稱，「伊朗侵略」擊中一處民用工業設施並引發火災，初步只有財損、無人受傷，但未公布設施名稱與地點，並響起防空警報要民眾就近避難。據TRT World引法新社，兩名居民稱看到錫特拉島上空冒煙，該島有巴林石油公司Bapco煉油廠等工業設施，但報導未證實起火點。據以色列時報直播頁，以色列時間約23:33巴林軍方再報當晚第二波攻擊，稱已攔截多波伊朗空中攻擊、攔截碎片造成財損但無傷亡。CBS引一名美國官員稱，伊朗發動新的攻擊企圖，但對區內美軍部隊與資產沒有衝擊，並稱這是約一週內伊朗第四次企圖攻擊巴林。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "交戰方說法｜革命衛隊稱摧毀兩部愛國者雷達；美軍否認F-16遭擊",
+          "evidence": [
+            "28cd46f0daaa7e57",
+            "e373cf131c3f3b8b",
+            "9eacc261c7588a1f"
+          ],
+          "text": "革命衛隊稱以飛彈與無人機聯合攻擊巴林里法與阿瓦利基地的美軍陣地，宣稱摧毀兩部愛國者防空雷達，理由是美方持續侵略與無人機侵犯伊朗領空；另一份聲明與法爾斯通訊社則稱目標是謝赫伊薩與朱費爾基地，兩說基地名稱不一致。伊朗官方通訊社IRNA引巴林當地媒體稱，起火是美國第五艦隊基地發射的攔截飛彈墜落錫特拉島，歸咎愛國者系統故障，與巴林政府說法相反。伊朗官媒另稱20日晚防空系統鎖定一架美軍F-16、迫其中止任務降落；美軍中央司令部回應伊朗「完全沒有攻擊美軍F-16」，中東所有美軍戰機安全且全數清點無缺。CBS直播頁另記錄中央司令部否認20日對格什姆島發動新打擊。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "同日外交｜卡達代表團赴德黑蘭會談兩小時，伊方稱未進入正式談判",
+          "evidence": [
+            "3b8c66cd21900500",
+            "9eacc261c7588a1f"
+          ],
+          "text": "據半島電視台引塔斯尼姆通訊社，伊朗副外長加里巴巴迪稱卡達代表團20日晚在德黑蘭會談兩小時，伊方與卡達等斡旋方保持實體與線上接觸，但尚未成為正式談判；若進入談判將涉及核計畫，但濃縮鈾必須留在伊朗境內，並稱美方對伊朗港口的海上封鎖是戰爭行為。外長阿拉格齊稱，在全面停戰、解凍資產、解除石油制裁與結束封鎖等條件未獲接受前，討論重開荷莫茲「沒有意義」。川普同日對福斯新聞稱要一份「永久」協議，不會讓伊朗擁有核武。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜巴林攻擊從軍事目標延伸到民用工業區，與斡旋同步升溫",
+          "evidence": [
+            "28cd46f0daaa7e57",
+            "9eacc261c7588a1f",
+            "3b8c66cd21900500"
+          ],
+          "text": "本站前稿已記錄伊朗15日、17日與18日對巴林里法基地與科威特的無人機攻擊，當時巴林均稱全數攔截無損害；21日是本輪首次由巴林政府證實民用工業設施起火。值得注意的是，伊方把攻擊包裝成針對美軍雷達，巴林則強調民用目標受損，雙方敘事都可能服務各自立場，起火原因（直接命中或攔截彈與碎片墜落）目前無獨立證據判定。攻擊與卡達斡旋在同一天發生，可能反映伊方在談判前以有限打擊施壓，但這只是推論。本站官方數據比對：UKMTO近7天灣區船舶遇襲8件，低於60日P95的12件；美國對巴林旅遊警示仍為第3級、近14天未升級；USNI 16日週報中東海域3艘航艦。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜起火地點、原因與雷達戰果都未獲證實",
+          "evidence": [
+            "28cd46f0daaa7e57",
+            "e373cf131c3f3b8b",
+            "e9ee1dee2f27386b"
+          ],
+          "text": "巴林政府未公布受損設施名稱與位置，錫特拉島只來自居民目擊與伊朗官媒說法，不能確認是否為Bapco煉油廠。革命衛隊所稱摧毀兩部愛國者雷達、鎖定F-16，均無美方或獨立來源證實，美方明確否認F-16一事。兩份伊方聲明的基地名稱互相矛盾。Al Jazeera與TRT World頁面只標日期，以色列時報與CBS為直播條目，只讀取相關段落；本輪未讀到中央司令部官網原文。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "巴林工業設施起火",
+          "text": "巴林內政部稱伊朗攻擊擊中民用工業設施起火、只有財損無人傷，未公布地點。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "一週內第四次",
+          "text": "美國官員稱伊朗新一輪攻擊未衝擊美軍，是約一週內第四次企圖攻擊巴林。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "F-16說法遭否認",
+          "text": "革命衛隊稱摧毀兩部愛國者雷達、鎖定F-16；中央司令部稱伊朗完全沒有攻擊F-16。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "起火原因各說各話",
+          "text": "IRNA稱是美方攔截彈墜落錫特拉島，與巴林說法相反，無獨立證實。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "28cd46f0daaa7e57",
+          "contentHash": "d1918cc00a7680383cad99b2ba273d4367158eb84b6c5cb034dfbe5159dfbb46"
+        },
+        {
+          "id": "e373cf131c3f3b8b",
+          "contentHash": "125179026f44c1874a67463a9af077970ddb6b6fbf64b8a80a412f92169ff23e"
+        },
+        {
+          "id": "9eacc261c7588a1f",
+          "contentHash": "bb698f6b2a55d0cc66dd00fe909efa454e96c71dd3a9bc09c555513d1bfc2921"
+        },
+        {
+          "id": "e9ee1dee2f27386b",
+          "contentHash": "61fa945f1d3379ae24fb93be3671303d539a20df99f101707f02c2f50ab06bb3"
+        },
+        {
+          "id": "3b8c66cd21900500",
+          "contentHash": "c66f95dcecae0ae42ffd591cdbd9056f0936dd638c557a606283e4bc485de8cd"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "28cd46f0daaa7e57",
+          "contentHash": "d1918cc00a7680383cad99b2ba273d4367158eb84b6c5cb034dfbe5159dfbb46",
+          "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+          "publisher": "Al Jazeera（頁面只標日期21 Nov 2026，日期精度）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "bahrain-moi-irgc-statements-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "e373cf131c3f3b8b",
+          "contentHash": "125179026f44c1874a67463a9af077970ddb6b6fbf64b8a80a412f92169ff23e",
+          "url": "https://www.trtworld.com/article/1b7ac3dfdb5e",
+          "publisher": "TRT World（頁面未標時刻，只知日期，日期精度）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "bahrain-moi-irgc-statements-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "9eacc261c7588a1f",
+          "contentHash": "bb698f6b2a55d0cc66dd00fe909efa454e96c71dd3a9bc09c555513d1bfc2921",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
+          "publisher": "CBS News（直播頁條目美東時間15:29）",
+          "publishedAt": "2026-11-21T20:29:00.000Z",
+          "originGroup": "cbs-us-official-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "e9ee1dee2f27386b",
+          "contentHash": "61fa945f1d3379ae24fb93be3671303d539a20df99f101707f02c2f50ab06bb3",
+          "url": "https://www.timesofisrael.com/liveblog-november-21-2026/",
+          "publisher": "The Times of Israel（直播頁條目以色列時間23:33）",
+          "publishedAt": "2026-11-21T21:33:00.000Z",
+          "originGroup": "bahrain-bdf-second-wave-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "3b8c66cd21900500",
+          "contentHash": "c66f95dcecae0ae42ffd591cdbd9056f0936dd638c557a606283e4bc485de8cd",
+          "url": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions",
+          "publisher": "Al Jazeera（頁面只標日期21 Nov 2026，日期精度）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "tasnim-gharibabadi-araghchi-20261121",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-21T21:33:00.000Z",
+      "generatedAt": "2026-11-21T23:45:04.170Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-kryvyi-rih-double-tap-restaurant-20261120",
+      "title": "俄軍20日晚以2枚彈道飛彈與無人機「二次打擊」克里維里赫市中心：7歲男童與20歲救護員罹難、逾50人受傷，澤倫斯基稱雙重與三重打擊增加",
+      "theater": "ukraine_front",
+      "location": {
+        "lat": 47.91,
+        "lon": 33.39,
+        "label": "克里維里赫（第聶伯羅彼得羅夫斯克州）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜餐廳停車場遭彈道飛彈擊中，救援時再遭無人機攻擊",
+          "evidence": [
+            "66a35bc1f895f6f5",
+            "9c7adb79ec1d3f55"
+          ],
+          "text": "克里維里赫市防衛委員會主席維爾庫爾稱，俄軍11月20日晚間以2枚彈道飛彈擊中市中心一家熱門餐廳的停車場一帶，救援人員趕到現場後，沙希德型無人機又攻擊同一區域，即所謂「二次打擊」（double-tap）。一名在餐廳遊樂區玩耍的7歲男童因頭部重傷送醫不治，一名20歲女性救護員罹難。第聶伯羅彼得羅夫斯克州長漢札通報的受傷人數在一夜間持續上修：基輔獨立報稿件更新為52傷、其中25人傷勢嚴重；聯合24媒體與基輔獨立報21日晨稿則稱至少58人受傷，含6名兒童與3名救護人員，28人住院、11人重傷。另有2名警方排爆人員與2名緊急救難署人員受傷。約23至25棟公寓、一所醫院、學校、商家與救護車受損，多區供水、瓦斯與電力中斷。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "同一夜｜烏空軍稱俄軍發射3枚彈道飛彈與148架無人機",
+          "evidence": [
+            "9c7adb79ec1d3f55",
+            "a79bf08fd794c3ef"
+          ],
+          "text": "烏克蘭空軍21日晨通報，俄軍一夜發射3枚彈道飛彈（伊斯坎德爾-M／KN-23／S-400）與148架無人機，其中87架為噴射動力型；擊落或壓制117架無人機，全國19處有命中紀錄、9處落下殘骸。基輔獨立報彙整各州通報稱，過去一天全國至少2死83傷，哈爾科夫州索洛尼齊夫卡一棟五層樓遭無人機擊中、11人受傷。本站官方數據比對：烏方公布21日無人機148架、飛彈3枚，7日日均211架／枚，低於60日P95的360；前一天20日的大規模空襲（404架無人機與數十枚飛彈）已另稿報導。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜空襲總量回落，但針對救援人員的二次打擊值得注意",
+          "evidence": [
+            "66a35bc1f895f6f5",
+            "a79bf08fd794c3ef"
+          ],
+          "text": "澤倫斯基20日受訪時稱，俄軍正增加對烏克蘭城市的雙重甚至三重打擊；維爾庫爾指二次打擊瞄準「救援、醫護與公用事業人員」。這是烏方官員說法，俄方未就此次攻擊回應。值得注意的是，21日整體來襲數量明顯低於前一天，但單一城市傷亡卻相當集中，顯示傷亡規模未必與當夜來襲總量同步。克里維里赫是澤倫斯基家鄉，也是工業重鎮，過去曾多次遭彈道飛彈攻擊。本稿不推論俄方攻擊意圖，只記錄烏方說法與現場損害。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜傷亡數字多次上修，飛彈型號未確認",
+          "evidence": [
+            "66a35bc1f895f6f5",
+            "9c7adb79ec1d3f55",
+            "a79bf08fd794c3ef"
+          ],
+          "text": "受傷人數在不同時點有47、52、58等說法，本稿以21日晨州政府與地方通報的至少58人為最新數字，後續仍可能變動。兩枚彈道飛彈的確切型號，以及餐廳附近是否有軍事目標，來源均未說明，也沒有獨立調查。基輔獨立報頁面時間未標時區，本稿依頁面日期與內容判斷事件發生於20日晚間當地時間。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "男童與救護員罹難",
+          "text": "俄軍20日晚以2枚彈道飛彈擊中克里維里赫市中心餐廳一帶，7歲男童與20歲救護員罹難。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "二次打擊至少58傷",
+          "text": "救援時無人機再攻擊同區，21日晨通報至少58人受傷、含6名兒童與3名救護人員。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "全國148架無人機",
+          "text": "烏空軍稱一夜來襲3枚彈道飛彈與148架無人機，擊落或壓制117架。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "總量回落、傷亡集中",
+          "text": "21日來襲數低於60日P95，但單城傷亡集中；澤倫斯基稱雙重與三重打擊增加。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "66a35bc1f895f6f5",
+          "contentHash": "e79d2d6f3939232b7a74817e6ac8777910bd50f826c20f148f8c0b8511eefc40"
+        },
+        {
+          "id": "9c7adb79ec1d3f55",
+          "contentHash": "38b61d0173c661fe79a9d102eb3eadffff38297d95b8094b78039f2b34b6b009"
+        },
+        {
+          "id": "a79bf08fd794c3ef",
+          "contentHash": "bfa6daf04b88106be74baf44db417fc33c9a1496a1fd089175cd07ce2fc2f5a8"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "66a35bc1f895f6f5",
+          "contentHash": "e79d2d6f3939232b7a74817e6ac8777910bd50f826c20f148f8c0b8511eefc40",
+          "url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/",
+          "publisher": "Kyiv Independent（頁面時間23:28、21日07:52更新，未標時區，推定基輔時間）",
+          "publishedAt": "2026-11-20T21:28:00.000Z",
+          "originGroup": "kryvyi-rih-officials-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "9c7adb79ec1d3f55",
+          "contentHash": "38b61d0173c661fe79a9d102eb3eadffff38297d95b8094b78039f2b34b6b009",
+          "url": "https://united24media.com/war-in-ukraine/russia-bombards-ukraine-overnight-killing-7-year-old-boy-and-paramedic-injuring-dozens-24584",
+          "publisher": "UNITED24 Media（頁面時間10:44，推定基輔時間）",
+          "publishedAt": "2026-11-21T08:44:00.000Z",
+          "originGroup": "kryvyi-rih-officials-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "a79bf08fd794c3ef",
+          "contentHash": "bfa6daf04b88106be74baf44db417fc33c9a1496a1fd089175cd07ce2fc2f5a8",
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-2-injure-83-across-ukraine-as-strikes-devastate-kryvyi-rih/",
+          "publisher": "Kyiv Independent（頁面時間10:58，推定基輔時間）",
+          "publishedAt": "2026-11-21T08:58:00.000Z",
+          "originGroup": "ua-airforce-daily-20261121",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-21T08:58:00.000Z",
+      "generatedAt": "2026-11-21T11:45:07.308Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "middle-east-coalition-hodeidah-sanaa-riyadh-3-missiles-20261121",
+      "title": "沙烏地主導聯軍20日空襲荷台達港與沙那飛彈無人機設施：胡塞21日凌晨再射3枚彈道飛彈襲利雅德遭攔截，揚言攻擊吉達港與舒蓋格電廠",
+      "theater": "middle_east",
+      "location": {
+        "lat": 14.8,
+        "lon": 42.95,
+        "label": "荷台達港（葉門）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜聯軍稱打擊荷台達港與沙那等地軍事目標",
+          "evidence": [
+            "1be756f236f972be",
+            "cb465bd8566bc1af"
+          ],
+          "text": "據中東報（Asharq Al-Awsat）與半島電視台，沙烏地主導的「恢復葉門合法政府聯軍」發言人馬勒基少將11月20日（週五）宣布，聯軍對胡塞控制的紅海港口荷台達執行「特別行動」，打擊聯軍所稱用於走私與運送武器、彈道飛彈的港口作業能力，事前曾呼籲平民離開港區。聯軍並稱週五黎明在沙那摧毀7個軍事目標與6座製造彈道飛彈發射架結構與無人機的工坊，並癱瘓一處胡塞主要補給庫，針對沙那、薩達與塔伊茲省的打擊仍在進行。葉門政府為空襲辯護，指胡塞經該港接收走私的伊朗武器。以上目標性質與戰果為聯軍說法，胡塞方面的損害說法本輪未讀到。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "21日凌晨｜利雅德連續第三晚發布空襲警報，3枚彈道飛彈遭攔截",
+          "evidence": [
+            "1be756f236f972be",
+            "44a6a459c7372a78",
+            "cb465bd8566bc1af"
+          ],
+          "text": "阿拉伯新聞報導，沙國民防21日凌晨1時53分（當地時間）對利雅德發布「空中威脅」警報，馬勒基約2時後在X宣布防空攔截並摧毀胡塞射向利雅德的3枚彈道飛彈，目擊者稱首都傳出兩聲爆炸，報導未提及損害；民防同時對蘇萊伊勒、奈季蘭、吉贊與海米斯穆謝特發布預警。中東報引馬勒基另一聲明稱，一架飛向南部地區的胡塞無人機也遭摧毀。半島電視台稱這是利雅德連續第三天發布並迅速解除警報，週五起24小時內民防發出8次公開警報。阿拉伯新聞另稱，20日晚2枚射向吉贊的彈道飛彈遭攔截、殘骸落在舒蓋格一帶。胡塞在X稱正「打擊沙國各地目標，包括利雅德」。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜沙胡衝突進入互打港口與首都的循環",
+          "evidence": [
+            "44a6a459c7372a78",
+            "cb465bd8566bc1af"
+          ],
+          "text": "半島電視台指出，胡塞揚言攻擊吉達等紅海港口、利雅德金融中心與西南部舒蓋格電廠，並警告航空公司沙國領空「不安全」；聯合國表示關切，警告持續交戰可能威脅葉門重要的援助補給路線。本站前稿已記錄19日利雅德公共投資基金大樓受損。值得注意的是，聯軍這次直接打擊荷台達港，而該港是葉門人道物資進口要道，這可能擴大民生衝擊；胡塞點名電廠與港口，也可能讓雙方的打擊目標從軍事設施擴及基礎設施。這是依來源所述威脅所做的推論，不代表雙方已實際攻擊這些設施。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜戰果與損害主要來自單方說法",
+          "evidence": [
+            "1be756f236f972be",
+            "44a6a459c7372a78",
+            "cb465bd8566bc1af"
+          ],
+          "text": "荷台達與沙那的打擊目標、戰果均為聯軍公布，本輪沒有讀到胡塞或獨立機構的損害與傷亡說法；21日攔截的損害情形也僅有「未報導損害」。三份來源均未引述沙烏地通訊社原文。阿拉伯新聞與中東報頁面時間推定為沙國時間（UTC+3），半島電視台頁面只標日期。本站官方數據比對：美國對葉門旅遊警示維持第4級，近14天美英日台沒有新的升級或撤離公告；本戰區當天沒有其他與沙胡交火直接相關的量測數據。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "聯軍打擊荷台達港",
+          "text": "聯軍20日稱打擊荷台達港與沙那7個軍事目標、6座飛彈與無人機工坊。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "3枚飛彈射向利雅德",
+          "text": "21日凌晨胡塞向利雅德發射3枚彈道飛彈，聯軍稱全數攔截，目擊者聽到兩聲爆炸。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "揚言打港口與電廠",
+          "text": "胡塞揚言攻擊吉達港、利雅德金融中心與舒蓋格電廠，並警告航空公司。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "戰果為單方說法",
+          "text": "打擊戰果由聯軍公布，未見胡塞或獨立來源的損害說法。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "1be756f236f972be",
+          "contentHash": "2941928c0e1265b62c300757ced2704fcce02af7b6ecff4ddc23483c31c56954"
+        },
+        {
+          "id": "44a6a459c7372a78",
+          "contentHash": "73a6ef5bfb309fa0173b0ca397b7796e663452388c6bf83997646567e5364d32"
+        },
+        {
+          "id": "cb465bd8566bc1af",
+          "contentHash": "9bb65d2727bf447b654de725bd0b5ff5b1c4ccdb6aa4616724e458afb5da0c27"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "1be756f236f972be",
+          "contentHash": "2941928c0e1265b62c300757ced2704fcce02af7b6ecff4ddc23483c31c56954",
+          "url": "https://english.aawsat.com/gulf/5343943-arab-coalition-intercepts-3-ballistic-missiles-uav",
+          "publisher": "Asharq Al-Awsat（頁面時間11:20，推定沙國時間；利雅德電）",
+          "publishedAt": "2026-11-21T08:20:00.000Z",
+          "originGroup": "coalition-almalki-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "44a6a459c7372a78",
+          "contentHash": "73a6ef5bfb309fa0173b0ca397b7796e663452388c6bf83997646567e5364d32",
+          "url": "https://www.arabnews.com/saudi-arabia/coalition-air-defenses-intercept-3-houthi-ballistic-missiles-targeting-riyadh-3013264",
+          "publisher": "Arab News（頁面時間03:37、03:45更新，推定沙國時間）",
+          "publishedAt": "2026-11-21T00:37:00.000Z",
+          "originGroup": "coalition-almalki-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "cb465bd8566bc1af",
+          "contentHash": "9bb65d2727bf447b654de725bd0b5ff5b1c4ccdb6aa4616724e458afb5da0c27",
+          "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+          "publisher": "Al Jazeera（頁面只標日期21 Nov 2026，日期精度）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "aljazeera-yemen-20261121",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-21T08:20:00.000Z",
+      "generatedAt": "2026-11-21T11:45:07.272Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-khasab-two-tankers-mq9-mq1-claim-20261121",
+      "title": "UKMTO：哈薩卜北方與東方21日晨50分鐘內兩起油輪遭不明彈體擊中、連兩日遇襲；革命衛隊稱擊落美軍MQ-9與MQ-1，美方未回應",
+      "theater": "iran_gulf",
+      "location": {
+        "lat": 26.18,
+        "lon": 56.25,
+        "label": "哈薩卜（阿曼穆桑達姆半島）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜21日晨兩起油輪遇襲，前一晚另一艘起火",
+          "evidence": [
+            "34e552e694b8c91f",
+            "f8d6a574e95d406e"
+          ],
+          "text": "據IANS與首爾經濟新聞引述英國海事貿易行動辦公室（UKMTO），11月21日約格林威治時間05:00，一艘駛出荷莫茲海峽的油輪在阿曼哈薩卜以北約11海里處船尾遭「不明彈體」擊中；約50分鐘後，哈薩卜以東約17海里處一艘油輪機艙遭攻擊，目前不清楚兩起是否為同一艘船。兩起均無人員受傷，是否造成污染尚待確認，UKMTO未公布船旗與攻擊者。首爾經濟新聞另引UKMTO稱，20日晚間約7時（時區未標明）一艘試圖出海峽的油輪在哈薩卜以北約8海里處左舷船首中彈起火。據首爾經濟新聞，革命衛隊透過官方媒體否認涉及彈體，稱該船是觸雷起火；IANS引伊朗陸軍海軍稱，一艘關閉導航系統、走「未經授權」航道的「違規」油輪觸雷起火。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "同日｜革命衛隊稱擊落美軍無人機，美財政部制裁石油資金管理人",
+          "evidence": [
+            "409acad4bae0875e"
+          ],
+          "text": "半島電視台引伊朗國家廣播公司報導，革命衛隊稱21日以新型防空系統在荷莫茲海峽上空擊落一架MQ-9死神無人機，並稱是開戰以來第58架；稍後又稱在格什姆島上空擊落一架MQ-1，為第19次同類宣稱。美軍未立即回應，事件時間不明。伊朗外長阿拉格齊20日稱，伊方七項條件須落實荷莫茲才會重開，包括結束戰爭、解除制裁與南部港口的海上封鎖，並排除將60%濃縮鈾移往國外。川普20日在白宮稱伊朗想要協議，但不是他能接受的。美國財政部同日制裁4名被指管理非法石油收入的伊朗人，包括一名前革命衛隊情報官員。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜哈薩卜外海成為連日遇襲熱點，攻擊者仍未證實",
+          "evidence": [
+            "34e552e694b8c91f",
+            "f8d6a574e95d406e"
+          ],
+          "text": "首爾經濟新聞引彭博19日報導稱，本月荷莫茲油輪遇襲平均約每天一艘；IANS引新華社稱近幾週哈薩卜附近商船遇襲頻繁。值得注意的是，三起事件都發生在出海峽方向，且伊朗軍方以「觸雷」「違規航道」說法回應，與UKMTO描述的「不明彈體」不一致。這可能反映伊方試圖強制船隻走其指定航道，但目前沒有獨立證據可確認攻擊者或武器種類。本站官方數據比對：UKMTO近7天灣區船舶遇襲7件，低於60日P95的12件，最新一筆為21日UKMTO第215號通報，與本稿事件一致；布蘭特原油最近交易日僅漲0.6%。本站前稿已記錄美軍將封鎖擴及船對船過駁、伊朗醞釀油輪突破封鎖，本輪來源未見伊朗油輪實際突破的報導。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜船名、船旗與擊落宣稱均無法核實",
+          "evidence": [
+            "409acad4bae0875e",
+            "34e552e694b8c91f",
+            "f8d6a574e95d406e"
+          ],
+          "text": "本輪未能直接讀取UKMTO官網（HTTP 403），事件細節依IANS與首爾經濟新聞轉述；首爾經濟新聞為AI翻譯韓文稿，措辭可能與原文不同。21日兩起是否同一艘船、20日晚事件的時區，均未確認。革命衛隊擊落MQ-9與MQ-1的宣稱、累計架數，以及半島電視台引述的美軍無人機損失數字，都沒有美方或獨立來源證實。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "50分鐘內兩起遇襲",
+          "text": "UKMTO稱21日約05:00 GMT起，哈薩卜以北11海里與以東17海里兩起油輪遭不明彈體擊中，無人受傷。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "20日晚另一艘起火",
+          "text": "20日晚哈薩卜以北8海里一艘出海峽油輪船首中彈起火；伊方稱是觸雷。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "革命衛隊稱擊落兩架",
+          "text": "革命衛隊稱擊落美軍MQ-9與MQ-1，美軍未立即回應。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "攻擊者未證實",
+          "text": "UKMTO未公布船旗與攻擊者，擊落宣稱無獨立證實。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "409acad4bae0875e",
+          "contentHash": "c81504d8de175c5bcbe9830ea257633a1c91b4078253fc881020b8da34006456"
+        },
+        {
+          "id": "34e552e694b8c91f",
+          "contentHash": "b0267a7d097b51945b2f0064f6e753c15c9794a1483bc23a06a7f9cf073b856b"
+        },
+        {
+          "id": "f8d6a574e95d406e",
+          "contentHash": "5cb77200ce68cad8a33f7b142370a51f25966e727dfebf9bdca7469f32cab34a"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "409acad4bae0875e",
+          "contentHash": "c81504d8de175c5bcbe9830ea257633a1c91b4078253fc881020b8da34006456",
+          "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled",
+          "publisher": "Al Jazeera（頁面只標日期21 Nov 2026，日期精度）",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "originGroup": "aljazeera-iran-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "34e552e694b8c91f",
+          "contentHash": "b0267a7d097b51945b2f0064f6e753c15c9794a1483bc23a06a7f9cf073b856b",
+          "url": "https://en.sedaily.com/world/2026/11/21/tankers-hit-by-unidentified-projectiles-in-strait-of-hormuz",
+          "publisher": "Seoul Economic Daily（19:35 KST；AI翻譯韓文稿）",
+          "publishedAt": "2026-11-21T10:35:54.000Z",
+          "originGroup": "ukmto-khasab-20261121",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "f8d6a574e95d406e",
+          "contentHash": "5cb77200ce68cad8a33f7b142370a51f25966e727dfebf9bdca7469f32cab34a",
+          "url": "https://www.thehansindia.com/news/international/two-tanker-attack-incidents-reported-near-omans-khasab-ukmto-1144381",
+          "publisher": "The Hans India／IANS（16:37 IST，倫敦電）",
+          "publishedAt": "2026-11-21T11:07:00.000Z",
+          "originGroup": "ukmto-khasab-20261121",
+          "sourceType": "WIRE"
+        }
+      ],
+      "asOf": "2026-11-21T11:07:00.000Z",
+      "generatedAt": "2026-11-21T11:45:07.233Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-berlin-article5-kushner-e3-moscow-20261120",
+      "title": "柏林自願聯盟會議後庫許納稱俄方「已接受」北約第5條式安全保證概念：澤倫斯基存疑，俄副外長拒絕「準會員」並邀英法德赴莫斯科",
+      "theater": "ukraine_front",
+      "location": {
+        "lat": 52.52,
+        "lon": 13.4,
+        "label": "柏林（自願聯盟會議）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜庫許納稱俄方接受以第5條為基礎的保證概念",
+          "evidence": [
+            "d043d42a48d59783",
+            "9d9ba706f38078ee",
+            "322db1aaa5b2f842"
+          ],
+          "text": "德國11月19日在柏林總理府主辦「自願聯盟」會議，德國總理梅爾茨、法國總統馬克宏、英國首相與澤倫斯基出席，美方特使庫許納與維特科夫與會。CNBC與基輔郵報報導，庫許納會後記者會稱，美方已讓俄方「對這個概念感到自在」：任何對烏安全保證都將以北約第5條為基礎；他稱俄方意圖是戰後「不再有另一場戰爭」，但也承認俄國內部仍有懷疑與不信任。庫許納稱川普對第5條式保證持開放態度，但必須符合美國利益、屬於更廣泛安全方案的一部分，並需有遵約監督與違約回應機制；他未說明保證如何運作。半島電視台報導，庫許納另稱川普希望「有歐洲在旁」達成協議，俄國同意歐洲上桌「對結束戰爭至關重要」。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "各方說法｜基輔存疑、馬克宏提重啟入約，俄方設前提",
+          "evidence": [
+            "d043d42a48d59783",
+            "322db1aaa5b2f842",
+            "b87f5ade69ab0cb4"
+          ],
+          "text": "澤倫斯基表示，柏林會上對第5條式保證的內涵沒有共同理解，並質疑是否意味美歐部隊進駐烏克蘭，稱「最重要的是各國對侵略如何反應」；基輔郵報引述他稱入北約仍是烏克蘭與歐洲最好的保證。馬克宏稱，鑑於俄方立場「極端」，必須重新討論烏克蘭加入北約，安全保證應先於領土談判。俄方說法方面，據bne IntelliNews引塔斯社，俄副外長里亞布科夫在聖彼得堡稱，任何讓基輔成為北約「準會員」的方案都不可接受，烏克蘭須先接受不入北約才能討論保證；普丁19日在深圳宣布邀請英法德（E3）赴莫斯科，里亞布科夫稱此行不代表與歐洲正式開談，克里姆林宮發言人培斯科夫稱「尚無確切日期」。基輔郵報稱梅爾茨提議下一輪四方談判可在阿聯舉行，地點未定。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜美方說法與俄方公開立場仍有落差",
+          "evidence": [
+            "9d9ba706f38078ee",
+            "322db1aaa5b2f842",
+            "b87f5ade69ab0cb4"
+          ],
+          "text": "值得注意的是，「俄方接受第5條式保證」目前只見於美方轉述，本輪未讀到克里姆林宮正面證實；俄方公開表態反而把「不入北約」列為前提，兩者可能指涉不同內容：美方談的是北約之外的雙邊或多邊承諾，俄方拒絕的是任何形式的準會員身分。邀E3赴莫斯科、但不接受歐盟另組的五方團隊，可能顯示俄方偏好與個別國家而非布魯塞爾打交道。保證的執行機制、是否涉及外國駐軍，仍是各方最大分歧，短期內不宜解讀為停火在即。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜聯合聲明全文未讀，空襲同步升高",
+          "evidence": [
+            "d043d42a48d59783",
+            "b87f5ade69ab0cb4"
+          ],
+          "text": "bne IntelliNews提到德法英烏另有聯合聲明（德國聯邦政府網站），本輪未讀到原文，不轉述其條文；E3訪莫斯科是否成行、日期與下一輪談判地點都未確定。本站官方數據顯示，烏方公布11月20日俄軍出動無人機404架、飛彈84枚，單夜飛彈數超過60日P95，外交接觸期間空襲並未降溫。半島電視台報導的會議出席名單以圖說為準，未另行核對。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "美稱俄接受第5條式保證",
+          "text": "庫許納19日柏林會後稱，美方已讓俄方接受以北約第5條為基礎的對烏保證概念，川普持開放態度。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "澤倫斯基存疑",
+          "text": "澤倫斯基稱各方對第5條式保證內涵無共識，質疑是否涉及美歐駐軍。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "俄拒準會員、邀E3",
+          "text": "俄副外長稱烏須先放棄入約；普丁邀英法德赴莫斯科，克宮稱尚無日期。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "說法仍有落差",
+          "text": "俄方接受的說法目前只見於美方轉述，保證機制與駐軍仍是主要分歧。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "d043d42a48d59783",
+          "contentHash": "ae477be1ea5e8349b4a4f750f7849b1c0099ff997a5589225292850907528a98"
+        },
+        {
+          "id": "9d9ba706f38078ee",
+          "contentHash": "79bfe98f38ac1bf0b5bdfbffb6d547a7e45a5d5ee05b8a23d5d156852878d100"
+        },
+        {
+          "id": "322db1aaa5b2f842",
+          "contentHash": "2bc398d87366c05e5be8377f9a8e4f8c4357d725b70d85c7fe18711be1272fa2"
+        },
+        {
+          "id": "b87f5ade69ab0cb4",
+          "contentHash": "5d2cf349ac64590174e57c7ff64989ca54bf001f8e17049b61f3737ecfd1b6e4"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "d043d42a48d59783",
+          "contentHash": "ae477be1ea5e8349b4a4f750f7849b1c0099ff997a5589225292850907528a98",
+          "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine",
+          "publisher": "Al Jazeera（僅知日期11月19日，時刻不明）",
+          "publishedAt": "2026-11-19T00:00:00.000Z",
+          "originGroup": "berlin-cow-20261119",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "9d9ba706f38078ee",
+          "contentHash": "79bfe98f38ac1bf0b5bdfbffb6d547a7e45a5d5ee05b8a23d5d156852878d100",
+          "url": "https://www.cnbc.com/2026/11/20/kushner-ukraine-nato-russia-trump-putin.html",
+          "publisher": "CNBC",
+          "publishedAt": "2026-11-20T09:56:00.000Z",
+          "originGroup": "cnbc-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "322db1aaa5b2f842",
+          "contentHash": "2bc398d87366c05e5be8377f9a8e4f8c4357d725b70d85c7fe18711be1272fa2",
+          "url": "https://www.kyivpost.com/post/90681",
+          "publisher": "Kyiv Post（基輔時間10:33）",
+          "publishedAt": "2026-11-20T08:33:00.000Z",
+          "originGroup": "kyivpost-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "b87f5ade69ab0cb4",
+          "contentHash": "5d2cf349ac64590174e57c7ff64989ca54bf001f8e17049b61f3737ecfd1b6e4",
+          "url": "https://www.yahoo.com/news/world/articles/russia-readies-e3-visit-moscow-145117512.html",
+          "publisher": "bne IntelliNews（Yahoo轉載）",
+          "publishedAt": "2026-11-20T14:51:00.000Z",
+          "originGroup": "bne-20261120",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-20T14:51:00.000Z",
+      "generatedAt": "2026-11-20T23:45:06.704Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "iran-blockade-ship-to-ship-olym-haofan-kharg-convoy-20261120",
+      "title": "美軍將封鎖擴及海上船對船轉運、可登檢扣押甚至動武：哈格島以南出現封鎖恢復後首次伊朗原油過駁，法爾斯通訊社稱14艘油輪待命突破",
+      "theater": "iran_gulf",
+      "location": {
+        "lat": 29.23,
+        "lon": 50.31,
+        "label": "哈格島（伊朗）"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜中央司令部公告：接收伊朗貨物的船視同規避封鎖",
+          "evidence": [
+            "c5e6bab5e5b1cbd6",
+            "80ac794c9caab3f7"
+          ],
+          "text": "路透社11月18日報導，美軍中央司令部當天發布航行公告：在海上以船對船方式，從受封鎖船舶接收伊朗裝載貨物的船隻，即使從未進入伊朗水域，也「可能被視為規避封鎖」，可遭攔停、登檢、改道、扣押，或被要求駛回貨物原裝港；不立即遵從合法命令者，可能面臨「符合適用法律的武力」執法。美國海軍中東司令部同日轉發的更新稱，封鎖不妨礙中立船舶經荷莫茲往返非伊朗目的地，但仍可能受臨檢。半島電視台指出，美方4月13日首度封鎖伊朗港口，6月因與德黑蘭達成諒解而解除，7月14日協議破局後恢復；截至20日刊出，伊朗官方未直接回應此公告。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "觸發事件｜Olym與Hao Fan在哈格島以南過駁約20萬桶",
+          "evidence": [
+            "806e90c926b53a9a",
+            "47aa9c692f118c82"
+          ],
+          "text": "gCaptain轉載彭博社報導，反核伊朗聯盟（UANI）依衛星影像與船舶追蹤資料指出，受美國制裁的蘇伊士型油輪Olym與未列黑名單的中型油輪Hao Fan，週二在波斯灣哈格島以南進行約20萬桶伊朗原油的船對船過駁，雙方關閉轉發器，Hao Fan並偽造位置顯示在阿曼附近，這是7月中恢復封鎖以來首次觀察到的過駁。海事執行者報導，兩船分別宣稱蓋亞那與尼加拉瓜船籍，該刊稱屬虛假登記。UANI顧問布朗研判，伊朗會嘗試「各種方式」把油運出。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "伊方動向｜法爾斯稱14艘油輪裝載完畢，外長稱「必須打破封鎖」",
+          "evidence": [
+            "80ac794c9caab3f7",
+            "47aa9c692f118c82"
+          ],
+          "text": "海事執行者11月20日報導，與革命衛隊有關的法爾斯通訊社稱，14艘油輪已在哈格島裝載、配妥船員並升伊朗旗，並警告若出口受阻，將攻擊阿聯、沙烏地、卡達、科威特、阿曼與巴林油氣設施；油輪追蹤網站TankerTrackers先稱伊朗似在準備出口，後改稱「一廂情願，絕非如此」。Windward統計封鎖線一日航程內的阿拉伯海有31艘滿載受制裁油輪。報導引伊朗外長阿拉格齊稱「封鎖必須打破」。半島電視台另引革命衛隊發言人稱，美方「永遠無法」達成經濟封鎖，船隻若遭攻擊將「打得更重」。以上為伊方說法。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜封鎖執法範圍外擴，海上對峙風險上升",
+          "evidence": [
+            "c5e6bab5e5b1cbd6",
+            "80ac794c9caab3f7",
+            "806e90c926b53a9a"
+          ],
+          "text": "值得注意的是，公告把執法對象從駛離伊朗港口的船，擴大到在公海接駁的第三方船舶，執法地理範圍可能因此外擴。半島電視台引倫敦國王學院克里格稱，伊朗可繞過部分封鎖，但無法以軍事方式持續突破，並稱這可能是近幾週最危險的升級情境之一。彭博社報導的單次過駁量不大，UANI認為不足以構成經濟出口航次；若伊朗真以船隊集體出航，美軍是否登檢或動武，將是下一個觀察點。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜船隊說法未獲證實，UKMTO原頁無法讀取",
+          "evidence": [
+            "80ac794c9caab3f7",
+            "47aa9c692f118c82"
+          ],
+          "text": "14艘油輪船隊只有法爾斯單方說法，TankerTrackers已公開質疑；Windward統計日期報導未寫明。本站官方數據顯示，UKMTO近7天灣區船舶遇襲6件，低於60日P95的12件，最新為20日荷莫茲海峽#214通報，但UKMTO網站本輪回應403，未讀到該通報內容。美軍是否已依新公告實際攔停船舶，本輪未見報導。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "封鎖擴及船對船轉運",
+          "text": "美軍中央司令部18日公告，海上接收伊朗貨物的船可遭登檢、扣押，抗命者可能面臨武力執法。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "哈格島以南首次過駁",
+          "text": "UANI稱Olym與Hao Fan關閉轉發器過駁約20萬桶伊朗原油，為7月恢復封鎖以來首見。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "法爾斯稱14艘待命",
+          "text": "法爾斯稱14艘油輪在哈格島裝載待突破並威脅波灣油氣設施；TankerTrackers質疑。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "海上對峙風險上升",
+          "text": "執法對象擴至公海第三方船舶，伊朗若集體出航，美軍是否登檢是下一觀察點。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "c5e6bab5e5b1cbd6",
+          "contentHash": "0a107161a50f2ab9616844a90bd0d84a4fba325070f14e634fcb7e456b8607f1"
+        },
+        {
+          "id": "80ac794c9caab3f7",
+          "contentHash": "de522a4a1274d6d06a58f3195f3e3ab6607cc5305360580b35ef387e3f632db4"
+        },
+        {
+          "id": "806e90c926b53a9a",
+          "contentHash": "05e588b0452e33f73089ea1a4ade8e3196bdd18446178218b61e6203f37e9519"
+        },
+        {
+          "id": "47aa9c692f118c82",
+          "contentHash": "c949fffeaba9f32921769aac2a8e62efb15a818a846366d5d88a3357d208724c"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "c5e6bab5e5b1cbd6",
+          "contentHash": "0a107161a50f2ab9616844a90bd0d84a4fba325070f14e634fcb7e456b8607f1",
+          "url": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/",
+          "publisher": "gCaptain轉載路透社（倫敦11月18日電，僅知日期）",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "originGroup": "centcom-sts-advisory-20261118",
+          "sourceType": "WIRE"
+        },
+        {
+          "id": "80ac794c9caab3f7",
+          "contentHash": "de522a4a1274d6d06a58f3195f3e3ab6607cc5305360580b35ef387e3f632db4",
+          "url": "https://www.aljazeera.com/news/2026/11/20/us-targets-irans-ship-to-ship-transfers-can-tehran-break-the-blockade",
+          "publisher": "Al Jazeera（僅知日期11月20日）",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "originGroup": "aljazeera-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "806e90c926b53a9a",
+          "contentHash": "05e588b0452e33f73089ea1a4ade8e3196bdd18446178218b61e6203f37e9519",
+          "url": "https://gcaptain.com/iranian-oil-transferred-between-tankers-as-us-widens-blockade",
+          "publisher": "gCaptain轉載彭博社（僅知日期11月20日）",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "originGroup": "uani-olym-sts-20261117",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "47aa9c692f118c82",
+          "contentHash": "c949fffeaba9f32921769aac2a8e62efb15a818a846366d5d88a3357d208724c",
+          "url": "https://maritime-executive.com/article/reports-claim-iran-is-preparing-oil-convoy-to-test-u-s-blockade",
+          "publisher": "The Maritime Executive",
+          "publishedAt": "2026-11-20T13:06:00.000Z",
+          "originGroup": "marex-20261120",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-20T13:06:00.000Z",
+      "generatedAt": "2026-11-20T23:45:06.662Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-84-cruise-404-drones-kyiv-bridges-lviv-20261120",
+      "title": "俄軍20日以84枚巡弋飛彈、404架無人機大規模空襲烏克蘭：基輔3座聶伯河大橋受損、全國8死28傷，西部多州緊急停電",
+      "theater": "ukraine_front",
+      "location": {
+        "lat": 50.45,
+        "lon": 30.52,
+        "label": "基輔"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜烏空軍稱一夜84枚巡弋飛彈、404架無人機",
+          "evidence": [
+            "17931cee2efbd092",
+            "75ef56ca1c718800"
+          ],
+          "text": "烏克蘭空軍11月20日通報，俄軍自19日18時起至20日晨發射84枚Kh-101、口徑、伊斯坎德爾-K巡弋飛彈，另有伊斯坎德爾-M／S-400彈道飛彈與鋯石反艦飛彈，以及404架沙希德型、蓋爾貝拉與「Parodiya」誘餌無人機，其中123架為噴射動力沙希德。截至基輔時間10時30分，空軍稱擊落或壓制3枚彈道／鋯石飛彈、79枚巡弋飛彈與380架無人機，共462個目標；23處有命中紀錄、10處有殘骸墜落。發射區包括俄羅斯羅斯托夫、布良斯克、庫斯克、奧廖爾、沃洛格達州、克拉斯諾達爾邊疆區，以及被占的克里米亞與頓內茨克。空軍通報時攻擊仍在進行，鋯石飛彈未列發射數量。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "損害｜基輔6死、利沃夫2死，西部三州緊急停電",
+          "evidence": [
+            "75ef56ca1c718800",
+            "19efc987978f0f61"
+          ],
+          "text": "基輔郵報與UNN引總理科列茨基稱全國8死28傷，其中基輔6死15傷；利沃夫當局稱2死；哈爾科夫一家急診醫院磁振造影大樓受損、4人受傷。基輔郵報稱基輔波季爾－沃斯克列先斯基、達爾尼茨基與南橋3座聶伯河橋梁受損，市長克里契科呼籲市民減少開車、企業讓員工遠距上班；一處污水處理設施也受損。利沃夫斯克尼利夫火車站售票處遭擊中。UNN稱利沃夫、外喀爾巴阡與伊凡諾－法蘭科夫斯克州實施緊急停電，鐵路也受損。空軍發言人伊赫納特稱巡弋飛彈多數瞄準西部、以能源系統為優先，彈道飛彈主要打基輔一帶，並稱是「最強烈的攻擊之一」。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜飛彈數量遠超常態，與克里米亞大橋遇襲後的報復表態時序相連",
+          "evidence": [
+            "17931cee2efbd092",
+            "75ef56ca1c718800"
+          ],
+          "text": "本站數據顯示，烏方公布20日無人機404架、飛彈84枚，單夜飛彈數遠高於60日P95的7枚；7日日均203架／枚，仍低於60日P95的360，「飛彈與無人機超過P95」主要指標因單夜飛彈數而觸發。基輔郵報指出，普丁先前揚言在烏軍多次打擊克里米亞大橋後施以「痛苦得多」的打擊，伊赫納特週一也曾警告俄方準備再襲能源系統；時序上相符，但俄方是否明言此為報復，本稿未讀到俄方原文。值得注意的是，巡弋飛彈集中打西部能源、彈道飛彈打首都橋梁，可能意在同時削弱西部電網與基輔兩岸交通，這是本站推論。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜飛彈總數說法不一，傷亡與攔截數仍可能更新",
+          "evidence": [
+            "17931cee2efbd092",
+            "19efc987978f0f61",
+            "8b0b250c6fc519f1"
+          ],
+          "text": "歐洲新聞台引澤倫斯基稱俄軍發射逾400架無人機與逾110枚飛彈，高於空軍通報可計的84枚巡弋飛彈加3枚彈道飛彈，差異可能來自鋯石等未列數量的飛彈，尚待空軍完整數字。攔截與發射數字均為烏方公布，未經獨立核實。傷亡為科列茨基20日上午通報，攻擊當時仍在進行，可能再上修。跨入波蘭的飛彈與無人機另見本站歐洲安全稿。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "84枚巡弋飛彈、404架無人機",
+          "text": "烏空軍稱俄軍19日夜至20日晨發射84枚巡弋飛彈、彈道與鋯石飛彈及404架無人機，擊落或壓制462個目標。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "全國8死28傷",
+          "text": "總理科列茨基稱基輔6死15傷，利沃夫2死；基輔3座聶伯河橋梁受損。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "西部三州緊急停電",
+          "text": "利沃夫、外喀爾巴阡、伊凡諾－法蘭科夫斯克州緊急停電；空軍稱巡弋飛彈多數瞄準西部能源。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "單夜飛彈數遠超P95",
+          "text": "單夜84枚巡弋飛彈遠高於60日P95的7枚，主要預警指標觸發。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "17931cee2efbd092",
+          "contentHash": "3978f287a5027e2d55c274740b72c1bba63d694cd425b9d39c8bb1168a0ea160"
+        },
+        {
+          "id": "75ef56ca1c718800",
+          "contentHash": "6403497208b26b7df3ddabc45abad8024f6be655915cc498723deea820b25352"
+        },
+        {
+          "id": "19efc987978f0f61",
+          "contentHash": "d5ddd09a827c20c6dc644f577eeb7f170888d15d1f7abbb988ca8273cc4540a9"
+        },
+        {
+          "id": "8b0b250c6fc519f1",
+          "contentHash": "485c072c9a565065ecc3a32247008ed28f30c695207cf2227bc3167e53d537fd"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "17931cee2efbd092",
+          "contentHash": "3978f287a5027e2d55c274740b72c1bba63d694cd425b9d39c8bb1168a0ea160",
+          "url": "https://t.me/s/kpszsu/97713",
+          "publisher": "烏克蘭空軍（Telegram @kpszsu；基輔時間08:45發布、後經編輯，內文數字截至10:30）",
+          "publishedAt": "2026-11-20T06:45:00.000Z",
+          "originGroup": "ua-airforce-20261120",
+          "sourceType": "PARTY_CLAIM"
+        },
+        {
+          "id": "75ef56ca1c718800",
+          "contentHash": "6403497208b26b7df3ddabc45abad8024f6be655915cc498723deea820b25352",
+          "url": "https://www.kyivpost.com/post/90693",
+          "publisher": "Kyiv Post（頁面12:11，按基輔時間換算）",
+          "publishedAt": "2026-11-20T10:11:00.000Z",
+          "originGroup": "kyivpost-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "19efc987978f0f61",
+          "contentHash": "d5ddd09a827c20c6dc644f577eeb7f170888d15d1f7abbb988ca8273cc4540a9",
+          "url": "https://unn.ua/en/news/russias-massive-attack-on-kyiv-and-nine-regions-of-ukraine-eight-killed-people-injured",
+          "publisher": "UNN（頁面09:21，按基輔時間換算）",
+          "publishedAt": "2026-11-20T07:21:00.000Z",
+          "originGroup": "unn-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "8b0b250c6fc519f1",
+          "contentHash": "485c072c9a565065ecc3a32247008ed28f30c695207cf2227bc3167e53d537fd",
+          "url": "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
+          "publisher": "Euronews（10:36 GMT+1刊出、12:06更新）",
+          "publishedAt": "2026-11-20T09:36:00.000Z",
+          "originGroup": "euronews-poland-20261120",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-20T10:11:00.000Z",
+      "generatedAt": "2026-11-20T11:46:16.510Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "europe-poland-kh101-nowy-lipowiec-rudnik-drone-20261120",
+      "title": "俄軍空襲烏克蘭期間兩枚飛彈與一架噴射無人機墜落波蘭東部：國防部長稱Kh-101落在諾維利波維耶茨、指「又一次挑釁」，無人受傷",
+      "theater": "europe_security",
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜波蘭證實三處墜落物，含一枚Kh-101",
+          "evidence": [
+            "8b0b250c6fc519f1",
+            "63733cc1d8769c5e",
+            "31d5e6f666d3dd5d"
+          ],
+          "text": "歐洲新聞台報導，波蘭國防部長科西尼亞克－卡米什11月20日證實，俄軍大規模空襲烏克蘭期間，一枚Kh-101巡弋飛彈落在盧布林省諾維利波維耶茨（Nowy Lipowiec）村附近，另一枚飛彈與一架噴射動力無人機落在另兩處。基輔獨立報與UNITED24引其記者會稱，另一枚飛彈落在魯德尼克納德薩寧（Rudnik nad Sanem），無人機落在姆沃季采（Młodźice），三處現場已封鎖。波蘭武裝部隊作戰司令部稱，當地時間約3時30分啟動防空，盧布林與喀爾巴阡山省發布空襲警報，波蘭與盟國軍機在領空內行動。諾維利波維耶茨的墜落物落在森林旁田地並起火，警消稱居民無危險。目前沒有傷亡或關鍵基礎設施受損的通報。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "官方表態｜國防部長稱時機非偶然，圖斯克召開安全會議",
+          "evidence": [
+            "8b0b250c6fc519f1",
+            "63733cc1d8769c5e",
+            "af2c61edfc047ea9"
+          ],
+          "text": "科西尼亞克－卡米什稱「我們面對的是俄羅斯又一次挑釁」，並認為「日期不是偶然」，指同期「志願聯盟」約十餘國正在波蘭附近演習，基輔獨立報稱演習有英法部隊參加。總理圖斯克召集部長、軍方與情報首長開會，歐洲新聞台稱會議是回應「波蘭領空遭侵犯」。UNN稍早引作戰司令部發言人戈雷舍夫斯基稱，軍方在查核兩起可能的領空侵犯，並引圖斯克在X稱「目前沒有空中威脅」。基輔郵報稱烏空軍發言人伊赫納特曾表示一枚飛彈可能進入波蘭，熱舒夫機場一度暫停起降。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜今年第二起Kh-101落入波蘭，且同夜多點墜落",
+          "evidence": [
+            "8b0b250c6fc519f1",
+            "63733cc1d8769c5e",
+            "3e2f5c3fa0ffd7b3"
+          ],
+          "text": "7月30日已有一枚疑似Kh-101墜落盧布林省塔爾納瓦－科洛尼亞附近田地，本次是今年第二起，且同一夜三處墜落，數量多於上次。烏空軍稱本夜84枚巡弋飛彈中多數瞄準西部能源，飛行路線接近波烏邊境，可能是墜落物增加的背景，這是本站推論。國防部長以「挑釁」定性並連結演習時機，屬波蘭政府的判斷，目前沒有讀到俄方對此事的回應，也未見北約正式表態或波蘭援引北約第4條的報導。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜第二枚飛彈型號與早期地名不一致",
+          "evidence": [
+            "63733cc1d8769c5e",
+            "31d5e6f666d3dd5d",
+            "af2c61edfc047ea9"
+          ],
+          "text": "基輔獨立報寫兩枚皆為Kh-101，歐洲新聞台只確認諾維利波維耶茨為Kh-101、另一枚未說型號。UNN稍早報導指可能墜落點在比烏戈拉伊縣赫米萊克（Chmielek），與部長後來公布的三處地名不同，可能是初步通報，尚待波蘭官方更新。墜落物是否遭攔截、是否跨境後失控，各報都沒有說明。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "三處墜落物",
+          "text": "波蘭國防部長稱一枚Kh-101落在盧布林省諾維利波維耶茨，另一枚飛彈與一架噴射無人機落在另兩處。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "無人受傷",
+          "text": "現場已封鎖，沒有傷亡或關鍵基礎設施受損通報；圖斯克召開安全會議。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "今年第二起Kh-101",
+          "text": "7月30日已有疑似Kh-101墜落盧布林省，本次同夜三處墜落。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "型號說法不一",
+          "text": "第二枚飛彈是否也是Kh-101，各報說法不同。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "8b0b250c6fc519f1",
+          "contentHash": "2d18210cf34135bf2555058d14127b8e906615b79c705bfb05568ef374d1002a"
+        },
+        {
+          "id": "63733cc1d8769c5e",
+          "contentHash": "f8f7e461396d2b64b5fd500006b876fbfddaab49e06c0900eb24c871861e25ba"
+        },
+        {
+          "id": "31d5e6f666d3dd5d",
+          "contentHash": "b2f0ab8f3b6d0b847b7fd63da6ffcf6ac1dd0051469b9d43f2114fe3608a22b2"
+        },
+        {
+          "id": "af2c61edfc047ea9",
+          "contentHash": "738b6a4883172ae68ddeaecb204a5a545d3b59f0d6f8a2731aed12115f4f24d0"
+        },
+        {
+          "id": "3e2f5c3fa0ffd7b3",
+          "contentHash": "e743f6c2ad7fcf594cb4410f77ce3bbab5e6e493939b8e373cbcd8b782ab1ac6"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "8b0b250c6fc519f1",
+          "contentHash": "2d18210cf34135bf2555058d14127b8e906615b79c705bfb05568ef374d1002a",
+          "url": "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
+          "publisher": "Euronews（10:36 GMT+1刊出、12:06更新）",
+          "publishedAt": "2026-11-20T09:36:00.000Z",
+          "originGroup": "euronews-poland-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "63733cc1d8769c5e",
+          "contentHash": "f8f7e461396d2b64b5fd500006b876fbfddaab49e06c0900eb24c871861e25ba",
+          "url": "https://www.yahoo.com/news/world/articles/poland-reports-airspace-violation-during-091140047.html",
+          "publisher": "Kyiv Independent（經Yahoo News轉載）",
+          "publishedAt": "2026-11-20T09:11:00.000Z",
+          "originGroup": "kyivindependent-poland-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "31d5e6f666d3dd5d",
+          "contentHash": "b2f0ab8f3b6d0b847b7fd63da6ffcf6ac1dd0051469b9d43f2114fe3608a22b2",
+          "url": "https://united24media.com/world/two-russian-missiles-including-kh-101-and-jet-powered-drone-fall-in-poland-during-attack-on-ukraine-24556",
+          "publisher": "UNITED24 Media（頁面時間12:56未標時區，以日期記錄）",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "originGroup": "united24-poland-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "af2c61edfc047ea9",
+          "contentHash": "738b6a4883172ae68ddeaecb204a5a545d3b59f0d6f8a2731aed12115f4f24d0",
+          "url": "https://unn.ua/en/news/unidentified-object-fell-in-eastern-poland-during-russias-attack-on-ukraine-tusk-responded",
+          "publisher": "UNN（頁面07:18，按基輔時間換算）",
+          "publishedAt": "2026-11-20T05:18:00.000Z",
+          "originGroup": "unn-poland-20261120",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "3e2f5c3fa0ffd7b3",
+          "contentHash": "e743f6c2ad7fcf594cb4410f77ce3bbab5e6e493939b8e373cbcd8b782ab1ac6",
+          "url": "https://notesfrompoland.com/?p=95562",
+          "publisher": "Notes from Poland（只知日期2026-07-30）",
+          "publishedAt": "2026-07-30T00:00:00.000Z",
+          "originGroup": "notesfrompoland-20260730",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-20T09:36:00.000Z",
+      "generatedAt": "2026-11-20T11:46:16.468Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "ukraine-kyiv-daytime-drones-dutch-austrian-embassy-cathedral-20261119",
+      "title": "俄軍無人機19日白天連續數小時空襲基輔、1死5傷：荷蘭與奧地利大使館受損、聖弗拉基米爾大教堂窗戶震碎，外交部院區落下殘骸",
+      "theater": "ukraine_front",
+      "location": {
+        "lat": 50.45,
+        "lon": 30.52,
+        "label": "基輔"
+      },
+      "sections": [
+        {
+          "kind": "REPORTED",
+          "label": "新進展｜白天空襲基輔，多國使館與大教堂受波及",
+          "evidence": [
+            "b68569d07ef2f0b3",
+            "bb9e21b8f223ef20",
+            "1be81d114a55eb67"
+          ],
+          "text": "基輔獨立報報導，俄軍無人機11月19日白天在清晨與午後數度飛抵基輔，空襲持續數小時。基輔市長克里契科稱，波季爾區一名26歲男子身亡、另有5人受傷。荷蘭外長貝倫森稱，一架無人機墜落在荷蘭大使館附近，損及車輛、警衛亭與窗戶，館員無人受傷；奧地利外長邁因爾－賴辛格證實奧地利大使館受損並下令加強保護。聖弗拉基米爾大教堂周邊窗戶震碎、簷口受損，初步評估壁畫與結構無損。烏克蘭外交部院區與巴西大使館也有殘骸落下，波季爾區一棟三層住宅屋頂被貫穿。歐盟駐烏大使馬瑟諾娃稱，一架無人機在她下車時於頭頂爆炸。梅杜沙引社群影片稱，市中心沃茲德維任卡街區一棟住宅遭擊中，並稱無人機打在荷蘭大使館後方建築。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "前一夜｜俄軍以98架無人機與縞瑪瑙飛彈夜襲",
+          "evidence": [
+            "1be81d114a55eb67"
+          ],
+          "text": "基輔郵報引烏克蘭空軍晨間通報，俄軍18日夜至19日晨發射縞瑪瑙（Oniks）反艦飛彈與98架無人機，截至基輔時間上午8時擊落或壓制69架，全國18處有命中紀錄；報導未提供縞瑪瑙飛彈數量。白天的基輔空襲是另一波行動。基輔州維什哥羅德區4人受傷，含1名兒童，29棟民宅、19輛車與一處能源設施受損。同報另指，俄軍夜襲損及奧地利駐聶伯市名譽領事館，無人受傷。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "研判｜白天騷擾式空襲與外交設施受損的訊號意義",
+          "evidence": [
+            "b68569d07ef2f0b3",
+            "bb9e21b8f223ef20",
+            "1be81d114a55eb67"
+          ],
+          "text": "梅杜沙指出，這波空襲緊接在深圳APEC峰會結束後，這是該媒體的時序描述，並非俄方表態。值得注意的是，空襲連續多小時在白天進行，可能意在延長首都防空與民眾避難負擔。荷蘭外交部發言人拒絕推測此事是否與荷蘭企業Destinus飛彈據報用於襲擊克里米亞大橋有關，目前沒有證據顯示俄軍刻意瞄準使館。本站數據顯示，烏方公布19日俄軍無人機98架、飛彈1枚，7日日均150架／枚，低於60日P95的360，規模本身未見異常升高。"
+        },
+        {
+          "kind": "UNCERTAIN",
+          "label": "限制｜白天空襲架數未公布，報導時間時區不明",
+          "evidence": [
+            "b68569d07ef2f0b3",
+            "bb9e21b8f223ef20",
+            "1be81d114a55eb67"
+          ],
+          "text": "三份報導均未提供白天空襲的無人機數量，傷亡數字以克里契科通報為準，梅杜沙稍早稿為至少4傷，後續可能再變動。各使館受損都只是窗戶與周邊設施，報導未確認是遭擊落殘骸或直接命中。梅杜沙與基輔郵報頁面時間未標時區，本稿以日期記錄。"
+        }
+      ],
+      "cardPoints": [
+        {
+          "kind": "REPORTED",
+          "label": "白天空襲基輔1死5傷",
+          "text": "俄軍無人機19日白天數度飛抵基輔、持續數小時，波季爾區一名26歲男子身亡。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "荷奧使館受損",
+          "text": "荷蘭、奧地利大使館受損，館員無恙；聖弗拉基米爾大教堂窗戶震碎，外交部院區落下殘骸。"
+        },
+        {
+          "kind": "REPORTED",
+          "label": "前夜98架無人機",
+          "text": "烏空軍稱俄軍18日夜發射縞瑪瑙飛彈與98架無人機，擊落或壓制69架。"
+        },
+        {
+          "kind": "ANALYSIS",
+          "label": "無證據顯示刻意瞄準使館",
+          "text": "荷方拒絕推測與Destinus飛彈的關聯；19日空襲總量低於60日P95。"
+        }
+      ],
+      "basis": [
+        {
+          "id": "b68569d07ef2f0b3",
+          "contentHash": "0624dbf4932f2e52cc43280d5e3c48ae8c750000c47cba831de4b65a4b3249ce"
+        },
+        {
+          "id": "bb9e21b8f223ef20",
+          "contentHash": "6ff6263051388e776d91947e0de3668ea2e2eb8f5410cf2f189563e4f69dba54"
+        },
+        {
+          "id": "1be81d114a55eb67",
+          "contentHash": "81c5961106f83775cc54779d428e71743808e4332d0751b887d1c8b2c5775f33"
+        }
+      ],
+      "sourceSnapshot": [
+        {
+          "id": "b68569d07ef2f0b3",
+          "contentHash": "0624dbf4932f2e52cc43280d5e3c48ae8c750000c47cba831de4b65a4b3249ce",
+          "url": "https://kyivindependent.com/breaking-dutch-embassy-damaged-in-russian-drone-strike-on-kyiv/",
+          "publisher": "Kyiv Independent（基輔時間15:05刊出、21:10更新）",
+          "publishedAt": "2026-11-19T13:05:00.000Z",
+          "originGroup": "kyiv-daytime-drones-20261119",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "bb9e21b8f223ef20",
+          "contentHash": "6ff6263051388e776d91947e0de3668ea2e2eb8f5410cf2f189563e4f69dba54",
+          "url": "https://meduza.io/en/news/2026/11/19/russian-drone-attack-kills-one-in-kyiv-and-damages-dutch-embassy-just-after-apec-summit-ends",
+          "publisher": "Meduza（頁面時間16:43未標時區，以日期記錄）",
+          "publishedAt": "2026-11-19T00:00:00.000Z",
+          "originGroup": "meduza-kyiv-20261119",
+          "sourceType": "MEDIA"
+        },
+        {
+          "id": "1be81d114a55eb67",
+          "contentHash": "81c5961106f83775cc54779d428e71743808e4332d0751b887d1c8b2c5775f33",
+          "url": "https://www.kyivpost.com/post/90622",
+          "publisher": "Kyiv Post（頁面時間18:05未標時區，以日期記錄）",
+          "publishedAt": "2026-11-19T00:00:00.000Z",
+          "originGroup": "kyivpost-kyiv-20261119",
+          "sourceType": "MEDIA"
+        }
+      ],
+      "asOf": "2026-11-19T13:05:00.000Z",
+      "generatedAt": "2026-11-19T23:45:58.144Z",
+      "reviewed": true,
+      "language": "zh-Hant"
+    }
+  ]
+}

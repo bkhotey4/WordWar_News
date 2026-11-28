@@ -1,0 +1,103 @@
+{
+ "_說明": "Codex 排程會從 ~/.codex/automations 自動偵測，不必寫在這裡。其他研究排程（例如 Claude 桌面版排程任務）在 schedules 填 runner（與 record_research_run.js 的 --runner 相同）、name、app、times（台北時間 HH:MM）。active:false 表示停用、不檢查漏跑。 每週／每季排程可加 weekdays（0＝週日）、monthDays、months（1～12）；limitHours 是多久沒成功就通知；since 是登記日，登記後第一個時限內沒紀錄不通知。雲端研究排程（Claude 雲端 routine）在任務檔最後呼叫 record_research_run.js 寫紀錄。",
+ "schedules": [
+  {
+   "runner": "cloud-military-deep-dive",
+   "name": "軍事新聞深度分析（雲端）",
+   "app": "Claude 雲端",
+   "times": [
+    "07:30",
+    "19:30"
+   ],
+   "limitHours": 14,
+   "since": "2026-11-04"
+  },
+  {
+   "runner": "cloud-cross-beats",
+   "name": "跨面向與熱點重點（雲端）",
+   "app": "Claude 雲端",
+   "times": [
+    "07:17"
+   ],
+   "limitHours": 28,
+   "since": "2026-11-04"
+  },
+  {
+   "runner": "cloud-daily-beats",
+   "name": "每日戰況中文重點（雲端）",
+   "app": "Claude 雲端",
+   "times": [
+    "19:17"
+   ],
+   "limitHours": 28,
+   "since": "2026-11-04"
+  },
+  {
+   "runner": "cloud-journal-digest",
+   "name": "期刊中文導讀（雲端）",
+   "app": "Claude 雲端",
+   "times": [
+    "19:47"
+   ],
+   "limitHours": 28,
+   "since": "2026-11-04"
+  },
+  {
+   "runner": "cloud-cn-politics-weekly",
+   "name": "中國政治週報（雲端）",
+   "app": "Claude 雲端",
+   "times": [
+    "21:15"
+   ],
+   "weekdays": [
+    1
+   ],
+   "rule": "每週一 21:15",
+   "limitHours": 192,
+   "since": "2026-11-04"
+  },
+  {
+   "runner": "cloud-cn-political-economy",
+   "name": "中國政治經濟季報（雲端）",
+   "app": "Claude 雲端",
+   "times": [
+    "21:30"
+   ],
+   "monthDays": [
+    3
+   ],
+   "months": [
+    1,
+    4,
+    7,
+    10
+   ],
+   "rule": "1/4/7/10 月 3 日 21:30",
+   "limitHours": 2280,
+   "since": "2026-11-04"
+  },
+  {
+   "runner": "cloud-hardcode-audit",
+   "name": "寫死數據與時效稽核（雲端，每 3 天）",
+   "app": "Claude 雲端",
+   "times": [
+    "10:00"
+   ],
+   "monthDays": [
+    1,
+    4,
+    7,
+    10,
+    13,
+    16,
+    19,
+    22,
+    25,
+    28,
+    31
+   ],
+   "limitHours": 80,
+   "since": "2026-11-04"
+  }
+ ]
+}

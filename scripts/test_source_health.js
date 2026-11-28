@@ -1,0 +1,563 @@
+const { test } = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const sh = require('../src/source_health');
+const H = 3600_000, now = Date.parse('2026-09-30T00:00:00Z');
+const row = (name, hoursAgo, limitHours = 12) => ({ name, lastSuccess: hoursAgo === null ? null : new Date(now - hoursAgo * H).toISOString(), status: 'X', detail: null, limitHours });
+
+test('sources alert once when they go stale and once when they recover', () => {
+  const a = sh.planSourceAlerts([row('A', 1), row('B', 13), row('C', null)], {}, now);
+  assert.deepEqual(a.down.map(d => d.name), ['B', 'C']);
+  assert.equal(a.recovered.length, 0);
+  const b = sh.planSourceAlerts([row('A', 1), row('B', 14), row('C', null)], a.next, now + H);
+  assert.equal(b.down.length, 0, 'no repeated alert while still down');
+  assert.equal(b.next.B.since, a.next.B.since);
+  const c = sh.planSourceAlerts([row('A', 1), row('B', 0.5), row('C', null)], b.next, now + 2 * H);
+  assert.deepEqual(c.recovered.map(r => r.name), ['B']);
+  assert.equal(sh.planSourceAlerts([row('S', 20, 36)], {}, now).down.length, 0, 'per-source limits');
+});
+
+test('dispatch DMs the admin and keeps state unchanged when Discord fails', async () => {
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sh-')), 's.json');
+  const failing = { users: { fetch: async () => { throw new Error('offline'); } } };
+  await assert.rejects(sh.dispatchSourceAlerts(failing, 'admin', { file, now, rows: [row('B', 13)] }));
+  assert.equal(fs.existsSync(file), false);
+  const sent = [];
+  const ok = { users: { fetch: async id => ({ send: async m => sent.push([id, m.content]) }) } };
+  const r = await sh.dispatchSourceAlerts(ok, 'admin', { file, now, rows: [row('B', 13)] });
+  assert.deepEqual(r.down, ['B']); assert.equal(sent[0][0], 'admin'); assert.match(sent[0][1], /B：已 13 小時/);
+  await sh.dispatchSourceAlerts(ok, 'admin', { file, now: now + H, rows: [row('B', 14)] });
+  assert.equal(sent.length, 1);
+});
+
+test('status text marks healthy and stale sources', () => {
+  const t = sh.sourceStatusText([row('A', 2), row('B', 20), row('C', null)], now);
+  assert.match(t, /🟢 A：2 小時前更新/); assert.match(t, /🔴 B/); assert.match(t, /🔴 C：尚無成功紀錄/);
+});
+
+test('a source that stays down is reminded every 24 hours, not just once', () => {
+  const sh = require('../src/source_health');
+  const H = 3600_000, now = Date.parse('2026-10-14T00:00:00Z');
+  const row = (age) => ({ name: '日本統合幕僚監部', lastSuccess: new Date(now - age * H).toISOString(), status: 'DEGRADED', limitHours: 24, detail: 'HTTP 403' });
+  const a = sh.planSourceAlerts([row(30)], {}, now);
+  assert.equal(a.down.length, 1); assert.equal(a.still.length, 0);
+  const b = sh.planSourceAlerts([row(42)], a.next, now + 12 * H);
+  assert.equal(b.down.length + b.still.length, 0, 'no repeat within 24h');
+  const c = sh.planSourceAlerts([row(55)], b.next, now + 25 * H);
+  assert.equal(c.still.length, 1, 'reminder after 24h');
+  const d = sh.planSourceAlerts([row(60)], c.next, now + 30 * H);
+  assert.equal(d.still.length, 0, 'next reminder only 24h after the previous one');
+  assert.match(sh.alertMessage([], [], c.still), /仍未恢復/);
+});
+
+test('2026-11 稽核修正：每年固定的敏感日期、過期行事曆、跨月航行警告、機型數字、每週排程', () => {
+  const W = require('../src/warning_board');
+  const now = Date.parse('2027-03-01T00:00:00+08:00');
+  const cal = { entries: [{ date: '2026-10-10', name: '國慶', kind: 'POLITICAL', windowDays: 14, yearly: true }] };
+  assert.ok(W.calendarEntries(cal, now).some(e => e.date === '2027-10-10'));
+  assert.equal(W.autoCalendar(cal, Date.parse('2027-10-12T00:00:00+08:00')).status, 'TRIGGERED');
+  assert.equal(W.autoCalendar({ entries: [{ date: '2026-10-10', kind: 'POLITICAL' }] }, now).status, 'UNKNOWN', '行事曆過期是無法判定，不是不在觀察期');
+  const J = require('../src/collectors/jcg_navwarn');
+  assert.deepEqual(J.windowsIn('302300Z OCT TO 011500Z NOV', '2026-10-29T00:00:00Z'), [{ from: '2026-10-30T23:00:00.000Z', to: '2026-11-01T15:00:00.000Z' }]);
+  const H = require('../src/research_health');
+  const at = Date.parse('2026-11-05T12:00:00+08:00'); // 週四
+  const w = H.scheduleWindow([{ h: 21, m: 15 }], at, { weekdays: [1] });
+  assert.equal(new Date(w.previous + 8 * 3600_000).toISOString().slice(0, 16), '2026-11-02T21:15');
+  assert.equal(new Date(w.next + 8 * 3600_000).toISOString().slice(0, 16), '2026-11-09T21:15');
+});
+
+test('燈號紀錄：舊快照沒有記錄指標時寫「未記錄」，不說「沒有指標觸發」', () => {
+  const L = require('./site_level_history');
+  const snaps = [{ at: '2026-10-20T00:00:00Z', theater: 'x', level: 2 }, { at: '2026-10-21T00:00:00Z', theater: 'x', level: 3 }, { at: '2026-10-22T00:00:00Z', theater: 'x', level: 3, ind: ['a'] }];
+  const ev = L.levelTimeline(snaps, 'x', { now: Date.parse('2026-10-23T00:00:00Z') });
+  assert.equal(ev.filter(e => e.type === 'ON').length, 0, '第一筆有記錄的快照不算新觸發');
+  assert.match(L.historyHtml(ev, { esc: s => s }), /未記錄觸發指標/);
+});
+
+test('雲端寫死數據稽核：報告格式檢查、取最新合格報告、每 3 天排程', () => {
+  const fs = require('fs'), os = require('os'), path = require('path');
+  const A = require('../src/audit_report');
+  const good = { date: '2026-11-04', generatedAt: '2026-11-04T02:30:00Z', summary: '整體狀況說明'.repeat(12), checked: Array.from({ length: 8 }, (_, i) => ({ item: `點${i}`, siteValue: '網站', sourceValue: '來源', sourceUrl: 'https://www.mnd.gov.tw/', result: 'OK' })), findings: [{ id: 'usni-stale', severity: 'HIGH', category: 'STALE', title: 'USNI 過期', evidence: 'e', impact: 'i', suggestion: 's' }] };
+  assert.deepEqual(A.checkAudit(good, '2026-11-04.json'), []);
+  assert.ok(A.checkAudit({ ...good, checked: good.checked.slice(0, 3) }).length, '比對點太少不合格');
+  assert.ok(A.checkAudit({ ...good, checked: [...good.checked.slice(1), { item: 'x', siteValue: 'y', result: 'MISMATCH' }] }).some(e => /sourceUrl/.test(e)), '非 UNVERIFIED 要有來源網址');
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'audit-'));
+  fs.writeFileSync(path.join(dir, '2026-11-04.json'), JSON.stringify(good));
+  fs.writeFileSync(path.join(dir, '2026-11-07.json'), '{"date":"壞檔"}');
+  assert.equal(A.latestAudit(dir).date, '2026-11-04', '不合格的新報告略過');
+  const H = require('../src/research_health');
+  const days = [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31];
+  const w = H.scheduleWindow([{ h: 10, m: 0 }], Date.parse('2026-11-05T12:00:00+08:00'), { monthDays: days });
+  assert.equal(new Date(w.previous + 8 * 3600_000).toISOString().slice(0, 16), '2026-11-04T10:00');
+  assert.equal(new Date(w.next + 8 * 3600_000).toISOString().slice(0, 16), '2026-11-07T10:00');
+});
+
+test('解析失效偵測：看資料日期不看抓取成功、原文有數字卻解析成空值要報', () => {
+  const A = require('../src/self_audit');
+  const now = Date.parse('2026-11-05T12:00:00Z');
+  const files = { 'research/source_cache/gdelt.json': { lastSuccess: '2026-11-05T11:00:00Z', theaters: { taiwan_strait: { lastSuccess: '2026-10-27T00:00:00Z' }, ukraine_front: { lastSuccess: '2026-11-05T11:00:00Z' }, middle_east: {} } } };
+  const checks = A.freshnessChecks(rel => files[rel] || null);
+  const stale = checks.filter(c => now - c.at > c.hours * 3600_000).map(c => c.name);
+  assert.ok(stale.some(n => /taiwan_strait/.test(n)), '整體 lastSuccess 新，但單一子來源已壞');
+  assert.ok(stale.some(n => /middle_east/.test(n)), '從沒成功過也要報');
+  assert.ok(!stale.some(n => /ukraine_front/.test(n)));
+  const gaps = A.mndParseGaps([
+    { body: '偵獲共機49架次（進入中部空域計31架次）、共艦6艘', observation: { periodEnd: '2026-11-03T00:00:00Z', aircraft: { value: 49 }, ships: { value: 6 }, crossingOrAirspace: { value: null } } },
+    { body: '偵獲共機6架次、共艦7艘', observation: { periodEnd: '2026-11-02T00:00:00Z', aircraft: { value: 6 }, ships: { value: 7 }, crossingOrAirspace: { value: null } } }
+  ]);
+  assert.deepEqual(gaps, ['2026-11-03 越中線／進入空域'], '原文本來就沒寫的不算失效');
+});
+
+test('台股收盤用證交所補齊 Yahoo 缺的日子', () => {
+  const { mergeCloses } = require('../src/collectors/markets');
+  const y = [{ t: '2026-11-02T01:00:00.000Z', c: 44920 }, { t: '2026-11-03T01:00:00.000Z', c: null }, { t: '2026-11-04T01:00:00.000Z', c: 42948 }];
+  const m = mergeCloses(y, [{ t: '2026-11-03T01:00:00.000Z', c: 43307.54 }]);
+  assert.deepEqual(m.map(p => p.c), [44920, 43307.54, 42948]);
+});
+
+test('指標提案：只收人工指標、格式合格自動採納並通知、可撤銷', async () => {
+  const fs = require('fs'), os = require('os'), path = require('path');
+  const P = require('../src/indicator_proposals');
+  const now = Date.parse('2026-11-05T12:00:00Z');
+  const base = fs.mkdtempSync(path.join(os.tmpdir(), 'prop-')), ledgerFile = path.join(base, 'ledger.json');
+  fs.writeFileSync(ledgerFile, JSON.stringify({ entries: [], watch: {} }));
+  const pend = (id, o) => { fs.mkdirSync(path.join(base, 'pending'), { recursive: true }); fs.writeFileSync(path.join(base, 'pending', `${id}.json`), JSON.stringify(o)); };
+  const good = { kind: 'INDICATOR', id: 'ir-us-strikes-20261105', theater: 'iran_gulf', indicator: 'ir_us_strikes', triggered: true, observedAt: '2026-11-02T00:00:00Z', summary: '美軍在荷莫茲海峽實施打擊。', sources: [{ url: 'https://example.com/a', publisher: '通訊社', sourceClass: 'INDEPENDENT_MEDIA', publishedAt: '2026-11-03T00:00:00Z' }] };
+  assert.deepEqual(P.checkProposal(good, now), []);
+  assert.ok(P.checkProposal({ ...good, indicator: 'tw_aircraft', theater: 'taiwan_strait' }, now).some(e => /人工指標/.test(e)), '有自動來源的指標不能提案');
+  assert.ok(P.checkProposal({ ...good, sources: [] }, now).length, '沒有來源不合格');
+  assert.ok(P.checkProposal({ ...good, observedAt: '2026-12-01T00:00:00Z' }, now).length, '未來時間不合格');
+  pend(good.id, good);
+  pend('bad-one', { kind: 'INDICATOR', id: 'bad-one', theater: 'iran_gulf', indicator: 'ir_us_strikes' });
+  pend('no-one', { ...good, id: 'no-one' });
+  pend('watch-iran-20261105', { kind: 'WATCH', id: 'watch-iran-20261105', theater: 'iran_gulf', text: '調停方下一輪會談是否舉行' });
+  const sent = [];
+  const client = { users: { fetch: async () => ({ send: async m => sent.push(m) }) } };
+  const r = await P.dispatchProposals(client, 'admin', { base, ledgerFile, now });
+  assert.deepEqual(r, { adopted: 3, invalid: 1, notified: 3 });
+  assert.ok(sent.every(m => m.components[0].components.length === 1 && /undo/.test(m.components[0].components[0].custom_id)), '通知只附撤銷按鈕');
+  let ledger = JSON.parse(fs.readFileSync(ledgerFile, 'utf8'));
+  assert.equal(ledger.entries.length, 2);
+  const e = ledger.entries.find(x => x.id === good.id);
+  assert.equal(e.reviewed, false, '自動採納不冒充人工審過');
+  assert.equal(e.autoAdopted, true);
+  assert.equal(e.sentAt, undefined, '佇列欄位不進紀錄');
+  assert.equal(ledger.watch.iran_gulf.text, '調停方下一輪會談是否舉行');
+  assert.equal(require('../src/warning_board').buildWarningBoard({ now, ledger, history: { snapshots: [] } }).theaters.find(t => t.id === 'iran_gulf').indicators.find(i => i.id === 'ir_us_strikes').status, 'TRIGGERED', '自動採納的紀錄計入燈號');
+  await P.dispatchProposals(client, 'admin', { base, ledgerFile, now });
+  assert.equal(sent.length, 3, '不重複採納或通知');
+  assert.match(P.resolveProposal(good.id, true, { base, ledgerFile, now }), /處理過/);
+  assert.match(P.revokeProposal('no-one', { base, ledgerFile, now }), /已撤銷/);
+  assert.match(P.revokeProposal('no-one', { base, ledgerFile, now }), /撤銷過/);
+  P.revokeProposal('watch-iran-20261105', { base, ledgerFile, now });
+  ledger = JSON.parse(fs.readFileSync(ledgerFile, 'utf8'));
+  assert.deepEqual(ledger.entries.map(x => x.id), [good.id], '撤銷移除紀錄');
+  assert.equal(ledger.watch.iran_gulf, undefined);
+  assert.match(P.revokeProposal('nope', { base, ledgerFile, now }), /還沒同步/);
+  // 通知失敗也照樣採納
+  pend('ir-late-20261105', { ...good, id: 'ir-late-20261105' });
+  const r2 = await P.dispatchProposals({ users: { fetch: async () => { throw new Error('offline'); } } }, 'admin', { base, ledgerFile, now });
+  assert.deepEqual(r2, { adopted: 1, invalid: 0, notified: 0 });
+  // 舊的人工採納流程仍可用
+  pend('ir-manual-20261105', { ...good, id: 'ir-manual-20261105' });
+  assert.match(P.resolveProposal('ir-manual-20261105', true, { base, ledgerFile, now }), /已採納/);
+  assert.equal(JSON.parse(fs.readFileSync(ledgerFile, 'utf8')).entries.find(x => x.id === 'ir-manual-20261105').reviewed, true);
+});
+
+test('稽核中度修正：北韓巡弋飛彈不算彈道飛彈、GDELT 最久沒成功的先查', async () => {
+  const fs = require('fs'), os = require('os'), path = require('path');
+  const R = require('../src/collectors/regional');
+  const missile = R.TYPES.find(t => t.type === 'DPRK_MISSILE').test;
+  assert.equal(missile('North Korea fires cruise missiles off west coast'), false);
+  assert.equal(missile('北韓試射巡弋飛彈'), false);
+  assert.equal(missile('North Korea launches ballistic missile toward sea'), true);
+  assert.equal(missile('北韓發射彈道飛彈'), true);
+  const G = require('../src/collectors/gdelt');
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'gd-')), 'g.json');
+  fs.writeFileSync(file, JSON.stringify({ series: {}, theaters: { taiwan_strait: { lastSuccess: '2026-11-05T00:00:00Z' } } }));
+  const asked = [];
+  await G.refreshGdelt({ force: true, file, spacingMs: 0, retryWaitMs: 0, theaters: ['taiwan_strait', 'south_china_sea'], fetchImpl: async u => { asked.push(u); return { ok: false, status: 500, text: async () => '' }; } });
+  assert.match(decodeURIComponent(asked[0]), /South China Sea/i, '從沒成功過的戰區先查');
+});
+
+test('燈號升級評分：連續上升合併、規則改版不算、滿 14 天才待判定、短暫要標出', () => {
+  const S = require('../src/level_scoring');
+  const now = Date.parse('2026-11-05T00:00:00Z');
+  const snap = (at, level, ruleVersion = 'v5') => ({ theater: 'x', at, level, ruleVersion });
+  const history = { snapshots: [
+    snap('2026-10-01T00:00:00Z', 1), snap('2026-10-02T00:00:00Z', 2), snap('2026-10-03T00:00:00Z', 3), snap('2026-10-03T12:00:00Z', 1),
+    snap('2026-10-10T00:00:00Z', 1), snap('2026-10-11T00:00:00Z', 2, 'v6'),
+    snap('2026-10-30T00:00:00Z', 2, 'v6'), snap('2026-11-01T00:00:00Z', 3, 'v6')
+  ] };
+  const list = S.episodes(history, now);
+  assert.equal(list.length, 2, '72 小時內合併、規則改版不算');
+  const [recent, old] = list;
+  assert.equal(old.from, 1); assert.equal(old.to, 3);
+  assert.equal(old.heldHours, 12, '從達到第 3 級算起');
+  assert.equal(old.blip, true, '半天就降回');
+  assert.equal(old.mature, true);
+  assert.equal(recent.mature, false);
+  assert.equal(recent.ended, false);
+  assert.deepEqual(S.unlabeled(history, new Map(), now).map(e => e.id), [old.id]);
+  const label = { episodeId: old.id, outcome: 'FALSE_ALARM', summary: '升級後兩週內沒有實質軍事升高，僅有例行報導。', labeledAt: '2026-11-04T00:00:00Z', sources: [{ url: 'https://example.com/a', publisher: '通訊社', sourceClass: 'INDEPENDENT_MEDIA' }] };
+  assert.deepEqual(S.checkOutcome(label, new Set([old.id]), now), []);
+  assert.ok(S.checkOutcome({ ...label, episodeId: 'nope' }, new Set([old.id]), now).length);
+  assert.ok(S.checkOutcome({ ...label, sources: [] }, null, now).length, '沒有外部來源不合格');
+  assert.ok(S.checkOutcome({ ...label, outcome: 'MAYBE' }, null, now).length);
+  const card = S.scorecard(history, new Map([[old.id, label]]), now);
+  assert.deepEqual(card.byTheater, [{ theater: 'x', total: 2, blips: 1, confirmed: 0, falseAlarm: 1, inconclusive: 0, waiting: 1 }]);
+  const html = require('./site_accuracy').scoreSection(card, { esc: s => s, names: {}, tpe: () => 't', link: (u, t) => t });
+  assert.match(html, /未經人工核可/);
+  assert.doesNotMatch(html, /\d+%/, '樣本少不算比率');
+});
+
+test('稽核低嚴重度修正：台灣周邊範圍統一、USNI 7th Fleet、安理會討論烏克蘭不重複算歐洲、海事局清單修剪', () => {
+  const { TAIWAN_AREA } = require('../src/collectors/taiwan_area');
+  assert.ok(TAIWAN_AREA.north < 28, '不含溫州、台州外海');
+  assert.ok(TAIWAN_AREA.south <= 20.4, '含巴丹群島');
+  const { REGIONS } = require('../src/collectors/usni_fleet');
+  assert.ok(REGIONS.WESTPAC.re.test('transiting the Pacific Ocean in U.S. 7th Fleet'));
+  const W = require('../src/warning_board');
+  assert.match(W.THEATERS.taiwan_strait.indicators.find(i => i.id === 'tw_carriers').name, new RegExp(`${REGIONS.WESTPAC.threshold} 艘以上`));
+  const D = require('../src/collectors/diplomacy');
+  const hits = D.classify('Latvia requests UN Security Council emergency meeting after Russian attack in Ukraine').map(c => c.theater);
+  assert.ok(hits.includes('ukraine_front'));
+  assert.ok(!hits.includes('europe_security'));
+});
+
+test('月報大事記涵蓋整個月，不只月底', () => {
+  const { spreadEvents } = require('../src/monthly');
+  const events = [];
+  for (let d = 31; d >= 1; d--) for (let i = 0; i < 6; i++) events.push({ at: `2026-10-${String(d).padStart(2, '0')}T0${i}:00:00+08:00`, title: `${d}-${i}` });
+  const picked = spreadEvents(events);
+  assert.equal(picked.length, 40);
+  assert.equal(new Set(picked.map(e => e.at.slice(0, 10))).size, 31, '每天都有');
+  assert.equal(spreadEvents(events.slice(0, 5)).length, 5, '不足 40 筆就全收');
+  assert.ok(Date.parse(picked[0].at) > Date.parse(picked.at(-1).at), '新到舊');
+});
+
+test('第二次稽核修正：否定句與非彈道武器不算事件、足球名單不算動員、燈號下降時主要指標缺資料不顯示下降', () => {
+  const R = require('../src/collectors/regional');
+  const type = t => R.classify(t)?.type;
+  assert.equal(type('美官員密會葉門胡塞組織 承諾不攻擊美艦與商船'), undefined);
+  assert.equal(type('討論牆 | 胡塞攻擊紅海商船'), undefined);
+  assert.equal(type('Houthis agree to halt attacks on ships in Red Sea'), undefined);
+  assert.equal(type('Houthis say they targeted two Saudi tankers'), 'HOUTHI');
+  assert.equal(type('胡塞攻擊紅海商船'), 'HOUTHI');
+  assert.equal(type('North Korea Tests Advanced Air-Defense Missile System'), undefined);
+  assert.equal(type('朝鮮試射AI制導魚雷武器系統'), undefined);
+  assert.equal(type('韓國試射自製高超音速武器 距北韓試射僅5天'), undefined);
+  assert.equal(type('North Korea test-fired an intermediate-range missile'), 'DPRK_MISSILE');
+  assert.equal(type('北韓試射彈道飛彈'), 'DPRK_MISSILE');
+  assert.equal(type('North Korea fires ballistic missile and tests air-defense system'), 'DPRK_MISSILE');
+  const M = require('../src/collectors/mobilization');
+  assert.ok(!M.classify('Albania announce squad for Finland and Belarus, with first call-up for Ismaili')?.length);
+});
+
+test('GDELT：還沒結束的 UTC 日不存也不用，時間不會跑到未來', async () => {
+  const gd = require('../src/collectors/gdelt');
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'gd-')), 'gdelt.json');
+  const now = Date.parse('2026-11-07T02:00:00Z');
+  const data = [{ date: '20261106T000000Z', value: 0.2 }, { date: '20261107T000000Z', value: 0.9 }];
+  fs.writeFileSync(file, JSON.stringify({ series: { taiwan_strait: { '2026-11-07': 0.5 }, south_china_sea: { '2026-11-07': 0.5 } } }));
+  const fetchImpl = async () => ({ ok: true, status: 200, text: async () => JSON.stringify({ timeline: [{ data }] }) });
+  const c = await gd.refreshGdelt({ force: true, file, fetchImpl, now, spacingMs: 0, retryWaitMs: 0, theaters: ['taiwan_strait'] });
+  assert.deepEqual(c.series.taiwan_strait, { '2026-11-06': 0.2 });
+  assert.deepEqual(c.series.south_china_sea, {}, '失敗或沒查到的戰區也清掉');
+  const series = {}; for (let i = 1; i <= 20; i++) series[new Date(now - i * 86400_000).toISOString().slice(0, 10)] = 0.1;
+  const r = gd.assessGdelt({ lastSuccess: new Date(now).toISOString(), series: { taiwan_strait: { ...series, '2026-11-07': 5 } } }, 'taiwan_strait', now);
+  assert.equal(r.status, 'CLEAR', '當天半途的值不參與判定');
+  assert.ok(Date.parse(r.observedAt) < now, '時間不在未來');
+});
+
+test('趨勢指標用通報實際時間', () => {
+  const { assessTrend, mndSeries } = require('../src/trend');
+  const history = Array.from({ length: 25 }, (_, i) => ({ url: 'u', observation: { periodEnd: new Date(Date.parse('2026-11-07T06:00:00+08:00') - i * 86400_000).toISOString(), aircraft: { value: 5 } } }));
+  const r = assessTrend(mndSeries(history, 'aircraft'), { label: 'x', unit: '架', now: Date.parse('2026-11-07T02:00:00Z') });
+  assert.equal(r.observedAt, new Date(Date.parse('2026-11-07T06:00:00+08:00')).toISOString());
+});
+
+test('USNI：分類 feed 停更時改用較新的 feed，全站 feed 夾雜的新聞不算週報', async () => {
+  const U = require('../src/collectors/usni_fleet');
+  const item = (title, date, slug, body) => `<item><title>${title}</title><link>https://news.usni.org/${slug}</link><pubDate>${date}</pubDate><content:encoded><![CDATA[${body}]]></content:encoded></item>`;
+  const body = '<h2>In the Philippine Sea</h2><p>USS George Washington (CVN-73)</p>';
+  const old = `<rss>${item('USNI News Fleet and Marine Tracker: Oct. 13, 2026', 'Tue, 13 Oct 2026 19:11:00 +0000', 'old', body)}</rss>`;
+  const news = item('Theodore Roosevelt Carrier Strike Group Pulls Into Singapore', 'Fri, 06 Nov 2026 19:10:38 +0000', 'news', body);
+  const fresh = `<rss>${news}${item('USNI News Fleet and Marine Tracker: Nov. 2, 2026', 'Mon, 02 Nov 2026 19:00:00 +0000', 'new', body)}</rss>`;
+  assert.equal(U.parseFeed(fresh).url, 'https://news.usni.org/new', '不把一般新聞當週報');
+  const now = Date.parse('2026-11-07T12:00:00Z');
+  const run = async pick => {
+    const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'usni-')), 'u.json');
+    const asked = [];
+    const c = await U.refreshUsniFleet({ force: true, file, now, fetchImpl: async u => { asked.push(u); return pick(u, asked.length); } });
+    return { c, asked };
+  };
+  const ok = xml => ({ ok: true, status: 200, text: async () => xml });
+  let r = await run(() => ok(fresh));
+  assert.equal(r.asked.length, 1, '第一個 feed 夠新就停');
+  assert.equal(r.c.latest.url, 'https://news.usni.org/new');
+  r = await run((u, n) => (n === 1 ? { ok: false, status: 403, text: async () => '' } : n === 2 ? ok(old) : ok(fresh)));
+  assert.equal(r.c.status, 'ONLINE');
+  assert.equal(r.c.latest.url, 'https://news.usni.org/new', '取三個 feed 裡最新的');
+  r = await run(() => ok(old));
+  assert.equal(r.asked.length, 3, '都太舊才全部查完');
+  assert.equal(r.c.latest.url, 'https://news.usni.org/old');
+  r = await run(() => ({ ok: false, status: 403, text: async () => '' }));
+  assert.equal(r.c.status, 'OFFLINE');
+});
+
+test('GDELT：當天已更新的戰區不重查，連續 3 個被限速才停止這一輪', async () => {
+  const G = require('../src/collectors/gdelt');
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'gd-')), 'gdelt.json');
+  const now = Date.parse('2026-11-07T12:00:00Z');
+  fs.writeFileSync(file, JSON.stringify({ lastSuccess: '2026-11-07T04:00:00Z', series: { taiwan_strait: { '2026-11-06': 1 } }, theaters: { taiwan_strait: { status: 'ONLINE', lastSuccess: '2026-11-07T04:00:00Z' } } }));
+  const asked = [];
+  const fetchImpl = async u => { asked.push(u); return { ok: false, status: 429, text: async () => '' }; };
+  const c = await G.refreshGdelt({ force: true, file, now, fetchImpl, spacingMs: 0, retryWaitMs: 0, theaters: ['taiwan_strait', 'korea_peninsula', 'south_china_sea', 'iran_gulf', 'ukraine_front'] });
+  assert.equal(asked.length, 6, '台海略過；3 個戰區各試兩次後停止，第 4 個不查');
+  assert.equal(c.status, 'PARTIAL');
+  assert.equal(c.lastSuccess, '2026-11-07T04:00:00Z', '沒有真的抓到新資料就不更新成功時間');
+  assert.match(c.error, /下一輪/);
+});
+
+test('第三份稽核：緊急狀態政治發言、加薩民防局、球隊徵召不算動員；第三國使用北韓飛彈與跨日舊稿不算發射', () => {
+  const M = require('../src/collectors/mobilization');
+  assert.equal(M.classify('Eisenkot says Israel is in a state of emergency as he forms new party'), null);
+  assert.equal(M.classify('Israeli fire kills four in Gaza, including child: civil defense'), null);
+  assert.equal(M.classify('Klopp Recalls Fullkrug, Teen Sensation Mohya Earns Maiden Germany Call-Up'), null);
+  assert.equal(M.classify('Israel declares state of emergency in north after rocket barrage')?.type, 'EMERGENCY');
+  assert.equal(M.classify('Russia holds nationwide civil defense drills')?.type, 'CIVDEF');
+  const R = require('../src/collectors/regional');
+  const missile = R.TYPES.find(t => t.type === 'DPRK_MISSILE').test;
+  assert.equal(missile('Russia fires North Korean KN-23 missiles at Ukraine'), false);
+  assert.equal(missile('North Korean ballistic missiles fired against Ukraine, power infrastructure targeted'), false);
+  assert.equal(missile('North Korea fires ballistic missile into East Sea'), true);
+  const item = (title, publishedAt, publisher) => ({ title, publishedAt, publisher, url: `https://x/${publisher}/${publishedAt}` });
+  const t = '韓稱朝鮮今早發射導彈射程逾900公里';
+  const ev = R.buildEvents([item(t, '2026-11-04T00:00:00Z', 'TDM'), item(t, '2026-11-07T00:00:00Z', 'TDM'), item('North Korea fires ballistic missile into East Sea', '2026-11-07T01:00:00Z', 'Yonhap')], Date.parse('2026-11-08T00:00:00Z'));
+  const nov7 = ev.find(e => e.date === '2026-11-07');
+  assert.deepEqual(nov7.publishers, ['Yonhap'], '舊稿重新出現不湊數');
+});
+
+test('第三份稽核：外資絕對門檻要低於近期第 5 百分位、市場跨日變動不當單日異常、GDELT 跨戰區相同值清除', async () => {
+  const T = require('../src/collectors/twse_flows');
+  const days = {}; const now = Date.parse('2026-11-10T08:00:00Z');
+  for (let i = 0; i < 61; i++) { const d = new Date(Date.parse('2026-08-01T00:00:00Z') + i * 86400_000); days[d.toISOString().slice(0, 10).replace(/-/g, '')] = { foreignNet: i % 7 === 0 ? -110e9 : i % 3 === 0 ? -80e9 : 10e9 }; }
+  days['20261109'] = { foreignNet: -90e9 };
+  const r = T.assessTwseFlows({ lastSuccess: new Date(now).toISOString(), days }, now);
+  assert.equal(r.status, 'CLEAR', '近期常見的 −900 億不算異常');
+  const M = require('../src/collectors/markets');
+  const pts = []; for (let i = 0; i < 40; i++) pts.push({ t: new Date(Date.parse('2026-09-01T00:00:00Z') + i * 86400_000).toISOString(), c: 100 + (i % 2) * 0.1 });
+  pts.push({ t: '2026-11-06T20:00:00Z', c: 100 }, { t: '2026-11-10T03:00:00Z', c: 93.6 });
+  const q = M.analyze ? M.analyze({ sym: 'BZ=F', name: '布蘭特', dir: 1, pct: 3 }, pts) : null;
+  if (q) { assert.equal(q.gap, 1, '11/6 到 11/10 中間缺 11/9'); assert.equal(q.status, 'NORMAL'); }
+  const G = require('../src/collectors/gdelt');
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'gd-')), 'g.json');
+  fs.writeFileSync(file, JSON.stringify({ series: { korea_peninsula: { '2026-11-04': 0.045, '2026-11-05': 0.1 }, ukraine_front: { '2026-11-04': 0.045, '2026-11-05': 0.2 } }, theaters: {} }));
+  const c = await G.refreshGdelt({ force: true, file, now, spacingMs: 0, retryWaitMs: 0, theaters: ['taiwan_strait'], fetchImpl: async () => ({ ok: false, status: 500, text: async () => '' }) });
+  assert.equal(c.series.korea_peninsula['2026-11-04'], undefined);
+  assert.equal(c.series.ukraine_front['2026-11-04'], undefined);
+  assert.equal(c.series.ukraine_front['2026-11-05'], 0.2, '不同值保留');
+});
+test('外交指標：斷交幾年的回顧不算外交變化；會談擱置、難以舉行、會談後譴責、一中原則喊話不算降溫', () => {
+  const D = require('../src/collectors/diplomacy');
+  for (const t of ['斷交台灣3年！中國曾喊買7200噸白蝦 宏國爆「交易血淚」：價格更低', '安華稱台灣屬中國 台馬會談擱置', '中國強勢對應高市“台灣有事”發言一周年 APEC日中首腦難以舉行會談', "Taiwan condemns China's statements after talks with Gabon", 'Follow one-China principle for APEC summit, China tells Taiwan']) assert.deepEqual(D.classify(t), [], t);
+  assert.deepEqual(D.classify('Honduras severs ties with Taiwan, establishes relations with China'), [{ type: 'DIPLO', theater: 'taiwan_strait' }]);
+  assert.deepEqual(D.classify('Moscow to host CSTO Collective Security Council session on 11 November'), []);
+  assert.deepEqual(D.classify('美中元首通話 談及台灣問題'), [{ type: 'DEESC', theater: 'taiwan_strait' }]);
+});
+test('稽核誤判：戒嚴比喻、政治限電口水、歡迎譴責胡塞、呼籲聯合國都不算；同媒體 www 不重複計算', () => {
+  const M = require('../src/collectors/mobilization'), C = require('../src/collectors/taiwan_civil'), R = require('../src/collectors/regional'), D = require('../src/collectors/diplomacy'), { parseRss } = require('../src/collectors/pla_joint');
+  const mob = t => (M.classify(t) || {}).type || M.classify(t);
+  assert.ok(!mob('謝和弦寫歌嗆爆羅大佑！狠酸「搬去中國住」：失去童年的教父像活在戒嚴'));
+  assert.ok(!mob("Yoon Suk Yeol martial law trial: prosecutors seek death sentence"));
+  assert.ok(mob('Russia declares martial law in occupied regions'));
+  assert.equal(C.classify('亂修空污法！台電、台泥都中彈 藍白逼2028年「全民限電」'), null);
+  assert.equal(C.classify('台電電廠跳機 全台多地分區停電 逾10萬戶受影響'), 'POWER');
+  const houthi = R.TYPES ? R.TYPES.find(x => x.type === 'HOUTHI') : null;
+  if (houthi) {
+    assert.equal(houthi.test("Ministry of Transport Welcomes IMO's Condemnation of Houthi Attacks on Commercial Ships"), false);
+    assert.equal(houthi.test('Houthis attack tanker in Red Sea with drones'), true);
+  }
+  assert.deepEqual(D.classify("Iran calls on UN, IAEA to condemn US' $20M offer for nuclear programme information"), []);
+  assert.deepEqual(D.classify('UN Security Council votes on Iran sanctions snapback resolution'), [{ type: 'UN', theater: 'iran_gulf' }]);
+  const rss = '<rss><channel><item><title>Houthi news - www.sabanew.net</title><link>https://x/1</link><pubDate>Tue, 10 Nov 2026 10:00:00 GMT</pubDate><source url="https://www.sabanew.net">www.sabanew.net</source></item></channel></rss>';
+  const [it] = parseRss(rss);
+  assert.equal(it.publisher, 'sabanew.net');
+  assert.equal(it.title, 'Houthi news');
+});
+test('外交指標：國家安全會議不算聯合國安理會；第三地聯合國議題不算烏俄戰區', () => {
+  const D = require('../src/collectors/diplomacy');
+  for (const t of ['Russia defends vote against UN resolution on Sahara before UNGA', 'UN General Assembly Holds Special Meeting on Russian Veto over Western Sahara, Resumes Debate Wednesday', "Russia's Security Council meeting held in Moscow", 'Aida Balayeva addresses CIS Security Council secretaries meeting in Moscow']) assert.ok(!D.classify(t).some(x => x.theater === 'ukraine_front'), t);
+  assert.deepEqual(D.classify("Bring Khamenei's Message, Iran's Supreme National Security Council Secretary Meets President Putin").filter(x => x.type === 'UN'), []);
+  assert.ok(D.classify('UN Security Council meets on Russian strikes in Ukraine').some(x => x.type === 'UN' && x.theater === 'ukraine_front'));
+  assert.ok(D.classify('IAEA board report on Zaporizhzhia plant after Russian shelling').some(x => x.type === 'UN' && x.theater === 'ukraine_front'));
+});
+test('稽核誤判：入口網站轉載同一篇稿不算第二家媒體；包圍台灣、第三國會談、會談免談不算台海降溫', () => {
+  const R = require('../src/collectors/regional'), D = require('../src/collectors/diplomacy');
+  const at = '2026-11-11T09:07:00Z', now = Date.parse('2026-11-12T00:00:00Z');
+  const tvbs = { title: '體驗「被水砲打」滋味！ CNN前進黃岩島 被陸海警船一路趕', url: 'https://x/1', publishedAt: at, publisher: 'TVBS新聞網' };
+  const line = { title: '體驗「被水砲打」滋味！ CNN前進黃岩島 被陸海警船一路趕 | TVBS', url: 'https://x/2', publishedAt: at, publisher: 'LINE TODAY' };
+  const other = { title: '中國海警在黃岩島對菲律賓公務船發射水砲', url: 'https://x/3', publishedAt: at, publisher: '中央社' };
+  const ev = items => R.buildEvents(items, now).find(e => e.type === 'SCS_CLASH');
+  assert.equal(ev([tvbs, line]).confirmed, false);
+  assert.equal(ev([tvbs, other]).confirmed, true);
+  assert.equal(ev([line, other]).confirmed, true);
+  const tw = t => D.classify(t).some(x => x.type === 'DEESC' && x.theater === 'taiwan_strait');
+  assert.ok(!tw('China surrounds Taiwan with 100 ships before Trump-Xi summit'));
+  assert.ok(!tw('China Simulates Attacks on Taiwan Before Xi-Trump Talks, Official Says'));
+  assert.ok(!tw('外交冰封5年後首度直接會談！立陶宛重新與中國對話，「台灣代表處」能否保留？'));
+  assert.ok(!tw('高市早苗遭中國冷落？呂禮詩：不撤台灣有事說 會談免談'));
+  assert.ok(tw('Trump and Xi hold summit in Beijing, discuss Taiwan'));
+  assert.ok(tw('兩岸恢復對話 台灣與中國代表在澳門會談'));
+});
+test('稽核誤判：學者籲批准軍售不算軍售；出席 APEC 峰會不算兩岸會談；美以磋商、撤換談判代表、否認會談不算美伊降溫', () => {
+  const D = require('../src/collectors/diplomacy');
+  const has = (t, type, theater) => D.classify(t).some(x => x.type === type && x.theater === theater);
+  assert.ok(!has('川習會前美學者籲先批准小規模對台軍售| 政治', 'ARMS', 'taiwan_strait'));
+  assert.ok(has('美國國務院批准對台軍售 總額3.3億美元', 'ARMS', 'taiwan_strait'));
+  assert.ok(has('美宣布批准對台軍售 中方敦促美方立即撤銷', 'ARMS', 'taiwan_strait'));
+  for (const t of ["Taiwan is taking part in APEC China summit on an 'equal basis', president says", "Taiwan sends Acer's Stan Shih to represent it at APEC summit in China", 'Malaysia moves to calm Taiwan chip investors after China remarks freeze talks']) assert.ok(!has(t, 'DEESC', 'taiwan_strait'), t);
+  assert.ok(has('川普、習近平、普丁首度三方會談！19日深圳APEC登場 台灣該看3件事', 'DEESC', 'taiwan_strait'));
+  assert.ok(has('兩岸恢復對話 台灣與中國代表在澳門會談', 'DEESC', 'taiwan_strait'));
+  assert.ok(has('Taiwan envoy meets China officials on sidelines of APEC summit', 'DEESC', 'taiwan_strait'));
+  for (const t of ['Israel’s Mossad chief Roman Gofman reportedly in Washington for Iran talks', 'Trump pulls Vance from Iran talks, orders him to target crime, corruption in Democratic cities', 'Trump removes Vance from Iran talks as U.S. launches strikes on IRGC bases', 'Trump Orders Vance Away From Iran Talks as Mossad Chief Roman Gofman Meets Officials: 11 outlets compared', 'Iran accuses US of ‘manufacturing fake news about imaginary talks’']) assert.ok(!has(t, 'DEESC', 'iran_gulf'), t);
+  assert.ok(has('Oil Prices Ease as Mediators Propose US-Iran Ceasefire', 'DEESC', 'iran_gulf'));
+  assert.ok(has('JD Vance takes lead on Iran talks, considers direct meeting with Iranian official', 'DEESC', 'iran_gulf'));
+});
+test('稽核誤判：車禍後醫療動員不算後備動員；「烏克蘭不在議程」不算烏俄降溫；峰會前訪俄不算美朝降溫', () => {
+  const M = require('../src/collectors/mobilization'), D = require('../src/collectors/diplomacy');
+  assert.equal(M.classify("Iran's VP orders medical mobilization after bus accident kills 12"), null);
+  const r = M.classify('Iran orders mobilization of reservists amid US strikes');
+  assert.ok(r && r.type === 'RESERVE' && r.theater === 'iran_gulf');
+  const has = (t, theater) => D.classify(t).some(x => x.type === 'DEESC' && x.theater === theater);
+  assert.ok(!has('Trump to meet Xi, Putin in China for nuclear arms talks; Ukraine off agenda', 'ukraine_front'));
+  assert.ok(has('Trump and Putin hold phone call on Ukraine ceasefire', 'ukraine_front'));
+  assert.ok(!has("Kim Jong-un's top aide visits Russia ahead of US-China-Russia summit", 'korea_peninsula'));
+  assert.ok(has('Trump to meet Kim Jong Un ahead of APEC summit', 'korea_peninsula'));
+});
+test('作廢紀錄：確認是誤判的指標，當時的高等級紀錄不延續暫緩；其他紀錄照常暫緩', () => {
+  const W = require('../src/warning_board');
+  const v = W.VOIDED_SNAPSHOTS.find(x => x.indicator === 'ir_reserve');
+  assert.ok(v && v.commit && v.reason, '每筆作廢都要寫提交與原因');
+  const now = Date.parse('2026-11-16T13:00:00Z');
+  const snap = (at, rawLevel, ind) => ({ at, theater: 'iran_gulf', rawLevel, level: rawLevel, ruleVersion: W.RULE_VERSION, ind });
+  const level = history => W.applyHistory('iran_gulf', { level: 2 }, { snapshots: history }, now);
+  const bad = level([snap('2026-11-15T20:31:00Z', 3, ['ir_us_strikes', 'ir_reserve'])]);
+  const good = level([snap('2026-11-15T20:31:00Z', 3, ['ir_us_strikes', 'ir_gulf_retaliation'])]);
+  assert.ok(good.level >= 3, '沒被作廢的第 3 級紀錄仍然暫緩');
+  assert.ok(bad.level < 3, '誤判造成的第 3 級紀錄不再暫緩');
+});
+test('稽核誤判：美中俄三方會談談伊朗不算美伊降溫；「關注朝鮮高層在會談前訪俄」不算南北韓降溫；「加碼制裁」「會談言之過早」「警告是陷阱」不算歐洲降溫；「推動／預期制裁」不算新制裁', () => {
+  const D = require('../src/collectors/diplomacy');
+  const has = (t, type, theater) => D.classify(t).some(x => x.type === type && x.theater === theater);
+  for (const t of ['國際要聞：川普、習近平及普丁11/19歷史性三方會談，伊朗戰事與核裁軍成焦點', '中美俄元首19日深圳會談 聚焦核裁軍與伊朗戰事', 'Trump heads to Asia for high-stakes Xi talks as Iran tensions escalate', 'Trump, Putin, Xi to Discuss Iran War at Unprecedented Trilateral Summit in China', 'Donald Trump to Raise the Iran War at Trilateral Summit With Xi Jinping and Vladimir Putin in Shenzhen']) assert.ok(!has(t, 'DEESC', 'iran_gulf'), t);
+  assert.ok(has('Oil Prices Rise 2% as US and Iran Extend Talks into Next Week', 'DEESC', 'iran_gulf'));
+  assert.ok(has('Putin offers to mediate US-Iran ceasefire talks', 'DEESC', 'iran_gulf'));
+  for (const t of ['韓統一部：關注朝鮮高層在美中俄會談前訪俄動向', 'South Korea monitoring senior North Korean official’s visit to Russia ahead of US-China-Russia summit']) assert.ok(!has(t, 'DEESC', 'korea_peninsula'), t);
+  assert.ok(has('Trump suggests he will meet Kim Jong-un at Asia summit', 'DEESC', 'korea_peninsula'));
+  assert.ok(has('南北韓在板門店舉行高層會談', 'DEESC', 'korea_peninsula'));
+  for (const t of ['THIS WEEK: EU piles on more Russia sanctions, a crunch UK-EU summit, and budget wrangles', "Holding talks with Russia on Europe's security now would be premature, EU ministers say", '立陶宛警告歐洲國家 停火前與俄談安全架構是陷阱']) assert.ok(!has(t, 'DEESC', 'europe_security'), t);
+  assert.ok(has('Europe will join peace talks between Ukraine and Russia in the E5 + EU format: details', 'DEESC', 'europe_security'));
+  for (const t of ['France pushes for EU sanctions on Iran over supermarket cyberattack', 'France seeks new EU sanctions on Iran over IRGC cyberattacks targeting supermarket refrigerators', 'France Expects EU Sanctions on Iran in December Over Fridge Hack']) assert.ok(!has(t, 'SANCTION', 'iran_gulf') && !has(t, 'SANCTION', 'europe_security'), t);
+  assert.ok(has("EU imposes fresh sanctions on Russia's banks, oil sector and business elite", 'SANCTION', 'europe_security'));
+  assert.ok(has('US Treasury imposes new sanctions on Iran oil network', 'SANCTION', 'iran_gulf'));
+});
+test('稽核誤判 11/26：昔日斷交背景、協助伊朗與引擎測試、商品行情收儲、排除會談與撤回邀請；真事件仍算', () => {
+  const D = require('../src/collectors/diplomacy'), R = require('../src/collectors/regional'), M = require('../src/collectors/mobilization');
+  const dt = t => D.classify(t).map(x => x.type), rt = t => R.classify(t)?.type;
+  for (const t of ['昔與台灣斷交 索羅門群島傳通知北京「不續簽安全協議」', '曾與台灣斷交轉投中國！索羅門群島傳終止北京安全協議']) assert.ok(!dt(t).includes('DIPLO'), t);
+  assert.ok(dt('宏都拉斯宣布與台灣斷交').includes('DIPLO'));
+  for (const t of ['Iran rules out talks with US until conditions are met', "Congressmen are asking Trump to rescind Putin's invitation to the G20 summit in Miami"]) assert.ok(!dt(t).includes('DEESC'), t);
+  for (const t of ['Report: North Korea helping Iran develop launch systems inside underground missile cities', 'North Korea appears to have tested ICBM engine as Trump sought Kim meeting']) assert.notEqual(rt(t), 'DPRK_MISSILE', t);
+  assert.equal(rt('North Korea says it successfully tested new submarine-launched ballistic missile'), 'DPRK_MISSILE');
+  for (const t of ['China Stockpiles Soyoil as Domestic Prices Hit Three-Month Low', 'Chinese Refiners Snapping Up Cut-Price Oil to Refill Stockpiles', 'China Added More Crude to its Massive Stockpile in March, But Outlook Shifts: Russell']) assert.equal(M.classify(t), null, t);
+  assert.equal(M.classify('China orders stockpiling of grain and expands strategic reserves of oil')?.type, 'STOCKPILE');
+  assert.notEqual(rt('Two More Tankers Hit Off Oman, Houthis Threaten Saudi Red Sea Ports'), 'HOUTHI');
+  assert.equal(rt('Oil Prices Rebound After Houthis Say They Attacked Saudi Tanker'), 'HOUTHI');
+});
+test('稽核誤判 11/26：北約東翼「討論牆」轉貼舊稿不算新的領空事件；真事件仍算', () => {
+  const N = require('../src/collectors/nato_flank');
+  assert.equal(N.classify('討論牆 | 俄飛彈、無人機疑闖波蘭領空 北約：捍衛每一寸領土'), null);
+  assert.equal(N.classify('討論牆 | 波蘭部長：俄羅斯無人機一度闖入波蘭領空'), null);
+  assert.equal(N.classify('俄飛彈、無人機疑闖波蘭領空 北約：捍衛每一寸領土'), 'AIRSPACE');
+  assert.equal(N.classify('NATO scrambles F-18s after aerial target detected near Ukraine-Romania border'), 'RESPONSE');
+});
+test('稽核誤判 11/27：非法集資「mobilization」、台灣選舉防滲透民防專欄、以軍後備減負與人物報導；真事件仍算', () => {
+  const M = require('../src/collectors/mobilization');
+  assert.equal(M.classify('China extradites suspect from Russia in illegal mobilization of more than 2 billion USD'), null);
+  for (const t of ['林修民 半導體看天下》九合一選舉，防止中國滲透基層民防', '林修民半導體看天下》九合一選舉，防止中國滲透基層民防- 股市爆料同學會']) assert.equal(M.classify(t), null, t);
+  for (const t of ['‘I will continue to serve’: Injured Israeli reservists reflect on recovery, loss and duty', 'IDF Chief Zamir Vows to Ease Reservist Burden in 2027', 'Israeli nonprofit helps IDF reservists rebuild their careers', "Zamir tells Gaza border mayors IDF won't compromise on their security, after plans to cut back on superfluous reservists", 'IDF struggling to retain combat officers, address reservist burnout, officer tells MKs']) assert.equal(M.classify(t), null, t);
+  assert.equal(M.classify('China announces mobilization of reservists amid Taiwan tensions')?.type, 'RESERVE');
+  assert.equal(M.classify('中國多地舉行防空演習 民防警報試鳴')?.type, 'CIVDEF');
+  assert.equal(M.classify('Israel calls up 60,000 reservists ahead of expanded operation')?.type, 'RESERVE');
+});
+test('稽核誤判 11/28：以色列哈雷迪兵役法協商與抗議、哈米尼「呼籲全民動員」發言不算召集後備；真事件仍算', () => {
+  const M = require('../src/collectors/mobilization');
+  for (const t of ["Israel's Public Broadcasting Corporation: Progress in Eisenkot–United Torah Judaism Talks on Haredi Conscription", 'Israel: Haredi protesters block road to Ben Gurion Airport to oppose military conscription', 'Israeli security forces clash with ultra-Orthodox Jewish men during protest against military conscription', 'Ayatollah Khamenei: “Every Iranian, a Basiji” as Leader Calls for Greater National Mobilization']) assert.equal(M.classify(t), null, t);
+  assert.equal(M.classify('Israel calls up 60,000 reservists ahead of expanded operation')?.type, 'RESERVE');
+  assert.equal(M.classify('Iran calls up reservists and extends military service amid US strikes')?.type, 'RESERVE');
+});
+
+test('深度檢查 11/28：媒體名稱變體只算一家、入口轉載不算、舊稿保留最早時間、跨日重複標題只算第一天', () => {
+  const P = require('../src/collectors/publishers');
+  assert.deepEqual(P.independentPublishers([{ publisher: 'EnergyNow', title: 'a' }, { publisher: 'EnergyNow.com', title: 'b' }]), ['EnergyNow']);
+  assert.equal(P.independentPublishers([{ publisher: 'UDN', title: 'x' }, { publisher: 'udn', title: 'y' }, { publisher: 'Yahoo新聞', title: 'x' }]).length, 1);
+  assert.equal(P.independentPublishers([{ publisher: 'AOL.com', title: 'z' }, { publisher: 'AOL.co.uk', title: 'z' }, { publisher: 'AOL.ca', title: 'z' }]).length, 1);
+  assert.equal(P.independentPublishers([{ publisher: 'RTHK News', title: 'q' }, { publisher: '香港電台新聞網', title: 'r' }]).length, 1);
+  assert.equal(P.independentPublishers([{ publisher: '中央社 CNA', title: 'q' }, { publisher: '自由時報', title: 'r' }]).length, 2);
+  const merged = P.mergeItems([{ url: 'u', title: 't', publishedAt: '2026-11-08T00:00:00Z' }, { url: 'u', title: 't', publishedAt: '2026-11-23T00:00:00Z' }]);
+  assert.equal(merged.length, 1); assert.equal(merged[0].publishedAt, '2026-11-08T00:00:00Z');
+  const day = iso => iso.slice(0, 10);
+  assert.deepEqual(P.firstDayOnly([{ title: 'Same', publishedAt: '2026-11-12T00:00:00Z' }, { title: 'same', publishedAt: '2026-11-08T00:00:00Z' }, { title: 'Other', publishedAt: '2026-11-12T00:00:00Z' }], day).map(i => i.publishedAt), ['2026-11-08T00:00:00Z', '2026-11-12T00:00:00Z']);
+});
+
+test('深度檢查 11/28：已確認事件用新規則重新檢查；基準最近 6 天重算；後備呼籲只排除空話；破產停飛、市場與保險新聞、小規模停電不算', () => {
+  const M = require('../src/collectors/mobilization'), D = require('../src/collectors/diplomacy'), C = require('../src/collectors/taiwan_civil');
+  const now = Date.parse('2026-11-28T12:00:00Z');
+  const item = (title, publisher) => ({ title, publisher, url: 'https://x/' + publisher, publishedAt: '2026-11-27T10:00:00Z' });
+  const cache = { lastSuccess: '2026-11-28T11:00:00Z', lastAttempt: '2026-11-28T11:00:00Z', daily: {}, queryOk: {},
+    events: [{ id: 'RESERVE|iran_gulf|2026-11-27', type: 'RESERVE', theater: 'iran_gulf', date: '2026-11-27', confirmed: true, publishers: ['A', 'B'], firstSeen: '2026-11-27T10:00:00Z',
+      items: [item('Ayatollah Khamenei: "Every Iranian, a Basiji" as Leader Calls for national mobilization', 'A'), item("Iran's regime expands Basij mobilization as protests spread", 'B')] }] };
+  const r = M.assessMobilization(cache, 'iran_gulf', 'RESERVE', now);
+  assert.notEqual(r && r.status, 'TRIGGERED', '舊快取裡的誤判事件不再觸發');
+  assert.equal(M.classify('Putin calls for mobilization of 300,000 reservists')?.type, 'RESERVE');
+  assert.equal(M.classify('China Will Lead Global Oil Stockpiling in 2027: Energy Aspects'), null);
+  const merged = D.mergeDaily({ 'RESERVE|middle_east': { '2026-11-26': 7, '2026-11-10': 4 } }, { 'RESERVE|middle_east': { '2026-11-27': 1 } }, now);
+  assert.deepEqual(merged['RESERVE|middle_east'], { '2026-11-10': 4, '2026-11-27': 1 }, '最近 6 天以重算結果為準');
+  assert.ok(!D.classify('Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs').some(x => x.type === 'FLIGHTS'));
+  assert.ok(D.classify('Airlines suspend flights to Tehran as Iran war escalates').some(x => x.type === 'FLIGHTS'));
+  assert.ok(!D.classify('SSE Composite Soars Amid US-Iran Negotiations and Russia-Ukraine Talks').some(x => x.type === 'DEESC'));
+  assert.equal(C.classify('士林近3萬戶停電 台電搶修中'), null);
+  assert.equal(C.classify('台電電廠跳機 全台多地分區停電 逾10萬戶受影響'), 'POWER');
+});
+
+test('深度檢查 11/28：上週比較不用作廢紀錄', () => {
+  const W = require('../src/warning_board');
+  const now = Date.parse('2026-11-28T12:00:00Z');
+  const snap = (at, rawLevel, ind) => ({ at, theater: 'taiwan_strait', rawLevel, level: rawLevel, ruleVersion: W.RULE_VERSION, ind });
+  const h = W.applyHistory('taiwan_strait', { level: 3 }, { snapshots: [snap('2026-11-21T11:30:00Z', 3, ['tw_joint_patrol', 'tw_gov_alert']), snap('2026-11-21T00:00:00Z', 1, [])] }, now);
+  assert.equal(h.previousLevel, 1);
+});
+
+test('深度檢查 11/28：GDELT 基準不計抓取失敗的 0；美國感恩節不算缺的交易日', () => {
+  const G = require('../src/collectors/gdelt');
+  if (G.assessGdelt) {
+    const now = Date.parse('2026-11-28T06:00:00Z'), series = {};
+    for (let i = 2; i <= 30; i++) series[new Date(now - i * 86400000).toISOString().slice(0, 10)] = i % 3 === 0 ? 0 : 0.05;
+    series['2026-11-27'] = 0.06;
+    const r = G.assessGdelt({ lastSuccess: '2026-11-28T05:00:00Z', series: { taiwan_strait: series }, theaters: { taiwan_strait: { status: 'ONLINE', lastSuccess: '2026-11-28T05:00:00Z' } } }, 'taiwan_strait', now);
+    if (r && r.baseline) assert.ok(r.baseline.median >= 0.05, '0 不拉低中位數');
+  }
+  const { analyze } = require('../src/collectors/markets');
+  if (analyze) {
+    const pts = [];
+    for (let i = 0; i < 70; i++) { const d = new Date(Date.parse('2026-08-03T00:00:00Z') + i * 86400000); if (d.getUTCDay() % 6) pts.push({ t: d.toISOString(), c: 80 + (i % 5) * 0.3 }); }
+    const trimmed = pts.filter(p => p.t < '2026-11-01');
+    trimmed.push({ t: '2026-11-25T00:00:00Z', c: 81 }, { t: '2026-11-27T00:00:00Z', c: 80.5 });
+    const q = analyze({ sym: 'BZ=F', name: 'x', dir: 1, pct: 6 }, trimmed);
+    assert.equal(q.gap, 0, '感恩節 11/26 不算缺的交易日');
+  }
+});

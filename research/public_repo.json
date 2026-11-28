@@ -1,0 +1,5 @@
+{
+  "repo": "https://github.com/bkhotey4/WordWar_News.git",
+  "note": "公開程式碼倉庫。執行 node scripts/export_public_repo.js --push 匯出（排除研究稿、執行紀錄、個人腳本，遮蔽個人 ID 與路徑，掃描金鑰後才推送）。",
+  "extraExclude": []
+}
